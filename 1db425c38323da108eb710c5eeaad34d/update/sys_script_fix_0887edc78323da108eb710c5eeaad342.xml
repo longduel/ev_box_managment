@@ -23,21 +23,21 @@ var j = new JDBCProbe(mid.name);
 j.setDataSource(ds.sys_id);
 j.setTable("test");
 j.setFunction("update");
-j.addField("voltage", "222");
+j.addField("voltage", "26");
 j.setWhereClause("Indentifier='EVOP1'");
 j.create();]]></script>
         <sys_class_name>sys_script_fix</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-10 15:32:43</sys_created_on>
         <sys_id>0887edc78323da108eb710c5eeaad342</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>DB Connection</sys_name>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
         <sys_policy/>
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
         <sys_update_name>sys_script_fix_0887edc78323da108eb710c5eeaad342</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-10 15:32:43</sys_updated_on>
+        <sys_updated_on>2025-02-10 15:57:33</sys_updated_on>
         <unloadable>false</unloadable>
     </sys_script_fix>
     <sys_es_latest_script action="INSERT_OR_UPDATE">

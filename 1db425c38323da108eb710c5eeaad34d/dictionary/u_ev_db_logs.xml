@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0fca258f8323da108eb710c5eeaad33f" label="EV DB Logs" max_length="40" name="u_ev_db_logs" type="collection">
+        <element label="Payload" max_length="500" name="u_payload" type="string"/>
+        <element label="Result" max_length="40" name="u_result" read_only="true" type="string"/>
+    </element>
+</database>

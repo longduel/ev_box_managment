@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>ecc_queue</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="ecc_queue">topicLIKEJDBCProbe^queue=input^EQ<item endquery="false" field="topic" goto="false" newquery="false" operator="LIKE" or="false" value="JDBCProbe"/>
+            <item display_value="input" endquery="false" field="queue" goto="false" newquery="false" operator="=" or="false" value="input"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>EV Create DB Logs</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    var payloadTemp;
+    var resultTemp;
+
+    // Change payload XML output to JSON
+    var jsObj = gs.xmlToJSON(current.payload);
+    var check = jsObj.results.result[0].updateResult;
+
+    // Check if the update was sucefull in the JSON output
+    if (JSUtil.nil(check)) {
+        payloadTemp = jsObj.results.error;
+        resultTemp = 'Failure';
+    } else {
+        payloadTemp = check;
+        resultTemp = 'Success';
+    }
+
+    //Create new record for the DB connection
+    var logs = new GlideRecord("u_ev_db_logs");
+    logs.initialize();
+    logs.sys_created_on = current.sys_created_on;
+    logs.u_payload = payloadTemp;
+    logs.u_result = resultTemp;
+    logs.insert();
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-10 15:46:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>756a254f8323da108eb710c5eeaad3b0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>EV Create DB Logs</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sys_script_756a254f8323da108eb710c5eeaad3b0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-10 17:08:18</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=756a254f8323da108eb710c5eeaad3b0"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>756a254f8323da108eb710c5eeaad3b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-10 15:46:46</sys_created_on>
+        <sys_id>00caa90f8323da108eb710c5eeaad3e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-10 15:46:46</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
