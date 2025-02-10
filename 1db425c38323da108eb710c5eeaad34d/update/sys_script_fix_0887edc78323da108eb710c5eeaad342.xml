@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name>DB Connection</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[// Get a specific MID Server
+var mid = new GlideRecord("ecc_agent");
+mid.addQuery('name','EVDevicesServer');
+mid.query();
+mid.next();
+
+// Get a specific Data Source
+var ds = new GlideRecord("sys_data_source");
+ds.addQuery('name','EV DataBase');
+ds.query();
+ds.next();
+
+gs.log(mid.name + ds.name);
+
+//Create a JDBC Probe and insert three rows (one will be updated and one deleted later on...)
+var j = new JDBCProbe(mid.name);
+j.setDataSource(ds.sys_id);
+j.setTable("test");
+j.setFunction("update");
+j.addField("voltage", "222");
+j.setWhereClause("Indentifier='EVOP1'");
+j.create();]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-10 15:32:43</sys_created_on>
+        <sys_id>0887edc78323da108eb710c5eeaad342</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DB Connection</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sys_script_fix_0887edc78323da108eb710c5eeaad342</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-10 15:32:43</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>0887edc78323da108eb710c5eeaad342</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-10 15:32:43</sys_created_on>
+        <sys_id>5e87adc78323da108eb710c5eeaad3c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-10 15:32:43</sys_updated_on>
+        <table>sys_script_fix</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

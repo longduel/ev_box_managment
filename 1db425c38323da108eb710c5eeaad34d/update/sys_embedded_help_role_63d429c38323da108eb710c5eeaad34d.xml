@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <role display_value="manager" name="manager">2bd429c38323da108eb710c5eeaad34a</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-10 15:21:04</sys_created_on>
+        <sys_id>63d429c38323da108eb710c5eeaad34d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2bd429c38323da108eb710c5eeaad34a</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sys_embedded_help_role_63d429c38323da108eb710c5eeaad34d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-10 15:21:04</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

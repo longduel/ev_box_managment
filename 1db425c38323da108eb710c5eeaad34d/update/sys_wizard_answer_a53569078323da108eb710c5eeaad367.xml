@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>EV Devices</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>EV Devices</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Base Configuration Item" name="Base Configuration Item">4e0241fe4010121087de8045c806ff63</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-10 15:22:34</sys_created_on>
+        <sys_id>a53569078323da108eb710c5eeaad367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EV Devices</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sys_wizard_answer_a53569078323da108eb710c5eeaad367</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-10 15:22:34</sys_updated_on>
+        <table/>
+        <target_url>u_ev_devices.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>
