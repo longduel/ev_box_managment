@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="653569078323da108eb710c5eeaad366" extends="cmdb_ci_power_eq" label="EV Devices" max_length="40" name="u_ev_devices" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Transformer Type" max_length="40" name="u_transformer_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Operation System" max_length="40" name="u_os" type="string"/>
+        <element label="Availabe Slots" max_length="40" name="u_availabe_slots" type="integer"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="encode_utf8=false" label="LCD Display" max_length="32" name="u_lcd_dispaly" reference="cmdb_ci_display_hardware" type="reference"/>
+        <element attributes="encode_utf8=false" label="Plug Type" max_length="32" name="u_plug_type" reference="u_ev_plugs" type="reference"/>
     </element>
 </database>

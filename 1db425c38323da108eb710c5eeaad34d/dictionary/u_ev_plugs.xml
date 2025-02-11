@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3aa9111b83e31e108eb710c5eeaad392" extends="cmdb_ci_power_eq" label="EV Plugs" max_length="40" name="u_ev_plugs" type="collection">
+        <element label="Supply Input" max_length="40" name="u_supply_input" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Charging Method" max_length="40" name="u_charging_method" type="string">
+            <choice>
+                <element inactive_on_update="false" label="DC" sequence="1" value="u_dc"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="AC"/>
+                <element inactive_on_update="false" label="AC" sequence="0" value="u_ac"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="1" value="DC"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Plug Type" max_length="40" name="u_plug_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="CCS 2" sequence="0" value="CCS 2"/>
+                <element inactive_on_update="false" label="Tesla (DC)" sequence="0" value="Tesla (DC)"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+                <element inactive_on_update="false" label="CHAdeMO" sequence="0" value="CHAdeMO"/>
+                <element inactive_on_update="false" label="SAE J1772 Type1" sequence="0" value="u_sae_type1"/>
+                <element inactive_on_update="false" label="Mennekes Type2" sequence="0" value="Mennekes Type2"/>
+                <element inactive_on_update="false" label="GB/T (AC)" sequence="0" value="GB/T (AC)"/>
+                <element inactive_on_update="false" label="GB/T (DC)" sequence="0" value="GB/T (DC)"/>
+                <element inactive_on_update="false" label="CCS 1" sequence="0" value="CCS 1"/>
+                <element inactive_on_update="false" label="Tesla (AC)" sequence="0" value="Tesla (AC)"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+            </choice>
+        </element>
+        <element label="Max OP" max_length="40" name="u_max_op" type="float"/>
+        <element label="Max OC" max_length="40" name="u_max_oc" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Market Designation" max_length="40" name="u_market_designation" type="string">
+            <choice>
+                <element inactive_on_update="false" label="China" sequence="1" value="u_china"/>
+                <element inactive_on_update="false" label="Japan" sequence="3" value="u_japan"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Japan"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 4" sequence="3" value="China"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="1" value="USA"/>
+                <element inactive_on_update="false" label="USA" sequence="4" value="u_usa"/>
+                <element inactive_on_update="false" label="Europe" sequence="2" value="u_europe"/>
+                <element inactive_on_update="false" label="All Markets" sequence="0" value="u_all_markets"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="2" value="Europe"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 5" sequence="4" value="All Markets"/>
+            </choice>
+        </element>
+    </element>
+</database>

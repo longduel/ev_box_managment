@@ -64,21 +64,21 @@
         <scp_user_name/>
         <sheet_name>1</sheet_name>
         <sheet_number>1</sheet_number>
-        <sql_statement>SELECT * FROM test;</sql_statement>
+        <sql_statement>SELECT * FROM ev_plugs;</sql_statement>
         <ssh_keyfile_path/>
         <support_pagination>false</support_pagination>
         <sys_class_name>sys_data_source</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-10 15:32:03</sys_created_on>
         <sys_id>8d2765478323da108eb710c5eeaad306</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>EV DataBase</sys_name>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
         <sys_policy/>
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
         <sys_update_name>sys_data_source_8d2765478323da108eb710c5eeaad306</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-10 15:32:10</sys_updated_on>
+        <sys_updated_on>2025-02-11 10:54:04</sys_updated_on>
         <table_name/>
         <type>JDBC</type>
         <use_batch_import>false</use_batch_import>

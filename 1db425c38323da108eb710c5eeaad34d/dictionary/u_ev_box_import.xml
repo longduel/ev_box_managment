@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7f51799b83671e108eb710c5eeaad36f" extends="sys_import_set_row" label="EV DataBase" max_length="40" name="u_ev_box_import" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=PlugType" label="PlugType" max_length="40" name="u_plugtype" type="string"/>
+        <element attributes="import_attribute_name=MaxOC" label="MaxOC" max_length="40" name="u_maxoc" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ChargingMethod" label="ChargingMethod" max_length="40" name="u_chargingmethod" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=MarketDesignation" label="MarketDesignation" max_length="40" name="u_marketdesignation" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Manufacturer" label="Manufacturer" max_length="255" name="u_manufacturer" type="string"/>
+        <element attributes="import_attribute_name=SupplyInput" label="SupplyInput" max_length="40" name="u_supplyinput" type="integer"/>
+        <element attributes="import_attribute_name=MaxOP" label="MaxOP" max_length="40" name="u_maxop" type="UNKNOWN"/>
+    </element>
+</database>
