@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="7f51799b83671e108eb710c5eeaad36f" extends="sys_import_set_row" label="EV DataBase" max_length="40" name="u_ev_box_import" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Assigned_to" label="Assigned_to" max_length="40" name="u_assigned_to" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=PlugType" label="PlugType" max_length="40" name="u_plugtype" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Plug_Type" label="Plug_Type" max_length="40" name="u_plug_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Available_Slots" label="Available_Slots" max_length="40" name="u_available_slots" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Operational_status" label="Operational_status" max_length="40" name="u_operational_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Serial_number" label="Serial_number" max_length="40" name="u_serial_number" type="string"/>
         <element attributes="import_attribute_name=MaxOC" label="MaxOC" max_length="40" name="u_maxoc" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Model_ID" label="Model_ID" max_length="40" name="u_model_id" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=ChargingMethod" label="ChargingMethod" max_length="40" name="u_chargingmethod" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=MarketDesignation" label="MarketDesignation" max_length="40" name="u_marketdesignation" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Vendor" label="Vendor" max_length="40" name="u_vendor" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LCD_display" label="LCD_display" max_length="40" name="u_lcd_display" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Asset_Tag" label="Asset_Tag" max_length="40" name="u_asset_tag" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Transformer_Type" label="Transformer_Type" max_length="40" name="u_transformer_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Attested_Date" label="Attested_Date" max_length="40" name="u_attested_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Operating_System" label="Operating_System" max_length="40" name="u_operating_system" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Installed" label="Installed" max_length="40" name="u_installed" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Box_Location" label="Box_Location" max_length="40" name="u_box_location" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Manufacturer" label="Manufacturer" max_length="255" name="u_manufacturer" type="string"/>
         <element attributes="import_attribute_name=SupplyInput" label="SupplyInput" max_length="40" name="u_supplyinput" type="integer"/>
         <element attributes="import_attribute_name=MaxOP" label="MaxOP" max_length="40" name="u_maxop" type="UNKNOWN"/>

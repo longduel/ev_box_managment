@@ -9,7 +9,7 @@
                 <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="1" value="DC"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Plug Type" max_length="40" name="u_plug_type" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" display="true" label="Plug Type" max_length="40" name="u_plug_type" type="string">
             <choice>
                 <element inactive_on_update="false" label="CCS 2" sequence="0" value="CCS 2"/>
                 <element inactive_on_update="false" label="Tesla (DC)" sequence="0" value="Tesla (DC)"/>

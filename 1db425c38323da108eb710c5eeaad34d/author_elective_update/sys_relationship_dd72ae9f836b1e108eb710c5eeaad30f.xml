@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="DELETE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>u_ev_devices</basic_apply_to>
+        <basic_query_from>u_ev_plugs</basic_query_from>
+        <insert_callback/>
+        <name>Plug Details</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+
+})(current, parent);]]></query_with>
+        <reference_field/>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:30:07</sys_created_on>
+        <sys_id>dd72ae9f836b1e108eb710c5eeaad30f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Plug Details</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sys_relationship_dd72ae9f836b1e108eb710c5eeaad30f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:32:00</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="DELETE" query="documentkey=dd72ae9f836b1e108eb710c5eeaad30f"/>
+    <sys_es_latest_script action="DELETE">
+        <id>dd72ae9f836b1e108eb710c5eeaad30f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:30:06</sys_created_on>
+        <sys_id>3ac2e69f836b1e108eb710c5eeaad39f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:30:06</sys_updated_on>
+        <table>sys_relationship</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</application>
+        <file_path/>
+        <instance_id>f7c0ba231bd1865819254089bd4bcb9b</instance_id>
+        <instance_name>dev258302</instance_name>
+        <name>sys_relationship_dd72ae9f836b1e108eb710c5eeaad30f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_relationship"&gt;&lt;sys_relationship action="INSERT_OR_UPDATE"&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;apply_to/&gt;&lt;basic_apply_to&gt;u_ev_devices&lt;/basic_apply_to&gt;&lt;basic_query_from&gt;u_ev_plugs&lt;/basic_query_from&gt;&lt;insert_callback/&gt;&lt;name&gt;Plug Details&lt;/name&gt;&lt;query_from/&gt;&lt;query_with&gt;&lt;![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+
+})(current, parent);]]&gt;&lt;/query_with&gt;&lt;reference_field/&gt;&lt;related_list/&gt;&lt;simple_reference&gt;false&lt;/simple_reference&gt;&lt;sys_class_name&gt;sys_relationship&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-11 14:30:07&lt;/sys_created_on&gt;&lt;sys_id&gt;dd72ae9f836b1e108eb710c5eeaad30f&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Plug Details&lt;/sys_name&gt;&lt;sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EV Box Managment"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_relationship_dd72ae9f836b1e108eb710c5eeaad30f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-11 14:32:00&lt;/sys_updated_on&gt;&lt;/sys_relationship&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=dd72ae9f836b1e108eb710c5eeaad30f"/&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;dd72ae9f836b1e108eb710c5eeaad30f&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-11 14:30:06&lt;/sys_created_on&gt;&lt;sys_id&gt;3ac2e69f836b1e108eb710c5eeaad39f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-11 14:30:06&lt;/sys_updated_on&gt;&lt;table&gt;sys_relationship&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1367992165</payload_hash>
+        <record_name>Plug Details</record_name>
+        <reverted_from/>
+        <source>974a294f8323da108eb710c5eeaad380</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:32:00</sys_created_on>
+        <sys_id>e233a69f836b1e108eb710c5eeaad3fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194f56c90b50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:32:00</sys_updated_on>
+        <type>Relationship</type>
+        <update_guid>6a33a69fb26b1e1063dd2cd3f35db3fb</update_guid>
+        <update_guid_history>6a33a69fb26b1e1063dd2cd3f35db3fb:1367992165,0fc22e9f9a6b1e100bf7af984e68e981:1045842945</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:54:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_relationship">sys_relationship</sys_db_object>
+        <sys_id>551d639b86424efcaf06e70def5e3f90</sys_id>
+        <sys_metadata>dd72ae9f836b1e108eb710c5eeaad30f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Plug Details</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_parent display_value="EV Devices">653569078323da108eb710c5eeaad366</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_scope_delete display_value="">08380f235033495e814b97f7f661b4d1</sys_scope_delete>
+        <sys_update_name>sys_relationship_dd72ae9f836b1e108eb710c5eeaad30f</sys_update_name>
+        <sys_update_version display_value="sys_relationship_dd72ae9f836b1e108eb710c5eeaad30f">e233a69f836b1e108eb710c5eeaad3fc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:54:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

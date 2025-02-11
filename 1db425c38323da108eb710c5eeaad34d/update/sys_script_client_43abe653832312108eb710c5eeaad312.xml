@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Input Plug Details</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	
+    var plugDetails = new GlideRecord('u_ev_plugs');
+	plugDetails.addQuery('name', g_form.getValue(u_plug_type));
+	plugDetails.query();
+
+	g_form.setValue('u_cm_box', plugDetails.u_charging_method);
+	g_form.setValue('u_si_box', plugDetails.u_supply_input);
+	g_form.setValue('u_cm_box', plugDetails.u_max_op);
+	g_form.setValue('u_ox_box', plugDetails.u_max_oc);
+	g_form.setValue('u_md_box', plugDetails.u_market_designation);
+	g_form.setValue('u_manu_box', plugDetails.manufacturer);
+	g_form.setValue('u_cost_box', plugDetails.cost);
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 15:18:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>43abe653832312108eb710c5eeaad312</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Input Plug Details</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sys_script_client_43abe653832312108eb710c5eeaad312</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 15:25:36</sys_updated_on>
+        <table>u_ev_devices</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
