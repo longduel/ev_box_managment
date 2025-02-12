@@ -77,37 +77,18 @@
             <element>operational_status</element>
             <hint/>
             <inactive>false</inactive>
-            <label>DR Standby</label>
+            <label>Ready</label>
             <language>en</language>
             <name>u_ev_devices</name>
             <sequence>3</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-11 11:27:40</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-11 11:27:40</sys_updated_on>
-            <value>4</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>operational_status</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Ready</label>
-            <language>en</language>
-            <name>u_ev_devices</name>
-            <sequence>4</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-02-11 11:17:31</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-11 11:27:40</sys_updated_on>
+            <sys_updated_on>2025-02-12 09:48:45</sys_updated_on>
             <value>5</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -118,35 +99,16 @@
             <label>Retired</label>
             <language>en</language>
             <name>u_ev_devices</name>
-            <sequence>5</sequence>
+            <sequence>4</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-02-11 11:17:31</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-11 11:27:40</sys_updated_on>
+            <sys_updated_on>2025-02-12 09:48:45</sys_updated_on>
             <value>6</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>operational_status</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Design</label>
-            <language>en</language>
-            <name>u_ev_devices</name>
-            <sequence>6</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-11 11:27:40</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-11 11:27:40</sys_updated_on>
-            <value>900</value>
         </sys_choice>
     </sys_choice>
 </record_update>

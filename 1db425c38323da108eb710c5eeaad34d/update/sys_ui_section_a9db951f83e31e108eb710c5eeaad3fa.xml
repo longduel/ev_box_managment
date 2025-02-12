@@ -98,6 +98,20 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_active</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-12 15:36:10</sys_created_on>
+            <sys_id>dc8bf32383eb52108eb710c5eeaad32f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EV Box" display_value="EV Box" name="u_ev_devices" sys_domain="global" view="Default view">a9db951f83e31e108eb710c5eeaad3fa</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-12 15:36:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>EV Box</caption>
             <header>false</header>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_analytics_bucket">
+    <sys_analytics_bucket action="INSERT_OR_UPDATE">
+        <analytics_channel display_value="web">6496ef61c7001010393d265c95c260b9</analytics_channel>
+        <application_name>VoltCare</application_name>
+        <bucket_document_id>3089ee6f83e352108eb710c5eeaad305</bucket_document_id>
+        <bucket_metadata>{"HeartbeatInterval":"5000","MaxDataPointsPerHeartbeat":"1000","MaxSessionDuration":"14400","SessionTimeout":"1800000","AutoDetectScreens":"true","ClientLogsUploadPolicy":"1","MetadataRecordingRatio":"1","ConfigReloadTime":"86400000"}</bucket_metadata>
+        <bucket_metadata_customer_override/>
+        <bucket_table_name>sp_portal</bucket_table_name>
+        <bucket_type>service_portal</bucket_type>
+        <enable_unauthenticated_user_tracking>false</enable_unauthenticated_user_tracking>
+        <enabled>true</enabled>
+        <internal_name_for_index>global.sp_portal.3089ee6f83e352108eb710c5eeaad305</internal_name_for_index>
+        <sys_class_name>sys_analytics_bucket</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-12 09:39:20</sys_created_on>
+        <sys_id>55d9a6af83e352108eb710c5eeaad368</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>VoltCare</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sys_analytics_bucket_55d9a6af83e352108eb710c5eeaad368</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-12 09:39:20</sys_updated_on>
+    </sys_analytics_bucket>
+</record_update>

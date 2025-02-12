@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>ecc_queue</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="ecc_queue">topicLIKEJDBCProbe^queue=input^agentLIKEJDBCProbeResult^EQ<item endquery="false" field="topic" goto="false" newquery="false" operator="LIKE" or="false" value="JDBCProbe"/>
+            <item display_value="input" endquery="false" field="queue" goto="false" newquery="false" operator="=" or="false" value="input"/>
+            <item endquery="false" field="agent" goto="false" newquery="false" operator="LIKE" or="false" value="JDBCProbeResult"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>EV Box DB Check</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    var payloadTemp;
+    var assetTag;
+    var resultTemp;
+    var check;
+
+    function createLogRecord(payloadTemp, resultTemp) {
+        //Create new record for the DB connection logs
+        var logs = new GlideRecord("u_ev_db_logs");
+        logs.initialize();
+        logs.u_payload = payloadTemp;
+        logs.u_result = resultTemp;
+        logs.insert();
+    }
+
+    // Change payload XML output to JSON
+    var jsObj = gs.xmlToJSON(current.payload);
+    // XML output very much do not like differencing between one and more records so the proper 'if' is needed to check if there is only one or more...
+    var recordNumber = parseInt(current.name);
+    if (recordNumber >= 2) {
+        check = jsObj.results.result.row.map(row => row.Asset_Tag.content);
+    } else {
+        check = jsObj.results.result.row.Asset_Tag.content;
+    }
+
+    gs.log('Is there something here: ' + check);
+    // Check if there is any devices 'non-operational'
+    if (JSUtil.nil(check)) {
+        payloadTemp = jsObj.results.result.query + '\n' + jsObj.results.result.total_rows;
+        resultTemp = 'No Devices found';
+        createLogRecord(payloadTemp, resultTemp);
+    } else {
+        assetTag = check;
+        changeDeviceState(assetTag);
+    }
+
+    function changeDeviceState(deviceArray) {
+
+        //In case if I only have one device that reports the 'Non-Operational' state
+        if (typeof deviceArray === 'string') {
+            deviceArray = [deviceArray];
+        }
+        for (var i = 0; i < deviceArray.length; i++) {
+            var foundDevice = deviceArray[i];
+            
+            var check = new GlideRecord('u_ev_devices');
+            //check.addQuery('u_active', true);
+            check.addQuery('asset_tag', foundDevice);
+            check.query();
+
+            if (check.hasNext()) {
+                while (check.next()) {
+                    if (check.operational_status !== 2) {
+                        check.operational_status = 2;
+                        check.update();
+                    } else {
+						gs.log('Entering the loop');
+                        payloadLog = 'Device ' + foundDevice + ' operational state already at "Non-Operational"';
+                        resultLog = 'Sucess';
+                        createLogRecord(payloadLog, resultLog);
+                    }
+                }
+            } else {
+                gs.log('DB Operational State update did not found any record of a device: ' + foundDevice);
+            }
+        }
+    }
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-12 10:08:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9120762b832752108eb710c5eeaad3b4</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>EV Box DB Check</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sys_script_9120762b832752108eb710c5eeaad3b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-12 16:00:58</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=9120762b832752108eb710c5eeaad3b4"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>9120762b832752108eb710c5eeaad3b4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-12 10:08:28</sys_created_on>
+        <sys_id>ff70f2a7832752108eb710c5eeaad3dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-12 10:08:28</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
