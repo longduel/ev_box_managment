@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="323a5d5b83e31e108eb710c5eeaad35f" label="EV Diagnostic" max_length="40" name="u_ev_diagnostic" type="collection">
+        <element label="EV Box" max_length="40" name="u_ev_box" reference="u_ev_devices" type="string"/>
         <element label="Log" max_length="2000" name="u_log" type="string"/>
     </element>
 </database>

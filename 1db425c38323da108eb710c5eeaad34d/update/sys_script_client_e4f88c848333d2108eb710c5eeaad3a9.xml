@@ -4,45 +4,40 @@
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
-        <field>u_plug_type</field>
+        <field/>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>EV Input Plug Details</name>
+        <name>EV Restict Operation State</name>
         <order/>
-        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+        <script><![CDATA[function onLoad() {
+    var gr = new GlideRecord('incident');
+    gr.addQuery('cmdb_ci.asset_tag', g_form.getValue('asset_tag')); // Assuming device field is the reference
+    gr.query();
 
-    var ga = new GlideAjax('AJAXUtils');
-    ga.addParam('sys_id', g_form.getValue('u_plug_type'));
-    ga.getXMLAnswer(updatePlugSection);
-
-    function updatePlugSection(response) {
-        if (response) {
-            var returneddata = JSON.parse(response);
-            g_form.setValue('u_si_box', returneddata.u_supply_input);
-        } else {
-            g_form.addInfoMessage('Nothing to see here');
-        }
+    if (gr.next()) {
+        g_form.setReadOnly('operational_status', true);
+        g_form.showFieldMsg('operational_status', 'Field was set to read-only because there is currently an incident ' + gr.number + ' in progress for this device.', 'info');
     }
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-02-11 15:18:49</sys_created_on>
+        <sys_created_on>2025-02-13 11:19:27</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>43abe653832312108eb710c5eeaad312</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_name>EV Input Plug Details</sys_name>
+        <sys_id>e4f88c848333d2108eb710c5eeaad3a9</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>EV Restict Operation State</sys_name>
         <sys_overrides/>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
         <sys_policy/>
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
-        <sys_update_name>sys_script_client_43abe653832312108eb710c5eeaad312</sys_update_name>
+        <sys_update_name>sys_script_client_e4f88c848333d2108eb710c5eeaad3a9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-13 12:46:10</sys_updated_on>
+        <sys_updated_on>2025-02-13 11:56:55</sys_updated_on>
         <table>u_ev_devices</table>
-        <type>onChange</type>
-        <ui_type>0</ui_type>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
         <view/>
     </sys_script_client>
 </record_update>

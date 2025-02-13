@@ -1,0 +1,1249 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=firefox,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=176627000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Import all of the plug informations from the database.</description>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>ev_start_up_plug_import</internal_name>
+        <label_cache>[{"name":"Updated_1.current.assigned_to.email","label":"Trigger - Record Updated➛EV Devices Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{}},{"name":"Updated_1.current.asset_tag","label":"Trigger - Record Updated➛EV Devices Record➛Asset tag","reference":"","reference_display":"Asset tag","type":"string","base_type":"string","parent_table_name":"u_ev_devices","column_name":"asset_tag","usedInstances":{"7de9bf2a-e67b-4fe5-9a8f-34db9757dfea":["cmdb_ci","short_description"],"e6854ef7-2caa-429c-89d0-de1bc8a1bd5f":["conditions"],"95532b39-732b-44f0-9b74-b10068f277f7":["conditions"],"ca2c4dcf-418a-4ff5-b96d-e3f69a81ab4b":["values"],"19cf62c4-57a5-414d-8564-2de3f4dfa186":["u_log"]}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛EV Devices Record","reference":"u_ev_devices","reference_display":"EV Devices","type":"reference","base_type":"reference","usedInstances":{"7de9bf2a-e67b-4fe5-9a8f-34db9757dfea":["cmdb_ci"],"7c581dce-5db5-4f0e-b735-b865561bf589":["record"],"ca2c4dcf-418a-4ff5-b96d-e3f69a81ab4b":["values"],"c6389633-46ab-45bd-8b3c-24e2e215265f":["record"],"3626142a-3a35-4ded-83aa-b0ced763621d":["device_asset_tag"],"5aa2a216-3b76-48c6-b279-378f20e8cf36":["ev_box_ci"],"74f4fdd8-3672-45d7-9bac-e0cfc6e33b78":["conditions"]},"attributes":{}},{"name":"Updated_1.table_name","label":"Trigger - Record Updated➛EV Devices Table","reference":"u_ev_devices","reference_display":"EV Devices","type":"table_name","base_type":"table_name","usedInstances":{},"attributes":{"test_input_hidden":"true"}},{"name":"74f4fdd8-3672-45d7-9bac-e0cfc6e33b78.Count","label":"1 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","usedInstances":{"fb39d207-00d4-4686-8136-35a88a91d5be":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>dcbf67ef836b52108eb710c5eeaad38c</master_snapshot>
+        <master_snapshot_digest/>
+        <name>EV Create Incident</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>31ea08488333d2108eb710c5eeaad3d5</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 10:18:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6b19a99f83271e108eb710c5eeaad39b</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name>EV Create Incident</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sys_hub_flow_6b19a99f83271e108eb710c5eeaad39b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-13 11:21:56</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=6b19a99f83271e108eb710c5eeaad39b"/>
+    <sys_variable_value action="DELETE" query="document_key=6b19a99f83271e108eb710c5eeaad39b"/>
+    <sys_flow_record_trigger action="DELETE">
+        <active>true</active>
+        <condition table="u_ev_devices">operational_status=2<item display_value="Non-Operational" endquery="false" field="operational_status" goto="false" newquery="false" operator="=" or="false" value="2"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-13 11:21:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>31ea08488333d2108eb710c5eeaad3d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-13 11:21:56</sys_updated_on>
+        <table>u_ev_devices</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="DELETE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>6b19a99f83271e108eb710c5eeaad39b</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-13 11:21:56</sys_created_on>
+        <sys_id>f9ea08488333d2108eb710c5eeaad3d5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-13 11:21:56</sys_updated_on>
+        <trigger display_value="">31ea08488333d2108eb710c5eeaad3d5</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="DELETE" query="identifier=6b19a99f83271e108eb710c5eeaad39b^sys_idNOT INf9ea08488333d2108eb710c5eeaad3d5"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=6b19a99f83271e108eb710c5eeaad39b"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=6b19a99f83271e108eb710c5eeaad39b^sys_idNOT INe319a99f83271e108eb710c5eeaad39e"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>6b19a99f83271e108eb710c5eeaad39b</id>
+        <name>EV Start UP (Plug Import)</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 10:18:06</sys_created_on>
+        <sys_id>e319a99f83271e108eb710c5eeaad39e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 10:18:06</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=e319a99f83271e108eb710c5eeaad39e"/>
+    <sys_hub_flow_input action="DELETE" query="model=6b19a99f83271e108eb710c5eeaad39b^sys_idNOT IN1197b11783a71e108eb710c5eeaad31d,9997b11783a71e108eb710c5eeaad321,9d97751783a71e108eb710c5eeaad340"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="EV Create Incident">6b19a99f83271e108eb710c5eeaad39b</model>
+        <model_id>6b19a99f83271e108eb710c5eeaad39b</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_6b19a99f83271e108eb710c5eeaad39b</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 11:21:19</sys_created_on>
+        <sys_id>1197b11783a71e108eb710c5eeaad31d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 11:21:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=1197b11783a71e108eb710c5eeaad31d"/>
+    <sys_complex_object action="DELETE">
+        <label/>
+        <name>FDCollection</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>global</scope_name>
+        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
+        <sys_mod_count>101</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">6af889be40d0121087de8045c806ff88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="EV Create Incident">6b19a99f83271e108eb710c5eeaad39b</model>
+        <model_id>6b19a99f83271e108eb710c5eeaad39b</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_6b19a99f83271e108eb710c5eeaad39b</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 11:21:19</sys_created_on>
+        <sys_id>9997b11783a71e108eb710c5eeaad321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 11:21:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=9997b11783a71e108eb710c5eeaad321"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="EV Create Incident">6b19a99f83271e108eb710c5eeaad39b</model>
+        <model_id>6b19a99f83271e108eb710c5eeaad39b</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_6b19a99f83271e108eb710c5eeaad39b</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 11:21:19</sys_created_on>
+        <sys_id>9d97751783a71e108eb710c5eeaad340</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 11:21:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=9d97751783a71e108eb710c5eeaad340"/>
+    <sys_hub_flow_output action="DELETE" query="model=6b19a99f83271e108eb710c5eeaad39b"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=6b19a99f83271e108eb710c5eeaad39b"/>
+    <sys_hub_trigger_instance_v2 action="DELETE" query="flow=6b19a99f83271e108eb710c5eeaad39b^sys_idNOT INa997751783a71e108eb710c5eeaad365"/>
+    <sys_hub_trigger_instance_v2 action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="EV Create Incident">6b19a99f83271e108eb710c5eeaad39b</flow>
+        <name>Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 11:21:19</sys_created_on>
+        <sys_id>a997751783a71e108eb710c5eeaad365</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-13 11:21:48</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="DELETE" query="flow=6b19a99f83271e108eb710c5eeaad39b^sys_idNOT IN266cef3f836f92108eb710c5eeaad396,2cbe633383af92108eb710c5eeaad3ad"/>
+    <sys_hub_action_instance_v2 action="DELETE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment>Count any Incidnet records already created for the box</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="EV Create Incident">6b19a99f83271e108eb710c5eeaad39b</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-13 09:08:44</sys_created_on>
+        <sys_id>266cef3f836f92108eb710c5eeaad396</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-13 11:06:10</sys_updated_on>
+        <ui_id>74f4fdd8-3672-45d7-9bac-e0cfc6e33b78</ui_id>
+        <values>H4sIAAAAAAAA/9VXTU/jMBD9K1XOUZWQUtjeEAiJAyABy4VFlmO7rbWOk3WcllL1v+84dpLSBgjd7i4cPZ9vxm8mzsPS49QbecfjQRDg8PD4KAiiKAiGw4jgMI6jIYmDeBB7vidxwsBS41gwOM6wKMyZS8IpkxpElOeZwIt7p7loNGTKBVVMeqOHR9/LsIJYmilvtNxQ6UXGkMAxExDgzqTqXZm8fmeYL5y3YZsE1RFJGzpV1GAJfI89aSYpg1RjLHLmewmWFOtULWqJYpheS9EIphxKHHmeMX7K+TOEPw6M3ZhBWYRZXX1ErktWTKYpJ+w60zyVVmKBWmUqikRe2QJMf9kYF0JX/QVJkUM8lhnMBoRDNL6dpvObKuE5l2V5TilSgkV9wlorHhea5eYumGAJBEIJzjIuJyhT6YyXzoAl6U8EHPpjkc4hac4nso+JAd6HFuH+OcjPSvE9VtxUcQlhwBkAcQG3jWzT87RQZVdmiIgiLxUKy9zG8lZlr9CvwqC0Vbv6kG0RGORE8UyfgMOMuVJWficmHwYNJUgqKTc58zU6k4TGiPAfBXjT5fJ7BrUxisI+KRS0U69W20Tv5LPbCJyuY+xaX6tzW9FuGF7I3DCEexsGgPufxkGr4vNNw3v8tgW/Q3Jy9CYJDpv7zlOlke3cGsu3ObwzQ885E/TFku4ArnK+NmTrxYvX8DqCjk2OjW198OW39aekJwCiyPabS8Fl+bEEoPvhbfD28vq2wYPy+hvWljKck2324p5Oe8+7b9nyXiv+dgBZOd4Cot6dRdkCvNqvVXhH3Whv1I0OPkZdIM7DskZfd62lwdWbyFxdZf9s7PGmPbBrzSFcPdbUP90tZ/jRnAcm58ZsRh8aznVmWc3ZKwTb84vrlWHz/+Z0T8HV5UN2WNGc0wnTTfbKiqZ6jsXPNr1jVz1DZXl//HobvDl7w7CZM5gBpFgOV7X+fAvhsbG9HkLfinfbDhdSs0nZvK4QK89L/NS7qTG2Ancrgtc5HKcHe3x//YvPW9X41ump+v8lfld2pfDjb8ZYGblMDwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="DELETE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="EV Create Incident">6b19a99f83271e108eb710c5eeaad39b</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>07df6e6f-40ba-4a76-b7b1-bc43c3c0928f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-13 09:18:41</sys_created_on>
+        <sys_id>2cbe633383af92108eb710c5eeaad3ad</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-13 09:41:28</sys_updated_on>
+        <ui_id>19cf62c4-57a5-414d-8564-2de3f4dfa186</ui_id>
+        <values>H4sIAAAAAAAA/9VUTYvbMBD9K0JnY+x4G3ZzK2wDPTQL7TaX7SJkaewIZMmV5Hw05L935I90d9vAUkpLfZs3o/fejDR+OFIl6YLOc8je3ORzUeRFMcuy2fVVXs6LMp/JggNc0YQa3gBWBl5qYH2Q0C3XXQQ7BlsmFa+N9UEJzEjlW80P67Hg3ZrcPk2LjdLSgaGLh8eEttwhXwBHF8cXqXBogWlegkaW+6hNVoP2a30/O3yhj6jyErNORkNZQmEfwEhAvYprDwltuJE8WHegi+A6BBxweWf04VyxUSYgIY21e6++Ift1FusqwNYEDLlzyMZxDbDYWCXgrg3KmgHpjY1Jq7vGrIYm4qCh4p0O06AR6TzyQRstRxOjo+rTxu4+ToJLZfruxqS2gutzxENwquwC+HgfoKFBItbwtlWmZq2zW9UfRi9NWmsM0krbHYp6VZuUi2g8xQnxdIn4bQ+vuVOxiw9Ig4dPfffsaxd1hz5Gx2xoGgu8cKoNb5FuC6O5UzI9WAnZzcWLz8sfF92/Uf/ssWpbf+myrJD3GyDvjVBRl1TWkYDA8fi5RfMgWZ6KzuG8Qsq9h8ACr08nwnW87gOBvcLX7FOyssTA7kzkCfLXINOf1+BvSv/mikGDhgOQwXLy6mlPBEsFWvpfjH/asVGAbUeBcc/yP7Vn+Tzrv3+zbYPP/2zZnvz3Lqzd43fFwk9CKQYAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="DELETE" query="flow=6b19a99f83271e108eb710c5eeaad39b^sys_idNOT IN9a0f3bf783ef92108eb710c5eeaad339"/>
+    <sys_hub_sub_flow_instance_v2 action="DELETE">
+        <attributes/>
+        <comment>Create Incident based on the Box record</comment>
+        <display_text/>
+        <flow display_value="EV Create Incident">6b19a99f83271e108eb710c5eeaad39b</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>fb39d207-00d4-4686-8136-35a88a91d5be</parent_ui_id>
+        <subflow display_value="EV Incident Flow">e963fbb783af92108eb710c5eeaad3fb</subflow>
+        <subflow_inputs>H4sIAAAAAAAA/41SyW7bMBD9lYBnWZCstF5uTdIAAdoGaBtfgoAYkUObAEUqFKnYNfzvHVqKa7Q+9CKQb5a3UM97piVbssUcoK5m1bxCtZiWxRzrWVmID4gAsioKljELDVIn9rx2Wy40QT2YmLD9/qmVEFDyMhfRe7ThcKC61F1rYLca2wgRG20k1dny+SVjLXhaGtCz5f6vUti1yA3UaGjwOyqkikDa8L9y32c/r65u3Pbq9uGyhcRDkD9jcF4mRWXGcBvQSiRGBabDjDVgyafzuxPiEeSjNX+AjbZh8NrAttO/aHs1zc4IlixyUiCx1wI7dlbiY16D6rtTg9g4Oj22QTs7rA5QmwubhDOxsd8Glyl/VBBNOMs/dsSCbXKVZI6a1Y+NezuFfK/tMYCxaJwAc7pBCF7XMRAfvVnUP//NbwC/XHg7NNgQL2+gbbVd89a7Xh+5SHqTrw1dcmXcG2ns9NrmIJLnnDKH/J7wuyO8Aq9TAF9pDQ0nxierXyM+pH+jUMVHUNcwmS7oc10hTGCm5KQoq6qohcLZfMEOx9j5a0zWhqjGUPiQMTV0wus2fCIJPY7+Dy+/AZSvDXAxAwAA</subflow_inputs>
+        <sys_class_name>sys_hub_sub_flow_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-13 10:30:05</sys_created_on>
+        <sys_id>9a0f3bf783ef92108eb710c5eeaad339</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-13 11:06:10</sys_updated_on>
+        <ui_id>5aa2a216-3b76-48c6-b279-378f20e8cf36</ui_id>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_hub_sub_flow_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="DELETE" query="flow=6b19a99f83271e108eb710c5eeaad39b^sys_idNOT IN24be633383af92108eb710c5eeaad3ad,2a6cef3f836f92108eb710c5eeaad398"/>
+    <sys_hub_flow_logic_instance_v2 action="DELETE">
+        <attributes/>
+        <block display_value="">2cbe633383af92108eb710c5eeaad3ac</block>
+        <comment>If incident count &lt; 0 create diagnostic log</comment>
+        <connected_to>fb39d207-00d4-4686-8136-35a88a91d5be</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="EV Create Incident">6b19a99f83271e108eb710c5eeaad39b</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-13 09:18:41</sys_created_on>
+        <sys_id>24be633383af92108eb710c5eeaad3ad</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-13 11:21:53</sys_updated_on>
+        <ui_id>07df6e6f-40ba-4a76-b7b1-bc43c3c0928f</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="DELETE">
+        <attributes/>
+        <block display_value="">6e6cef3f836f92108eb710c5eeaad397</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="EV Create Incident">6b19a99f83271e108eb710c5eeaad39b</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-13 09:08:44</sys_created_on>
+        <sys_id>2a6cef3f836f92108eb710c5eeaad398</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-13 11:21:53</sys_updated_on>
+        <ui_id>fb39d207-00d4-4686-8136-35a88a91d5be</ui_id>
+        <values>H4sIAAAAAAAA/+2UXWvbMBSG/0rxtWMUO87XXekoBLYV1tKbrRhZOkrEZMmT5KRZyH/fkT/SsKXbKLvcTYjeI53zvicPOUSm8XXj3YO5dk6udbT8/BRHUgcNvx8iTSuIlhEzmksvjS5aIY62VDWhsBJXK80kB+2vmGnwk2CVS1crun/87SW2kYpb6GfW1GJnDzZaHn4q+X0NhaIlKOx1763Ua3wuOZ4EoWK8YGOWpdMsJSSdT8blNCvHKc8o0AzvDQ9vhghX71slfjVbmIe6GyYZy4OtMYkjePagOeBoQZWDOKqo5tQbuz8pFii/0+pF2EjtsV0ULj87+R17p3keLgrAjAy64ulY9NvrZLYxksFdHQx2iqel6t8wo5pKf+xyhL2DoI3yw95RaRz2gzqYDi56S+J+Y3afhoG3UrcB+6IyjKrTiXpcQ9l4cOGHAQUVNioqWte4nKK2Zivbx+ilStYKD4lQZodDA08JZcF4gjuiyS3q71r5kVoZUnzANvi4s1lSJ1nRsoftvMUIx3YtxbcmGOoC9lGKbht4wTEra3+Nc7bQuz7Gv4J7xuzhMJuIieB8Psqms3Q0yflstCgpGwFhgk0hy8rZPLkJpB6PXxpCMn6B6re2+RfcL2gu8jHJL3M/mV7i/gLxr8Oe/gH28PP8JeuEkP+wn8MuXdFB22drh7+Z9acAdjfBddxwYNKhkYegrYb/8lDYIwCSnUs7Y7+GCC/a8QeZhAgaFQYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=6b19a99f83271e108eb710c5eeaad39b"/>
+    <sys_hub_flow_variable action="DELETE" query="model=6b19a99f83271e108eb710c5eeaad39b"/>
+    <sys_documentation action="DELETE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_6b19a99f83271e108eb710c5eeaad39b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 11:21:19</sys_created_on>
+        <sys_id>5997b11783a71e108eb710c5eeaad320</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 11:21:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_6b19a99f83271e108eb710c5eeaad39b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 11:21:19</sys_created_on>
+        <sys_id>5d97751783a71e108eb710c5eeaad342</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 11:21:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_6b19a99f83271e108eb710c5eeaad39b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 11:21:19</sys_created_on>
+        <sys_id>9d97751783a71e108eb710c5eeaad33f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 11:21:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_6b19a99f83271e108eb710c5eeaad39b"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_6b19a99f83271e108eb710c5eeaad39b"/>
+    <sys_hub_flow_snapshot action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=firefox,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Import all of the plug informations from the database.</description>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>ev_plug_maintanance</internal_name>
+        <label_cache>[{"name":"Updated_1.current.assigned_to.email","label":"Trigger - Record Updated➛EV Devices Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{}},{"name":"Updated_1.current.asset_tag","label":"Trigger - Record Updated➛EV Devices Record➛Asset tag","reference":"","reference_display":"Asset tag","type":"string","base_type":"string","parent_table_name":"u_ev_devices","column_name":"asset_tag","usedInstances":{"7de9bf2a-e67b-4fe5-9a8f-34db9757dfea":["cmdb_ci","short_description"],"e6854ef7-2caa-429c-89d0-de1bc8a1bd5f":["conditions"],"95532b39-732b-44f0-9b74-b10068f277f7":["conditions"],"ca2c4dcf-418a-4ff5-b96d-e3f69a81ab4b":["values"],"19cf62c4-57a5-414d-8564-2de3f4dfa186":["u_log"]}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛EV Devices Record","reference":"u_ev_devices","reference_display":"EV Devices","type":"reference","base_type":"reference","usedInstances":{"7de9bf2a-e67b-4fe5-9a8f-34db9757dfea":["cmdb_ci"],"7c581dce-5db5-4f0e-b735-b865561bf589":["record"],"ca2c4dcf-418a-4ff5-b96d-e3f69a81ab4b":["values"],"c6389633-46ab-45bd-8b3c-24e2e215265f":["record"],"3626142a-3a35-4ded-83aa-b0ced763621d":["device_asset_tag"],"5aa2a216-3b76-48c6-b279-378f20e8cf36":["ev_box_ci"],"74f4fdd8-3672-45d7-9bac-e0cfc6e33b78":["conditions"]},"attributes":{}},{"name":"Updated_1.table_name","label":"Trigger - Record Updated➛EV Devices Table","reference":"u_ev_devices","reference_display":"EV Devices","type":"table_name","base_type":"table_name","usedInstances":{},"attributes":{"test_input_hidden":"true"}},{"name":"74f4fdd8-3672-45d7-9bac-e0cfc6e33b78.Count","label":"1 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","usedInstances":{"fb39d207-00d4-4686-8136-35a88a91d5be":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>EV Create Incident</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="EV Create Incident">6b19a99f83271e108eb710c5eeaad39b</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-12 14:44:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dcbf67ef836b52108eb710c5eeaad38c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-13 11:21:56</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="DELETE" query="documentkey=dcbf67ef836b52108eb710c5eeaad38c"/>
+    <sys_variable_value action="DELETE" query="document_key=dcbf67ef836b52108eb710c5eeaad38c"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=dcbf67ef836b52108eb710c5eeaad38c"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=dcbf67ef836b52108eb710c5eeaad38c^sys_idNOT IN98bf67ef836b52108eb710c5eeaad38d"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>dcbf67ef836b52108eb710c5eeaad38c</id>
+        <name>EV Plug Maintanance</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-12 14:44:33</sys_created_on>
+        <sys_id>98bf67ef836b52108eb710c5eeaad38d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-12 14:44:33</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=98bf67ef836b52108eb710c5eeaad38d"/>
+    <sys_hub_flow_input action="DELETE" query="model=dcbf67ef836b52108eb710c5eeaad38c^sys_idNOT IN1cbf67ef836b52108eb710c5eeaad38e,58bf67ef836b52108eb710c5eeaad3a0,94bf67ef836b52108eb710c5eeaad399"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="EV Create Incident">dcbf67ef836b52108eb710c5eeaad38c</model>
+        <model_id>dcbf67ef836b52108eb710c5eeaad38c</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_dcbf67ef836b52108eb710c5eeaad38c</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-12 14:44:33</sys_created_on>
+        <sys_id>1cbf67ef836b52108eb710c5eeaad38e</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-13 11:21:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=1cbf67ef836b52108eb710c5eeaad38e"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="EV Create Incident">dcbf67ef836b52108eb710c5eeaad38c</model>
+        <model_id>dcbf67ef836b52108eb710c5eeaad38c</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_dcbf67ef836b52108eb710c5eeaad38c</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-12 14:44:34</sys_created_on>
+        <sys_id>58bf67ef836b52108eb710c5eeaad3a0</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-13 11:21:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=58bf67ef836b52108eb710c5eeaad3a0"/>
+    <sys_complex_object action="DELETE">
+        <label/>
+        <name>FDCollection</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>global</scope_name>
+        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
+        <sys_mod_count>101</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">6af889be40d0121087de8045c806ff88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="EV Create Incident">dcbf67ef836b52108eb710c5eeaad38c</model>
+        <model_id>dcbf67ef836b52108eb710c5eeaad38c</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_dcbf67ef836b52108eb710c5eeaad38c</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-12 14:44:34</sys_created_on>
+        <sys_id>94bf67ef836b52108eb710c5eeaad399</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-12 14:46:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=94bf67ef836b52108eb710c5eeaad399"/>
+    <sys_hub_flow_output action="DELETE" query="model=dcbf67ef836b52108eb710c5eeaad38c"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=dcbf67ef836b52108eb710c5eeaad38c"/>
+    <sys_hub_trigger_instance_v2 action="DELETE" query="flow=dcbf67ef836b52108eb710c5eeaad38c^sys_idNOT IN94bf67ef836b52108eb710c5eeaad3c5"/>
+    <sys_hub_trigger_instance_v2 action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="EV Create Incident">dcbf67ef836b52108eb710c5eeaad38c</flow>
+        <name>Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-12 14:44:34</sys_created_on>
+        <sys_id>94bf67ef836b52108eb710c5eeaad3c5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-13 11:21:55</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VaWW/jNhD+K4KeWiAtdPhMn9Ic3QDZDeB404c0ECiSsonKlFeklPUu8t871GVZh+ND2XpfkpikON8Mv/lmGPnpu+4jl/r6uT5Frk/1M51xSUOO/OlqSWFYqmGHo4WaWyBOkAzClX4uw4ie6V4YLKZ0sfSRhMUe8gUMBiGhoX5unukx8iP6sBK3BHaC55Ntsj31bBo+Rw6NHUJjhqmAYcIEbLh6zGavH7WrYg7PmU9CyvXzp+czfYlC2FEqa98rU0yZNAlBpkUNbJu2ZRmGNeqZ7sB2TYvYiKIRbFh1vwJRNkRh7R/9KiknlBSu1wIUUkTuub8qrfgq2DfYc2SoWY8CYkzT8BQfnSwE6TCeB+D9/VKygKcjKbp0MvCjBf+UolbBox6KfJkHD0YiAfvRpQLKZYHDe5gHL5Pc4A3jiU/ZpB9g5BefkJQhcyMJBwBh9pgPAXfSiIggChP0k+vL+8mV8/fF9PLD9cSZXD9MJ7eX0+sr/TXxy/kSqR1ThBkWJ3XntTjxG0Z9dWxZnAUO2VJeYMninFyvZ2vCXgacsCQmNdLifEpskjb3fRtrDaOVt7hkMedusKQhUmPId4REMhL/RIZhE2tvsrruGBGKWsg6GJbIWna9AZtsiELZvW20zUbaedszjP+JuZnkHErcRUCof7XeTofJ2QyozPgykipGeVyc9FCDEJ7THy/uLj9cfPrr+uGP7PfN5P5j/vf0Hp57QVwKRwYOIsQpRV2ZAF/eyoA0JvU0eDsFwojDFk5xnvVESA6gOIk7JsDxJ0jiPMrJljDv3WVbTiKuBXDw8EPDUQhBllouht7tAs2ys/EeqE+xLJHI+yzKnz4yIRiflVAXRpOo1GwW5oCMWu5Salscafy5SxWoBz2uBLNSwPZWggEmZs8dDoyh0gHTsF3PNIZGH3nENoyxXVKCOphWlLJCiQ4VYT89EAkF/R0IVw1sBtko58BO5Ik3mZe7roiRyc5lN9DMjqBZClpFPu299LMgYzp8tcnJba513DAgEiN4guwqh2rBDrrn+cELSPcBmuci/O8sDCJOqiKk9tQY19YrtF+y+P3aof55QUi3A9hccUrKtw57TlzEVx1oXo9iMhz0BgZInQ0q5/bHYxcjy/OGgyE1SEXz1jAasZ2w1r3BsbiJpG2610iXuIlleyjeEQBr6rc3wON1L6Njo+qlcz+Hvr3MKXcAauj4SsFqMjfzGaH5XLc5XjMdr7P62Dy3vRHp94dDPIQbDuS516MuMntWH42HA5sOKnleg7INpmyIzDvee8RKJOZbNOBzOnVat/f3JKugUqrSs39F5tCpJs+g1EipKqrD0BIpCULtU8B/u12v0x4oFLvkyttVad4FhTpY7X1huIGc13oDMP0njG+YVj1lS1RO7tJUIUm86evRDcTIHveJZzcLy9BqEpY1mHaYJ9pK7JgXcWuGNfUUu9I8bsyW1ibgAOJWyFHuDra0L10Fxew8KNb7BcU+umXKM7D1pngI2J+ocCU9xDHVS9mkTuCVJfsq0GBCAyMa87Tsf41w8XdXmpxTCKkPvTEY1JT1Y7W6XDvqUAoG/1ggabddq2EwrGVt0+mVpwoVur3jYm/skrHd0vv223vf9jpVmT7RYrV3LsRNqbW1Yu23b3XPxppVIuomD3asRp163VySjvO6sSi95fXx5WbbDb0BxekXEgV6mh7DAeUj4Lhy18BdvmyJOPsSUQfPEZ+lL1JyQzcQZ4rwXEuXaOmSLguA/4JWQq9WIiCtyovs384wABnCU/3qyjKNabiq+aoGtWhJVHH44cVny9chsveQQobw5Gy1kbG4ixdK2Bz3LZuMsG2O7fr3IMxS4dnkcjvC1krzxtci2irNnCXvZEvms/OSbEETXSterGoLJPGcijMNDjV5iZHIHguFTFb/rnd4y8K0fhxNhag1meK2PGwV9i35EVczq0nJG7geV/KirOVb71Nb3Dc7cd/qwn37MPd7R5eyPD8ba1kWvW7r16Hl6vk/6AqkFOslAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="DELETE" query="flow=dcbf67ef836b52108eb710c5eeaad38c^sys_idNOT IN181f7bf783ef92108eb710c5eeaad39a,d81f7bf783ef92108eb710c5eeaad399"/>
+    <sys_hub_action_instance_v2 action="DELETE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="EV Create Incident">dcbf67ef836b52108eb710c5eeaad38c</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>07df6e6f-40ba-4a76-b7b1-bc43c3c0928f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-13 10:30:13</sys_created_on>
+        <sys_id>181f7bf783ef92108eb710c5eeaad39a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-13 10:30:13</sys_updated_on>
+        <ui_id>19cf62c4-57a5-414d-8564-2de3f4dfa186</ui_id>
+        <values>H4sIAAAAAAAA/9VUXWvbMBT9K0bPxth1F9q8jWaBwZbC2uWlK+baunYEsuRJchIv5L/vynbStGvYBmPQvOl+nnN8Tx52THA2ZZME43fXyaRIkzS9iOOLq8skn6R5csFTQLxkIVNQI1U6yCVm/SNka5CtD7YZrjMuoFLaOlFQhgvbSOiWY8GHZTA7TRcrIblBxaYPjyFrwNA8h4ZNdy9Sf4pOQo6SSu89vDNoXde8Gvt02hsshoQ23OOJQ4Zbh4ojASlBWgxZDYqD06ZjU2daChgEfqtkd6xYCeVoIPO1Wyt+0Nqr2NeVSMwKHHLHZzaqNYTLGTi4o8mFa81YWqy0KNAOmnAsoZXu5jQ2FNw2Tmg1tPQ0x24t21otBknYccDh41CktQQCG8/TIx9plHcrvflyQDkXqpdkTEpdgDy+wDkj8tZ5PDuGEmsalNXQNEJVWWP0WvTNhKWOKkmPqJR6Q0utqFQEhQcekawQzSk+68NLMMKz+ExjqHkfMtvZGwnWPnEhEbPvrUcyMBs5ZIMMvqUwonHvacEaR7j78HD2HOPrs4eV5E+H1F+6fXbyUlff2jhO+f0Kg4+qEH5vUGoTOArsdl8booM8S6KiNaSgiwg4usxBtd8HIP3VdAFuBXnCRsFCBwo3x0E2oPkV8uhXM/3P1X9p1N/reTDqXKDk9hWBDy7Fmjg7zAbBXzh1TAbLMTm6NflXbk0mcf97Q54dyL15y578O58x7+NPLO93g7UGAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="DELETE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment>Count any Incidnet records already created for the box</comment>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="EV Create Incident">dcbf67ef836b52108eb710c5eeaad38c</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-13 10:30:13</sys_created_on>
+        <sys_id>d81f7bf783ef92108eb710c5eeaad399</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-13 11:06:19</sys_updated_on>
+        <ui_id>74f4fdd8-3672-45d7-9bac-e0cfc6e33b78</ui_id>
+        <values>H4sIAAAAAAAA/+VX207jMBD9lcrPVZXQUljeViAkJC4SsLzsIsuxndZa18naTkup+u87jp2L2sC2UpFA++i52GdmznGcnyskGDpDp+koikh8fHoSRcNhFI3HQ0riJBmOaRIlowT1kSIzDpGWJJLDck5k4dZCUcG4smBiwuSSLJ+C56rx0KmQTHOFzn4+91FONOxluUZnqw3XrmAkSbiE0MeAZgOcXeb1Epc+b7tup/VuvSPTzEGJ+oi/WK4YBwwpkYb30YwoRmyml7VFc8LulGwMUwEVniHkgl+MeIVzTyMXl3KoinLvq5c4NMmb0wtiyYPVBbWFDqF0mgnKje8H4ykppD1v23zAXW5FpnyKL9tnZ7KYqVvfDlRvUM0ELIUBEDx3hTrkoYz0YZot7iuUl0KVPQlOmVEi6xWxVouksA7PCnHJZ7ARnpE8F2qCc53NRZkMWGaDiYTFIJXZAg41YqIGhDrgA+grGVyC/aI0PxEtXBU3sA0kAyAhgSHYj9BkhS5bOcdUFqZ0aKKM3wut+8gszbkkxjSVQ8vxn8Lh9n0IFWPfNJdCtcjtd9hizkNx6/5OejiOGsrRTDHhUJiWKOiMJZiKXwVks9XqRw7VcobjAS00NNiu19ty2SnnkEIqq6iEdN4uo6u0IKkt23XXBkFS8cEkBXV8JVHB4Z9PU/urxLfgH1KhJ++S7Ljhk8m0xb6XLa1sK2Fvnu8AoeL5nWNmL1m+hSrQPBVcsq4vx6VzbHw5jv7PL8enJDkAYthPTygpVPkMAKAfxf7o/Sv22wbPSno13C9txNBtDZCezXqveythBziVEh7g7N6jx9MBsbrvS8ps3vWVMQhgeDABDI8OI4BVXWbdyI6eVy8/N80q/tXFk814oGArIV53CWyvM+N9zzxabwt4uJeC22Tznos3OHfgJ+Ibiux/5BUwhdRwHvb6xQvBJtw2p1dRLLMLIn93+QPjcDWosrwPeG6O3pXtOG4kCkrBmhsYXvu9GcPzaPsOifvevN8VsgOWqh035KV3X4PpRBiuEVA6n5Szad8jV7U1kHx0wAfjp/2SVsPq1GA1sy/xl3Y4ITz/BczHmUmJEAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="DELETE" query="flow=dcbf67ef836b52108eb710c5eeaad38c^sys_idNOT INd81f7bf783ef92108eb710c5eeaad39d"/>
+    <sys_hub_sub_flow_instance_v2 action="DELETE">
+        <attributes/>
+        <comment>Create Incident based on the Box record</comment>
+        <display_text/>
+        <flow display_value="EV Create Incident">dcbf67ef836b52108eb710c5eeaad38c</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>fb39d207-00d4-4686-8136-35a88a91d5be</parent_ui_id>
+        <subflow display_value="EV Incident Flow">e963fbb783af92108eb710c5eeaad3fb</subflow>
+        <subflow_inputs>H4sIAAAAAAAA/42RT2/bMAzFv0qhs2M4cbf8ua3JAhTYVmBdcykKg5aoRIAsubKUJgvy3UfFhmt0OfRiwI+k+N6PzyemBFuw+QygzKf5LEc5n4yzGZbTcca/IAKIPMtYwgxUSJ24L0p7KLgiaQ86RO10eqoFeBTFOOXBOTT+fKa6UE2t4bjp2kjhO6UF1dni+SVhNTh61KNji9OH0mddaShRU+v3zc2dPdws76879cc6Sg4l0gqOnfSjm/490K0T0dA4YXjwaASSEwm6wYRVYCimdcdecQjiweh3YaeMb6NWcGjUX9qaT5LB4gULBTkTuFccGzYoFR2uNs2qb5Ar8PDoXeA+uJ6jvVQvrARKCNovh1rb8FB7ZU074qHUV9Zzq0NlfrXIWP/Y4GahIWtYRxQxWxdUPu7sW89trcyFWlfUloMetCI4vlsr1PGq0DToCw9behu8d6oMPto+saD+/H+nVrx2KdRYkaWigrpWZlvUzu7VxQalqtKtpp9UavtG9hu1NSnwiCOlG0K6Jn11kTfgVGTzk56h4bjxyajXgPfRbSazryBvYTSZ0+c2RxjBVIpRNs7zrOQSp7M5OyesOTZLTdHeSVKI4jVEDi3XjmDRHiSOcKdq/41M7bGDdX75B1tjjLqSAwAA</subflow_inputs>
+        <sys_class_name>sys_hub_sub_flow_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-13 10:30:13</sys_created_on>
+        <sys_id>d81f7bf783ef92108eb710c5eeaad39d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-13 11:06:19</sys_updated_on>
+        <ui_id>5aa2a216-3b76-48c6-b279-378f20e8cf36</ui_id>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_hub_sub_flow_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="DELETE" query="flow=dcbf67ef836b52108eb710c5eeaad38c^sys_idNOT IN581f7bf783ef92108eb710c5eeaad39b,dc1f7bf783ef92108eb710c5eeaad39c"/>
+    <sys_hub_flow_logic_instance_v2 action="DELETE">
+        <attributes/>
+        <block display_value="">6e6cef3f836f92108eb710c5eeaad397</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="EV Create Incident">dcbf67ef836b52108eb710c5eeaad38c</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-13 10:30:13</sys_created_on>
+        <sys_id>581f7bf783ef92108eb710c5eeaad39b</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-13 11:21:55</sys_updated_on>
+        <ui_id>fb39d207-00d4-4686-8136-35a88a91d5be</ui_id>
+        <values>H4sIAAAAAAAA/+1VyW7bMBD9lYBn2aAl77fAQQADaQM0QS5tIIy42ERpUhUpO67gf+9Qi22k7pK2x14E8c1w5r3RPKgitvR56d2jvXZOrQyZf3yOiDIBw/eKGNgIMifMGq68siatgYhsQZchsJRXS8MUF8ZfMVvik2KUK5dr2D/9NImtleaFaHvmUGBlLwoyr16FFMcakoIczNiAJfE4iSmNp8NBNk6yQcwTEJBgQQ2Z0Ji66Mhe3dVI9EMVfp8H3PlCmVV7vmurPHSgLXhgNaARES9eGC6QjwTtREQ2YDh4W+yPSCGA3xt9AtbKeCxHQvKLU1+xYTwahUQpUCITTfB4TNvhNbC8AQ9IpWS+LNpUtraKCdcMhwsJpfaLc6xJuM+D1OaKh0x3t60uN+Z9MxFyLNB9K0RKhyREHpQG6q0O+bC2uw8dy1tl6qm0QW0Z6OMJPM4uK33gUxGhxQYLpRvIc5xomhd2q+rLyGXTX2k89KW2O2wadrAPLBDv42Chf4v4TQ0/QaGCindYBi83NDNwiqX1vmI5HJMgh4i4vVtocO4kEqebfikDxUZyKy5t5hOusELl/ho7b0Wr4xB9v/5nm19Vk6EcSs6nvWQ8iXvDEZ/0ZhmwnqBMsrFIkmwy7S/Cvh8On0pKE37BG39a5m3umcFIjgZ0dNk9w/El91zwzRstE//CMuF7/aZjKKX/LfPXllEubRa91VY3/4eOeQ72aHoeZ82UQ2qPAVt2/5UQ2ONyKXYO7WzxOYg6YYdvdTYaQKEGAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="DELETE">
+        <attributes/>
+        <block display_value="">2cbe633383af92108eb710c5eeaad3ac</block>
+        <comment>If incident count &lt; 0 create diagnostic log</comment>
+        <connected_to>fb39d207-00d4-4686-8136-35a88a91d5be</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="EV Create Incident">dcbf67ef836b52108eb710c5eeaad38c</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-13 10:30:13</sys_created_on>
+        <sys_id>dc1f7bf783ef92108eb710c5eeaad39c</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-13 11:21:56</sys_updated_on>
+        <ui_id>07df6e6f-40ba-4a76-b7b1-bc43c3c0928f</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=dcbf67ef836b52108eb710c5eeaad38c"/>
+    <sys_hub_flow_variable action="DELETE" query="model=dcbf67ef836b52108eb710c5eeaad38c"/>
+    <sys_documentation action="DELETE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_dcbf67ef836b52108eb710c5eeaad38c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-12 14:44:34</sys_created_on>
+        <sys_id>1cbf67ef836b52108eb710c5eeaad396</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-12 14:44:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_dcbf67ef836b52108eb710c5eeaad38c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-12 14:44:34</sys_created_on>
+        <sys_id>dcbf67ef836b52108eb710c5eeaad39d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-12 14:44:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_dcbf67ef836b52108eb710c5eeaad38c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-12 14:44:34</sys_created_on>
+        <sys_id>dcbf67ef836b52108eb710c5eeaad3a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-12 14:44:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_dcbf67ef836b52108eb710c5eeaad38c"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_dcbf67ef836b52108eb710c5eeaad38c"/>
+    <sys_hub_flow action="DELETE">
+        <sys_id>6b19a99f83271e108eb710c5eeaad39b</sys_id>
+        <latest_snapshot>dcbf67ef836b52108eb710c5eeaad38c</latest_snapshot>
+        <compiler_build>glide-yokohama-12-18-2024__patch0-01-14-2025_01-22-2025_0439.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=6b19a99f83271e108eb710c5eeaad39b^sys_idNOT INd4bf67ef836b52108eb710c5eeaad3ce"/>
+    <sys_flow_trigger_plan action="DELETE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"d4bf67ef836b52108eb710c5eeaad3ce","name":"plan","plan_signature":null}}</plan>
+        <plan_id>6b19a99f83271e108eb710c5eeaad39b</plan_id>
+        <snapshot>dcbf67ef836b52108eb710c5eeaad38c</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-12 14:44:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d4bf67ef836b52108eb710c5eeaad3ce</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-13 11:21:56</sys_updated_on>
+        <trigger display_value="">31ea08488333d2108eb710c5eeaad3d5</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=6b19a99f83271e108eb710c5eeaad39b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</application>
+        <file_path/>
+        <instance_id>f7c0ba231bd1865819254089bd4bcb9b</instance_id>
+        <instance_name>dev258302</instance_name>
+        <name>sys_hub_flow_6b19a99f83271e108eb710c5eeaad39b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;attributes&gt;browserActivatedIn=firefox,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=176627000,viewActivatedIn=naturalLanguage&lt;/attributes&gt;&lt;authored_on_release_version&gt;27000&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description&gt;Import all of the plug informations from the database.&lt;/description&gt;&lt;display_name_after_preview/&gt;&lt;flow_priority&gt;MEDIUM&lt;/flow_priority&gt;&lt;generation_source/&gt;&lt;internal_name&gt;ev_start_up_plug_import&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"Updated_1.current.assigned_to.email","label":"Trigger - Record Updated➛EV Devices Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{}},{"name":"Updated_1.current.asset_tag","label":"Trigger - Record Updated➛EV Devices Record➛Asset tag","reference":"","reference_display":"Asset tag","type":"string","base_type":"string","parent_table_name":"u_ev_devices","column_name":"asset_tag","usedInstances":{"7de9bf2a-e67b-4fe5-9a8f-34db9757dfea":["cmdb_ci","short_description"],"e6854ef7-2caa-429c-89d0-de1bc8a1bd5f":["conditions"],"95532b39-732b-44f0-9b74-b10068f277f7":["conditions"],"ca2c4dcf-418a-4ff5-b96d-e3f69a81ab4b":["values"],"19cf62c4-57a5-414d-8564-2de3f4dfa186":["u_log"]}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛EV Devices Record","reference":"u_ev_devices","reference_display":"EV Devices","type":"reference","base_type":"reference","usedInstances":{"7de9bf2a-e67b-4fe5-9a8f-34db9757dfea":["cmdb_ci"],"7c581dce-5db5-4f0e-b735-b865561bf589":["record"],"ca2c4dcf-418a-4ff5-b96d-e3f69a81ab4b":["values"],"c6389633-46ab-45bd-8b3c-24e2e215265f":["record"],"3626142a-3a35-4ded-83aa-b0ced763621d":["device_asset_tag"],"5aa2a216-3b76-48c6-b279-378f20e8cf36":["ev_box_ci"],"74f4fdd8-3672-45d7-9bac-e0cfc6e33b78":["conditions"]},"attributes":{}},{"name":"Updated_1.table_name","label":"Trigger - Record Updated➛EV Devices Table","reference":"u_ev_devices","reference_display":"EV Devices","type":"table_name","base_type":"table_name","usedInstances":{},"attributes":{"test_input_hidden":"true"}},{"name":"74f4fdd8-3672-45d7-9bac-e0cfc6e33b78.Count","label":"1 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","usedInstances":{"fb39d207-00d4-4686-8136-35a88a91d5be":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]&lt;/label_cache&gt;&lt;master_snapshot&gt;dcbf67ef836b52108eb710c5eeaad38c&lt;/master_snapshot&gt;&lt;master_snapshot_digest/&gt;&lt;name&gt;EV Create Incident&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;remote_trigger_id&gt;31ea08488333d2108eb710c5eeaad3d5&lt;/remote_trigger_id&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;published&lt;/status&gt;&lt;substatus/&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-11 10:18:06&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6b19a99f83271e108eb710c5eeaad39b&lt;/sys_id&gt;&lt;sys_mod_count&gt;29&lt;/sys_mod_count&gt;&lt;sys_name&gt;EV Create Incident&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EV Box Managment"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_6b19a99f83271e108eb710c5eeaad39b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-13 11:21:56&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;version&gt;2&lt;/version&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=6b19a99f83271e108eb710c5eeaad39b"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=6b19a99f83271e108eb710c5eeaad39b"/&gt;&lt;sys_flow_record_trigger action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;condition table="u_ev_devices"&gt;operational_status=2&lt;item display_value="Non-Operational" endquery="false" field="operational_status" goto="false" newquery="false" operator="=" or="false" value="2"/&gt;&lt;/condition&gt;&lt;name/&gt;&lt;on_delete&gt;false&lt;/on_delete&gt;&lt;on_insert&gt;false&lt;/on_insert&gt;&lt;on_update&gt;true&lt;/on_update&gt;&lt;published_version/&gt;&lt;run_flow_in&gt;background&lt;/run_flow_in&gt;&lt;run_on_extended&gt;false&lt;/run_on_extended&gt;&lt;run_when_setting&gt;both&lt;/run_when_setting&gt;&lt;run_when_user_list/&gt;&lt;run_when_user_setting&gt;any&lt;/run_when_user_setting&gt;&lt;sys_class_name&gt;sys_flow_record_trigger&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-13 11:21:56&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;31ea08488333d2108eb710c5eeaad3d5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope display_value="EV Box Managment"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-13 11:21:56&lt;/sys_updated_on&gt;&lt;table&gt;u_ev_devices&lt;/table&gt;&lt;trigger_definition/&gt;&lt;/sys_flow_record_trigger&gt;&lt;sys_trigger_runner_mapping action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;data&gt;{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}&lt;/data&gt;&lt;identifier&gt;6b19a99f83271e108eb710c5eeaad39b&lt;/identifier&gt;&lt;runner&gt;FDTriggerRunner&lt;/runner&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-13 11:21:56&lt;/sys_created_on&gt;&lt;sys_id&gt;f9ea08488333d2108eb710c5eeaad3d5&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-13 11:21:56&lt;/sys_updated_on&gt;&lt;trigger display_value=""&gt;31ea08488333d2108eb710c5eeaad3d5&lt;/trigger&gt;&lt;/sys_trigger_runner_mapping&gt;&lt;sys_trigger_runner_mapping action="delete_multiple" query="identifier=6b19a99f83271e108eb710c5eeaad39b^sys_idNOT INf9ea08488333d2108eb710c5eeaad3d5"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=6b19a99f83271e108eb710c5eeaad39b"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=6b19a99f83271e108eb710c5eeaad39b^sys_idNOT INe319a99f83271e108eb710c5eeaad39e"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;6b19a99f83271e108eb710c5eeaad39b&lt;/id&gt;&lt;name&gt;EV Start UP (Plug Import)&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-11 10:18:06&lt;/sys_created_on&gt;&lt;sys_id&gt;e319a99f83271e108eb710c5eeaad39e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-11 10:18:06&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=e319a99f83271e108eb710c5eeaad39e"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=6b19a99f83271e108eb710c5eeaad39b^sys_idNOT IN1197b11783a71e108eb710c5eeaad31d,9997b11783a71e108eb710c5eeaad321,9d97751783a71e108eb710c5eeaad340"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="EV Create Incident"&gt;6b19a99f83271e108eb710c5eeaad39b&lt;/model&gt;&lt;model_id&gt;6b19a99f83271e108eb710c5eeaad39b&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_6b19a99f83271e108eb710c5eeaad39b&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-11 11:21:19&lt;/sys_created_on&gt;&lt;sys_id&gt;1197b11783a71e108eb710c5eeaad31d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EV Box Managment"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-11 11:21:19&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1197b11783a71e108eb710c5eeaad31d"/&gt;&lt;sys_complex_object action="INSERT_OR_UPDATE"&gt;&lt;label/&gt;&lt;name&gt;FDCollection&lt;/name&gt;&lt;namespace&gt;FlowDesigner&lt;/namespace&gt;&lt;scope_name&gt;global&lt;/scope_name&gt;&lt;serialized_content&gt;{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}&lt;/serialized_content&gt;&lt;sys_class_name&gt;sys_complex_object&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-06-13 23:19:20&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path/&gt;&lt;sys_id&gt;f4f014150f023300ecf0cc52ff767eed&lt;/sys_id&gt;&lt;sys_mod_count&gt;101&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model"&gt;6af889be40d0121087de8045c806ff88&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-28 05:06:11&lt;/sys_updated_on&gt;&lt;type&gt;complex_object_collection&lt;/type&gt;&lt;/sys_complex_object&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;model display_value="EV Create Incident"&gt;6b19a99f83271e108eb710c5eeaad39b&lt;/model&gt;&lt;model_id&gt;6b19a99f83271e108eb710c5eeaad39b&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_6b19a99f83271e108eb710c5eeaad39b&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-11 11:21:19&lt;/sys_created_on&gt;&lt;sys_id&gt;9997b11783a71e108eb710c5eeaad321&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EV Box Managment"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-11 11:21:19&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9997b11783a71e108eb710c5eeaad321"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="EV Create Incident"&gt;6b19a99f83271e108eb710c5eeaad39b&lt;/model&gt;&lt;model_id&gt;6b19a99f83271e108eb710c5eeaad39b&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_6b19a99f83271e108eb710c5eeaad39b&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-11 11:21:19&lt;/sys_created_on&gt;&lt;sys_id&gt;9d97751783a71e108eb710c5eeaad340&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EV Box Managment"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-11 11:21:19&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9d97751783a71e108eb710c5eeaad340"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=6b19a99f83271e108eb710c5eeaad39b"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=6b19a99f83271e108eb710c5eeaad39b"/&gt;&lt;sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=6b19a99f83271e108eb710c5eeaad39b^sys_idNOT INa997751783a71e108eb710c5eeaad365"/&gt;&lt;sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="EV Create Incident"&gt;6b19a99f83271e108eb710c5eeaad39b&lt;/flow&gt;&lt;name&gt;Updated&lt;/name&gt;&lt;published_version/&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-11 11:21:19&lt;/sys_created_on&gt;&lt;sys_id&gt;a997751783a71e108eb710c5eeaad365&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-13 11:21:48&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Updated"&gt;bb695e60c31322002841b63b12d3aea5&lt;/trigger_definition&gt;&lt;trigger_inputs&gt;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&lt;/trigger_inputs&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_update&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance_v2&gt;&lt;sys_hub_action_instance_v2 action="delete_multiple" query="flow=6b19a99f83271e108eb710c5eeaad39b^sys_idNOT IN266cef3f836f92108eb710c5eeaad396,2cbe633383af92108eb710c5eeaad3ad"/&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Look Up Records"&gt;43400a1587003300663ca1bb36cb0b4b&lt;/action_type&gt;&lt;action_type_parent display_value="Look Up Records"&gt;d1c56ec50b30030085c083eb37673a50&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment&gt;Count any Incidnet records already created for the box&lt;/comment&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="EV Create Incident"&gt;6b19a99f83271e108eb710c5eeaad39b&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-13 09:08:44&lt;/sys_created_on&gt;&lt;sys_id&gt;266cef3f836f92108eb710c5eeaad396&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_scope display_value="EV Box Managment"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-13 11:06:10&lt;/sys_updated_on&gt;&lt;ui_id&gt;74f4fdd8-3672-45d7-9bac-e0cfc6e33b78&lt;/ui_id&gt;&lt;values&gt;H4sIAAAAAAAA/9VXTU/jMBD9K1XOUZWQUtjeEAiJAyABy4VFlmO7rbWOk3WcllL1v+84dpLSBgjd7i4cPZ9vxm8mzsPS49QbecfjQRDg8PD4KAiiKAiGw4jgMI6jIYmDeBB7vidxwsBS41gwOM6wKMyZS8IpkxpElOeZwIt7p7loNGTKBVVMeqOHR9/LsIJYmilvtNxQ6UXGkMAxExDgzqTqXZm8fmeYL5y3YZsE1RFJGzpV1GAJfI89aSYpg1RjLHLmewmWFOtULWqJYpheS9EIphxKHHmeMX7K+TOEPw6M3ZhBWYRZXX1ErktWTKYpJ+w60zyVVmKBWmUqikRe2QJMf9kYF0JX/QVJkUM8lhnMBoRDNL6dpvObKuE5l2V5TilSgkV9wlorHhea5eYumGAJBEIJzjIuJyhT6YyXzoAl6U8EHPpjkc4hac4nso+JAd6HFuH+OcjPSvE9VtxUcQlhwBkAcQG3jWzT87RQZVdmiIgiLxUKy9zG8lZlr9CvwqC0Vbv6kG0RGORE8UyfgMOMuVJWficmHwYNJUgqKTc58zU6k4TGiPAfBXjT5fJ7BrUxisI+KRS0U69W20Tv5LPbCJyuY+xaX6tzW9FuGF7I3DCEexsGgPufxkGr4vNNw3v8tgW/Q3Jy9CYJDpv7zlOlke3cGsu3ObwzQ885E/TFku4ArnK+NmTrxYvX8DqCjk2OjW198OW39aekJwCiyPabS8Fl+bEEoPvhbfD28vq2wYPy+hvWljKck2324p5Oe8+7b9nyXiv+dgBZOd4Cot6dRdkCvNqvVXhH3Whv1I0OPkZdIM7DskZfd62lwdWbyFxdZf9s7PGmPbBrzSFcPdbUP90tZ/jRnAcm58ZsRh8aznVmWc3ZKwTb84vrlWHz/+Z0T8HV5UN2WNGc0wnTTfbKiqZ6jsXPNr1jVz1DZXl//HobvDl7w7CZM5gBpFgOV7X+fAvhsbG9HkLfinfbDhdSs0nZvK4QK89L/NS7qTG2Ancrgtc5HKcHe3x//YvPW9X41ump+v8lfld2pfDjb8ZYGblMDwAA&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Create Record"&gt;2de05916c31332002841b63b12d3aee1&lt;/action_type&gt;&lt;action_type_parent display_value="Create Record"&gt;02f0b88cc3c632002841b63b12d3aeff&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="EV Create Incident"&gt;6b19a99f83271e108eb710c5eeaad39b&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;5&lt;/order&gt;&lt;parent_ui_id&gt;07df6e6f-40ba-4a76-b7b1-bc43c3c0928f&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-13 09:18:41&lt;/sys_created_on&gt;&lt;sys_id&gt;2cbe633383af92108eb710c5eeaad3ad&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_scope display_value="EV Box Managment"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-13 09:41:28&lt;/sys_updated_on&gt;&lt;ui_id&gt;19cf62c4-57a5-414d-8564-2de3f4dfa186&lt;/ui_id&gt;&lt;values&gt;H4sIAAAAAAAA/9VUTYvbMBD9K0JnY+x4G3ZzK2wDPTQL7TaX7SJkaewIZMmV5Hw05L935I90d9vAUkpLfZs3o/fejDR+OFIl6YLOc8je3ORzUeRFMcuy2fVVXs6LMp/JggNc0YQa3gBWBl5qYH2Q0C3XXQQ7BlsmFa+N9UEJzEjlW80P67Hg3ZrcPk2LjdLSgaGLh8eEttwhXwBHF8cXqXBogWlegkaW+6hNVoP2a30/O3yhj6jyErNORkNZQmEfwEhAvYprDwltuJE8WHegi+A6BBxweWf04VyxUSYgIY21e6++Ift1FusqwNYEDLlzyMZxDbDYWCXgrg3KmgHpjY1Jq7vGrIYm4qCh4p0O06AR6TzyQRstRxOjo+rTxu4+ToJLZfruxqS2gutzxENwquwC+HgfoKFBItbwtlWmZq2zW9UfRi9NWmsM0krbHYp6VZuUi2g8xQnxdIn4bQ+vuVOxiw9Ig4dPfffsaxd1hz5Gx2xoGgu8cKoNb5FuC6O5UzI9WAnZzcWLz8sfF92/Uf/ssWpbf+myrJD3GyDvjVBRl1TWkYDA8fi5RfMgWZ6KzuG8Qsq9h8ACr08nwnW87gOBvcLX7FOyssTA7kzkCfLXINOf1+BvSv/mikGDhgOQwXLy6mlPBEsFWvpfjH/asVGAbUeBcc/yP7Vn+Tzrv3+zbYPP/2zZnvz3Lqzd43fFwk9CKQYAAA==&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=6b19a99f83271e108eb710c5eeaad39b^sys_idNOT IN9a0f3bf783ef92108eb710c5eeaad339"/&gt;&lt;sys_hub_sub_flow_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;comment&gt;Create Incident based on the Box record&lt;/comment&gt;&lt;display_text/&gt;&lt;flow display_value="EV Create Incident"&gt;6b19a99f83271e108eb710c5eeaad39b&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;3&lt;/order&gt;&lt;parent_ui_id&gt;fb39d207-00d4-4686-8136-35a88a91d5be&lt;/parent_ui_id&gt;&lt;subflow display_value="EV Incident Flow"&gt;e963fbb783af92108eb710c5eeaad3fb&lt;/subflow&gt;&lt;subflow_inputs&gt;H4sIAAAAAAAA/41SyW7bMBD9lYBnWZCstF5uTdIAAdoGaBtfgoAYkUObAEUqFKnYNfzvHVqKa7Q+9CKQb5a3UM97piVbssUcoK5m1bxCtZiWxRzrWVmID4gAsioKljELDVIn9rx2Wy40QT2YmLD9/qmVEFDyMhfRe7ThcKC61F1rYLca2wgRG20k1dny+SVjLXhaGtCz5f6vUti1yA3UaGjwOyqkikDa8L9y32c/r65u3Pbq9uGyhcRDkD9jcF4mRWXGcBvQSiRGBabDjDVgyafzuxPiEeSjNX+AjbZh8NrAttO/aHs1zc4IlixyUiCx1wI7dlbiY16D6rtTg9g4Oj22QTs7rA5QmwubhDOxsd8Glyl/VBBNOMs/dsSCbXKVZI6a1Y+NezuFfK/tMYCxaJwAc7pBCF7XMRAfvVnUP//NbwC/XHg7NNgQL2+gbbVd89a7Xh+5SHqTrw1dcmXcG2ns9NrmIJLnnDKH/J7wuyO8Aq9TAF9pDQ0nxierXyM+pH+jUMVHUNcwmS7oc10hTGCm5KQoq6qohcLZfMEOx9j5a0zWhqjGUPiQMTV0wus2fCIJPY7+Dy+/AZSvDXAxAwAA&lt;/subflow_inputs&gt;&lt;sys_class_name&gt;sys_hub_sub_flow_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-13 10:30:05&lt;/sys_created_on&gt;&lt;sys_id&gt;9a0f3bf783ef92108eb710c5eeaad339&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="EV Box Managment"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-13 11:06:10&lt;/sys_updated_on&gt;&lt;ui_id&gt;5aa2a216-3b76-48c6-b279-378f20e8cf36&lt;/ui_id&gt;&lt;wait_for_completion&gt;true&lt;/wait_for_completion&gt;&lt;/sys_hub_sub_flow_instance_v2&gt;&lt;sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=6b19a99f83271e108eb710c5eeaad39b^sys_idNOT IN24be633383af92108eb710c5eeaad3ad,2a6cef3f836f92108eb710c5eeaad398"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;block display_value=""&gt;2cbe633383af92108eb710c5eeaad3ac&lt;/block&gt;&lt;comment&gt;If incident count &amp;lt; 0 create diagnostic log&lt;/comment&gt;&lt;connected_to&gt;fb39d207-00d4-4686-8136-35a88a91d5be&lt;/connected_to&gt;&lt;decision_table/&gt;&lt;display_text/&gt;&lt;flow display_value="EV Create Incident"&gt;6b19a99f83271e108eb710c5eeaad39b&lt;/flow&gt;&lt;flow_variables_assigned/&gt;&lt;generation_source/&gt;&lt;logic_definition display_value="Else"&gt;1f781bf3c32232002841b63b12d3aee6&lt;/logic_definition&gt;&lt;order&gt;4&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-13 09:18:41&lt;/sys_created_on&gt;&lt;sys_id&gt;24be633383af92108eb710c5eeaad3ad&lt;/sys_id&gt;&lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;&lt;sys_scope display_value="EV Box Managment"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-13 11:21:53&lt;/sys_updated_on&gt;&lt;ui_id&gt;07df6e6f-40ba-4a76-b7b1-bc43c3c0928f&lt;/ui_id&gt;&lt;values&gt;H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=&lt;/values&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic_instance_v2&gt;&lt;sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;block display_value=""&gt;6e6cef3f836f92108eb710c5eeaad397&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;display_text/&gt;&lt;flow display_value="EV Create Incident"&gt;6b19a99f83271e108eb710c5eeaad39b&lt;/flow&gt;&lt;flow_variables_assigned/&gt;&lt;generation_source/&gt;&lt;logic_definition display_value="If"&gt;af4e1945c3e232002841b63b12d3ae3e&lt;/logic_definition&gt;&lt;order&gt;2&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-13 09:08:44&lt;/sys_created_on&gt;&lt;sys_id&gt;2a6cef3f836f92108eb710c5eeaad398&lt;/sys_id&gt;&lt;sys_mod_count&gt;15&lt;/sys_mod_count&gt;&lt;sys_scope display_value="EV Box Managment"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-13 11:21:53&lt;/sys_updated_on&gt;&lt;ui_id&gt;fb39d207-00d4-4686-8136-35a88a91d5be&lt;/ui_id&gt;&lt;values&gt;H4sIAAAAAAAA/+2UXWvbMBSG/0rxtWMUO87XXekoBLYV1tKbrRhZOkrEZMmT5KRZyH/fkT/SsKXbKLvcTYjeI53zvicPOUSm8XXj3YO5dk6udbT8/BRHUgcNvx8iTSuIlhEzmksvjS5aIY62VDWhsBJXK80kB+2vmGnwk2CVS1crun/87SW2kYpb6GfW1GJnDzZaHn4q+X0NhaIlKOx1763Ua3wuOZ4EoWK8YGOWpdMsJSSdT8blNCvHKc8o0AzvDQ9vhghX71slfjVbmIe6GyYZy4OtMYkjePagOeBoQZWDOKqo5tQbuz8pFii/0+pF2EjtsV0ULj87+R17p3keLgrAjAy64ulY9NvrZLYxksFdHQx2iqel6t8wo5pKf+xyhL2DoI3yw95RaRz2gzqYDi56S+J+Y3afhoG3UrcB+6IyjKrTiXpcQ9l4cOGHAQUVNioqWte4nKK2Zivbx+ilStYKD4lQZodDA08JZcF4gjuiyS3q71r5kVoZUnzANvi4s1lSJ1nRsoftvMUIx3YtxbcmGOoC9lGKbht4wTEra3+Nc7bQuz7Gv4J7xuzhMJuIieB8Psqms3Q0yflstCgpGwFhgk0hy8rZPLkJpB6PXxpCMn6B6re2+RfcL2gu8jHJL3M/mV7i/gLxr8Oe/gH28PP8JeuEkP+wn8MuXdFB22drh7+Z9acAdjfBddxwYNKhkYegrYb/8lDYIwCSnUs7Y7+GCC/a8QeZhAgaFQYAAA==&lt;/values&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic_instance_v2&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=6b19a99f83271e108eb710c5eeaad39b"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=6b19a99f83271e108eb710c5eeaad39b"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_6b19a99f83271e108eb710c5eeaad39b&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-11 11:21:19&lt;/sys_created_on&gt;&lt;sys_id&gt;5997b11783a71e108eb710c5eeaad320&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EV Box Managment"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-11 11:21:19&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_6b19a99f83271e108eb710c5eeaad39b&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-11 11:21:19&lt;/sys_created_on&gt;&lt;sys_id&gt;5d97751783a71e108eb710c5eeaad342&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EV Box Managment"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-11 11:21:19&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_6b19a99f83271e108eb710c5eeaad39b&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-11 11:21:19&lt;/sys_created_on&gt;&lt;sys_id&gt;9d97751783a71e108eb710c5eeaad33f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EV Box Managment"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-11 11:21:19&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_6b19a99f83271e108eb710c5eeaad39b"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_6b19a99f83271e108eb710c5eeaad39b"/&gt;&lt;sys_hub_flow_snapshot action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;attributes&gt;browserActivatedIn=firefox,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage&lt;/attributes&gt;&lt;authored_on_release_version&gt;27000&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description&gt;Import all of the plug informations from the database.&lt;/description&gt;&lt;flow_priority&gt;MEDIUM&lt;/flow_priority&gt;&lt;internal_name&gt;ev_plug_maintanance&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"Updated_1.current.assigned_to.email","label":"Trigger - Record Updated➛EV Devices Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{}},{"name":"Updated_1.current.asset_tag","label":"Trigger - Record Updated➛EV Devices Record➛Asset tag","reference":"","reference_display":"Asset tag","type":"string","base_type":"string","parent_table_name":"u_ev_devices","column_name":"asset_tag","usedInstances":{"7de9bf2a-e67b-4fe5-9a8f-34db9757dfea":["cmdb_ci","short_description"],"e6854ef7-2caa-429c-89d0-de1bc8a1bd5f":["conditions"],"95532b39-732b-44f0-9b74-b10068f277f7":["conditions"],"ca2c4dcf-418a-4ff5-b96d-e3f69a81ab4b":["values"],"19cf62c4-57a5-414d-8564-2de3f4dfa186":["u_log"]}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛EV Devices Record","reference":"u_ev_devices","reference_display":"EV Devices","type":"reference","base_type":"reference","usedInstances":{"7de9bf2a-e67b-4fe5-9a8f-34db9757dfea":["cmdb_ci"],"7c581dce-5db5-4f0e-b735-b865561bf589":["record"],"ca2c4dcf-418a-4ff5-b96d-e3f69a81ab4b":["values"],"c6389633-46ab-45bd-8b3c-24e2e215265f":["record"],"3626142a-3a35-4ded-83aa-b0ced763621d":["device_asset_tag"],"5aa2a216-3b76-48c6-b279-378f20e8cf36":["ev_box_ci"],"74f4fdd8-3672-45d7-9bac-e0cfc6e33b78":["conditions"]},"attributes":{}},{"name":"Updated_1.table_name","label":"Trigger - Record Updated➛EV Devices Table","reference":"u_ev_devices","reference_display":"EV Devices","type":"table_name","base_type":"table_name","usedInstances":{},"attributes":{"test_input_hidden":"true"}},{"name":"74f4fdd8-3672-45d7-9bac-e0cfc6e33b78.Count","label":"1 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","usedInstances":{"fb39d207-00d4-4686-8136-35a88a91d5be":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]&lt;/label_cache&gt;&lt;master&gt;true&lt;/master&gt;&lt;name&gt;EV Create Incident&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;parent_flow display_value="EV Create Incident"&gt;6b19a99f83271e108eb710c5eeaad39b&lt;/parent_flow&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;status&gt;published&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow_snapshot&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-12 14:44:33&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;dcbf67ef836b52108eb710c5eeaad38c&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EV Box Managment"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-13 11:21:56&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;version&gt;2&lt;/version&gt;&lt;/sys_hub_flow_snapshot&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=dcbf67ef836b52108eb710c5eeaad38c"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=dcbf67ef836b52108eb710c5eeaad38c"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=dcbf67ef836b52108eb710c5eeaad38c"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=dcbf67ef836b52108eb710c5eeaad38c^sys_idNOT IN98bf67ef836b52108eb710c5eeaad38d"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;dcbf67ef836b52108eb710c5eeaad38c&lt;/id&gt;&lt;name&gt;EV Plug Maintanance&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-12 14:44:33&lt;/sys_created_on&gt;&lt;sys_id&gt;98bf67ef836b52108eb710c5eeaad38d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-12 14:44:33&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=98bf67ef836b52108eb710c5eeaad38d"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=dcbf67ef836b52108eb710c5eeaad38c^sys_idNOT IN1cbf67ef836b52108eb710c5eeaad38e,58bf67ef836b52108eb710c5eeaad3a0,94bf67ef836b52108eb710c5eeaad399"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="EV Create Incident"&gt;dcbf67ef836b52108eb710c5eeaad38c&lt;/model&gt;&lt;model_id&gt;dcbf67ef836b52108eb710c5eeaad38c&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_dcbf67ef836b52108eb710c5eeaad38c&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-12 14:44:33&lt;/sys_created_on&gt;&lt;sys_id&gt;1cbf67ef836b52108eb710c5eeaad38e&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EV Box Managment"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-13 11:21:55&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1cbf67ef836b52108eb710c5eeaad38e"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="EV Create Incident"&gt;dcbf67ef836b52108eb710c5eeaad38c&lt;/model&gt;&lt;model_id&gt;dcbf67ef836b52108eb710c5eeaad38c&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_dcbf67ef836b52108eb710c5eeaad38c&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-12 14:44:34&lt;/sys_created_on&gt;&lt;sys_id&gt;58bf67ef836b52108eb710c5eeaad3a0&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EV Box Managment"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-13 11:21:55&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=58bf67ef836b52108eb710c5eeaad3a0"/&gt;&lt;sys_complex_object action="INSERT_OR_UPDATE"&gt;&lt;label/&gt;&lt;name&gt;FDCollection&lt;/name&gt;&lt;namespace&gt;FlowDesigner&lt;/namespace&gt;&lt;scope_name&gt;global&lt;/scope_name&gt;&lt;serialized_content&gt;{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}&lt;/serialized_content&gt;&lt;sys_class_name&gt;sys_complex_object&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-06-13 23:19:20&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path/&gt;&lt;sys_id&gt;f4f014150f023300ecf0cc52ff767eed&lt;/sys_id&gt;&lt;sys_mod_count&gt;101&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model"&gt;6af889be40d0121087de8045c806ff88&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-28 05:06:11&lt;/sys_updated_on&gt;&lt;type&gt;complex_object_collection&lt;/type&gt;&lt;/sys_complex_object&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;model display_value="EV Create Incident"&gt;dcbf67ef836b52108eb710c5eeaad38c&lt;/model&gt;&lt;model_id&gt;dcbf67ef836b52108eb710c5eeaad38c&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_dcbf67ef836b52108eb710c5eeaad38c&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-12 14:44:34&lt;/sys_created_on&gt;&lt;sys_id&gt;94bf67ef836b52108eb710c5eeaad399&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EV Box Managment"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-12 14:46:33&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=94bf67ef836b52108eb710c5eeaad399"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=dcbf67ef836b52108eb710c5eeaad38c"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=dcbf67ef836b52108eb710c5eeaad38c"/&gt;&lt;sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=dcbf67ef836b52108eb710c5eeaad38c^sys_idNOT IN94bf67ef836b52108eb710c5eeaad3c5"/&gt;&lt;sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="EV Create Incident"&gt;dcbf67ef836b52108eb710c5eeaad38c&lt;/flow&gt;&lt;name&gt;Updated&lt;/name&gt;&lt;published_version/&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-12 14:44:34&lt;/sys_created_on&gt;&lt;sys_id&gt;94bf67ef836b52108eb710c5eeaad3c5&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-13 11:21:55&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Updated"&gt;bb695e60c31322002841b63b12d3aea5&lt;/trigger_definition&gt;&lt;trigger_inputs&gt;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&lt;/trigger_inputs&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_update&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance_v2&gt;&lt;sys_hub_action_instance_v2 action="delete_multiple" query="flow=dcbf67ef836b52108eb710c5eeaad38c^sys_idNOT IN181f7bf783ef92108eb710c5eeaad39a,d81f7bf783ef92108eb710c5eeaad399"/&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Create Record"&gt;2de05916c31332002841b63b12d3aee1&lt;/action_type&gt;&lt;action_type_parent display_value="Create Record"&gt;02f0b88cc3c632002841b63b12d3aeff&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;2de05916c31332002841b63b12d3aee1&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="EV Create Incident"&gt;dcbf67ef836b52108eb710c5eeaad38c&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;5&lt;/order&gt;&lt;parent_ui_id&gt;07df6e6f-40ba-4a76-b7b1-bc43c3c0928f&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-13 10:30:13&lt;/sys_created_on&gt;&lt;sys_id&gt;181f7bf783ef92108eb710c5eeaad39a&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope display_value="EV Box Managment"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-13 10:30:13&lt;/sys_updated_on&gt;&lt;ui_id&gt;19cf62c4-57a5-414d-8564-2de3f4dfa186&lt;/ui_id&gt;&lt;values&gt;H4sIAAAAAAAA/9VUXWvbMBT9K0bPxth1F9q8jWaBwZbC2uWlK+baunYEsuRJchIv5L/vynbStGvYBmPQvOl+nnN8Tx52THA2ZZME43fXyaRIkzS9iOOLq8skn6R5csFTQLxkIVNQI1U6yCVm/SNka5CtD7YZrjMuoFLaOlFQhgvbSOiWY8GHZTA7TRcrIblBxaYPjyFrwNA8h4ZNdy9Sf4pOQo6SSu89vDNoXde8Gvt02hsshoQ23OOJQ4Zbh4ojASlBWgxZDYqD06ZjU2daChgEfqtkd6xYCeVoIPO1Wyt+0Nqr2NeVSMwKHHLHZzaqNYTLGTi4o8mFa81YWqy0KNAOmnAsoZXu5jQ2FNw2Tmg1tPQ0x24t21otBknYccDh41CktQQCG8/TIx9plHcrvflyQDkXqpdkTEpdgDy+wDkj8tZ5PDuGEmsalNXQNEJVWWP0WvTNhKWOKkmPqJR6Q0utqFQEhQcekawQzSk+68NLMMKz+ExjqHkfMtvZGwnWPnEhEbPvrUcyMBs5ZIMMvqUwonHvacEaR7j78HD2HOPrs4eV5E+H1F+6fXbyUlff2jhO+f0Kg4+qEH5vUGoTOArsdl8booM8S6KiNaSgiwg4usxBtd8HIP3VdAFuBXnCRsFCBwo3x0E2oPkV8uhXM/3P1X9p1N/reTDqXKDk9hWBDy7Fmjg7zAbBXzh1TAbLMTm6NflXbk0mcf97Q54dyL15y578O58x7+NPLO93g7UGAAA=&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Look Up Records"&gt;43400a1587003300663ca1bb36cb0b4b&lt;/action_type&gt;&lt;action_type_parent display_value="Look Up Records"&gt;d1c56ec50b30030085c083eb37673a50&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment&gt;Count any Incidnet records already created for the box&lt;/comment&gt;&lt;compiled_snapshot&gt;43400a1587003300663ca1bb36cb0b4b&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="EV Create Incident"&gt;dcbf67ef836b52108eb710c5eeaad38c&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-13 10:30:13&lt;/sys_created_on&gt;&lt;sys_id&gt;d81f7bf783ef92108eb710c5eeaad399&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_scope display_value="EV Box Managment"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-13 11:06:19&lt;/sys_updated_on&gt;&lt;ui_id&gt;74f4fdd8-3672-45d7-9bac-e0cfc6e33b78&lt;/ui_id&gt;&lt;values&gt;H4sIAAAAAAAA/+VX207jMBD9lcrPVZXQUljeViAkJC4SsLzsIsuxndZa18naTkup+u87jp2L2sC2UpFA++i52GdmznGcnyskGDpDp+koikh8fHoSRcNhFI3HQ0riJBmOaRIlowT1kSIzDpGWJJLDck5k4dZCUcG4smBiwuSSLJ+C56rx0KmQTHOFzn4+91FONOxluUZnqw3XrmAkSbiE0MeAZgOcXeb1Epc+b7tup/VuvSPTzEGJ+oi/WK4YBwwpkYb30YwoRmyml7VFc8LulGwMUwEVniHkgl+MeIVzTyMXl3KoinLvq5c4NMmb0wtiyYPVBbWFDqF0mgnKje8H4ykppD1v23zAXW5FpnyKL9tnZ7KYqVvfDlRvUM0ELIUBEDx3hTrkoYz0YZot7iuUl0KVPQlOmVEi6xWxVouksA7PCnHJZ7ARnpE8F2qCc53NRZkMWGaDiYTFIJXZAg41YqIGhDrgA+grGVyC/aI0PxEtXBU3sA0kAyAhgSHYj9BkhS5bOcdUFqZ0aKKM3wut+8gszbkkxjSVQ8vxn8Lh9n0IFWPfNJdCtcjtd9hizkNx6/5OejiOGsrRTDHhUJiWKOiMJZiKXwVks9XqRw7VcobjAS00NNiu19ty2SnnkEIqq6iEdN4uo6u0IKkt23XXBkFS8cEkBXV8JVHB4Z9PU/urxLfgH1KhJ++S7Ljhk8m0xb6XLa1sK2Fvnu8AoeL5nWNmL1m+hSrQPBVcsq4vx6VzbHw5jv7PL8enJDkAYthPTygpVPkMAKAfxf7o/Sv22wbPSno13C9txNBtDZCezXqveythBziVEh7g7N6jx9MBsbrvS8ps3vWVMQhgeDABDI8OI4BVXWbdyI6eVy8/N80q/tXFk814oGArIV53CWyvM+N9zzxabwt4uJeC22Tznos3OHfgJ+Ibiux/5BUwhdRwHvb6xQvBJtw2p1dRLLMLIn93+QPjcDWosrwPeG6O3pXtOG4kCkrBmhsYXvu9GcPzaPsOifvevN8VsgOWqh035KV3X4PpRBiuEVA6n5Szad8jV7U1kHx0wAfjp/2SVsPq1GA1sy/xl3Y4ITz/BczHmUmJEAAA&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=dcbf67ef836b52108eb710c5eeaad38c^sys_idNOT INd81f7bf783ef92108eb710c5eeaad39d"/&gt;&lt;sys_hub_sub_flow_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;comment&gt;Create Incident based on the Box record&lt;/comment&gt;&lt;display_text/&gt;&lt;flow display_value="EV Create Incident"&gt;dcbf67ef836b52108eb710c5eeaad38c&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;3&lt;/order&gt;&lt;parent_ui_id&gt;fb39d207-00d4-4686-8136-35a88a91d5be&lt;/parent_ui_id&gt;&lt;subflow display_value="EV Incident Flow"&gt;e963fbb783af92108eb710c5eeaad3fb&lt;/subflow&gt;&lt;subflow_inputs&gt;H4sIAAAAAAAA/42RT2/bMAzFv0qhs2M4cbf8ua3JAhTYVmBdcykKg5aoRIAsubKUJgvy3UfFhmt0OfRiwI+k+N6PzyemBFuw+QygzKf5LEc5n4yzGZbTcca/IAKIPMtYwgxUSJ24L0p7KLgiaQ86RO10eqoFeBTFOOXBOTT+fKa6UE2t4bjp2kjhO6UF1dni+SVhNTh61KNji9OH0mddaShRU+v3zc2dPdws76879cc6Sg4l0gqOnfSjm/490K0T0dA4YXjwaASSEwm6wYRVYCimdcdecQjiweh3YaeMb6NWcGjUX9qaT5LB4gULBTkTuFccGzYoFR2uNs2qb5Ar8PDoXeA+uJ6jvVQvrARKCNovh1rb8FB7ZU074qHUV9Zzq0NlfrXIWP/Y4GahIWtYRxQxWxdUPu7sW89trcyFWlfUloMetCI4vlsr1PGq0DToCw9behu8d6oMPto+saD+/H+nVrx2KdRYkaWigrpWZlvUzu7VxQalqtKtpp9UavtG9hu1NSnwiCOlG0K6Jn11kTfgVGTzk56h4bjxyajXgPfRbSazryBvYTSZ0+c2RxjBVIpRNs7zrOQSp7M5OyesOTZLTdHeSVKI4jVEDi3XjmDRHiSOcKdq/41M7bGDdX75B1tjjLqSAwAA&lt;/subflow_inputs&gt;&lt;sys_class_name&gt;sys_hub_sub_flow_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-13 10:30:13&lt;/sys_created_on&gt;&lt;sys_id&gt;d81f7bf783ef92108eb710c5eeaad39d&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="EV Box Managment"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-13 11:06:19&lt;/sys_updated_on&gt;&lt;ui_id&gt;5aa2a216-3b76-48c6-b279-378f20e8cf36&lt;/ui_id&gt;&lt;wait_for_completion&gt;true&lt;/wait_for_completion&gt;&lt;/sys_hub_sub_flow_instance_v2&gt;&lt;sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=dcbf67ef836b52108eb710c5eeaad38c^sys_idNOT IN581f7bf783ef92108eb710c5eeaad39b,dc1f7bf783ef92108eb710c5eeaad39c"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;block display_value=""&gt;6e6cef3f836f92108eb710c5eeaad397&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;display_text/&gt;&lt;flow display_value="EV Create Incident"&gt;dcbf67ef836b52108eb710c5eeaad38c&lt;/flow&gt;&lt;flow_variables_assigned/&gt;&lt;generation_source/&gt;&lt;logic_definition display_value="If"&gt;af4e1945c3e232002841b63b12d3ae3e&lt;/logic_definition&gt;&lt;order&gt;2&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-13 10:30:13&lt;/sys_created_on&gt;&lt;sys_id&gt;581f7bf783ef92108eb710c5eeaad39b&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_scope display_value="EV Box Managment"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-13 11:21:55&lt;/sys_updated_on&gt;&lt;ui_id&gt;fb39d207-00d4-4686-8136-35a88a91d5be&lt;/ui_id&gt;&lt;values&gt;H4sIAAAAAAAA/+1VyW7bMBD9lYBn2aAl77fAQQADaQM0QS5tIIy42ERpUhUpO67gf+9Qi22k7pK2x14E8c1w5r3RPKgitvR56d2jvXZOrQyZf3yOiDIBw/eKGNgIMifMGq68siatgYhsQZchsJRXS8MUF8ZfMVvik2KUK5dr2D/9NImtleaFaHvmUGBlLwoyr16FFMcakoIczNiAJfE4iSmNp8NBNk6yQcwTEJBgQQ2Z0Ji66Mhe3dVI9EMVfp8H3PlCmVV7vmurPHSgLXhgNaARES9eGC6QjwTtREQ2YDh4W+yPSCGA3xt9AtbKeCxHQvKLU1+xYTwahUQpUCITTfB4TNvhNbC8AQ9IpWS+LNpUtraKCdcMhwsJpfaLc6xJuM+D1OaKh0x3t60uN+Z9MxFyLNB9K0RKhyREHpQG6q0O+bC2uw8dy1tl6qm0QW0Z6OMJPM4uK33gUxGhxQYLpRvIc5xomhd2q+rLyGXTX2k89KW2O2wadrAPLBDv42Chf4v4TQ0/QaGCindYBi83NDNwiqX1vmI5HJMgh4i4vVtocO4kEqebfikDxUZyKy5t5hOusELl/ho7b0Wr4xB9v/5nm19Vk6EcSs6nvWQ8iXvDEZ/0ZhmwnqBMsrFIkmwy7S/Cvh8On0pKE37BG39a5m3umcFIjgZ0dNk9w/El91zwzRstE//CMuF7/aZjKKX/LfPXllEubRa91VY3/4eOeQ72aHoeZ82UQ2qPAVt2/5UQ2ONyKXYO7WzxOYg6YYdvdTYaQKEGAAA=&lt;/values&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic_instance_v2&gt;&lt;sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;block display_value=""&gt;2cbe633383af92108eb710c5eeaad3ac&lt;/block&gt;&lt;comment&gt;If incident count &amp;lt; 0 create diagnostic log&lt;/comment&gt;&lt;connected_to&gt;fb39d207-00d4-4686-8136-35a88a91d5be&lt;/connected_to&gt;&lt;decision_table/&gt;&lt;display_text/&gt;&lt;flow display_value="EV Create Incident"&gt;dcbf67ef836b52108eb710c5eeaad38c&lt;/flow&gt;&lt;flow_variables_assigned/&gt;&lt;generation_source/&gt;&lt;logic_definition display_value="Else"&gt;1f781bf3c32232002841b63b12d3aee6&lt;/logic_definition&gt;&lt;order&gt;4&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-13 10:30:13&lt;/sys_created_on&gt;&lt;sys_id&gt;dc1f7bf783ef92108eb710c5eeaad39c&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_scope display_value="EV Box Managment"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-13 11:21:56&lt;/sys_updated_on&gt;&lt;ui_id&gt;07df6e6f-40ba-4a76-b7b1-bc43c3c0928f&lt;/ui_id&gt;&lt;values&gt;H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=&lt;/values&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic_instance_v2&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=dcbf67ef836b52108eb710c5eeaad38c"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=dcbf67ef836b52108eb710c5eeaad38c"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_dcbf67ef836b52108eb710c5eeaad38c&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-12 14:44:34&lt;/sys_created_on&gt;&lt;sys_id&gt;1cbf67ef836b52108eb710c5eeaad396&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EV Box Managment"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-12 14:44:34&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_dcbf67ef836b52108eb710c5eeaad38c&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-12 14:44:34&lt;/sys_created_on&gt;&lt;sys_id&gt;dcbf67ef836b52108eb710c5eeaad39d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EV Box Managment"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-12 14:44:34&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_dcbf67ef836b52108eb710c5eeaad38c&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-12 14:44:34&lt;/sys_created_on&gt;&lt;sys_id&gt;dcbf67ef836b52108eb710c5eeaad3a4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EV Box Managment"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-12 14:44:34&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_dcbf67ef836b52108eb710c5eeaad38c"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_dcbf67ef836b52108eb710c5eeaad38c"/&gt;&lt;sys_hub_flow action="UPDATE"&gt;&lt;sys_id&gt;6b19a99f83271e108eb710c5eeaad39b&lt;/sys_id&gt;&lt;latest_snapshot&gt;dcbf67ef836b52108eb710c5eeaad38c&lt;/latest_snapshot&gt;&lt;compiler_build&gt;glide-yokohama-12-18-2024__patch0-01-14-2025_01-22-2025_0439.zip&lt;/compiler_build&gt;&lt;/sys_hub_flow&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=6b19a99f83271e108eb710c5eeaad39b^sys_idNOT INd4bf67ef836b52108eb710c5eeaad3ce"/&gt;&lt;sys_flow_trigger_plan action="INSERT_OR_UPDATE"&gt;&lt;binding_strategy&gt;com.snc.process_flow.engine.binding.OncePerRecord&lt;/binding_strategy&gt;&lt;plan&gt;{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"d4bf67ef836b52108eb710c5eeaad3ce","name":"plan","plan_signature":null}}&lt;/plan&gt;&lt;plan_id&gt;6b19a99f83271e108eb710c5eeaad39b&lt;/plan_id&gt;&lt;snapshot&gt;dcbf67ef836b52108eb710c5eeaad38c&lt;/snapshot&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-12 14:44:34&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d4bf67ef836b52108eb710c5eeaad3ce&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-13 11:21:56&lt;/sys_updated_on&gt;&lt;trigger display_value=""&gt;31ea08488333d2108eb710c5eeaad3d5&lt;/trigger&gt;&lt;/sys_flow_trigger_plan&gt;&lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=6b19a99f83271e108eb710c5eeaad39b"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-872803685</payload_hash>
+        <record_name>EV Create Incident</record_name>
+        <reverted_from/>
+        <source>974a294f8323da108eb710c5eeaad380</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-13 11:21:57</sys_created_on>
+        <sys_id>8aea08488333d2108eb710c5eeaad3f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194ff0b48e10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-13 11:21:57</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>02ea0848b333d210a08455336293b6f4</update_guid>
+        <update_guid_history>02ea0848b333d210a08455336293b6f4:-872803685,15ea08482233d210e0521cad0f35702b:-2142797764,c0eac4489333d210f649684013fb6651:1612772058,61570804cb33d210b9176c5a9d6f751f:-1678549738,3457c4042033d2106e48c67f7ccede3f:-1676053966,434784041233d210e528d0404f9f3a48:-999911088,938108c82eff921056b9be4480181183:-2050476180,1e81c4c8d3ff92108baa6f7f9a0979bd:-736148812,448184c8cfff9210d910c84c2636fcd1:-839126190,c11fbbf7b4ef9210609bd71f1166a697:1666167397,7f0f7bf725ef921085f29e8e6cf96862:-266924207,660f3bf710ef9210b755ef96d82c8e99:-423043341,5a7a3f333cef92106f6fe11cf91cb364:1638447547,748833bf3baf9210ed5c4534d6ef76b2:1910394107,dae3f7f78aaf9210a471d5ea409dc9b6:-1892967791,51c337f729af92106631fda145737f29:-621504643,1cc1773712af9210c6115d44ccb91a78:1800206747,7cbe63338daf9210637ace291e2136cd:-972414226,7a6cef3ff06f9210e812a0a7723815ba:1451064053,ed20f323a5ab52107271e10a0c1c0d8b:1156263899,0120f323d0ab52103577d26a3c00e13c:1567572594,2b10b323b7ab521060efea15d2f0937e:1922486258,acbf67efef6b52106de3508128969dda:737186593,00bf67ef866b521006691f1f1607e083:-441424839,8baf67ef206b521036df5c7efdb8a20f:-1919433031,78ce6f6ff46b5210581dff2a40d079bb:-698513376,1a9d272fd06b521091971d4dd9766026:1691901414,06e8ef67ad6b52105c955c6bf1055221:-707578807,2197751717a71e1030b347ce007ff598:-1180724477,ab19a99f2e271e10236add851e2d0fa2:-202517755</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-13 11:25:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>3754635f858049ae9eb692c1b1f432c9</sys_id>
+        <sys_metadata>6b19a99f83271e108eb710c5eeaad39b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EV Create Incident</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_scope_delete display_value="">08380f235033495e814b97f7f661b4d1</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_6b19a99f83271e108eb710c5eeaad39b</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_6b19a99f83271e108eb710c5eeaad39b">8aea08488333d2108eb710c5eeaad3f4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-13 11:25:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
