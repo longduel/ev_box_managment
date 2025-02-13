@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="u_ev_box" label="Ev Box" language="en" table="u_ev_diagnostic">
+    <sys_documentation element="u_investigation" label="Investigation" language="en" table="u_ev_devices">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>u_ev_box</element>
+            <element>u_investigation</element>
             <help/>
             <hint/>
-            <label>Ev Box</label>
+            <label>Investigation</label>
             <language>en</language>
-            <name>u_ev_diagnostic</name>
-            <plural>Ev Boxes</plural>
+            <name>u_ev_devices</name>
+            <plural>Investigations</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-13 15:01:05</sys_created_on>
+            <sys_created_on>2025-02-13 12:58:08</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Ev Box</sys_name>
+            <sys_name>Investigation</sys_name>
             <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
             <sys_policy/>
             <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
-            <sys_update_name>sys_documentation_u_ev_diagnostic_u_ev_box_en</sys_update_name>
+            <sys_update_name>sys_documentation_u_ev_devices_u_investigation_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-13 15:01:05</sys_updated_on>
+            <sys_updated_on>2025-02-13 12:58:08</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

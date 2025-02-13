@@ -38,14 +38,27 @@
     var resultTemp;
     var check;
 
+    //Create new record for the DB connection logs
     function createLogRecord(payloadTemp, resultTemp) {
-        //Create new record for the DB connection logs
         var logs = new GlideRecord("u_ev_db_logs");
         logs.initialize();
         logs.u_payload = payloadTemp;
         logs.u_result = resultTemp;
         logs.insert();
     }
+
+    //Itil role cannot be added to MID Server so record update will be performed by a bot via impersonation
+    function performUpdate(deviceSys_id) {
+		//VoltCareBox sys_id account
+		var origUser = gs.getSession().impersonate('5bdf2fef836b52108eb710c5eeaad3fd');
+		gs.log('Impersonated original: ' + origUser);
+		var updateBox = new GlideRecord('u_ev_devices');
+		updateBox.get(deviceSys_id);
+        updateBox.operational_status = 2;
+        updateBox.update();
+		var impersonated = gs.getSession().impersonate(origUser);
+		gs.print('User:' + impersonated);
+	}
 
     // Change payload XML output to JSON
     var jsObj = gs.xmlToJSON(current.payload);
@@ -57,7 +70,6 @@
         check = jsObj.results.result.row.Asset_Tag.content;
     }
 
-    gs.log('Is there something here: ' + check);
     // Check if there is any devices 'non-operational'
     if (JSUtil.nil(check)) {
         payloadTemp = jsObj.results.result.query + '\n' + jsObj.results.result.total_rows;
@@ -76,7 +88,7 @@
         }
         for (var i = 0; i < deviceArray.length; i++) {
             var foundDevice = deviceArray[i];
-            
+
             var check = new GlideRecord('u_ev_devices');
             //check.addQuery('u_active', true);
             check.addQuery('asset_tag', foundDevice);
@@ -85,10 +97,9 @@
             if (check.hasNext()) {
                 while (check.next()) {
                     if (check.operational_status !== 2) {
-                        check.operational_status = 2;
-                        check.update();
+                        performUpdate(check.sys_id);
                     } else {
-						gs.log('Entering the loop');
+                        gs.log('Entering the loop');
                         payloadLog = 'Device ' + foundDevice + ' operational state already at "Non-Operational"';
                         resultLog = 'Sucess';
                         createLogRecord(payloadLog, resultLog);
@@ -106,7 +117,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9120762b832752108eb710c5eeaad3b4</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name>EV Box DB Check</sys_name>
         <sys_overrides/>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
@@ -114,7 +125,7 @@
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
         <sys_update_name>sys_script_9120762b832752108eb710c5eeaad3b4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-12 16:00:58</sys_updated_on>
+        <sys_updated_on>2025-02-13 16:05:23</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

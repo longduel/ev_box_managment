@@ -1,32 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_ev_box" table="u_ev_diagnostic">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_investigation" table="u_ev_devices">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>encode_utf8=false</attributes>
         <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
+        <calculation/>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Ev Box</column_label>
+        <column_label>Investigation</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
         <defaultsort/>
         <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
+        <dependent>asset_tag</dependent>
+        <dependent_on_field>asset_tag</dependent_on_field>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_ev_box</element>
+        <element>u_investigation</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -35,12 +30,12 @@
         <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <name>u_ev_diagnostic</name>
+        <name>u_ev_devices</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="u_ev_devices">u_ev_devices</reference>
+        <reference display_value="Incident" name="incident">incident</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -51,18 +46,18 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-02-13 15:01:05</sys_created_on>
-        <sys_name>Ev Box</sys_name>
+        <sys_created_on>2025-02-13 12:58:08</sys_created_on>
+        <sys_name>Investigation</sys_name>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
         <sys_policy/>
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
-        <sys_update_name>sys_dictionary_u_ev_diagnostic_u_ev_box</sys_update_name>
+        <sys_update_name>sys_dictionary_u_ev_devices_u_investigation</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-13 15:01:05</sys_updated_on>
+        <sys_updated_on>2025-02-13 12:58:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
+        <use_dependent_field>true</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>

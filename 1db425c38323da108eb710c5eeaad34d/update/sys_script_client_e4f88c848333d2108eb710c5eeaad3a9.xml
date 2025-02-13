@@ -12,12 +12,20 @@
         <order/>
         <script><![CDATA[function onLoad() {
     var gr = new GlideRecord('incident');
-    gr.addQuery('cmdb_ci.asset_tag', g_form.getValue('asset_tag')); // Assuming device field is the reference
+    gr.addQuery('cmdb_ci.asset_tag', g_form.getValue('asset_tag'));
     gr.query();
 
     if (gr.next()) {
-        g_form.setReadOnly('operational_status', true);
-        g_form.showFieldMsg('operational_status', 'Field was set to read-only because there is currently an incident ' + gr.number + ' in progress for this device.', 'info');
+        if (g_form.getValue('operational_status') == 2) {
+            //Set the Incident referance in the field controled visibility in the UI Policy 'EV Incident Investigation'
+            g_form.setValue('u_investigation', gr.sys_id);
+
+            //Set the operational state to read only so it will no be changed by mistake
+            g_form.setReadOnly('operational_status', true);
+            g_form.showFieldMsg('operational_status', 'Isuses with the device detected, currently cannot change state.', 'info');
+        }
+    } else {
+        g_form.setReadOnly('operational_status', false);
     }
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -26,7 +34,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e4f88c848333d2108eb710c5eeaad3a9</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name>EV Restict Operation State</sys_name>
         <sys_overrides/>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
@@ -34,7 +42,7 @@
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
         <sys_update_name>sys_script_client_e4f88c848333d2108eb710c5eeaad3a9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-13 11:56:55</sys_updated_on>
+        <sys_updated_on>2025-02-13 16:51:58</sys_updated_on>
         <table>u_ev_devices</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

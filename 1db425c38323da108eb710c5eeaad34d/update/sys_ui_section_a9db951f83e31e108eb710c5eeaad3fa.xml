@@ -4,13 +4,13 @@
             <element>operational_status</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-11 14:46:18</sys_created_on>
-            <sys_id>48862e1783ab1e108eb710c5eeaad389</sys_id>
+            <sys_created_on>2025-02-13 12:58:11</sys_created_on>
+            <sys_id>efe0a44883b3d2108eb710c5eeaad384</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="EV Box" display_value="EV Box" name="u_ev_devices" sys_domain="global" view="Default view">a9db951f83e31e108eb710c5eeaad3fa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-11 14:46:18</sys_updated_on>
+            <sys_updated_on>2025-02-13 12:58:11</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,97 +18,111 @@
             <element>model_id</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-11 14:46:18</sys_created_on>
-            <sys_id>40862e1783ab1e108eb710c5eeaad38a</sys_id>
+            <sys_created_on>2025-02-13 12:58:11</sys_created_on>
+            <sys_id>2fe0a44883b3d2108eb710c5eeaad385</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="EV Box" display_value="EV Box" name="u_ev_devices" sys_domain="global" view="Default view">a9db951f83e31e108eb710c5eeaad3fa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-11 14:46:18</sys_updated_on>
+            <sys_updated_on>2025-02-13 12:58:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_investigation</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-13 12:58:11</sys_created_on>
+            <sys_id>27e0a44883b3d2108eb710c5eeaad386</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EV Box" display_value="EV Box" name="u_ev_devices" sys_domain="global" view="Default view">a9db951f83e31e108eb710c5eeaad3fa</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-13 12:58:11</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-11 14:46:18</sys_created_on>
-            <sys_id>48862e1783ab1e108eb710c5eeaad38a</sys_id>
+            <sys_created_on>2025-02-13 12:58:11</sys_created_on>
+            <sys_id>2fe0a44883b3d2108eb710c5eeaad386</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="EV Box" display_value="EV Box" name="u_ev_devices" sys_domain="global" view="Default view">a9db951f83e31e108eb710c5eeaad3fa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-11 14:46:18</sys_updated_on>
+            <sys_updated_on>2025-02-13 12:58:11</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assigned_to</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-11 14:46:18</sys_created_on>
-            <sys_id>40862e1783ab1e108eb710c5eeaad38b</sys_id>
+            <sys_created_on>2025-02-13 12:58:11</sys_created_on>
+            <sys_id>27e0a44883b3d2108eb710c5eeaad387</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="EV Box" display_value="EV Box" name="u_ev_devices" sys_domain="global" view="Default view">a9db951f83e31e108eb710c5eeaad3fa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-11 14:46:18</sys_updated_on>
+            <sys_updated_on>2025-02-13 12:58:11</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>location</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-11 14:46:18</sys_created_on>
-            <sys_id>48862e1783ab1e108eb710c5eeaad38b</sys_id>
+            <sys_created_on>2025-02-13 12:58:11</sys_created_on>
+            <sys_id>2fe0a44883b3d2108eb710c5eeaad387</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="EV Box" display_value="EV Box" name="u_ev_devices" sys_domain="global" view="Default view">a9db951f83e31e108eb710c5eeaad3fa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-11 14:46:18</sys_updated_on>
+            <sys_updated_on>2025-02-13 12:58:11</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sys_updated_on</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-11 14:46:18</sys_created_on>
-            <sys_id>40862e1783ab1e108eb710c5eeaad38c</sys_id>
+            <sys_created_on>2025-02-13 12:58:11</sys_created_on>
+            <sys_id>27e0a44883b3d2108eb710c5eeaad388</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="EV Box" display_value="EV Box" name="u_ev_devices" sys_domain="global" view="Default view">a9db951f83e31e108eb710c5eeaad3fa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-11 14:46:18</sys_updated_on>
+            <sys_updated_on>2025-02-13 12:58:11</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sys_updated_by</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-11 14:46:18</sys_created_on>
-            <sys_id>48862e1783ab1e108eb710c5eeaad38c</sys_id>
+            <sys_created_on>2025-02-13 12:58:11</sys_created_on>
+            <sys_id>2fe0a44883b3d2108eb710c5eeaad388</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="EV Box" display_value="EV Box" name="u_ev_devices" sys_domain="global" view="Default view">a9db951f83e31e108eb710c5eeaad3fa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-11 14:46:18</sys_updated_on>
+            <sys_updated_on>2025-02-13 12:58:11</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_active</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-12 15:36:10</sys_created_on>
-            <sys_id>dc8bf32383eb52108eb710c5eeaad32f</sys_id>
+            <sys_created_on>2025-02-13 12:58:11</sys_created_on>
+            <sys_id>27e0a44883b3d2108eb710c5eeaad389</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="EV Box" display_value="EV Box" name="u_ev_devices" sys_domain="global" view="Default view">a9db951f83e31e108eb710c5eeaad3fa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-12 15:36:10</sys_updated_on>
+            <sys_updated_on>2025-02-13 12:58:11</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -5,23 +5,27 @@
         <condition/>
         <description/>
         <field>u_plug_type</field>
-        <global>true</global>
-        <isolate_script>true</isolate_script>
+        <global>false</global>
+        <isolate_script>false</isolate_script>
         <messages/>
         <name>EV Input Plug Details</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
 
     var ga = new GlideAjax('AJAXUtils');
-    ga.addParam('sys_id', g_form.getValue('u_plug_type'));
+    ga.addParam('sys_id', g_form.getValue('u_plug_type')); // 'sys_id' is the parameter name
+    ga.addParam('sys_id', 'getPlugData');
     ga.getXMLAnswer(updatePlugSection);
 
+    g_form.addInfoMessage('Passed Plug Sys_id: ' + g_form.getValue('u_plug_type'));
+
     function updatePlugSection(response) {
+        g_form.addInfoMessage('Response: ' + response);
         if (response) {
-            var returneddata = JSON.parse(response);
-            g_form.setValue('u_si_box', returneddata.u_supply_input);
+            var parsedData = JSON.parse(response);
+            g_form.setValue('u_si_box', parsedData.supply_input);
         } else {
-            g_form.addInfoMessage('Nothing to see here');
+            g_form.addInfoMessage('No response parsing');
         }
     }
 }]]></script>
@@ -31,7 +35,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>43abe653832312108eb710c5eeaad312</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_name>EV Input Plug Details</sys_name>
         <sys_overrides/>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
@@ -39,7 +43,7 @@
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
         <sys_update_name>sys_script_client_43abe653832312108eb710c5eeaad312</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-13 12:46:10</sys_updated_on>
+        <sys_updated_on>2025-02-13 14:49:51</sys_updated_on>
         <table>u_ev_devices</table>
         <type>onChange</type>
         <ui_type>0</ui_type>
