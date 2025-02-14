@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="u_ev_device_costs_user" name="u_ev_device_costs_user">203d5b67832b52108eb710c5eeaad33f</contains>
+        <role display_value="engineer" name="engineer">a7d4ad438323da108eb710c5eeaad391</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-14 09:28:59</sys_created_on>
+        <sys_id>0daa3818837b16108eb710c5eeaad3fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_ev_device_costs_user.engineer</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sys_user_role_contains_0daa3818837b16108eb710c5eeaad3fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-14 09:28:59</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</contains>
+        <role display_value="desk_agent" name="desk_agent">e3d469c38323da108eb710c5eeaad397</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-14 09:28:31</sys_created_on>
+        <sys_id>4a8ab418837b16108eb710c5eeaad31f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>itil.desk_agent</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sys_user_role_contains_4a8ab418837b16108eb710c5eeaad31f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-14 09:28:31</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>
