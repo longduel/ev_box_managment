@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="323a5d5b83e31e108eb710c5eeaad35f" label="EV Diagnostic" max_length="40" name="u_ev_diagnostic" type="collection">
+        <element label="Proccessed" max_length="40" name="u_proccessed" read_only="true" type="boolean"/>
         <element label="Ev Box" max_length="32" name="u_ev_box" reference="u_ev_devices" type="reference"/>
         <element label="Incident" max_length="32" name="u_incident" reference="incident" type="reference"/>
         <element choice="1" label="Result" max_length="40" name="u_result" read_only="true" type="choice">

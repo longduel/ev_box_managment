@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>ecc_queue</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="ecc_queue">topicLIKEJDBCProbe^queue=input^agentLIKEJDBCProbeResult^EQ<item endquery="false" field="topic" goto="false" newquery="false" operator="LIKE" or="false" value="JDBCProbe"/>
+            <item display_value="input" endquery="false" field="queue" goto="false" newquery="false" operator="=" or="false" value="input"/>
+            <item endquery="false" field="agent" goto="false" newquery="false" operator="LIKE" or="false" value="JDBCProbeResult"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>EV Process Diagnostic</name>
+        <order>200</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    var check;
+
+    function formatLogString(log) {
+        // Define a regex pattern to match the timestamp at the start of each log entry
+        var regex = /\[([^\]]+)\]/g;
+
+        // Replace each entry with a newline, making sure each line starts with the date stamp
+        var formattedString = log.replace(regex, '\n$&');
+
+        // Remove the initial newline (if you don't want it at the start of the string)
+        formattedString = formattedString.trim();
+
+        return formattedString;
+    }
+
+    //Update the Diagnostic Log
+    function updateDiagnostic(diagnostic) {
+        var logs = new GlideRecord("u_ev_diagnostic");
+        logs.addQuery('u_proccessed', false);
+        logs.orderByDesc('sys_created_on');
+        logs.setLimit(1);
+        logs.query();
+        gs.log(logs.u_origin + diagnostic);
+        while (logs.next()) {
+            logs.u_log = diagnostic;
+            logs.u_proccessed = true;
+            logs.update();
+        }
+    }
+
+    // Change payload XML output to JSON
+    var jsObj = gs.xmlToJSON(current.payload);
+
+    //Pare the diagnostic report
+    if (JSUtil.nil(jsObj)) {
+        gs.log('Not Found');
+    } else {
+        check = jsObj.results.result.row.Result.content;
+        updateDiagnostic(formatLogString(check));
+    }
+
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-17 16:35:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>33b83ddd83f712108eb710c5eeaad3b5</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>EV Process Diagnostic</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sys_script_33b83ddd83f712108eb710c5eeaad3b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-17 17:07:43</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=33b83ddd83f712108eb710c5eeaad3b5"/>
+</record_update>

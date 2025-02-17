@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[function closeWindow() {
+    GlideDialogWindow.get().destroy();
+}]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint/>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+    <g:ui_form id='f_id'>
+        <g:evaluate var="jvar_sysId" expression="RP.getWindowProperties().get('sysparm_sys_id')" />
+        <link href="a8633c9d837312108eb710c5eeaad3cc.cssdbx" rel="stylesheet" type="text/css" />
+
+        <div class="form-group is-required">
+            <label class="col-sm-3 control-label" for="plainselect2">
+                <span class="required-marker"></span>Diagnostic:</label>
+            <span class="col-sm-9">
+                <select name='diagnostic_choice' id='d_choice' class="form-control" required="true" aria-required="true">
+                    <option value="0">None</option>
+                    <option value="boot_check">System Boot and Initialization Check</option>
+                    <option value="temperature_check">Temperature and Environmental Check</option>
+                    <option value="charging_check">Charging Hardware and Battery Check</option>
+                    <option value="consumption_check">Energy Consumption Check</option>
+                </select>
+            </span>
+            <hr class="solid">
+            </hr>
+            <center>
+                <hr class="solid">
+                </hr>
+                <table>
+                    <tr>
+                        <hr class="solid">
+                        </hr>
+                        <td><button type="submit" class="btn-success-subdued" onclick="stayOnPage()">Submit</button></td>
+                        <td><button type="button" class="btn-destructive-subdued" onclick="closeWindow()">Cancel</button></td>
+                        <input type="hidden" id="system_id" name="system_id" value="${jvar_sysId}" />
+                    </tr>
+                </table>
+            </center>
+            <hr class="solid">
+            </hr>
+        </div>
+    </g:ui_form>
+</j:jelly>]]></html>
+        <name>diagnostic_page</name>
+        <processing_script><![CDATA[// Get choice value from the Modal
+function createDiagnostic(reDirectionId, result) {
+    var createDiagnostic = new GlideRecord('u_ev_diagnostic');
+    createDiagnostic.initialize();
+    createDiagnostic.u_ev_box = reDirectionId;
+    createDiagnostic.u_result = result;
+    createDiagnostic.u_origin = 'server_diagnostic';
+    createDiagnostic.u_proccessed = false;
+    createDiagnostic.insert();
+}
+
+var result;
+var diagChoice = request.getParameter('diagnostic_choice');
+var reDirectionId = request.getParameter('system_id');
+
+//Return either 1 for success table or 2 for fauilre table
+var choiceNumber = Math.floor(Math.random() * 2) + 1;
+var tableName;
+if (choiceNumber == 1) {
+    tableName = 'ev_diagnostic_1';
+    result = 'Success';
+} else if (choiceNumber == 2) {
+    tableName = 'ev_diagnostic_2';
+    result = 'Failure';
+}
+
+// Get a specific MID Server
+var mid = new GlideRecord("ecc_agent");
+mid.get('f4c9c83183e316108eb710c5eeaad369');
+mid.query();
+
+//Create a JDBC Probe and retive a diagnostic record
+var j = new JDBCProbe(mid.name);
+j.setDataSource('8d2765478323da108eb710c5eeaad306');
+j.setTable(tableName);
+j.setFunction("select");
+j.setWhereClause("Operation=" + "'" + diagChoice + "'");
+j.create();
+
+createDiagnostic(reDirectionId, result);
+
+var url = 'u_ev_devices.do?sys_id=' + reDirectionId;
+response.sendRedirect(url);]]></processing_script>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-17 11:08:12</sys_created_on>
+        <sys_id>80ba2855837312108eb710c5eeaad3c0</sys_id>
+        <sys_mod_count>87</sys_mod_count>
+        <sys_name>diagnostic_page</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sys_ui_page_80ba2855837312108eb710c5eeaad3c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-17 16:49:14</sys_updated_on>
+    </sys_ui_page>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>80ba2855837312108eb710c5eeaad3c0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-17 11:08:10</sys_created_on>
+        <sys_id>df1e2055837312108eb710c5eeaad3fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-17 11:08:10</sys_updated_on>
+        <table>sys_ui_page</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
