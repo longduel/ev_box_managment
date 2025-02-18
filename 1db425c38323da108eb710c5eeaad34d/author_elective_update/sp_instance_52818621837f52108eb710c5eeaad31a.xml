@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>3</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">1339e8d2cb20020000f8d856634c9c41</sp_column>
+        <sp_widget display_value="Search Page">b8c57073cb10020000f8d856634c9cfc</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-18 11:51:08</sys_created_on>
+        <sys_id>52818621837f52108eb710c5eeaad31a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sp_instance_52818621837f52108eb710c5eeaad31a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-18 11:51:13</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"show_score": {
+		"value": "",
+		"displayValue": ""
+	},
+	"max_all": {
+		"value": null,
+		"displayValue": ""
+	},
+	"max_group": {
+		"value": null,
+		"displayValue": ""
+	},
+	"show_did_you_mean": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=52818621837f52108eb710c5eeaad31a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</application>
+        <file_path/>
+        <instance_id>f7c0ba231bd1865819254089bd4bcb9b</instance_id>
+        <instance_name>dev258302</instance_name>
+        <name>sp_instance_52818621837f52108eb710c5eeaad31a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;3&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;1339e8d2cb20020000f8d856634c9c41&lt;/sp_column&gt;&lt;sp_widget display_value="Search Page"&gt;b8c57073cb10020000f8d856634c9cfc&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-18 11:51:08&lt;/sys_created_on&gt;&lt;sys_id&gt;52818621837f52108eb710c5eeaad31a&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EV Box Managment"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_52818621837f52108eb710c5eeaad31a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-18 11:51:13&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"show_score": {
+		"value": "",
+		"displayValue": ""
+	},
+	"max_all": {
+		"value": null,
+		"displayValue": ""
+	},
+	"max_group": {
+		"value": null,
+		"displayValue": ""
+	},
+	"show_did_you_mean": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=52818621837f52108eb710c5eeaad31a"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1800823119</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>974a294f8323da108eb710c5eeaad380</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-18 11:51:13</sys_created_on>
+        <sys_id>f381c621837f52108eb710c5eeaad378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19518e5e30c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-18 11:51:13</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>7b81c621497f52108df99f9e1ef7ef77</update_guid>
+        <update_guid_history>7b81c621497f52108df99f9e1ef7ef77:1800823119,5e818621f37f52108320a8b607fd181b:-1250664107</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">2191c621837f52108eb710c5eeaad30a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-18 11:51:21</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>3e7fec1d3e534e1084b714a06dd3a100</sys_id>
+        <sys_metadata>52818621837f52108eb710c5eeaad31a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_scope_delete display_value="">08380f235033495e814b97f7f661b4d1</sys_scope_delete>
+        <sys_update_name>sp_instance_52818621837f52108eb710c5eeaad31a</sys_update_name>
+        <sys_update_version display_value="sp_instance_52818621837f52108eb710c5eeaad31a">f381c621837f52108eb710c5eeaad378</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-18 11:51:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

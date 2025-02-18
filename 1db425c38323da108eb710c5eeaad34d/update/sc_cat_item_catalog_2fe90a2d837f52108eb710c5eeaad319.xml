@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="EV Box Create Incident">d00ebf7783ef92108eb710c5eeaad3bd</sc_cat_item>
+        <sc_catalog display_value="EV Catalog">71f5c2a5837f52108eb710c5eeaad34c</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-18 12:27:48</sys_created_on>
+        <sys_id>2fe90a2d837f52108eb710c5eeaad319</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EV Catalog.EV Box Create Incident</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_2fe90a2d837f52108eb710c5eeaad319</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-18 12:27:48</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

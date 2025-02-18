@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais">
+    <sp_instance_ais action="DELETE">
+        <active>true</active>
+        <ai_search_source_filter/>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <disable_all_suggestions>false</disable_all_suggestions>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <placeholder/>
+        <roles/>
+        <search_application/>
+        <search_results_configuration/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">1339e8d2cb20020000f8d856634c9c41</sp_column>
+        <sp_widget display_value="Homepage Search">200fbd96cb20020000f8d856634c9ca1</sp_widget>
+        <spell_check_font_size>xl</spell_check_font_size>
+        <sys_class_name>sp_instance_ais</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-18 10:50:05</sys_created_on>
+        <sys_id>04933da983fb52108eb710c5eeaad321</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Welcome to the Support Portal</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sp_instance_ais_04933da983fb52108eb710c5eeaad321</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-18 11:21:44</sys_updated_on>
+        <title>Welcome to the Support Portal</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"typeahead_search": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_ais>
+    <sys_translated_text action="DELETE" query="documentkey=04933da983fb52108eb710c5eeaad321"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</application>
+        <file_path/>
+        <instance_id>f7c0ba231bd1865819254089bd4bcb9b</instance_id>
+        <instance_name>dev258302</instance_name>
+        <name>sp_instance_ais_04933da983fb52108eb710c5eeaad321</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_ais"&gt;&lt;sp_instance_ais action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;ai_search_source_filter/&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;disable_all_suggestions&gt;false&lt;/disable_all_suggestions&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;2&lt;/order&gt;&lt;placeholder/&gt;&lt;roles/&gt;&lt;search_application/&gt;&lt;search_results_configuration/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;1339e8d2cb20020000f8d856634c9c41&lt;/sp_column&gt;&lt;sp_widget display_value="Homepage Search"&gt;200fbd96cb20020000f8d856634c9ca1&lt;/sp_widget&gt;&lt;spell_check_font_size&gt;xl&lt;/spell_check_font_size&gt;&lt;sys_class_name&gt;sp_instance_ais&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-18 10:50:05&lt;/sys_created_on&gt;&lt;sys_id&gt;04933da983fb52108eb710c5eeaad321&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_name&gt;Welcome to the Support Portal&lt;/sys_name&gt;&lt;sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EV Box Managment"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_ais_04933da983fb52108eb710c5eeaad321&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-18 11:21:44&lt;/sys_updated_on&gt;&lt;title&gt;Welcome to the Support Portal&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"typeahead_search": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_ais&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=04933da983fb52108eb710c5eeaad321"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1883025822</payload_hash>
+        <record_name>Welcome to the Support Portal</record_name>
+        <reverted_from/>
+        <source>974a294f8323da108eb710c5eeaad380</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-18 11:21:44</sys_created_on>
+        <sys_id>f7ca3da5833f52108eb710c5eeaad307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19518cae40f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-18 11:21:44</sys_updated_on>
+        <type>Instance with Search</type>
+        <update_guid>7fca3da5cf3f52108e0b9d7f15bca606</update_guid>
+        <update_guid_history>7fca3da5cf3f52108e0b9d7f15bca606:-1883025822,da8af1a5363f5210d07a47590f0325a6:1087290307,fd7af5a5813f52109a55c668ab689610:-30546041,f75a35a54d3f52103e576bef207e357e:-507832760,db5a35a50b3f52109de860085cf9f42b:-30546041,485a71a5a93f5210a331fa42034fc362:-507832760,264a31a53c3f52105a085e916a044384:-30546041,ef3a31a5073f5210d60e831e2eab283b:-507832760,e22abd65963f5210a9d7724a0de14070:-30546041,542a7d65a83f52103f9d45a078d4c1a8:-507832760,121af9651b3f52102770415d944c56b5:-30546041,b30af965543f5210275287ea9cb84b22:-507832760,a3937da98cfb5210715949912c9f6478:-30546041,c293b1a93afb52107dfe186f14be3227:-507832760,00933da9cafb521052f59271094ea123:-30546041</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Welcome to the Support Portal">361bf5e5833f52108eb710c5eeaad376</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-18 11:23:02</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_ais">sp_instance_ais</sys_db_object>
+        <sys_id>01e2a9c20d5c4b608009046b2ab4b100</sys_id>
+        <sys_metadata>04933da983fb52108eb710c5eeaad321</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Welcome to the Support Portal</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_scope_delete display_value="">08380f235033495e814b97f7f661b4d1</sys_scope_delete>
+        <sys_update_name>sp_instance_ais_04933da983fb52108eb710c5eeaad321</sys_update_name>
+        <sys_update_version display_value="sp_instance_ais_04933da983fb52108eb710c5eeaad321">f7ca3da5833f52108eb710c5eeaad307</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-18 11:23:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

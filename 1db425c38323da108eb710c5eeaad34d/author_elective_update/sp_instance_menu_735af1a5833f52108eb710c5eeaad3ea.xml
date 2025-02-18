@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_menu">
+    <sp_instance_menu action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">1339e8d2cb20020000f8d856634c9c41</sp_column>
+        <sp_widget display_value="Header Menu">5ef595c1cb12020000f8d856634c9c6e</sp_widget>
+        <sys_class_name>sp_instance_menu</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-18 11:19:49</sys_created_on>
+        <sys_id>735af1a5833f52108eb710c5eeaad3ea</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Welcome to the Service Portal</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sp_instance_menu_735af1a5833f52108eb710c5eeaad3ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-18 11:20:04</sys_updated_on>
+        <title>Welcome to the Service Portal</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_menu>
+    <sys_translated_text action="DELETE" query="documentkey=735af1a5833f52108eb710c5eeaad3ea"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</application>
+        <file_path/>
+        <instance_id>f7c0ba231bd1865819254089bd4bcb9b</instance_id>
+        <instance_name>dev258302</instance_name>
+        <name>sp_instance_menu_735af1a5833f52108eb710c5eeaad3ea</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_menu"><sp_instance_menu action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">1339e8d2cb20020000f8d856634c9c41</sp_column><sp_widget display_value="Header Menu">5ef595c1cb12020000f8d856634c9c6e</sp_widget><sys_class_name>sp_instance_menu</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-18 11:19:49</sys_created_on><sys_id>735af1a5833f52108eb710c5eeaad3ea</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Welcome to the Service Portal</sys_name><sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package><sys_policy/><sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope><sys_update_name>sp_instance_menu_735af1a5833f52108eb710c5eeaad3ea</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-18 11:20:04</sys_updated_on><title>Welcome to the Service Portal</title><url/><widget_parameters/></sp_instance_menu><sys_translated_text action="delete_multiple" query="documentkey=735af1a5833f52108eb710c5eeaad3ea"/></record_update>]]></payload>
+        <payload_hash>781229143</payload_hash>
+        <record_name>Welcome to the Service Portal</record_name>
+        <reverted_from/>
+        <source>974a294f8323da108eb710c5eeaad380</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-18 11:20:04</sys_created_on>
+        <sys_id>df6af965833f52108eb710c5eeaad3ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19518c95c410000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-18 11:20:04</sys_updated_on>
+        <type>Instance with Menu</type>
+        <update_guid>576af9656c3f52104f1455a45c0a2aed</update_guid>
+        <update_guid_history>576af9656c3f52104f1455a45c0a2aed:781229143,335a35a5343f52104d43981f2aa6da75:1435120646</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Welcome to the Service Portal">b57a71a5833f52108eb710c5eeaad330</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-18 11:20:14</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_menu">sp_instance_menu</sys_db_object>
+        <sys_id>2e5bb685499f43e08c0dc8b8fd224790</sys_id>
+        <sys_metadata>735af1a5833f52108eb710c5eeaad3ea</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Welcome to the Service Portal</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_scope_delete display_value="">08380f235033495e814b97f7f661b4d1</sys_scope_delete>
+        <sys_update_name>sp_instance_menu_735af1a5833f52108eb710c5eeaad3ea</sys_update_name>
+        <sys_update_version display_value="sp_instance_menu_735af1a5833f52108eb710c5eeaad3ea">df6af965833f52108eb710c5eeaad3ed</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-18 11:20:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

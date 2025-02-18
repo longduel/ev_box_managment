@@ -32,7 +32,7 @@
         <order>-100</order>
         <script><![CDATA[function showPage(){
 	var gdw = new GlideDialogWindow('diagnostic_page');
-	gdw.setSize(750,300);
+	gdw.setSize(800,300);
 	gdw.setTitle('What diagnostic do you want to run?');
 	gdw.setPreference('sysparm_sys_id', g_form.getUniqueValue()); 
 	gdw.render();
@@ -47,7 +47,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bd85a49d833312108eb710c5eeaad3b5</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>Diagnose Device</sys_name>
         <sys_overrides/>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
@@ -55,7 +55,7 @@
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
         <sys_update_name>sys_ui_action_bd85a49d833312108eb710c5eeaad3b5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-17 14:35:40</sys_updated_on>
+        <sys_updated_on>2025-02-18 09:50:04</sys_updated_on>
         <table>u_ev_devices</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

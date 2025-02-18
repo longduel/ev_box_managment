@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>EV Categories - Container 2</name>
+        <order>2</order>
+        <semantic_tag/>
+        <sp_page display_value="ev_category">4bd802e9837f52108eb710c5eeaad395</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-18 12:23:08</sys_created_on>
+        <sys_id>dbd882e9837f52108eb710c5eeaad3d9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>EV Categories - Container 2</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sp_container_dbd882e9837f52108eb710c5eeaad3d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-18 12:23:37</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+</record_update>

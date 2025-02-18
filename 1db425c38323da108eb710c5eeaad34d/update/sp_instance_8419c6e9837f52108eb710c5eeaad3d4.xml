@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">0c19c6e9837f52108eb710c5eeaad3d1</sp_column>
+        <sp_widget display_value="KB Top Rated">3c817b52cb30020000f8d856634c9cfb</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-18 12:24:01</sys_created_on>
+        <sys_id>8419c6e9837f52108eb710c5eeaad3d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Top Rated Articles</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sp_instance_8419c6e9837f52108eb710c5eeaad3d4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-18 12:24:01</sys_updated_on>
+        <title>Top Rated Articles</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=8419c6e9837f52108eb710c5eeaad3d4"/>
+</record_update>
