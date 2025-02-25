@@ -13,11 +13,12 @@
 AJAXUtils.prototype = Object.extendsObject(AbstractAjaxProcessor, {
 
     getPlugData: function() {
-        var referenceSysId = this.getParameter('sys_id'); // Get the sys_id from the request parameters
-		gs.log('Received sys_id: ' + referenceSysId); 
+		// Get the sys_id from the request parameters
+        var referenceSysId = this.getParameter('sysparm_sys_id'); 
+        gs.log('Received sys_id: ' + referenceSysId);
         var gr = new GlideRecord('u_ev_plugs');
         if (gr.get(referenceSysId)) {
-            
+
             var results = {
                 "supply_input": gr.getValue("u_supply_input")
             };
@@ -32,14 +33,14 @@ AJAXUtils.prototype = Object.extendsObject(AbstractAjaxProcessor, {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-13 12:04:01</sys_created_on>
         <sys_id>62045cc48373d2108eb710c5eeaad306</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>AJAXUtils</sys_name>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
         <sys_policy/>
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
         <sys_update_name>sys_script_include_62045cc48373d2108eb710c5eeaad306</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-13 14:48:53</sys_updated_on>
+        <sys_updated_on>2025-02-25 12:01:45</sys_updated_on>
     </sys_script_include>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>62045cc48373d2108eb710c5eeaad306</id>
