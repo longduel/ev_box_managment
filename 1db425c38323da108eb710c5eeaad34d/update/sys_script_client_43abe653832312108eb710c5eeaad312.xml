@@ -12,21 +12,24 @@
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
 
+	// 'sys_id' is the parameter name
     var plugDetails = new GlideAjax('AJAXUtils');
 	plugDetails.addParam('sysparm_name', 'getPlugData');
-	// 'sys_id' is the parameter name
     plugDetails.addParam('sysparm_sys_id', g_form.getValue('u_plug_type'));
     plugDetails.getXMLAnswer(updatePlugSection);
 
-    g_form.addInfoMessage('Passed Plug Sys_id: ' + g_form.getValue('u_plug_type'));
-
     function updatePlugSection(response) {
-        g_form.addInfoMessage('Response: ' + response);
         if (response) {
             var parsedData = JSON.parse(response);
             g_form.setValue('u_si_box', parsedData.supply_input);
+			g_form.setValue('u_cm_box', parsedData.charging_method);
+			g_form.setValue('u_ox_box', parsedData.max_oc);
+			g_form.setValue('u_op_box', parsedData.max_op);
+			g_form.setValue('u_md_box', parsedData.market_designation);
+			g_form.setValue('u_manu_box', parsedData.manufacturer);
+			g_form.setValue('u_cost_box', parsedData.cost);
         } else {
-            g_form.addInfoMessage('No response parsing');
+            g_form.addInfoMessage('Error in Plug data parsing');
         }
     }
 }]]></script>
@@ -36,7 +39,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>43abe653832312108eb710c5eeaad312</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_name>EV Input Plug Details</sys_name>
         <sys_overrides/>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
@@ -44,7 +47,7 @@
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
         <sys_update_name>sys_script_client_43abe653832312108eb710c5eeaad312</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-25 12:02:03</sys_updated_on>
+        <sys_updated_on>2025-02-26 09:17:44</sys_updated_on>
         <table>u_ev_devices</table>
         <type>onChange</type>
         <ui_type>0</ui_type>
