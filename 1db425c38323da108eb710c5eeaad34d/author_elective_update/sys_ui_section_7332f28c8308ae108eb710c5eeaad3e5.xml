@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Plug Details" section_id="7332f28c8308ae108eb710c5eeaad3e5" sys_domain="global" table="u_ev_device_costs" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cm_box</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 09:48:46</sys_created_on>
+            <sys_id>bb32f28c8308ae108eb710c5eeaad3e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Plug Details" display_value="Plug Details" name="u_ev_device_costs" sys_domain="global" view="Default view">7332f28c8308ae108eb710c5eeaad3e5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 09:48:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_si_box</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 09:48:46</sys_created_on>
+            <sys_id>b332f28c8308ae108eb710c5eeaad3e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Plug Details" display_value="Plug Details" name="u_ev_device_costs" sys_domain="global" view="Default view">7332f28c8308ae108eb710c5eeaad3e5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 09:48:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_ox_box</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 09:48:46</sys_created_on>
+            <sys_id>bb32f28c8308ae108eb710c5eeaad3e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Plug Details" display_value="Plug Details" name="u_ev_device_costs" sys_domain="global" view="Default view">7332f28c8308ae108eb710c5eeaad3e5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 09:48:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_op_box</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 09:48:46</sys_created_on>
+            <sys_id>bb32f28c8308ae108eb710c5eeaad3e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Plug Details" display_value="Plug Details" name="u_ev_device_costs" sys_domain="global" view="Default view">7332f28c8308ae108eb710c5eeaad3e5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 09:48:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 09:48:46</sys_created_on>
+            <sys_id>b332f28c8308ae108eb710c5eeaad3e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Plug Details" display_value="Plug Details" name="u_ev_device_costs" sys_domain="global" view="Default view">7332f28c8308ae108eb710c5eeaad3e5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 09:48:46</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_md_box</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 09:48:46</sys_created_on>
+            <sys_id>b332f28c8308ae108eb710c5eeaad3e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Plug Details" display_value="Plug Details" name="u_ev_device_costs" sys_domain="global" view="Default view">7332f28c8308ae108eb710c5eeaad3e5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 09:48:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_manu_box</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 09:48:46</sys_created_on>
+            <sys_id>bb32f28c8308ae108eb710c5eeaad3e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Plug Details" display_value="Plug Details" name="u_ev_device_costs" sys_domain="global" view="Default view">7332f28c8308ae108eb710c5eeaad3e5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 09:48:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cost_box</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 09:48:46</sys_created_on>
+            <sys_id>b332f28c8308ae108eb710c5eeaad3e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Plug Details" display_value="Plug Details" name="u_ev_device_costs" sys_domain="global" view="Default view">7332f28c8308ae108eb710c5eeaad3e5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 09:48:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Plug Details</caption>
+            <header>false</header>
+            <name>u_ev_device_costs</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 09:48:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7332f28c8308ae108eb710c5eeaad3e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_ev_device_costs</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+            <sys_update_name>sys_ui_section_7332f28c8308ae108eb710c5eeaad3e5</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 09:48:46</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</application>
+        <file_path/>
+        <instance_id>f7c0ba231bd1865819254089bd4bcb9b</instance_id>
+        <instance_name>dev258302</instance_name>
+        <name>sys_ui_section_7332f28c8308ae108eb710c5eeaad3e5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Plug Details" section_id="7332f28c8308ae108eb710c5eeaad3e5" sys_domain="global" table="u_ev_device_costs" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_cm_box</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 09:48:46</sys_created_on><sys_id>bb32f28c8308ae108eb710c5eeaad3e7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Plug Details" display_value="Plug Details" name="u_ev_device_costs" sys_domain="global" view="Default view">7332f28c8308ae108eb710c5eeaad3e5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 09:48:46</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_si_box</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 09:48:46</sys_created_on><sys_id>b332f28c8308ae108eb710c5eeaad3e7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Plug Details" display_value="Plug Details" name="u_ev_device_costs" sys_domain="global" view="Default view">7332f28c8308ae108eb710c5eeaad3e5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 09:48:46</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_ox_box</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 09:48:46</sys_created_on><sys_id>bb32f28c8308ae108eb710c5eeaad3e9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Plug Details" display_value="Plug Details" name="u_ev_device_costs" sys_domain="global" view="Default view">7332f28c8308ae108eb710c5eeaad3e5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 09:48:46</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_op_box</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 09:48:46</sys_created_on><sys_id>bb32f28c8308ae108eb710c5eeaad3e6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Plug Details" display_value="Plug Details" name="u_ev_device_costs" sys_domain="global" view="Default view">7332f28c8308ae108eb710c5eeaad3e5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 09:48:46</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 09:48:46</sys_created_on><sys_id>b332f28c8308ae108eb710c5eeaad3e9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Plug Details" display_value="Plug Details" name="u_ev_device_costs" sys_domain="global" view="Default view">7332f28c8308ae108eb710c5eeaad3e5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 09:48:46</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_md_box</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 09:48:46</sys_created_on><sys_id>b332f28c8308ae108eb710c5eeaad3e6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Plug Details" display_value="Plug Details" name="u_ev_device_costs" sys_domain="global" view="Default view">7332f28c8308ae108eb710c5eeaad3e5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 09:48:46</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_manu_box</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 09:48:46</sys_created_on><sys_id>bb32f28c8308ae108eb710c5eeaad3e8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Plug Details" display_value="Plug Details" name="u_ev_device_costs" sys_domain="global" view="Default view">7332f28c8308ae108eb710c5eeaad3e5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 09:48:46</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_cost_box</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 09:48:46</sys_created_on><sys_id>b332f28c8308ae108eb710c5eeaad3e8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Plug Details" display_value="Plug Details" name="u_ev_device_costs" sys_domain="global" view="Default view">7332f28c8308ae108eb710c5eeaad3e5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 09:48:46</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Plug Details</caption><header>false</header><name>u_ev_device_costs</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 09:48:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7332f28c8308ae108eb710c5eeaad3e5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_ev_device_costs</sys_name><sys_overrides/><sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package><sys_policy/><sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope><sys_update_name>sys_ui_section_7332f28c8308ae108eb710c5eeaad3e5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 09:48:46</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>487050718</payload_hash>
+        <record_name>EV Device Costs</record_name>
+        <reverted_from/>
+        <source>974a294f8323da108eb710c5eeaad380</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 09:48:46</sys_created_on>
+        <sys_id>f332f28c8308ae108eb710c5eeaad3ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19541a8a64d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 09:48:46</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>7b32f28c3908ae10950afbd85a8a9deb</update_guid>
+        <update_guid_history>7b32f28c3908ae10950afbd85a8a9deb:487050718</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 09:55:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>016ec54cb15c4ccb80042f83e07bc909</sys_id>
+        <sys_metadata>7332f28c8308ae108eb710c5eeaad3e5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Plug Details</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_parent display_value="">b40d5b67832b52108eb710c5eeaad302</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_scope_delete display_value="">08380f235033495e814b97f7f661b4d1</sys_scope_delete>
+        <sys_update_name>sys_ui_section_7332f28c8308ae108eb710c5eeaad3e5</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_7332f28c8308ae108eb710c5eeaad3e5">f332f28c8308ae108eb710c5eeaad3ec</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 09:55:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

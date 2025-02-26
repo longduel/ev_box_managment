@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="u_ev_device_costs" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_number</element>
+            <list_id display_value="u_ev_device_costs" element="NULL" name="u_ev_device_costs" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">566b7ec88348ae108eb710c5eeaad39a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 10:28:48</sys_created_on>
+            <sys_id>1a6b7ec88348ae108eb710c5eeaad39b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 10:28:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="u_ev_device_costs" element="NULL" name="u_ev_device_costs" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">566b7ec88348ae108eb710c5eeaad39a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 10:28:48</sys_created_on>
+            <sys_id>126b7ec88348ae108eb710c5eeaad39c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 10:28:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>asset</element>
+            <list_id display_value="u_ev_device_costs" element="NULL" name="u_ev_device_costs" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">566b7ec88348ae108eb710c5eeaad39a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 10:28:48</sys_created_on>
+            <sys_id>166b7ec88348ae108eb710c5eeaad39c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 10:28:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>asset_tag</element>
+            <list_id display_value="u_ev_device_costs" element="NULL" name="u_ev_device_costs" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">566b7ec88348ae108eb710c5eeaad39a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 10:28:48</sys_created_on>
+            <sys_id>1a6b7ec88348ae108eb710c5eeaad39c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 10:28:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned</element>
+            <list_id display_value="u_ev_device_costs" element="NULL" name="u_ev_device_costs" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">566b7ec88348ae108eb710c5eeaad39a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 10:28:48</sys_created_on>
+            <sys_id>1e6b7ec88348ae108eb710c5eeaad39c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 10:28:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="u_ev_device_costs" element="NULL" name="u_ev_device_costs" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">566b7ec88348ae108eb710c5eeaad39a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 10:28:48</sys_created_on>
+            <sys_id>126b7ec88348ae108eb710c5eeaad39d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 10:28:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assignment_group</element>
+            <list_id display_value="u_ev_device_costs" element="NULL" name="u_ev_device_costs" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">566b7ec88348ae108eb710c5eeaad39a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 10:28:48</sys_created_on>
+            <sys_id>166b7ec88348ae108eb710c5eeaad39d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 10:28:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>attestation_score</element>
+            <list_id display_value="u_ev_device_costs" element="NULL" name="u_ev_device_costs" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">566b7ec88348ae108eb710c5eeaad39a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 10:28:48</sys_created_on>
+            <sys_id>1a6b7ec88348ae108eb710c5eeaad39d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 10:28:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>attestation_status</element>
+            <list_id display_value="u_ev_device_costs" element="NULL" name="u_ev_device_costs" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">566b7ec88348ae108eb710c5eeaad39a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 10:28:48</sys_created_on>
+            <sys_id>1e6b7ec88348ae108eb710c5eeaad39d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 10:28:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>attested</element>
+            <list_id display_value="u_ev_device_costs" element="NULL" name="u_ev_device_costs" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">566b7ec88348ae108eb710c5eeaad39a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 10:28:48</sys_created_on>
+            <sys_id>126b7ec88348ae108eb710c5eeaad39e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 10:28:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>u_ev_device_costs</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 10:28:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>566b7ec88348ae108eb710c5eeaad39a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_ev_device_costs</sys_name>
+            <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+            <sys_update_name>sys_ui_list_u_ev_device_costs_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 10:28:48</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</application>
+        <file_path/>
+        <instance_id>f7c0ba231bd1865819254089bd4bcb9b</instance_id>
+        <instance_name>dev258302</instance_name>
+        <name>sys_ui_list_u_ev_device_costs_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="u_ev_device_costs" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_number</element><list_id display_value="u_ev_device_costs" element="NULL" name="u_ev_device_costs" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">566b7ec88348ae108eb710c5eeaad39a</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 10:28:48</sys_created_on><sys_id>1a6b7ec88348ae108eb710c5eeaad39b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 10:28:48</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>name</element><list_id display_value="u_ev_device_costs" element="NULL" name="u_ev_device_costs" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">566b7ec88348ae108eb710c5eeaad39a</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 10:28:48</sys_created_on><sys_id>126b7ec88348ae108eb710c5eeaad39c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 10:28:48</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>asset</element><list_id display_value="u_ev_device_costs" element="NULL" name="u_ev_device_costs" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">566b7ec88348ae108eb710c5eeaad39a</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 10:28:48</sys_created_on><sys_id>166b7ec88348ae108eb710c5eeaad39c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 10:28:48</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>asset_tag</element><list_id display_value="u_ev_device_costs" element="NULL" name="u_ev_device_costs" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">566b7ec88348ae108eb710c5eeaad39a</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 10:28:48</sys_created_on><sys_id>1a6b7ec88348ae108eb710c5eeaad39c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 10:28:48</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>assigned</element><list_id display_value="u_ev_device_costs" element="NULL" name="u_ev_device_costs" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">566b7ec88348ae108eb710c5eeaad39a</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 10:28:48</sys_created_on><sys_id>1e6b7ec88348ae108eb710c5eeaad39c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 10:28:48</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>assigned_to</element><list_id display_value="u_ev_device_costs" element="NULL" name="u_ev_device_costs" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">566b7ec88348ae108eb710c5eeaad39a</list_id><max_value>false</max_value><min_value>false</min_value><position>5</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 10:28:48</sys_created_on><sys_id>126b7ec88348ae108eb710c5eeaad39d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 10:28:48</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>assignment_group</element><list_id display_value="u_ev_device_costs" element="NULL" name="u_ev_device_costs" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">566b7ec88348ae108eb710c5eeaad39a</list_id><max_value>false</max_value><min_value>false</min_value><position>6</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 10:28:48</sys_created_on><sys_id>166b7ec88348ae108eb710c5eeaad39d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 10:28:48</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>attestation_score</element><list_id display_value="u_ev_device_costs" element="NULL" name="u_ev_device_costs" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">566b7ec88348ae108eb710c5eeaad39a</list_id><max_value>false</max_value><min_value>false</min_value><position>7</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 10:28:48</sys_created_on><sys_id>1a6b7ec88348ae108eb710c5eeaad39d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 10:28:48</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>attestation_status</element><list_id display_value="u_ev_device_costs" element="NULL" name="u_ev_device_costs" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">566b7ec88348ae108eb710c5eeaad39a</list_id><max_value>false</max_value><min_value>false</min_value><position>8</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 10:28:48</sys_created_on><sys_id>1e6b7ec88348ae108eb710c5eeaad39d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 10:28:48</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>attested</element><list_id display_value="u_ev_device_costs" element="NULL" name="u_ev_device_costs" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">566b7ec88348ae108eb710c5eeaad39a</list_id><max_value>false</max_value><min_value>false</min_value><position>9</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 10:28:48</sys_created_on><sys_id>126b7ec88348ae108eb710c5eeaad39e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 10:28:48</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>u_ev_device_costs</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 10:28:48</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>566b7ec88348ae108eb710c5eeaad39a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_ev_device_costs</sys_name><sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package><sys_policy/><sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope><sys_update_name>sys_ui_list_u_ev_device_costs_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 10:28:48</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>-1682821557</payload_hash>
+        <record_name>EV Device Costs</record_name>
+        <reverted_from/>
+        <source>974a294f8323da108eb710c5eeaad380</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 10:28:48</sys_created_on>
+        <sys_id>5e6b7ec88348ae108eb710c5eeaad3a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19541cd4e480000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 10:28:48</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>1e6b7ec89f48ae10927bcb4ad5c96ca0</update_guid>
+        <update_guid_history>1e6b7ec89f48ae10927bcb4ad5c96ca0:-1682821557</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 11:14:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>62af27ab415a46edb9ec9110b5584789</sys_id>
+        <sys_metadata>566b7ec88348ae108eb710c5eeaad39a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_ev_device_costs</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_parent display_value="">7eeab6088348ae108eb710c5eeaad3f4</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_scope_delete display_value="">08380f235033495e814b97f7f661b4d1</sys_scope_delete>
+        <sys_update_name>sys_ui_list_u_ev_device_costs_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_u_ev_device_costs_null">5e6b7ec88348ae108eb710c5eeaad3a0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 11:14:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

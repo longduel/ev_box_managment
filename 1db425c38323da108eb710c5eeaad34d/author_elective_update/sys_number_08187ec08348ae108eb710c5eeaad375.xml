@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="u_ev_device_costs">u_ev_device_costs</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>COST</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 10:14:10</sys_created_on>
+        <sys_id>08187ec08348ae108eb710c5eeaad375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>COST</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sys_number_08187ec08348ae108eb710c5eeaad375</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 10:14:10</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</application>
+        <file_path/>
+        <instance_id>f7c0ba231bd1865819254089bd4bcb9b</instance_id>
+        <instance_name>dev258302</instance_name>
+        <name>sys_number_08187ec08348ae108eb710c5eeaad375</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="u_ev_device_costs">u_ev_device_costs</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>COST</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 10:14:10</sys_created_on><sys_id>08187ec08348ae108eb710c5eeaad375</sys_id><sys_mod_count>0</sys_mod_count><sys_name>COST</sys_name><sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package><sys_policy/><sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope><sys_update_name>sys_number_08187ec08348ae108eb710c5eeaad375</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 10:14:10</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>1193759988</payload_hash>
+        <record_name>COST</record_name>
+        <reverted_from/>
+        <source>974a294f8323da108eb710c5eeaad380</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 10:14:10</sys_created_on>
+        <sys_id>c418be848348ae108eb710c5eeaad39d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19541bfe90a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 10:14:10</sys_updated_on>
+        <type>Number</type>
+        <update_guid>c818be840948ae104f3dc349303a369c</update_guid>
+        <update_guid_history>c818be840948ae104f3dc349303a369c:1193759988</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 10:27:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>4569f6e7523940c795e7233247e70979</sys_id>
+        <sys_metadata>08187ec08348ae108eb710c5eeaad375</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>COST</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_parent display_value="">b40d5b67832b52108eb710c5eeaad302</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_scope_delete display_value="">08380f235033495e814b97f7f661b4d1</sys_scope_delete>
+        <sys_update_name>sys_number_08187ec08348ae108eb710c5eeaad375</sys_update_name>
+        <sys_update_version display_value="sys_number_08187ec08348ae108eb710c5eeaad375">c418be848348ae108eb710c5eeaad39d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 10:27:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

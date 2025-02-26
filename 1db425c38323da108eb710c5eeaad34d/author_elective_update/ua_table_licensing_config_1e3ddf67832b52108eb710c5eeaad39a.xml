@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="DELETE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>u_ev_device_costs</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-12 13:23:52</sys_created_on>
+        <sys_id>1e3ddf67832b52108eb710c5eeaad39a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_ev_device_costs</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>ua_table_licensing_config_1e3ddf67832b52108eb710c5eeaad39a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-12 13:23:52</sys_updated_on>
+    </ua_table_licensing_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</application>
+        <file_path/>
+        <instance_id>f7c0ba231bd1865819254089bd4bcb9b</instance_id>
+        <instance_name>dev258302</instance_name>
+        <name>ua_table_licensing_config_1e3ddf67832b52108eb710c5eeaad39a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="DELETE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>u_ev_device_costs</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-12 13:23:52</sys_created_on><sys_id>1e3ddf67832b52108eb710c5eeaad39a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_ev_device_costs</sys_name><sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package><sys_policy/><sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope><sys_update_name>ua_table_licensing_config_1e3ddf67832b52108eb710c5eeaad39a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-12 13:23:52</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+        <payload_hash>-1218975196</payload_hash>
+        <record_name>u_ev_device_costs</record_name>
+        <reverted_from/>
+        <source>974a294f8323da108eb710c5eeaad380</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 10:27:16</sys_created_on>
+        <sys_id>3b0b32c88348ae108eb710c5eeaad3c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19541cbe6880000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 10:27:16</sys_updated_on>
+        <type>Table Subscription Configuration</type>
+        <update_guid>3f0b32c8c648ae10335526f13d6f3ec2</update_guid>
+        <update_guid_history>3f0b32c8c648ae10335526f13d6f3ec2:-1218975196</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 11:14:54</sys_created_on>
+        <sys_db_object display_value="" name="ua_table_licensing_config">ua_table_licensing_config</sys_db_object>
+        <sys_id>11bf53f201c34e00a0210696e2040000</sys_id>
+        <sys_metadata>1e3ddf67832b52108eb710c5eeaad39a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_ev_device_costs</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_scope_delete display_value="">08380f235033495e814b97f7f661b4d1</sys_scope_delete>
+        <sys_update_name>ua_table_licensing_config_1e3ddf67832b52108eb710c5eeaad39a</sys_update_name>
+        <sys_update_version display_value="ua_table_licensing_config_1e3ddf67832b52108eb710c5eeaad39a">3b0b32c88348ae108eb710c5eeaad3c3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 11:14:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

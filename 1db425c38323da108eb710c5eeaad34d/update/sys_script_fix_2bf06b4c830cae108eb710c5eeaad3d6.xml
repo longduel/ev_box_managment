@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name>EV Date Generation</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[// Function to generate a random date within the last 3 months
+function generateRandomDate() {
+    // Get the current date
+    var currentDate = new Date();
+
+    // Calculate the date 3 months ago
+    var threeMonthsAgo = new Date();
+    threeMonthsAgo.setMonth(currentDate.getMonth() - 3);
+
+    // Generate a random timestamp between now and three months ago
+    var randomTimestamp = new Date(
+        threeMonthsAgo.getTime() + Math.random() * (currentDate.getTime() - threeMonthsAgo.getTime())
+    );
+
+    // Format the date as "YYYY-MM-DD HH:mm:ss"
+    var year = randomTimestamp.getFullYear();
+    var month = ('0' + (randomTimestamp.getMonth() + 1)).slice(-2); // Month is zero-indexed
+    var day = ('0' + randomTimestamp.getDate()).slice(-2);
+    var hours = ('0' + randomTimestamp.getHours()).slice(-2);
+    var minutes = ('0' + randomTimestamp.getMinutes()).slice(-2);
+    var seconds = ('0' + randomTimestamp.getSeconds()).slice(-2);
+
+    // Combine to get the formatted date string
+    var formattedDate = year + '-' + month + '-' + day + ' ' + hours + ':' + minutes + ':' + seconds;
+
+    return formattedDate;
+}
+
+// Example usage
+var randomDate;
+
+var getCostRecords = new GlideRecord('u_ev_costs');
+getCostRecords.addActiveQuery();
+getCostRecords.query();
+
+while (getCostRecords.next()) {
+    randomDate = generateRandomDate();
+    getCostRecords.u_operation_date = randomDate;
+    getCostRecords.update();
+}]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 13:13:18</sys_created_on>
+        <sys_id>2bf06b4c830cae108eb710c5eeaad3d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EV Date Generation</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sys_script_fix_2bf06b4c830cae108eb710c5eeaad3d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 13:13:18</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>2bf06b4c830cae108eb710c5eeaad3d6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 13:13:18</sys_created_on>
+        <sys_id>c011eb4c830cae108eb710c5eeaad336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 13:13:18</sys_updated_on>
+        <table>sys_script_fix</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

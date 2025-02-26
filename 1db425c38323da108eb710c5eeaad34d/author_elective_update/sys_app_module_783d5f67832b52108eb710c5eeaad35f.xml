@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="EV Box Managment">5385e1c38323da108eb710c5eeaad367</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>EV Device Costs</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>u_ev_device_costs</name>
+        <order>3</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>u_ev_device_costs_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-12 13:23:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>783d5f67832b52108eb710c5eeaad35f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>EV Device Costs</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sys_app_module_783d5f67832b52108eb710c5eeaad35f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 09:48:11</sys_updated_on>
+        <timeline_page/>
+        <title>EV Device Costs</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</application>
+        <file_path/>
+        <instance_id>f7c0ba231bd1865819254089bd4bcb9b</instance_id>
+        <instance_name>dev258302</instance_name>
+        <name>sys_app_module_783d5f67832b52108eb710c5eeaad35f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="EV Box Managment">5385e1c38323da108eb710c5eeaad367</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>EV Device Costs</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_ev_device_costs</name><order>3</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>u_ev_device_costs_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-12 13:23:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>783d5f67832b52108eb710c5eeaad35f</sys_id><sys_mod_count>1</sys_mod_count><sys_name>EV Device Costs</sys_name><sys_overrides/><sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package><sys_policy/><sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope><sys_update_name>sys_app_module_783d5f67832b52108eb710c5eeaad35f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 09:48:11</sys_updated_on><timeline_page/><title>EV Device Costs</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-18123133</payload_hash>
+        <record_name>EV Device Costs</record_name>
+        <reverted_from/>
+        <source>974a294f8323da108eb710c5eeaad380</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 09:48:11</sys_created_on>
+        <sys_id>ef127a488308ae108eb710c5eeaad38c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19541a81f0e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 09:48:11</sys_updated_on>
+        <type>Module</type>
+        <update_guid>67127a48ae08ae10b30711b70763988c</update_guid>
+        <update_guid_history>67127a48ae08ae10b30711b70763988c:-18123133,343d5f67b72b5210a5068e9446666363:1389658764</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="EV Device Costs">c20bbe888348ae108eb710c5eeaad30b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 10:27:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>10d6e5871d8c498b8217612217850b01</sys_id>
+        <sys_metadata>783d5f67832b52108eb710c5eeaad35f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EV Device Costs</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_scope_delete display_value="">08380f235033495e814b97f7f661b4d1</sys_scope_delete>
+        <sys_update_name>sys_app_module_783d5f67832b52108eb710c5eeaad35f</sys_update_name>
+        <sys_update_version display_value="sys_app_module_783d5f67832b52108eb710c5eeaad35f">ef127a488308ae108eb710c5eeaad38c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 10:27:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

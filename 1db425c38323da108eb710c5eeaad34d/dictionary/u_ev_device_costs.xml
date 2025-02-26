@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="b40d5b67832b52108eb710c5eeaad302" extends="u_ev_devices" label="EV Device Costs" max_length="40" name="u_ev_device_costs" type="collection"/>
-</database>

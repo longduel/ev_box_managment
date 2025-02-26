@@ -32,19 +32,40 @@ javascript: gs.getUserID() //name of logged in user.
 
 javascript: gs.getUser().getRecord().getValue('phone_number'); //phone number
 
-javascript: gs.getUser().getRecord().getValue('location'); //location]]></script>
+javascript: gs.getUser().getRecord().getValue('location'); //location
+
+function createDeviceCosts(box_ref, op_return, op_cost, paid, set_date,number) {
+    var logs = new GlideRecord("u_ev_device_costs");
+    logs.initialize();
+	logs.u_number = number;
+    logs.u_ev_box = box_ref;
+    logs.u_operational_return = op_return;
+    logs.u_operational_cost = op_cost;
+    logs.u_paid = paid;
+    logs.sys_created_on = set_date;
+    logs.insert();
+}
+
+var number = 'COST0001013'
+var box_ref = '214cd727832b52108eb710c5eeaad3db';
+var paid = 20.2;
+var op_return = 21.2;
+var op_cost = op_return - 5.5;
+var set_date = '2025-02-12 13:19:43';
+
+createDeviceCosts(box_ref,op_return,op_cost,paid,set_date,number);]]></script>
         <sys_class_name>sys_script_fix</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-13 12:28:53</sys_created_on>
         <sys_id>ff2a100083b3d2108eb710c5eeaad3f6</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Test</sys_name>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
         <sys_policy/>
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
         <sys_update_name>sys_script_fix_ff2a100083b3d2108eb710c5eeaad3f6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-18 13:32:20</sys_updated_on>
+        <sys_updated_on>2025-02-26 12:25:49</sys_updated_on>
         <unloadable>false</unloadable>
     </sys_script_fix>
     <sys_es_latest_script action="INSERT_OR_UPDATE">

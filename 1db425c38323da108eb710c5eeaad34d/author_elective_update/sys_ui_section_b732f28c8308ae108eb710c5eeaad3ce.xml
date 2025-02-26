@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Device Information" section_id="b732f28c8308ae108eb710c5eeaad3ce" sys_domain="global" table="u_ev_device_costs" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>asset_tag</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 09:48:46</sys_created_on>
+            <sys_id>f732f28c8308ae108eb710c5eeaad3cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Device Information" display_value="Device Information" name="u_ev_device_costs" sys_domain="global" view="Default view">b732f28c8308ae108eb710c5eeaad3ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 09:48:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>install_date</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 09:48:46</sys_created_on>
+            <sys_id>f732f28c8308ae108eb710c5eeaad3d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Device Information" display_value="Device Information" name="u_ev_device_costs" sys_domain="global" view="Default view">b732f28c8308ae108eb710c5eeaad3ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 09:48:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>attested_date</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 09:48:46</sys_created_on>
+            <sys_id>ff32f28c8308ae108eb710c5eeaad3cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Device Information" display_value="Device Information" name="u_ev_device_costs" sys_domain="global" view="Default view">b732f28c8308ae108eb710c5eeaad3ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 09:48:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 09:48:46</sys_created_on>
+            <sys_id>ff32f28c8308ae108eb710c5eeaad3d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Device Information" display_value="Device Information" name="u_ev_device_costs" sys_domain="global" view="Default view">b732f28c8308ae108eb710c5eeaad3ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 09:48:46</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 09:48:46</sys_created_on>
+            <sys_id>f732f28c8308ae108eb710c5eeaad3d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Device Information" display_value="Device Information" name="u_ev_device_costs" sys_domain="global" view="Default view">b732f28c8308ae108eb710c5eeaad3ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 09:48:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>serial_number</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 09:48:46</sys_created_on>
+            <sys_id>f732f28c8308ae108eb710c5eeaad3d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Device Information" display_value="Device Information" name="u_ev_device_costs" sys_domain="global" view="Default view">b732f28c8308ae108eb710c5eeaad3ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 09:48:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>manufacturer</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 09:48:46</sys_created_on>
+            <sys_id>ff32f28c8308ae108eb710c5eeaad3d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Device Information" display_value="Device Information" name="u_ev_device_costs" sys_domain="global" view="Default view">b732f28c8308ae108eb710c5eeaad3ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 09:48:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_os</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 09:48:46</sys_created_on>
+            <sys_id>ff32f28c8308ae108eb710c5eeaad3d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Device Information" display_value="Device Information" name="u_ev_device_costs" sys_domain="global" view="Default view">b732f28c8308ae108eb710c5eeaad3ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 09:48:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_lcd_dispaly</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 09:48:46</sys_created_on>
+            <sys_id>f732f28c8308ae108eb710c5eeaad3d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Device Information" display_value="Device Information" name="u_ev_device_costs" sys_domain="global" view="Default view">b732f28c8308ae108eb710c5eeaad3ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 09:48:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_transformer_type</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 09:48:46</sys_created_on>
+            <sys_id>f732f28c8308ae108eb710c5eeaad3d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Device Information" display_value="Device Information" name="u_ev_device_costs" sys_domain="global" view="Default view">b732f28c8308ae108eb710c5eeaad3ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 09:48:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_plug_type</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 09:48:46</sys_created_on>
+            <sys_id>ff32f28c8308ae108eb710c5eeaad3d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Device Information" display_value="Device Information" name="u_ev_device_costs" sys_domain="global" view="Default view">b732f28c8308ae108eb710c5eeaad3ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 09:48:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_availabe_slots</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 09:48:46</sys_created_on>
+            <sys_id>ff32f28c8308ae108eb710c5eeaad3d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Device Information" display_value="Device Information" name="u_ev_device_costs" sys_domain="global" view="Default view">b732f28c8308ae108eb710c5eeaad3ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 09:48:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Device Information</caption>
+            <header>true</header>
+            <name>u_ev_device_costs</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 09:48:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b732f28c8308ae108eb710c5eeaad3ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_ev_device_costs</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+            <sys_update_name>sys_ui_section_b732f28c8308ae108eb710c5eeaad3ce</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 09:48:46</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</application>
+        <file_path/>
+        <instance_id>f7c0ba231bd1865819254089bd4bcb9b</instance_id>
+        <instance_name>dev258302</instance_name>
+        <name>sys_ui_section_b732f28c8308ae108eb710c5eeaad3ce</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Device Information" section_id="b732f28c8308ae108eb710c5eeaad3ce" sys_domain="global" table="u_ev_device_costs" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>asset_tag</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 09:48:46</sys_created_on><sys_id>f732f28c8308ae108eb710c5eeaad3cf</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Device Information" display_value="Device Information" name="u_ev_device_costs" sys_domain="global" view="Default view">b732f28c8308ae108eb710c5eeaad3ce</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 09:48:46</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>install_date</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 09:48:46</sys_created_on><sys_id>f732f28c8308ae108eb710c5eeaad3d2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Device Information" display_value="Device Information" name="u_ev_device_costs" sys_domain="global" view="Default view">b732f28c8308ae108eb710c5eeaad3ce</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 09:48:46</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>attested_date</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 09:48:46</sys_created_on><sys_id>ff32f28c8308ae108eb710c5eeaad3cf</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Device Information" display_value="Device Information" name="u_ev_device_costs" sys_domain="global" view="Default view">b732f28c8308ae108eb710c5eeaad3ce</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 09:48:46</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 09:48:46</sys_created_on><sys_id>ff32f28c8308ae108eb710c5eeaad3d2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Device Information" display_value="Device Information" name="u_ev_device_costs" sys_domain="global" view="Default view">b732f28c8308ae108eb710c5eeaad3ce</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 09:48:46</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>vendor</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 09:48:46</sys_created_on><sys_id>f732f28c8308ae108eb710c5eeaad3d0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Device Information" display_value="Device Information" name="u_ev_device_costs" sys_domain="global" view="Default view">b732f28c8308ae108eb710c5eeaad3ce</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 09:48:46</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>serial_number</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 09:48:46</sys_created_on><sys_id>f732f28c8308ae108eb710c5eeaad3d3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Device Information" display_value="Device Information" name="u_ev_device_costs" sys_domain="global" view="Default view">b732f28c8308ae108eb710c5eeaad3ce</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 09:48:46</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>manufacturer</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 09:48:46</sys_created_on><sys_id>ff32f28c8308ae108eb710c5eeaad3d0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Device Information" display_value="Device Information" name="u_ev_device_costs" sys_domain="global" view="Default view">b732f28c8308ae108eb710c5eeaad3ce</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 09:48:46</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_os</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 09:48:46</sys_created_on><sys_id>ff32f28c8308ae108eb710c5eeaad3d3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Device Information" display_value="Device Information" name="u_ev_device_costs" sys_domain="global" view="Default view">b732f28c8308ae108eb710c5eeaad3ce</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 09:48:46</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_lcd_dispaly</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 09:48:46</sys_created_on><sys_id>f732f28c8308ae108eb710c5eeaad3d1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Device Information" display_value="Device Information" name="u_ev_device_costs" sys_domain="global" view="Default view">b732f28c8308ae108eb710c5eeaad3ce</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 09:48:46</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_transformer_type</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 09:48:46</sys_created_on><sys_id>f732f28c8308ae108eb710c5eeaad3d4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Device Information" display_value="Device Information" name="u_ev_device_costs" sys_domain="global" view="Default view">b732f28c8308ae108eb710c5eeaad3ce</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 09:48:46</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_plug_type</element><position>10</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 09:48:46</sys_created_on><sys_id>ff32f28c8308ae108eb710c5eeaad3d1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Device Information" display_value="Device Information" name="u_ev_device_costs" sys_domain="global" view="Default view">b732f28c8308ae108eb710c5eeaad3ce</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 09:48:46</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_availabe_slots</element><position>11</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 09:48:46</sys_created_on><sys_id>ff32f28c8308ae108eb710c5eeaad3d4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Device Information" display_value="Device Information" name="u_ev_device_costs" sys_domain="global" view="Default view">b732f28c8308ae108eb710c5eeaad3ce</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 09:48:46</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Device Information</caption><header>true</header><name>u_ev_device_costs</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 09:48:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b732f28c8308ae108eb710c5eeaad3ce</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_ev_device_costs</sys_name><sys_overrides/><sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package><sys_policy/><sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope><sys_update_name>sys_ui_section_b732f28c8308ae108eb710c5eeaad3ce</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 09:48:46</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-796833277</payload_hash>
+        <record_name>EV Device Costs</record_name>
+        <reverted_from/>
+        <source>974a294f8323da108eb710c5eeaad380</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 09:48:46</sys_created_on>
+        <sys_id>f332f28c8308ae108eb710c5eeaad3e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19541a8a5e40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 09:48:46</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>7b32f28ced08ae10ef17dfb1ef0ca1e3</update_guid>
+        <update_guid_history>7b32f28ced08ae10ef17dfb1ef0ca1e3:-796833277</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 09:55:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>0a6eccb1a35e4e60832f6fa4c4bbde40</sys_id>
+        <sys_metadata>b732f28c8308ae108eb710c5eeaad3ce</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Device Information</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_parent display_value="">b40d5b67832b52108eb710c5eeaad302</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_scope_delete display_value="">08380f235033495e814b97f7f661b4d1</sys_scope_delete>
+        <sys_update_name>sys_ui_section_b732f28c8308ae108eb710c5eeaad3ce</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_b732f28c8308ae108eb710c5eeaad3ce">f332f28c8308ae108eb710c5eeaad3e4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 09:55:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

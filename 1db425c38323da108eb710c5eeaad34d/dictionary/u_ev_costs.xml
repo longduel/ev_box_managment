@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2f16cb888388ae108eb710c5eeaad3ab" label="EV Costs" max_length="40" name="u_ev_costs" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="u_number" type="string"/>
+        <element label="Operational Costs" max_length="40" name="u_operational_cost" type="float"/>
+        <element attributes="edge_encryption_enabled=true" label="Operation Date" max_length="40" name="u_operation_date" type="glide_date_time"/>
+        <element label="Paid" max_length="20" name="u_paid" type="currency"/>
+        <element label="Operational Return" max_length="40" name="u_operational_return" type="float"/>
+        <element label="EV Box" max_length="32" name="u_ev_box" reference="u_ev_devices" type="reference"/>
+        <index name="index">
+            <element name="u_ev_box"/>
+        </index>
+    </element>
+</database>

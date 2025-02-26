@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections action="DELETE" form_id="b332b24c8308ae108eb710c5eeaad347" sys_domain="global" table="u_ev_device_costs" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 09:48:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0442f28c8308ae108eb710c5eeaad3f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="u_ev_device_costs" name="u_ev_device_costs" sys_domain="global" view="Default view">b332b24c8308ae108eb710c5eeaad347</sys_ui_form>
+            <sys_ui_section caption="EV Costs" display_value="EV Costs" name="u_ev_device_costs" sys_domain="global" view="Default view">7332f28c8308ae108eb710c5eeaad3ed</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 09:48:46</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 09:48:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fb32f28c8308ae108eb710c5eeaad3cd</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="u_ev_device_costs" name="u_ev_device_costs" sys_domain="global" view="Default view">b332b24c8308ae108eb710c5eeaad347</sys_ui_form>
+            <sys_ui_section caption="Costs and Returns" display_value="Costs and Returns" name="u_ev_device_costs" sys_domain="global" view="Default view">f332b24c8308ae108eb710c5eeaad34b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 09:55:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>u_ev_device_costs</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 09:48:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b332b24c8308ae108eb710c5eeaad347</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_ev_device_costs</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+            <sys_update_name>sys_ui_form_sections_b332b24c8308ae108eb710c5eeaad347</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 09:48:45</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</application>
+        <file_path/>
+        <instance_id>f7c0ba231bd1865819254089bd4bcb9b</instance_id>
+        <instance_name>dev258302</instance_name>
+        <name>sys_ui_form_sections_b332b24c8308ae108eb710c5eeaad347</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_form_sections form_id="b332b24c8308ae108eb710c5eeaad347" sys_domain="global" table="u_ev_device_costs" version="3"><sys_ui_form_section action="INSERT_OR_UPDATE"><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 09:48:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0442f28c8308ae108eb710c5eeaad3f5</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="u_ev_device_costs" name="u_ev_device_costs" sys_domain="global" view="Default view">b332b24c8308ae108eb710c5eeaad347</sys_ui_form><sys_ui_section caption="EV Costs" display_value="EV Costs" name="u_ev_device_costs" sys_domain="global" view="Default view">7332f28c8308ae108eb710c5eeaad3ed</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 09:48:46</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 09:48:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>fb32f28c8308ae108eb710c5eeaad3cd</sys_id><sys_mod_count>1</sys_mod_count><sys_overrides/><sys_ui_form display_value="u_ev_device_costs" name="u_ev_device_costs" sys_domain="global" view="Default view">b332b24c8308ae108eb710c5eeaad347</sys_ui_form><sys_ui_section caption="Costs and Returns" display_value="Costs and Returns" name="u_ev_device_costs" sys_domain="global" view="Default view">f332b24c8308ae108eb710c5eeaad34b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 09:55:26</sys_updated_on></sys_ui_form_section><sys_ui_form action="INSERT_OR_UPDATE"><name>u_ev_device_costs</name><roles/><sys_class_name>sys_ui_form</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 09:48:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b332b24c8308ae108eb710c5eeaad347</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_ev_device_costs</sys_name><sys_overrides/><sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package><sys_policy/><sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope><sys_update_name>sys_ui_form_sections_b332b24c8308ae108eb710c5eeaad347</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 09:48:45</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_form></sys_ui_form_sections></record_update>]]></payload>
+        <payload_hash>-977613466</payload_hash>
+        <record_name>EV Device Costs</record_name>
+        <reverted_from/>
+        <source>974a294f8323da108eb710c5eeaad380</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 09:55:26</sys_created_on>
+        <sys_id>e5c3f2008348ae108eb710c5eeaad367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19541aebf720000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 09:55:26</sys_updated_on>
+        <type>Form Sections</type>
+        <update_guid>adc3f200b248ae1061a6e0f9c6ec3f66</update_guid>
+        <update_guid_history>adc3f200b248ae1061a6e0f9c6ec3f66:-977613466,adc3f200d648ae1083ef25bad5297f61:-1997384924,91c3f2006448ae10a3264f01be6b4153:-966566730,4c42f28c2f08ae103714a1f5f7d0a7f6:1889161200,fb32b24c2408ae1073479d7a37d1fe49:-38504765</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 10:27:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_form">sys_ui_form</sys_db_object>
+        <sys_id>6d7506a495f145caa4d2db36b1fb6b04</sys_id>
+        <sys_metadata>b332b24c8308ae108eb710c5eeaad347</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_ev_device_costs</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_parent display_value="">b40d5b67832b52108eb710c5eeaad302</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_scope_delete display_value="">08380f235033495e814b97f7f661b4d1</sys_scope_delete>
+        <sys_update_name>sys_ui_form_sections_b332b24c8308ae108eb710c5eeaad347</sys_update_name>
+        <sys_update_version display_value="sys_ui_form_sections_b332b24c8308ae108eb710c5eeaad347">e5c3f2008348ae108eb710c5eeaad367</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 10:27:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

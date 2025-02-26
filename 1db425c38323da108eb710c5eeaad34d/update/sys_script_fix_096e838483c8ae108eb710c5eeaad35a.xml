@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description>Generate cost records for all of the EV Boxes.</description>
+        <name>EV Cost Generation</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[// Using this INT variable select how long the month period would be for generation
+// In this case random date will be generated in between 3 months
+var selectMonth = 3;
+
+// Variable for the generated date
+var randomDate;
+
+// How many record do you want to generate per device
+var recordNumber = 30;
+
+// Variables for the costs generation
+var generatePaid;
+var generateOperationalCost;
+var operationalReturn;
+
+function generateRandomDate() {
+    // Get the current date
+    var currentDate = new Date();
+
+    // Calculate the date 3 months ago
+    var threeMonthsAgo = new Date();
+    threeMonthsAgo.setMonth(currentDate.getMonth() - selectMonth);
+
+    // Generate a random timestamp between now and three months ago
+    var randomTimestamp = new Date(
+        threeMonthsAgo.getTime() + Math.random() * (currentDate.getTime() - threeMonthsAgo.getTime())
+    );
+
+    // Format the date as "YYYY-MM-DD HH:mm:ss"
+    var year = randomTimestamp.getFullYear();
+    var month = ('0' + (randomTimestamp.getMonth() + 1)).slice(-2); // Month is zero-indexed
+    var day = ('0' + randomTimestamp.getDate()).slice(-2);
+    var hours = ('0' + randomTimestamp.getHours()).slice(-2);
+    var minutes = ('0' + randomTimestamp.getMinutes()).slice(-2);
+    var seconds = ('0' + randomTimestamp.getSeconds()).slice(-2);
+
+    // Combine to get the formatted date string
+    var formattedDate = year + '-' + month + '-' + day + ' ' + hours + ':' + minutes + ':' + seconds;
+
+    return formattedDate;
+}
+
+function createDeviceCosts(box_ref, op_return, op_cost, paid, date) {
+    var logs = new GlideRecord("u_ev_costs");
+    logs.initialize();
+    logs.u_ev_box = box_ref;
+    logs.u_operational_return = op_return;
+    logs.u_operational_cost = op_cost;
+    logs.u_paid = paid;
+    logs.insert();
+}
+
+function randomFloatCost(min, max) { // min and max included 
+    return (Math.random() * (max - min) + min).toFixed(2);
+}
+
+function generateCosts() {
+    generatePaid = randomFloatCost(20.00, 120.00);
+    generateOperationalCost = randomFloatCost(4.00, 10.00);
+    operationalReturn = generatePaid - generateOperationalCost;
+}
+
+var evDevice = new GlideRecord('u_ev_devices');
+evDevice.addActiveQuery();
+evDevice.query();
+
+while (evDevice.next()) {
+    for (var i = 0; i < recordNumber; i++) {
+        generateCosts();
+		randomDate = generateRandomDate();
+        createDeviceCosts(evDevice.sys_id, operationalReturn, generateOperationalCost, generatePaid, randomDate);
+    }
+}]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 11:52:19</sys_created_on>
+        <sys_id>096e838483c8ae108eb710c5eeaad35a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>EV Cost Generation</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sys_script_fix_096e838483c8ae108eb710c5eeaad35a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 12:50:27</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>096e838483c8ae108eb710c5eeaad35a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 11:52:19</sys_created_on>
+        <sys_id>f18e038483c8ae108eb710c5eeaad357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 11:52:19</sys_updated_on>
+        <table>sys_script_fix</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

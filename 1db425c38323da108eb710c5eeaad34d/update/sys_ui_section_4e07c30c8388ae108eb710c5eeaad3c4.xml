@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Costs and Return" section_id="4e07c30c8388ae108eb710c5eeaad3c4" sys_domain="global" table="u_ev_costs" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_operational_cost</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 11:19:48</sys_created_on>
+            <sys_id>1d17470c8388ae108eb710c5eeaad340</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Costs and Return" display_value="Costs and Return" name="u_ev_costs" sys_domain="global" view="Default view">4e07c30c8388ae108eb710c5eeaad3c4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 11:19:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 11:19:48</sys_created_on>
+            <sys_id>1517470c8388ae108eb710c5eeaad341</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Costs and Return" display_value="Costs and Return" name="u_ev_costs" sys_domain="global" view="Default view">4e07c30c8388ae108eb710c5eeaad3c4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 11:19:48</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_operational_return</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 11:19:48</sys_created_on>
+            <sys_id>d117470c8388ae108eb710c5eeaad34e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Costs and Return" display_value="Costs and Return" name="u_ev_costs" sys_domain="global" view="Default view">4e07c30c8388ae108eb710c5eeaad3c4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 11:19:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Costs and Return</caption>
+            <header>false</header>
+            <name>u_ev_costs</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-26 11:19:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4e07c30c8388ae108eb710c5eeaad3c4</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>u_ev_costs</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+            <sys_update_name>sys_ui_section_4e07c30c8388ae108eb710c5eeaad3c4</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-26 11:19:47</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
