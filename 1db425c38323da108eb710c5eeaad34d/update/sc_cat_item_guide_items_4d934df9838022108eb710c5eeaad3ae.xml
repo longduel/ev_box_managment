@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_guide_items">
+    <sc_cat_item_guide_items action="INSERT_OR_UPDATE">
+        <condition>IO:df5d453983c022108eb710c5eeaad31e=true^EQ</condition>
+        <guide display_value="EV New Hire">575de83d830022108eb710c5eeaad38c</guide>
+        <ignore_mandatory_eval>false</ignore_mandatory_eval>
+        <item display_value="EV Issue Equipment">e0a07431834022108eb710c5eeaad3d5</item>
+        <order>3</order>
+        <quantity>1</quantity>
+        <requested_by/>
+        <requested_for/>
+        <show_quantity>false</show_quantity>
+        <sys_class_name>sc_cat_item_guide_items</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 12:14:49</sys_created_on>
+        <sys_id>4d934df9838022108eb710c5eeaad3ae</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>e0a07431834022108eb710c5eeaad3d5</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sc_cat_item_guide_items_4d934df9838022108eb710c5eeaad3ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 15:18:35</sys_updated_on>
+        <use_sc_layout>true</use_sc_layout>
+    </sc_cat_item_guide_items>
+</record_update>

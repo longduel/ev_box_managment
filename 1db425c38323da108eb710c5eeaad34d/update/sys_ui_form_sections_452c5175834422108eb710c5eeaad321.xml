@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="452c5175834422108eb710c5eeaad321" sys_domain="global" table="sys_flow_cat_variable" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-03 14:01:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a92c5175834422108eb710c5eeaad38e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_flow_cat_variable" name="sys_flow_cat_variable" sys_domain="global" view="Default view">452c5175834422108eb710c5eeaad321</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="sys_flow_cat_variable" sys_domain="global" view="Default view">a12c5175834422108eb710c5eeaad382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-03 14:01:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-03 14:01:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>192c5175834422108eb710c5eeaad34f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_flow_cat_variable" name="sys_flow_cat_variable" sys_domain="global" view="Default view">452c5175834422108eb710c5eeaad321</sys_ui_form>
+            <sys_ui_section caption="Question" display_value="Question" name="sys_flow_cat_variable" sys_domain="global" view="Default view">9d2c5175834422108eb710c5eeaad347</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-03 14:01:57</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-03 14:01:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e92c5175834422108eb710c5eeaad397</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_flow_cat_variable" name="sys_flow_cat_variable" sys_domain="global" view="Default view">452c5175834422108eb710c5eeaad321</sys_ui_form>
+            <sys_ui_section caption="Annotation" display_value="Annotation" name="sys_flow_cat_variable" sys_domain="global" view="Default view">212c5175834422108eb710c5eeaad38f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-03 14:01:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-03 14:01:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2d2c5175834422108eb710c5eeaad381</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_flow_cat_variable" name="sys_flow_cat_variable" sys_domain="global" view="Default view">452c5175834422108eb710c5eeaad321</sys_ui_form>
+            <sys_ui_section caption="Type Specifications" display_value="Type Specifications" name="sys_flow_cat_variable" sys_domain="global" view="Default view">992c5175834422108eb710c5eeaad363</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-03 14:01:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-03 14:01:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d12c5175834422108eb710c5eeaad355</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_flow_cat_variable" name="sys_flow_cat_variable" sys_domain="global" view="Default view">452c5175834422108eb710c5eeaad321</sys_ui_form>
+            <sys_ui_section caption="Default Value" display_value="Default Value" name="sys_flow_cat_variable" sys_domain="global" view="Default view">9d2c5175834422108eb710c5eeaad34f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-03 14:01:57</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-03 14:01:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d12c5175834422108eb710c5eeaad35a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_flow_cat_variable" name="sys_flow_cat_variable" sys_domain="global" view="Default view">452c5175834422108eb710c5eeaad321</sys_ui_form>
+            <sys_ui_section caption="Auto-populate" display_value="Auto-populate" name="sys_flow_cat_variable" sys_domain="global" view="Default view">592c5175834422108eb710c5eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-03 14:01:57</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-03 14:01:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>912c5175834422108eb710c5eeaad347</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_flow_cat_variable" name="sys_flow_cat_variable" sys_domain="global" view="Default view">452c5175834422108eb710c5eeaad321</sys_ui_form>
+            <sys_ui_section caption="Permission" display_value="Permission" name="sys_flow_cat_variable" sys_domain="global" view="Default view">912c5175834422108eb710c5eeaad325</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-03 14:01:57</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-03 14:01:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>152c5175834422108eb710c5eeaad363</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_flow_cat_variable" name="sys_flow_cat_variable" sys_domain="global" view="Default view">452c5175834422108eb710c5eeaad321</sys_ui_form>
+            <sys_ui_section caption="Availability" display_value="Availability" name="sys_flow_cat_variable" sys_domain="global" view="Default view">592c5175834422108eb710c5eeaad35a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-03 14:01:57</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>sys_flow_cat_variable</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-03 14:01:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>452c5175834422108eb710c5eeaad321</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_flow_cat_variable</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+            <sys_update_name>sys_ui_form_sections_452c5175834422108eb710c5eeaad321</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-03 14:01:56</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

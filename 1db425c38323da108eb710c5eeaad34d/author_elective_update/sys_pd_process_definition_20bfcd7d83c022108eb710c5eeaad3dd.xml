@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_process_definition">
+    <sys_pd_process_definition action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <description/>
+        <designer_state>{"diagram":{"hiddenElements":{"edges":{}}}}</designer_state>
+        <engine_major_version/>
+        <label>EV New Hire Process</label>
+        <name>ev_new_hire_process</name>
+        <now_assist_prompt/>
+        <process_type/>
+        <restartable>RESTARTABLE_FALSE</restartable>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <schema_version>2</schema_version>
+        <snapshot/>
+        <start_non_blocking>true</start_non_blocking>
+        <status>draft</status>
+        <sync_state>COMPLETE</sync_state>
+        <synced_on/>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:07:33</sys_created_on>
+        <sys_id>20bfcd7d83c022108eb710c5eeaad3dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EV New Hire Process</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sys_pd_process_definition_20bfcd7d83c022108eb710c5eeaad3dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:08:12</sys_updated_on>
+        <view_type>DIAGRAM</view_type>
+    </sys_pd_process_definition>
+    <sys_translated_text action="DELETE" query="documentkey=20bfcd7d83c022108eb710c5eeaad3dd"/>
+    <sys_pd_lane action="DELETE" query="process_definition=20bfcd7d83c022108eb710c5eeaad3dd^sys_idNOT INef2f210ef2ec10ef260a0ef23710ef29,456a5620456a93c0456a79f0456af0b0,1e71d2d01e716c701e718bb01e719480"/>
+    <sys_pd_lane action="DELETE">
+        <active>true</active>
+        <condition_to_run/>
+        <description/>
+        <label>Create New Account</label>
+        <lane_condition/>
+        <name>new_stage</name>
+        <order>1</order>
+        <process_definition display_value="EV New Hire Process">20bfcd7d83c022108eb710c5eeaad3dd</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="Immediately">b823830967fc41ddb84959d97897b1ae</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:07:38</sys_created_on>
+        <sys_id>ef2f210ef2ec10ef260a0ef23710ef29</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:07:52</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_translated_text action="DELETE" query="documentkey=ef2f210ef2ec10ef260a0ef23710ef29"/>
+    <sys_variable_value action="DELETE" query="document_key=ef2f210ef2ec10ef260a0ef23710ef29"/>
+    <sys_pd_lane action="DELETE">
+        <active>true</active>
+        <condition_to_run/>
+        <description/>
+        <label>Deliver a Phone</label>
+        <lane_condition/>
+        <name>new_stage_1</name>
+        <order>2</order>
+        <process_definition display_value="EV New Hire Process">20bfcd7d83c022108eb710c5eeaad3dd</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="After Lanes">7407ca1ac3e02110f1f504186e40dd50</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:07:53</sys_created_on>
+        <sys_id>456a5620456a93c0456a79f0456af0b0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:08:02</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_translated_text action="DELETE" query="documentkey=456a5620456a93c0456a79f0456af0b0"/>
+    <sys_variable_value action="DELETE" query="document_key=456a5620456a93c0456a79f0456af0b0"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_lane</document>
+        <document_key>456a5620456a93c0456a79f0456af0b0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:07:53</sys_created_on>
+        <sys_id>d9cfc1bd83c022108eb710c5eeaad342</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:07:53</sys_updated_on>
+        <value>ef2f210ef2ec10ef260a0ef23710ef29</value>
+        <variable display_value="Lanes">9a070e1ac3e02110f1f504186e40ddd2</variable>
+    </sys_variable_value>
+    <sys_pd_lane action="DELETE">
+        <active>true</active>
+        <condition_to_run/>
+        <description/>
+        <label>Additional Tasks</label>
+        <lane_condition/>
+        <name>new_stage_2</name>
+        <order>3</order>
+        <process_definition display_value="EV New Hire Process">20bfcd7d83c022108eb710c5eeaad3dd</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="After Lanes">7407ca1ac3e02110f1f504186e40dd50</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:08:03</sys_created_on>
+        <sys_id>1e71d2d01e716c701e718bb01e719480</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:08:11</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_translated_text action="DELETE" query="documentkey=1e71d2d01e716c701e718bb01e719480"/>
+    <sys_variable_value action="DELETE" query="document_key=1e71d2d01e716c701e718bb01e719480"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_lane</document>
+        <document_key>1e71d2d01e716c701e718bb01e719480</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:08:03</sys_created_on>
+        <sys_id>7fcf81bd83c022108eb710c5eeaad3ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:08:03</sys_updated_on>
+        <value>456a5620456a93c0456a79f0456af0b0</value>
+        <variable display_value="Lanes">9a070e1ac3e02110f1f504186e40ddd2</variable>
+    </sys_variable_value>
+    <sys_pd_activity action="DELETE" query="process_definition=20bfcd7d83c022108eb710c5eeaad3dd"/>
+    <sys_pd_process_variant action="DELETE" query="process_definition=20bfcd7d83c022108eb710c5eeaad3dd"/>
+    <sys_pd_snapshot action="DELETE" query="sys_id="/>
+    <sys_json_chunk action="DELETE" query="document_id="/>
+    <sys_pd_snapshot_chunk action="DELETE" query="document_id="/>
+    <sys_pd_process_definition action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <description/>
+        <designer_state>{"diagram":{"hiddenElements":{"edges":{}}}}</designer_state>
+        <engine_major_version/>
+        <label>EV New Hire Process</label>
+        <name>ev_new_hire_process</name>
+        <now_assist_prompt/>
+        <process_type/>
+        <restartable>RESTARTABLE_FALSE</restartable>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <schema_version>2</schema_version>
+        <snapshot/>
+        <start_non_blocking>true</start_non_blocking>
+        <status>draft</status>
+        <sync_state>COMPLETE</sync_state>
+        <synced_on/>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:07:33</sys_created_on>
+        <sys_id>20bfcd7d83c022108eb710c5eeaad3dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EV New Hire Process</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sys_pd_process_definition_20bfcd7d83c022108eb710c5eeaad3dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:08:12</sys_updated_on>
+        <view_type>DIAGRAM</view_type>
+    </sys_pd_process_definition>
+    <sys_translated_text action="DELETE" query="documentkey=20bfcd7d83c022108eb710c5eeaad3dd"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</application>
+        <file_path/>
+        <instance_id>f7c0ba231bd1865819254089bd4bcb9b</instance_id>
+        <instance_name>dev258302</instance_name>
+        <name>sys_pd_process_definition_20bfcd7d83c022108eb710c5eeaad3dd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_process_definition"><sys_pd_process_definition action="INSERT_OR_UPDATE"><access>public</access><active>true</active><description/><designer_state>{"diagram":{"hiddenElements":{"edges":{}}}}</designer_state><engine_major_version/><label>EV New Hire Process</label><name>ev_new_hire_process</name><now_assist_prompt/><process_type/><restartable>RESTARTABLE_FALSE</restartable><run_on_pad_engine>false</run_on_pad_engine><schema_version>2</schema_version><snapshot/><start_non_blocking>true</start_non_blocking><status>draft</status><sync_state>COMPLETE</sync_state><synced_on/><sys_class_name>sys_pd_process_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-03 13:07:33</sys_created_on><sys_id>20bfcd7d83c022108eb710c5eeaad3dd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>EV New Hire Process</sys_name><sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package><sys_policy/><sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope><sys_update_name>sys_pd_process_definition_20bfcd7d83c022108eb710c5eeaad3dd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-03 13:08:12</sys_updated_on><view_type>DIAGRAM</view_type></sys_pd_process_definition><sys_translated_text action="delete_multiple" query="documentkey=20bfcd7d83c022108eb710c5eeaad3dd"/><sys_pd_lane action="delete_multiple" query="process_definition=20bfcd7d83c022108eb710c5eeaad3dd^sys_idNOT INef2f210ef2ec10ef260a0ef23710ef29,456a5620456a93c0456a79f0456af0b0,1e71d2d01e716c701e718bb01e719480"/><sys_pd_lane action="INSERT_OR_UPDATE"><active>true</active><condition_to_run/><description/><label>Create New Account</label><lane_condition/><name>new_stage</name><order>1</order><process_definition display_value="EV New Hire Process">20bfcd7d83c022108eb710c5eeaad3dd</process_definition><restart_rule>RUN_ONLY_ONCE</restart_rule><start_rule display_value="Immediately">b823830967fc41ddb84959d97897b1ae</start_rule><start_rule_vars/><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-03 13:07:38</sys_created_on><sys_id>ef2f210ef2ec10ef260a0ef23710ef29</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-03 13:07:52</sys_updated_on><visible_rule/></sys_pd_lane><sys_translated_text action="delete_multiple" query="documentkey=ef2f210ef2ec10ef260a0ef23710ef29"/><sys_variable_value action="delete_multiple" query="document_key=ef2f210ef2ec10ef260a0ef23710ef29"/><sys_pd_lane action="INSERT_OR_UPDATE"><active>true</active><condition_to_run/><description/><label>Deliver a Phone</label><lane_condition/><name>new_stage_1</name><order>2</order><process_definition display_value="EV New Hire Process">20bfcd7d83c022108eb710c5eeaad3dd</process_definition><restart_rule>RUN_ONLY_ONCE</restart_rule><start_rule display_value="After Lanes">7407ca1ac3e02110f1f504186e40dd50</start_rule><start_rule_vars/><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-03 13:07:53</sys_created_on><sys_id>456a5620456a93c0456a79f0456af0b0</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-03 13:08:02</sys_updated_on><visible_rule/></sys_pd_lane><sys_translated_text action="delete_multiple" query="documentkey=456a5620456a93c0456a79f0456af0b0"/><sys_variable_value action="delete_multiple" query="document_key=456a5620456a93c0456a79f0456af0b0"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_lane</document><document_key>456a5620456a93c0456a79f0456af0b0</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-03 13:07:53</sys_created_on><sys_id>d9cfc1bd83c022108eb710c5eeaad342</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-03 13:07:53</sys_updated_on><value>ef2f210ef2ec10ef260a0ef23710ef29</value><variable display_value="Lanes">9a070e1ac3e02110f1f504186e40ddd2</variable></sys_variable_value><sys_pd_lane action="INSERT_OR_UPDATE"><active>true</active><condition_to_run/><description/><label>Additional Tasks</label><lane_condition/><name>new_stage_2</name><order>3</order><process_definition display_value="EV New Hire Process">20bfcd7d83c022108eb710c5eeaad3dd</process_definition><restart_rule>RUN_ONLY_ONCE</restart_rule><start_rule display_value="After Lanes">7407ca1ac3e02110f1f504186e40dd50</start_rule><start_rule_vars/><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-03 13:08:03</sys_created_on><sys_id>1e71d2d01e716c701e718bb01e719480</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-03 13:08:11</sys_updated_on><visible_rule/></sys_pd_lane><sys_translated_text action="delete_multiple" query="documentkey=1e71d2d01e716c701e718bb01e719480"/><sys_variable_value action="delete_multiple" query="document_key=1e71d2d01e716c701e718bb01e719480"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_lane</document><document_key>1e71d2d01e716c701e718bb01e719480</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-03 13:08:03</sys_created_on><sys_id>7fcf81bd83c022108eb710c5eeaad3ff</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-03 13:08:03</sys_updated_on><value>456a5620456a93c0456a79f0456af0b0</value><variable display_value="Lanes">9a070e1ac3e02110f1f504186e40ddd2</variable></sys_variable_value><sys_pd_activity action="delete_multiple" query="process_definition=20bfcd7d83c022108eb710c5eeaad3dd"/><sys_pd_process_variant action="delete_multiple" query="process_definition=20bfcd7d83c022108eb710c5eeaad3dd"/><sys_pd_snapshot action="delete_multiple" query="sys_id="/><sys_json_chunk action="delete_multiple" query="document_id="/><sys_pd_snapshot_chunk action="delete_multiple" query="document_id="/><sys_pd_process_definition action="INSERT_OR_UPDATE"><access>public</access><active>true</active><description/><designer_state>{"diagram":{"hiddenElements":{"edges":{}}}}</designer_state><engine_major_version/><label>EV New Hire Process</label><name>ev_new_hire_process</name><now_assist_prompt/><process_type/><restartable>RESTARTABLE_FALSE</restartable><run_on_pad_engine>false</run_on_pad_engine><schema_version>2</schema_version><snapshot/><start_non_blocking>true</start_non_blocking><status>draft</status><sync_state>COMPLETE</sync_state><synced_on/><sys_class_name>sys_pd_process_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-03 13:07:33</sys_created_on><sys_id>20bfcd7d83c022108eb710c5eeaad3dd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>EV New Hire Process</sys_name><sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package><sys_policy/><sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope><sys_update_name>sys_pd_process_definition_20bfcd7d83c022108eb710c5eeaad3dd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-03 13:08:12</sys_updated_on><view_type>DIAGRAM</view_type></sys_pd_process_definition><sys_translated_text action="delete_multiple" query="documentkey=20bfcd7d83c022108eb710c5eeaad3dd"/></record_update>]]></payload>
+        <payload_hash>-267643860</payload_hash>
+        <record_name>EV New Hire Process</record_name>
+        <reverted_from/>
+        <source>974a294f8323da108eb710c5eeaad380</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-03-03 13:08:12</sys_created_on>
+        <sys_id>0edf09bd83c022108eb710c5eeaad345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1955c1f09530000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:08:12</sys_updated_on>
+        <type>Process Definition</type>
+        <update_guid>c2df09bdf7c022105dd06134ef367e45</update_guid>
+        <update_guid_history>c2df09bdf7c022105dd06134ef367e45:-267643860,c0df85bdc8c02210c23bc85c888f75f0:-883020971,fbcf85bd96c02210eea3b00dc8446dce:-1313419774,65cf45bd71c02210fdee6273b0b6a8d2:703629068,05cf45bd22c02210df7e610c1743aa8e:2120950556,b5bf05bd5ec02210ca512c7ce6848f54:1741791825,68bfcd7d06c02210f9ed43bbd09636e0:1386746461</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:30:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_pd_process_definition">sys_pd_process_definition</sys_db_object>
+        <sys_id>a366fa1095a34475a2adfafaee84a401</sys_id>
+        <sys_metadata>20bfcd7d83c022108eb710c5eeaad3dd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EV New Hire Process</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_scope_delete display_value="">08380f235033495e814b97f7f661b4d1</sys_scope_delete>
+        <sys_update_name>sys_pd_process_definition_20bfcd7d83c022108eb710c5eeaad3dd</sys_update_name>
+        <sys_update_version display_value="sys_pd_process_definition_20bfcd7d83c022108eb710c5eeaad3dd">0edf09bd83c022108eb710c5eeaad345</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:30:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

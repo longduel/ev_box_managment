@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="EV New Hire">575de83d830022108eb710c5eeaad38c</catalog_item>
+        <catalog_variable>IO:91700df5838022108eb710c5eeaad3e4</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 12:28:17</sys_created_on>
+        <sys_id>6da64d3183c022108eb710c5eeaad381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>training_needed</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_6da64d3183c022108eb710c5eeaad381</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 12:28:17</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show training field">0d26c13183c022108eb710c5eeaad30d</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>training_needed</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=6da64d3183c022108eb710c5eeaad381"/>
+</record_update>

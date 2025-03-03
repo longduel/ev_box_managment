@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=firefox,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=121000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>5ca5ed71838422108eb710c5eeaad365</copied_from>
+        <copied_from_name>EV Training</copied_from_name>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>ev_equipment</internal_name>
+        <label_cache>[{"name":"499c3406-c7ad-407c-928a-5441cc60874e.Catalog Task.state","label":"2 - Create Catalog Task➛Catalog Task➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"sc_task","column_name":"state","choices":[{"used":false,"label":"Not Started","image":"","reference":false,"rawLabel":"Not Started","selected":false,"missing":false,"value":"-10","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"Pending","image":"","reference":false,"rawLabel":"Pending","selected":false,"missing":false,"value":"-5","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"Open","image":"","reference":false,"rawLabel":"Open","selected":false,"missing":false,"value":"1","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"Work in Progress","image":"","reference":false,"rawLabel":"Work in Progress","selected":false,"missing":false,"value":"2","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"Closed Complete","image":"","reference":false,"rawLabel":"Closed Complete","selected":false,"missing":false,"value":"3","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"Closed Incomplete","image":"","reference":false,"rawLabel":"Closed Incomplete","selected":false,"missing":false,"value":"4","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"Closed Skipped","image":"","reference":false,"rawLabel":"Closed Skipped","selected":false,"missing":false,"value":"7","parameters":{"name":"task","dependent_values":[""]}}],"usedInstances":{"880cfe0f-a616-4efb-869c-1c2469f0fae6":["condition"]}},{"name":"33215ade-88e9-45d5-abf1-445cd65e0ef5.training_start","label":"1 - Get Catalog Variables➛training_start","reference":"","reference_display":"training_start","type":"glide_date","base_type":"glide_date","usedInstances":{"8381effa-c701-44cc-9351-4568f2bf5708":["conditions"]},"attributes":{"catalogType":"9","catalogTypeLabel":"Date"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"33215ade-88e9-45d5-abf1-445cd65e0ef5":["requested_item"],"499c3406-c7ad-407c-928a-5441cc60874e":["ah_requested_item"],"8381effa-c701-44cc-9351-4568f2bf5708":["record"],"4408a4dd-54e0-477a-8a2e-535feb28ae22":["record"],"9efd64ad-ccee-4854-97c6-007aaa250fb1":["record"]},"attributes":{"default_search_field":"number"}}]</label_cache>
+        <master_snapshot>d4e861f5838422108eb710c5eeaad340</master_snapshot>
+        <master_snapshot_digest/>
+        <name>EV Equipment</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>64e861f5838422108eb710c5eeaad39f</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 14:55:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3668e1b5838422108eb710c5eeaad392</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>EV Equipment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sys_hub_flow_3668e1b5838422108eb710c5eeaad392</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 14:57:36</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=3668e1b5838422108eb710c5eeaad392"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3668e1b5838422108eb710c5eeaad392"/>
+    <sys_flow_catalog_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <catalog_item/>
+        <name/>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <sys_class_name>sys_flow_catalog_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 14:57:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>64e861f5838422108eb710c5eeaad39f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 14:57:36</sys_updated_on>
+        <trigger_definition/>
+    </sys_flow_catalog_trigger>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=3668e1b5838422108eb710c5eeaad392"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=3668e1b5838422108eb710c5eeaad392"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=3668e1b5838422108eb710c5eeaad392^sys_idNOT INbe68e1b5838422108eb710c5eeaad392"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>3668e1b5838422108eb710c5eeaad392</id>
+        <name>EV Equipment</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 14:55:34</sys_created_on>
+        <sys_id>be68e1b5838422108eb710c5eeaad392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 14:55:34</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=be68e1b5838422108eb710c5eeaad392"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=3668e1b5838422108eb710c5eeaad392^sys_idNOT IN7268e1b5838422108eb710c5eeaad39c,b668e1b5838422108eb710c5eeaad398"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="EV Equipment">3668e1b5838422108eb710c5eeaad392</model>
+        <model_id>3668e1b5838422108eb710c5eeaad392</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_3668e1b5838422108eb710c5eeaad392</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 14:55:34</sys_created_on>
+        <sys_id>7268e1b5838422108eb710c5eeaad39c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 14:57:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7268e1b5838422108eb710c5eeaad39c"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="EV Equipment">3668e1b5838422108eb710c5eeaad392</model>
+        <model_id>3668e1b5838422108eb710c5eeaad392</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_3668e1b5838422108eb710c5eeaad392</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 14:55:34</sys_created_on>
+        <sys_id>b668e1b5838422108eb710c5eeaad398</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 14:57:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b668e1b5838422108eb710c5eeaad398"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=3668e1b5838422108eb710c5eeaad392"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3668e1b5838422108eb710c5eeaad392"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=3668e1b5838422108eb710c5eeaad392^sys_idNOT INba68e1b5838422108eb710c5eeaad3b2"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="EV Equipment">3668e1b5838422108eb710c5eeaad392</flow>
+        <name>Service Catalog</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 14:55:34</sys_created_on>
+        <sys_id>ba68e1b5838422108eb710c5eeaad3b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 14:55:34</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/61TTW/bMAz9K4FOG5CDk6zNktswoECAbgWarpdiMGSJcoTJkifJbr2g/32kPxK3M4YB3U2iyMfHx6eHIzM8A8O27LaysyvjHmc7y+ZM2wjecnPXlICP4uC0AIx3h2sdIts+HJm656aihIyLH7l3lZWYpK5HmIowtZ2dM2bvJChemfiecncFzwmBznswICJItlXcBMDItzC+fdEhaJv3gef5iIByHv5O4GXGG9p+n7OCW8mj8805ybviDorS8AinoPMSPNsukmTOaiK6b8JOdl0tL6i/r2xKDFNNstf9NHiUOiBYc3+OiIM20oNF5ZFCyT0iRMI/vnrS1OIy2SRivdys18tktUoSdZEpoYRYf1wkl4uLDQJOr36SWHzlg/Fk8BTBypFgf6rjgcsba86BAxqsm6rgT0H/QvAPCeUpwDFEP/HpmvZqDEIQi9A60Py71eopr/aDJGSmKawXrqmnzDZIQb7ou33+/wQXbya4JIKddDdl1A7Nwla0Wp4ZqglN6BbuQWBJGr3OcyzEImeqwn6d8kXPfuTSKuC2oCRH0IqH77E/uMfbYZ1X2raU+kfjBDenG4/YOasi6XdkXNYcK8jR0WOP59YV6c+KKtp/MvRK24koIQivy/hJRF3D6dP+BvLQA67rBAAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=3668e1b5838422108eb710c5eeaad392^sys_idNOT IN3668e1b5838422108eb710c5eeaad3b2,3e68e1b5838422108eb710c5eeaad3b1,7a68e1b5838422108eb710c5eeaad3af,7e68e1b5838422108eb710c5eeaad3b0"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="EV Equipment">3668e1b5838422108eb710c5eeaad392</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>8f683ae1-95ab-49c1-8914-96402a364595</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 14:55:34</sys_created_on>
+        <sys_id>3668e1b5838422108eb710c5eeaad3b2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-03-03 15:22:44</sys_updated_on>
+        <ui_id>9efd64ad-ccee-4854-97c6-007aaa250fb1</ui_id>
+        <values>H4sIAAAAAAAA/+WUzWrjMBSFXyVobYwdp6HNbkgIFDotJEM2nWJk6zoRyLIryWkzIe8+15bsmKR0UugmjHe6P9K5x5/0vCeckQkZAQvCu3CcRmEUDYNgeDsKk3GUhEMWUYCQeETSHLBSQVoohustFVUd2O+XoLY8hcGUGiqKdRz6Cl4r0CbmBvLDAYsZ16Wgu5XrwUi64YIpkGTy/OKRkirc3oAik/1J6lJ9giYgsHTRCjwVbHZlvWZFWuUgUVwbfHCdM5cZ3M8wg021nDDwCLwbkAxQSEaFBo/kVDJqCrUjE6MqDCig7EmKXVex4dLYQXP6rvkfPHkU1HUZ4GSpM6Fbxs4gG85m6OQSd05NpTq/CvRYW08YZLQSZtqP2YKn0vBC2hZDE9F2F6LK5aN1hHQb9P5HpVEElPWctXI7VrbcFG+LVuScy8YSN6IoUiq6FTVG8aQytZw9AQGNxzktSy7XcamKLW+aUUrurwUu/EwUb3im5mvp07TW7aOr1J9jfNaEV1TxeoifuA02Hzyid3oqqNbHUdDD+LWqldjB3Ahx40JjQdyQUDenipfmBx61BSf84LkbkNx8Rlh6dwSqt+fxFug0Rugb4M9xX9jrAGxwb/Nfg/8CaS38v5pf/rFUx/9Z7KHfO3i0CUf/zbfRf3tN9Lsxrh7/f0EfDD99VnskNZzrPvCGGvhdBUHERufEn2S/xvsFqlre5xwE0x/IbGGHHGUZiK3sE+BdcrByye7J/zbqw3HQfFfE/n/z8r/8Ba+kJ6H9CAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="EV Equipment">3668e1b5838422108eb710c5eeaad392</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>880cfe0f-a616-4efb-869c-1c2469f0fae6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 14:55:34</sys_created_on>
+        <sys_id>3e68e1b5838422108eb710c5eeaad3b1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-03-03 15:22:44</sys_updated_on>
+        <ui_id>4408a4dd-54e0-477a-8a2e-535feb28ae22</ui_id>
+        <values>H4sIAAAAAAAA/+WUzWrjMBSFXyVobYwdp6HNbkgIFDotJEM2nWJk6ToRyLIryWkzIe8+17bsmKR0UugmjHe6P9K5x5/0vCeCkwkZAQ/Cu3DMojCKhkEwvB2FyThKwiGPKEBIPKJoBlipgeWa43pLZVkF9vsl6K1gMJhSS2W+jkNfw2sJxsbCQnY4YDEXppB0t3I9GGEbIbkGRSbPLx4pqMbtLWgy2Z+kLtUnaQISSxetwFPBdldUa56zMgOF4trgg+ucuczgfoYZbKrkhIFH4N2C4oBCUioNeCSjilOb6x2ZWF1iQAPlT0ruuoqNULYZNKPvRvzBk0dBVZcCTsacCd0ydgY14XSGTi5xZ2ZL3fmVo8em8YRDSktpp/1YU/BUWJGrpsXSRLbduSwz9dg4QroNev+jNCgCimrOSnkzVrrc5G+LVuRcqNoSN6LMGZXdilqrRVLaSs6egITa44wWhVDruND5VtTNKCXz1xIXfirzNzzTiLXyKat0++gq9ecYn9XhFdWiGuInboPNB4+YnZlKasxxFPQwfi0rJc1gboS4dqG2IK5JqJqZFoX9gUdtwQk/eO4GJDefEcbujkD19jzeAsNihL4G/hz3RXMdgA/um/zX4L9AWgv/r/qXfyzV8X8We+j3Dh6bhKP/5tvov70m+t0YV4//v6APhp8+qz2Sas5NH3hLLfwugyDi0TnxJ9mv8X6Bqpb3uQDJzQcyW9ghQ1kW4kb2CfAuOVi5ZPfkfxv14Tiovyti/795+V/+AviWizf9CAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>330ba3abc31013002841b63b12d3aee8</compiled_snapshot>
+        <display_text/>
+        <flow display_value="EV Equipment">3668e1b5838422108eb710c5eeaad392</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 14:55:34</sys_created_on>
+        <sys_id>7a68e1b5838422108eb710c5eeaad3af</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-03-03 15:22:44</sys_updated_on>
+        <ui_id>33215ade-88e9-45d5-abf1-445cd65e0ef5</ui_id>
+        <values>H4sIAAAAAAAA/91V207bQBD9FWufrcgXIGneWi4SUlskUvFSodV6PSarri/sJSGN+PfO2uvEBAgglartY2ZnPGfOzDn5viYiJ1OSFVHGUpbxNI7iNIqSyUGcHaVZnOQpA2AkJBUrATMV3FrQBnIqDJQYXzBp3cN6PQO1EByCY2aYrG9oPPLJber9PSbnQjeSra58DUb4XMhcQUWm369D0jCFbQwoMl3vPL0Wp2QZSEyd2awUBoEGlx2KPTOYVdPFC8B+HHzos//U5SBeq9yhi0ICdwaqHBBWwaSGkJSsypmp1YpMjbIYUMDyi0quNhlzUZlu7JLdafETm6ZJOOg7JZpThNcD27xQz1yLxqMPzruk4gQJn2FLbqza0FrjKnRHXQ4Fs9IcD2NdwkVjRF11JYZlsq+upS2rrx1bZPOBwdqsRkjQOALcSH6+Yjavlxu2zkTVcuUfZc2ZHKQCU3x+JkC6xVa2zDA3JMwYJTJrHM41AQklNqAlaxpR3dBG1QvRfhQxlqMbiT9GhayXCEaLm2rEuBtohHtgozOMn7ThK6aEm+4LfqbtUuNWaK7qpvFDu4WR+5DolT6WTOvt7LgCemsd8o4JPzPtaHMlXInGfMTGC/Dj3Ye9rrJ991rE25vEVeJ+DVDu1bMjL4hYND5I40l6ECVJHE0gG8cRP8SjZ3maHz4W1+lVcK61heD01orG0fh2ub0Mv5fbN4+/V397nDpASQQ9+8EMjH554reLMX43MRqKB/EAoKb4YbrwI1HdjfSUTl8m4r8Qruv1p2QrNJpjWePNtDPT4a5aBaMacRDcioO4Dc6xH1W2MqIE2iqKiorWjV4IWL6f+sf75TPeaqG/sP6u9ED5DA4n42icP638MZu6s8RhHIO0gmWYJ2xSHDxXkEWPCo4+JJOUp88U8MPdgsde81difJvXvWJZvdf1yr4abGvPIr2haWn1PLP8B5gdS5u5l+BT/+RdLdnvaj7yGluLkyiKHjrbM571r5rSQ/tBmyjwnwW52+4BbwJaJklbgk3fy6ReZTZ4dBWXFjNLpEIo7LKB6v4cNmmOmgEIUHSpuk6blEZhjVq4PyMJ3LRD9m5YW8W9W2J0VyO/z/KufwGIF81aSgwAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
+        <action_type_parent display_value="Create Catalog Task">f597c41073081300612c273ffff6a767</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>af51fd0e73141300612c273ffff6a785</compiled_snapshot>
+        <display_text/>
+        <flow display_value="EV Equipment">3668e1b5838422108eb710c5eeaad392</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 14:55:34</sys_created_on>
+        <sys_id>7e68e1b5838422108eb710c5eeaad3b0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-03-03 15:22:44</sys_updated_on>
+        <ui_id>499c3406-c7ad-407c-928a-5441cc60874e</ui_id>
+        <values>H4sIAAAAAAAA/+1YUY/iNhD+K1GeWonShLDA7Vu7K6RK7W21nOjDcYpMMgHrTJyzneW2aP97x7ENBNgstHCianljPLa/zzPfOOOPK5+m/q1PspswSwPoR2E3jIKgF3aSTj/K8Ncj/cHAb/k5WYD2nMeKTBnE1f+W/0RYqe0yQbv8jJaUyoKR5/HeQDKnLBWQ+7cfP7X8gghcQYHwb1c7Q8dCYmQKDF0/aEDeewPoFZzqudDmPduvh9bgItW4gpYPXxXkKSCgjDAJLX9B8pQoLp7XFgEkfcgZGpQo8f+c5goX9LXvV0n/xG0HgXbLABkmYMbWf2N7Xsac3RNFRrhQokphXZM5pwlIczYpZKRk6m7bZhweCkV5bqZUNO1szspF/t6cir9eYD88duD+tfCVErFCoY9DE7Tss9GcLx8dmSHNq5Ozg4wnhK3/EaUEnZZKw8a8k7FMBC0c1MoJtwEGC9wgXpCioPksLgR/otWiSGXRnjH8084YXyIYSWd5mySadxujQtpDtN9X5jERVK/8Gy6Dk3F3pudUdNAsdS5guPyXli+f5R0jUm7OCIMTfyk1dHNilnRsjldPqZD/hDs/geX30rJa6kdNiUuCWo4K+FKCVJDGVMFiS0+r1QjEE4bVu0NijM/isG2dK9eXl32pnayxI6A6jT06oN4vBmgDB6u1TcbXpfa4ZbdKC5uVZoS1EZr1OKC0qFNXGsYb4Tlgh0S3R+ybS/Ac2spGQEQyH1JgOrB5uZiarK9p7lLa4hiVOBW8KCzpC0kr6jfma6+WlnLOhdJEqgV1XDbq+p0BkeAVAlAi4GEK0EKfjJdx4ak5WvIZzQFEe19lJ809TY9H8HN6HGl23n2NXTN3q0qJCZHPdiQ5ckarx86JN9/rggw7QXC9t9/5r7XLSOwCt1RzqiW1dMp0WZFb+kEcCLIiOhO8LCZlEETpauK0MvFvJ/6YY6S0RB7yH0ZYgSd+a2JWqIaDfu/duzQKB1G32+mEwQCm/TBIbgAISaN+WLkj65imR/ofuBKvF+iJN/Xb4XKVYeiCdSB+7isYFkheQWziufMlbAe9sR20NSE6W03o3ezVhM1n5qHSYD+BvA/G5QrKhPki+ddXCZoXpZLterP0RuXIGlNx2qll3pJQtVU3wn2FVp8Kp8rhCAxODn8YBHuQrBSmnON9nu9qAEH9OLQdic3/7tnyv3u9F6KNxuFe0A7+R2/MN3Ju641kXV4T27rt9HZn6NyOAMN267mrovUG7jWwpzdxN2cTyIEuDtE1dXE73K7ghvjnPZx5i/o2HRw2DMtYVvtf8GVk2pi0W693LhefLE55XvUcAcSpxyXWeAtJA0jXZLFSzqdl8hnUjm5GesT72Q1Z6fT+77f+/jNihuULz24Thxi77+okL/6oSPOElSnEC+RIBU5fYwC1fmI0nLdWBxEvhVli7SJ5KTA87ih1qYt5dcbIZuk7YeHQMtvs8t33Z5Tpp78A/gnjKQ4YAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=3668e1b5838422108eb710c5eeaad392"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=3668e1b5838422108eb710c5eeaad392^sys_idNOT IN3268e1b5838422108eb710c5eeaad3ad,7668e1b5838422108eb710c5eeaad3ae"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">5848ad75838422108eb710c5eeaad3dc</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="EV Equipment">3668e1b5838422108eb710c5eeaad392</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 14:55:34</sys_created_on>
+        <sys_id>3268e1b5838422108eb710c5eeaad3ad</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 14:57:35</sys_updated_on>
+        <ui_id>880cfe0f-a616-4efb-869c-1c2469f0fae6</ui_id>
+        <values>H4sIAAAAAAAA/+1VTW/bMAz9K4HOieHPxMmtyFAgQLcCa9HLVhi0RCdCZcmz5LZZkP8+ynbaYmuxYuhxN+uRIt+j+OADM51rOmevzZm1cqvZ6tvtlEntMfo+sEqZhwuzlXyjrQPN8WpvN4KtWBLPc4zKLE/yNI6jMMdyEYU8QwQQCQg2ZRpqpExutJBOGl30wJTdg+p8YFNNvndhGC/WylgUk7WpG4UOB5AShbSNgv3Ne/P5TirR4qiigZb6OWzZ6vBbyO0bLBSUqKjslWul3tJ16XVVIVTRkkecBCYxFc7TqJwnZRSTKoSE8k4X1ydhk4seeVux70e4PXUyrfC0onDK8NGhFkitK1AWp6wGLcCZdv+EtAjiUqtnYCe1o3LMJz9a+ZNqx1nmEyskjRyH4NOxGAc5wHxnJMfLxhMcEAelGu9wo7pafxl0+CfACjrlTk9ASGepHjaetGcxUqqudubh66nhudS9wDGoDAf1dAJHYyg7h9Y/DCqsqVBRQ9PQcIqmNfeyv0xc6mCr6BD4LaSmfkMD4J54QDOC4JzwTz18A630Kj5TGbo80CzBSl7020zlXEsSjv1Yih+dJzQIHKUUwzQowfJWNu6M+tzjyPo4/VgrvHDB4ZAulzxJw/mML0DM0nDBZ8s4h1mWphHn8zBfpBisSa8y28k12LuA+js8Hv3iJyL50ykfUvMj3LSErMqiMHvdTen8NTe9Pq43LBT/xUL+0d/poDAM/1vopYWkLQYrjNr65v/soFu/8kMHO+yNQC4tEbn22Ob0z/GBPS2A99kz9GDaOy/hGTv+AlhtbgO9BgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">1c48ad75838422108eb710c5eeaad3de</block>
+        <comment/>
+        <connected_to>880cfe0f-a616-4efb-869c-1c2469f0fae6</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="EV Equipment">3668e1b5838422108eb710c5eeaad392</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 14:55:34</sys_created_on>
+        <sys_id>7668e1b5838422108eb710c5eeaad3ae</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 14:57:35</sys_updated_on>
+        <ui_id>8f683ae1-95ab-49c1-8914-96402a364595</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=3668e1b5838422108eb710c5eeaad392"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=3668e1b5838422108eb710c5eeaad392"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_3668e1b5838422108eb710c5eeaad392</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 14:55:34</sys_created_on>
+        <sys_id>3268e1b5838422108eb710c5eeaad3a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 14:55:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_3668e1b5838422108eb710c5eeaad392</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 14:55:34</sys_created_on>
+        <sys_id>7268e1b5838422108eb710c5eeaad39b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 14:55:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_3668e1b5838422108eb710c5eeaad392"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_3668e1b5838422108eb710c5eeaad392"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=firefox,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=694000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>5ca5ed71838422108eb710c5eeaad365</copied_from>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>ev_equipment</internal_name>
+        <label_cache>[{"name":"499c3406-c7ad-407c-928a-5441cc60874e.Catalog Task.state","label":"2 - Create Catalog Task➛Catalog Task➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"sc_task","column_name":"state","choices":[{"used":false,"label":"Not Started","image":"","reference":false,"rawLabel":"Not Started","selected":false,"missing":false,"value":"-10","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"Pending","image":"","reference":false,"rawLabel":"Pending","selected":false,"missing":false,"value":"-5","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"Open","image":"","reference":false,"rawLabel":"Open","selected":false,"missing":false,"value":"1","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"Work in Progress","image":"","reference":false,"rawLabel":"Work in Progress","selected":false,"missing":false,"value":"2","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"Closed Complete","image":"","reference":false,"rawLabel":"Closed Complete","selected":false,"missing":false,"value":"3","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"Closed Incomplete","image":"","reference":false,"rawLabel":"Closed Incomplete","selected":false,"missing":false,"value":"4","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"Closed Skipped","image":"","reference":false,"rawLabel":"Closed Skipped","selected":false,"missing":false,"value":"7","parameters":{"name":"task","dependent_values":[""]}}],"usedInstances":{"880cfe0f-a616-4efb-869c-1c2469f0fae6":["condition"]}},{"name":"33215ade-88e9-45d5-abf1-445cd65e0ef5.training_start","label":"1 - Get Catalog Variables➛training_start","reference":"","reference_display":"training_start","type":"glide_date","base_type":"glide_date","usedInstances":{"8381effa-c701-44cc-9351-4568f2bf5708":["conditions"]},"attributes":{"catalogType":"9","catalogTypeLabel":"Date"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"33215ade-88e9-45d5-abf1-445cd65e0ef5":["requested_item"],"499c3406-c7ad-407c-928a-5441cc60874e":["ah_requested_item"],"8381effa-c701-44cc-9351-4568f2bf5708":["record"],"4408a4dd-54e0-477a-8a2e-535feb28ae22":["record"],"9efd64ad-ccee-4854-97c6-007aaa250fb1":["record"]},"attributes":{"default_search_field":"number"}}]</label_cache>
+        <master>true</master>
+        <name>EV Equipment</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="EV Equipment">3668e1b5838422108eb710c5eeaad392</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 14:57:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d4e861f5838422108eb710c5eeaad340</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 14:57:35</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=d4e861f5838422108eb710c5eeaad340"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d4e861f5838422108eb710c5eeaad340"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=d4e861f5838422108eb710c5eeaad340"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=d4e861f5838422108eb710c5eeaad340^sys_idNOT IN90e861f5838422108eb710c5eeaad341"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>d4e861f5838422108eb710c5eeaad340</id>
+        <name>EV Equipment</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 14:57:35</sys_created_on>
+        <sys_id>90e861f5838422108eb710c5eeaad341</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 14:57:35</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=90e861f5838422108eb710c5eeaad341"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=d4e861f5838422108eb710c5eeaad340^sys_idNOT IN10e861f5838422108eb710c5eeaad342,28e861f5838422108eb710c5eeaad353"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="EV Equipment">d4e861f5838422108eb710c5eeaad340</model>
+        <model_id>d4e861f5838422108eb710c5eeaad340</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_d4e861f5838422108eb710c5eeaad340</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 14:57:35</sys_created_on>
+        <sys_id>10e861f5838422108eb710c5eeaad342</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 14:57:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=10e861f5838422108eb710c5eeaad342"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="EV Equipment">d4e861f5838422108eb710c5eeaad340</model>
+        <model_id>d4e861f5838422108eb710c5eeaad340</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_d4e861f5838422108eb710c5eeaad340</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 14:57:36</sys_created_on>
+        <sys_id>28e861f5838422108eb710c5eeaad353</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 14:57:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=28e861f5838422108eb710c5eeaad353"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=d4e861f5838422108eb710c5eeaad340"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d4e861f5838422108eb710c5eeaad340"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=d4e861f5838422108eb710c5eeaad340^sys_idNOT IN2ce861f5838422108eb710c5eeaad37d"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="EV Equipment">d4e861f5838422108eb710c5eeaad340</flow>
+        <name>Service Catalog</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 14:57:36</sys_created_on>
+        <sys_id>2ce861f5838422108eb710c5eeaad37d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 14:57:36</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/61TTW/bMAz9K4FOG5CDk6zNktswoECAbgWarpdiMGSJcoTJkifJbr2g/32kPxK3M4YB3U2iyMfHx6eHIzM8A8O27LaysyvjHmc7y+ZM2wjecnPXlICP4uC0AIx3h2sdIts+HJm656aihIyLH7l3lZWYpK5HmIowtZ2dM2bvJChemfiecncFzwmBznswICJItlXcBMDItzC+fdEhaJv3gef5iIByHv5O4GXGG9p+n7OCW8mj8805ybviDorS8AinoPMSPNsukmTOaiK6b8JOdl0tL6i/r2xKDFNNstf9NHiUOiBYc3+OiIM20oNF5ZFCyT0iRMI/vnrS1OIy2SRivdys18tktUoSdZEpoYRYf1wkl4uLDQJOr36SWHzlg/Fk8BTBypFgf6rjgcsba86BAxqsm6rgT0H/QvAPCeUpwDFEP/HpmvZqDEIQi9A60Py71eopr/aDJGSmKawXrqmnzDZIQb7ou33+/wQXbya4JIKddDdl1A7Nwla0Wp4ZqglN6BbuQWBJGr3OcyzEImeqwn6d8kXPfuTSKuC2oCRH0IqH77E/uMfbYZ1X2raU+kfjBDenG4/YOasi6XdkXNYcK8jR0WOP59YV6c+KKtp/MvRK24koIQivy/hJRF3D6dP+BvLQA67rBAAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=d4e861f5838422108eb710c5eeaad340^sys_idNOT INa4e861f5838422108eb710c5eeaad37d,ace861f5838422108eb710c5eeaad37c,e8e861f5838422108eb710c5eeaad37a,ece861f5838422108eb710c5eeaad37b"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="EV Equipment">d4e861f5838422108eb710c5eeaad340</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>8f683ae1-95ab-49c1-8914-96402a364595</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 14:57:36</sys_created_on>
+        <sys_id>a4e861f5838422108eb710c5eeaad37d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 14:57:36</sys_updated_on>
+        <ui_id>9efd64ad-ccee-4854-97c6-007aaa250fb1</ui_id>
+        <values>H4sIAAAAAAAA/+WUzWrjMBSFXyVobYwdp6HNbkgIFDotJEM2nWJk6zoRyLIryWkzIe8+15bsmKR0UugmjHe6P9K5x5/0vCeckQkZAQvCu3CcRmEUDYNgeDsKk3GUhEMWUYCQeETSHLBSQVoohustFVUd2O+XoLY8hcGUGiqKdRz6Cl4r0CbmBvLDAYsZ16Wgu5XrwUi64YIpkGTy/OKRkirc3oAik/1J6lJ9giYgsHTRCjwVbHZlvWZFWuUgUVwbfHCdM5cZ3M8wg021nDDwCLwbkAxQSEaFBo/kVDJqCrUjE6MqDCig7EmKXVex4dLYQXP6rvkfPHkU1HUZ4GSpM6Fbxs4gG85m6OQSd05NpTq/CvRYW08YZLQSZtqP2YKn0vBC2hZDE9F2F6LK5aN1hHQb9P5HpVEElPWctXI7VrbcFG+LVuScy8YSN6IoUiq6FTVG8aQytZw9AQGNxzktSy7XcamKLW+aUUrurwUu/EwUb3im5mvp07TW7aOr1J9jfNaEV1TxeoifuA02Hzyid3oqqNbHUdDD+LWqldjB3Ahx40JjQdyQUDenipfmBx61BSf84LkbkNx8Rlh6dwSqt+fxFug0Rugb4M9xX9jrAGxwb/Nfg/8CaS38v5pf/rFUx/9Z7KHfO3i0CUf/zbfRf3tN9Lsxrh7/f0EfDD99VnskNZzrPvCGGvhdBUHERufEn2S/xvsFqlre5xwE0x/IbGGHHGUZiK3sE+BdcrByye7J/zbqw3HQfFfE/n/z8r/8Ba+kJ6H9CAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="EV Equipment">d4e861f5838422108eb710c5eeaad340</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>880cfe0f-a616-4efb-869c-1c2469f0fae6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 14:57:36</sys_created_on>
+        <sys_id>ace861f5838422108eb710c5eeaad37c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 14:57:36</sys_updated_on>
+        <ui_id>4408a4dd-54e0-477a-8a2e-535feb28ae22</ui_id>
+        <values>H4sIAAAAAAAA/+WUzWrjMBSFXyVobYwdp6HNbkgIFDotJEM2nWJk6ToRyLIryWkzIe8+17bsmKR0UugmjHe6P9K5x5/0vCeCkwkZAQ/Cu3DMojCKhkEwvB2FyThKwiGPKEBIPKJoBlipgeWa43pLZVkF9vsl6K1gMJhSS2W+jkNfw2sJxsbCQnY4YDEXppB0t3I9GGEbIbkGRSbPLx4pqMbtLWgy2Z+kLtUnaQISSxetwFPBdldUa56zMgOF4trgg+ucuczgfoYZbKrkhIFH4N2C4oBCUioNeCSjilOb6x2ZWF1iQAPlT0ruuoqNULYZNKPvRvzBk0dBVZcCTsacCd0ydgY14XSGTi5xZ2ZL3fmVo8em8YRDSktpp/1YU/BUWJGrpsXSRLbduSwz9dg4QroNev+jNCgCimrOSnkzVrrc5G+LVuRcqNoSN6LMGZXdilqrRVLaSs6egITa44wWhVDruND5VtTNKCXz1xIXfirzNzzTiLXyKat0++gq9ecYn9XhFdWiGuInboPNB4+YnZlKasxxFPQwfi0rJc1gboS4dqG2IK5JqJqZFoX9gUdtwQk/eO4GJDefEcbujkD19jzeAsNihL4G/hz3RXMdgA/um/zX4L9AWgv/r/qXfyzV8X8We+j3Dh6bhKP/5tvov70m+t0YV4//v6APhp8+qz2Sas5NH3hLLfwugyDi0TnxJ9mv8X6Bqpb3uQDJzQcyW9ghQ1kW4kb2CfAuOVi5ZPfkfxv14Tiovyti/795+V/+AviWizf9CAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>330ba3abc31013002841b63b12d3aee8</compiled_snapshot>
+        <display_text/>
+        <flow display_value="EV Equipment">d4e861f5838422108eb710c5eeaad340</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 14:57:36</sys_created_on>
+        <sys_id>e8e861f5838422108eb710c5eeaad37a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 14:57:36</sys_updated_on>
+        <ui_id>33215ade-88e9-45d5-abf1-445cd65e0ef5</ui_id>
+        <values>H4sIAAAAAAAA/91V207bQBD9FWufrcgXIGneWi4SUlskUvFSodV6PSarri/sJSGN+PfO2uvEBAgglartY2ZnPGfOzDn5viYiJ1OSFVHGUpbxNI7iNIqSyUGcHaVZnOQpA2AkJBUrATMV3FrQBnIqDJQYXzBp3cN6PQO1EByCY2aYrG9oPPLJber9PSbnQjeSra58DUb4XMhcQUWm369D0jCFbQwoMl3vPL0Wp2QZSEyd2awUBoEGlx2KPTOYVdPFC8B+HHzos//U5SBeq9yhi0ICdwaqHBBWwaSGkJSsypmp1YpMjbIYUMDyi0quNhlzUZlu7JLdafETm6ZJOOg7JZpThNcD27xQz1yLxqMPzruk4gQJn2FLbqza0FrjKnRHXQ4Fs9IcD2NdwkVjRF11JYZlsq+upS2rrx1bZPOBwdqsRkjQOALcSH6+Yjavlxu2zkTVcuUfZc2ZHKQCU3x+JkC6xVa2zDA3JMwYJTJrHM41AQklNqAlaxpR3dBG1QvRfhQxlqMbiT9GhayXCEaLm2rEuBtohHtgozOMn7ThK6aEm+4LfqbtUuNWaK7qpvFDu4WR+5DolT6WTOvt7LgCemsd8o4JPzPtaHMlXInGfMTGC/Dj3Ye9rrJ991rE25vEVeJ+DVDu1bMjL4hYND5I40l6ECVJHE0gG8cRP8SjZ3maHz4W1+lVcK61heD01orG0fh2ub0Mv5fbN4+/V397nDpASQQ9+8EMjH554reLMX43MRqKB/EAoKb4YbrwI1HdjfSUTl8m4r8Qruv1p2QrNJpjWePNtDPT4a5aBaMacRDcioO4Dc6xH1W2MqIE2iqKiorWjV4IWL6f+sf75TPeaqG/sP6u9ED5DA4n42icP638MZu6s8RhHIO0gmWYJ2xSHDxXkEWPCo4+JJOUp88U8MPdgsde81difJvXvWJZvdf1yr4abGvPIr2haWn1PLP8B5gdS5u5l+BT/+RdLdnvaj7yGluLkyiKHjrbM571r5rSQ/tBmyjwnwW52+4BbwJaJklbgk3fy6ReZTZ4dBWXFjNLpEIo7LKB6v4cNmmOmgEIUHSpuk6blEZhjVq4PyMJ3LRD9m5YW8W9W2J0VyO/z/KufwGIF81aSgwAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
+        <action_type_parent display_value="Create Catalog Task">f597c41073081300612c273ffff6a767</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>af51fd0e73141300612c273ffff6a785</compiled_snapshot>
+        <display_text/>
+        <flow display_value="EV Equipment">d4e861f5838422108eb710c5eeaad340</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 14:57:36</sys_created_on>
+        <sys_id>ece861f5838422108eb710c5eeaad37b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 14:57:36</sys_updated_on>
+        <ui_id>499c3406-c7ad-407c-928a-5441cc60874e</ui_id>
+        <values>H4sIAAAAAAAA/+1YUY/iNhD+K1GeWonShLDA7Vu7K6RK7W21nOjDcYpMMgHrTJyzneW2aP97x7ENBNgstHCianljPLa/zzPfOOOPK5+m/q1PspswSwPoR2E3jIKgF3aSTj/K8Ncj/cHAb/k5WYD2nMeKTBnE1f+W/0RYqe0yQbv8jJaUyoKR5/HeQDKnLBWQ+7cfP7X8gghcQYHwb1c7Q8dCYmQKDF0/aEDeewPoFZzqudDmPduvh9bgItW4gpYPXxXkKSCgjDAJLX9B8pQoLp7XFgEkfcgZGpQo8f+c5goX9LXvV0n/xG0HgXbLABkmYMbWf2N7Xsac3RNFRrhQokphXZM5pwlIczYpZKRk6m7bZhweCkV5bqZUNO1szspF/t6cir9eYD88duD+tfCVErFCoY9DE7Tss9GcLx8dmSHNq5Ozg4wnhK3/EaUEnZZKw8a8k7FMBC0c1MoJtwEGC9wgXpCioPksLgR/otWiSGXRnjH8084YXyIYSWd5mySadxujQtpDtN9X5jERVK/8Gy6Dk3F3pudUdNAsdS5guPyXli+f5R0jUm7OCIMTfyk1dHNilnRsjldPqZD/hDs/geX30rJa6kdNiUuCWo4K+FKCVJDGVMFiS0+r1QjEE4bVu0NijM/isG2dK9eXl32pnayxI6A6jT06oN4vBmgDB6u1TcbXpfa4ZbdKC5uVZoS1EZr1OKC0qFNXGsYb4Tlgh0S3R+ybS/Ac2spGQEQyH1JgOrB5uZiarK9p7lLa4hiVOBW8KCzpC0kr6jfma6+WlnLOhdJEqgV1XDbq+p0BkeAVAlAi4GEK0EKfjJdx4ak5WvIZzQFEe19lJ809TY9H8HN6HGl23n2NXTN3q0qJCZHPdiQ5ckarx86JN9/rggw7QXC9t9/5r7XLSOwCt1RzqiW1dMp0WZFb+kEcCLIiOhO8LCZlEETpauK0MvFvJ/6YY6S0RB7yH0ZYgSd+a2JWqIaDfu/duzQKB1G32+mEwQCm/TBIbgAISaN+WLkj65imR/ofuBKvF+iJN/Xb4XKVYeiCdSB+7isYFkheQWziufMlbAe9sR20NSE6W03o3ezVhM1n5qHSYD+BvA/G5QrKhPki+ddXCZoXpZLterP0RuXIGlNx2qll3pJQtVU3wn2FVp8Kp8rhCAxODn8YBHuQrBSmnON9nu9qAEH9OLQdic3/7tnyv3u9F6KNxuFe0A7+R2/MN3Ju641kXV4T27rt9HZn6NyOAMN267mrovUG7jWwpzdxN2cTyIEuDtE1dXE73K7ghvjnPZx5i/o2HRw2DMtYVvtf8GVk2pi0W693LhefLE55XvUcAcSpxyXWeAtJA0jXZLFSzqdl8hnUjm5GesT72Q1Z6fT+77f+/jNihuULz24Thxi77+okL/6oSPOElSnEC+RIBU5fYwC1fmI0nLdWBxEvhVli7SJ5KTA87ih1qYt5dcbIZuk7YeHQMtvs8t33Z5Tpp78A/gnjKQ4YAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=d4e861f5838422108eb710c5eeaad340"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=d4e861f5838422108eb710c5eeaad340^sys_idNOT IN20e861f5838422108eb710c5eeaad36d,e8e861f5838422108eb710c5eeaad36b"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">1c48ad75838422108eb710c5eeaad3de</block>
+        <comment/>
+        <connected_to>880cfe0f-a616-4efb-869c-1c2469f0fae6</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="EV Equipment">d4e861f5838422108eb710c5eeaad340</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 14:57:36</sys_created_on>
+        <sys_id>20e861f5838422108eb710c5eeaad36d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 14:57:36</sys_updated_on>
+        <ui_id>8f683ae1-95ab-49c1-8914-96402a364595</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">5848ad75838422108eb710c5eeaad3dc</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="EV Equipment">d4e861f5838422108eb710c5eeaad340</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 14:57:36</sys_created_on>
+        <sys_id>e8e861f5838422108eb710c5eeaad36b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 14:57:36</sys_updated_on>
+        <ui_id>880cfe0f-a616-4efb-869c-1c2469f0fae6</ui_id>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8FYNnWdDTlnMLHAQwkDZAE+TSBsKKXNlEKFEVqSSu4X/vUpLtoE3RBM2xN3N2uTsz4sA7pjvbdNbc6nNj5LpmZ1/vPSZrh9HvHSuVfrrSa8lXtbFQc7zZmpVgZyyOZhmGRZrFWRJFYZBhMQ8DniICiBgE81gNFVIn17WQVuo67wGPPYLqXGFVTr51QRDNl0obFJOlrhqFFgeQGoU0jYLt3Vv7+UYq0eKoooGW9lls2dnul5J0CsoAynDBQ05S4ohGZElYzOIijIg/QkwDFRSoqHV5kDC56pE/a7PbxuHGtrJej+erccrNAdStcKzCwGP4bLEWSHxKUAY9VkEtwOp2e0RaBHFdqxOwkbWlccw1Pxv5gxZGaeoaSySJHIfi8ZiPPg5weQEWiErHbdeOrXyjJUczmCOwhE7Z5UtsaLhunNThioVCHW5r1VX158ERdhxw+GyEdIZIYOOUOuqjjvJmo5++HFheyrp3ZSwqzUEdT2DJu6Kzjs+OocKKBuUVNA05mjetfpT9ZeJS+WtFB9+9XFrqXrUP3BH3yVjwLwm/6OE7aKVT8YnG0OWBZgFG8rxPAI0jm5DtPWa2ZqnAmJNIcjf/3jmKg+RRXD74467wVjb2nDY/4qhj731soF5kabdLFgseJ8Fsyucgpkkw59NFlME0TZKQ81mQzRP0l+SA0uvJLZgHn/Zb3O9dfGIR/563D5n5vkwuIC3TMEhfz2Qyey2TrxvzniBGfwmiewVvzGEQBP+D+M9BlCYf4jNq65d/YA7vXXCGnUevuTRE7dZhq8P/nyts6XG5tJ6gJ90+OFEnbP8TAuFds0kHAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=d4e861f5838422108eb710c5eeaad340"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=d4e861f5838422108eb710c5eeaad340"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d4e861f5838422108eb710c5eeaad340</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 14:57:36</sys_created_on>
+        <sys_id>24e861f5838422108eb710c5eeaad364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 14:57:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d4e861f5838422108eb710c5eeaad340</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 14:57:36</sys_created_on>
+        <sys_id>ace861f5838422108eb710c5eeaad350</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 14:57:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_d4e861f5838422108eb710c5eeaad340"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_d4e861f5838422108eb710c5eeaad340"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>3668e1b5838422108eb710c5eeaad392</sys_id>
+        <latest_snapshot>d4e861f5838422108eb710c5eeaad340</latest_snapshot>
+        <compiler_build>glide-yokohama-12-18-2024__patch0-01-14-2025_01-22-2025_0439.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=3668e1b5838422108eb710c5eeaad392^sys_idNOT IN28e861f5838422108eb710c5eeaad39f"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"28e861f5838422108eb710c5eeaad39f","name":"plan","plan_signature":null}}</plan>
+        <plan_id>3668e1b5838422108eb710c5eeaad392</plan_id>
+        <snapshot>b8aee93183c422108eb710c5eeaad351</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 14:57:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>28e861f5838422108eb710c5eeaad39f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 14:57:36</sys_updated_on>
+        <trigger display_value="">64e861f5838422108eb710c5eeaad39f</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=3668e1b5838422108eb710c5eeaad392"/>
+</record_update>

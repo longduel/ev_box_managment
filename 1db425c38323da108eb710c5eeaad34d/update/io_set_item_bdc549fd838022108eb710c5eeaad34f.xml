@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="EV New Hire">575de83d830022108eb710c5eeaad38c</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 12:24:14</sys_created_on>
+        <sys_id>bdc549fd838022108eb710c5eeaad34f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Create new user.EV New Hire</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>io_set_item_bdc549fd838022108eb710c5eeaad34f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 12:24:14</sys_updated_on>
+        <variable_set display_value="Create new user">afc441bd838022108eb710c5eeaad311</variable_set>
+    </io_set_item>
+</record_update>
