@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_indicators">
     <pa_indicators action="INSERT_OR_UPDATE">
-        <aggregate>3</aggregate>
+        <aggregate>1</aggregate>
         <allow_multi_element_aggregation>false</allow_multi_element_aggregation>
         <benchmarking>false</benchmarking>
         <calendar>standard</calendar>
@@ -9,20 +9,20 @@
         <collect_records>true</collect_records>
         <conditions/>
         <contributor/>
-        <cube display_value="EV Cost Prediction">b5a1a3cc830cae108eb710c5eeaad335</cube>
+        <cube display_value="Costs">716fd2c283cc62108eb710c5eeaad313</cube>
         <data_source/>
         <default_aggregate/>
         <default_chart_type>line</default_chart_type>
-        <description>test is measured daily as unit #.
+        <description>Costs for active devices is measured daily as unit #.
 The goal for this indicator is not set.
-It is the average on data source EV Cost Prediction, which is using the table: 
-u_ev_costs
+It is the count on data source undefined, which is using the table: 
+undefined
 with the following conditions:
-</description>
+undefined</description>
         <direction>1</direction>
         <display>false</display>
         <excluded_statistics/>
-        <field>u_operational_return</field>
+        <field/>
         <forecast_base_periods>2</forecast_base_periods>
         <forecast_base_start>00000000</forecast_base_start>
         <forecast_base_type>1</forecast_base_type>
@@ -45,18 +45,18 @@ with the following conditions:
         <managed_breakdown/>
         <managed_element/>
         <managing_indicator/>
-        <name>test</name>
+        <name>Costs for active devices</name>
         <order/>
         <override_periods>false</override_periods>
         <precision>0</precision>
         <related_breakdowns>1</related_breakdowns>
-        <related_jobs>2</related_jobs>
+        <related_jobs>0</related_jobs>
         <render_continuous_lines>false</render_continuous_lines>
         <role_override>false</role_override>
         <roles/>
         <score_periods>-1</score_periods>
         <scores_format>kMGTPE</scores_format>
-        <scores_modified_at>2025-02-26 14:18:38</scores_modified_at>
+        <scores_modified_at>2025-03-04 13:36:10</scores_modified_at>
         <script/>
         <scripted>false</scripted>
         <show_delta>true</show_delta>
@@ -65,24 +65,24 @@ with the following conditions:
         <sql_statement/>
         <sys_class_name>pa_indicators</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-02-26 14:18:34</sys_created_on>
+        <sys_created_on>2025-03-04 13:34:04</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>c8003b80838cae108eb710c5eeaad3ac</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>test</sys_name>
+        <sys_id>613f96c283cc62108eb710c5eeaad3a4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Costs for active devices</sys_name>
         <sys_overrides/>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
         <sys_policy/>
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
-        <sys_update_name>pa_indicators_c8003b80838cae108eb710c5eeaad3ac</sys_update_name>
+        <sys_update_name>pa_indicators_613f96c283cc62108eb710c5eeaad3a4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-26 14:18:35</sys_updated_on>
+        <sys_updated_on>2025-03-04 13:36:10</sys_updated_on>
         <type>1</type>
         <unit display_value="#">17b365e2d7320100ba986f14ce6103ad</unit>
         <users/>
-        <value_when_nil>0</value_when_nil>
+        <value_when_nil/>
         <visible_to>2</visible_to>
     </pa_indicators>
-    <sys_translated_text action="delete_multiple" query="documentkey=c8003b80838cae108eb710c5eeaad3ac"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=613f96c283cc62108eb710c5eeaad3a4"/>
 </record_update>

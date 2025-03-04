@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_indicators">
+    <pa_indicators action="DELETE">
+        <aggregate>3</aggregate>
+        <allow_multi_element_aggregation>false</allow_multi_element_aggregation>
+        <benchmarking>false</benchmarking>
+        <calendar>standard</calendar>
+        <calendar_freq/>
+        <collect_breakdown_matrix>false</collect_breakdown_matrix>
+        <collect_records>true</collect_records>
+        <conditions/>
+        <contributor/>
+        <cube display_value="EV Cost Prediction">b5a1a3cc830cae108eb710c5eeaad335</cube>
+        <data_source/>
+        <default_aggregate/>
+        <default_chart_type>line</default_chart_type>
+        <description>test is measured daily as unit #.
+The goal for this indicator is not set.
+It is the average on data source EV Cost Prediction, which is using the table: 
+u_ev_costs
+with the following conditions:
+</description>
+        <direction>1</direction>
+        <display>false</display>
+        <excluded_statistics/>
+        <field>u_operational_return</field>
+        <forecast_base_periods>2</forecast_base_periods>
+        <forecast_base_start>00000000</forecast_base_start>
+        <forecast_base_type>1</forecast_base_type>
+        <forecast_lower_limit/>
+        <forecast_method>1</forecast_method>
+        <forecast_periods>2</forecast_periods>
+        <forecast_preselect_observations>false</forecast_preselect_observations>
+        <forecast_robust_estimation>false</forecast_robust_estimation>
+        <forecast_upper_limit/>
+        <formula/>
+        <formula_aggregate_whole>false</formula_aggregate_whole>
+        <formula_allow_null>false</formula_allow_null>
+        <frequency>10</frequency>
+        <groups/>
+        <has_managed_indicators>false</has_managed_indicators>
+        <key>false</key>
+        <label/>
+        <linked_indicator/>
+        <live_group_profile/>
+        <managed_breakdown/>
+        <managed_element/>
+        <managing_indicator/>
+        <name>test</name>
+        <order/>
+        <override_periods>false</override_periods>
+        <precision>0</precision>
+        <related_breakdowns>1</related_breakdowns>
+        <related_jobs>2</related_jobs>
+        <render_continuous_lines>false</render_continuous_lines>
+        <role_override>false</role_override>
+        <roles/>
+        <score_periods>-1</score_periods>
+        <scores_format>kMGTPE</scores_format>
+        <scores_modified_at>2025-02-26 14:18:34</scores_modified_at>
+        <script/>
+        <scripted>false</scripted>
+        <show_delta>true</show_delta>
+        <show_realtime_score>false</show_realtime_score>
+        <snapshot_periods>-1</snapshot_periods>
+        <sql_statement/>
+        <sys_class_name>pa_indicators</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 14:18:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c8003b80838cae108eb710c5eeaad3ac</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>pa_indicators_c8003b80838cae108eb710c5eeaad3ac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 14:18:35</sys_updated_on>
+        <type>1</type>
+        <unit display_value="#">17b365e2d7320100ba986f14ce6103ad</unit>
+        <users/>
+        <value_when_nil>0</value_when_nil>
+        <visible_to>2</visible_to>
+    </pa_indicators>
+    <sys_translated_text action="DELETE" query="documentkey=c8003b80838cae108eb710c5eeaad3ac"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</application>
+        <file_path/>
+        <instance_id>f7c0ba231bd1865819254089bd4bcb9b</instance_id>
+        <instance_name>dev258302</instance_name>
+        <name>pa_indicators_c8003b80838cae108eb710c5eeaad3ac</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_indicators"><pa_indicators action="INSERT_OR_UPDATE"><aggregate>3</aggregate><allow_multi_element_aggregation>false</allow_multi_element_aggregation><benchmarking>false</benchmarking><calendar>standard</calendar><calendar_freq/><collect_breakdown_matrix>false</collect_breakdown_matrix><collect_records>true</collect_records><conditions/><contributor/><cube display_value="EV Cost Prediction">b5a1a3cc830cae108eb710c5eeaad335</cube><data_source/><default_aggregate/><default_chart_type>line</default_chart_type><description>test is measured daily as unit #.
+The goal for this indicator is not set.
+It is the average on data source EV Cost Prediction, which is using the table: 
+u_ev_costs
+with the following conditions:
+</description><direction>1</direction><display>false</display><excluded_statistics/><field>u_operational_return</field><forecast_base_periods>2</forecast_base_periods><forecast_base_start>00000000</forecast_base_start><forecast_base_type>1</forecast_base_type><forecast_lower_limit/><forecast_method>1</forecast_method><forecast_periods>2</forecast_periods><forecast_preselect_observations>false</forecast_preselect_observations><forecast_robust_estimation>false</forecast_robust_estimation><forecast_upper_limit/><formula/><formula_aggregate_whole>false</formula_aggregate_whole><formula_allow_null>false</formula_allow_null><frequency>10</frequency><groups/><has_managed_indicators>false</has_managed_indicators><key>false</key><label/><linked_indicator/><live_group_profile/><managed_breakdown/><managed_element/><managing_indicator/><name>test</name><order/><override_periods>false</override_periods><precision>0</precision><related_breakdowns>1</related_breakdowns><related_jobs>2</related_jobs><render_continuous_lines>false</render_continuous_lines><role_override>false</role_override><roles/><score_periods>-1</score_periods><scores_format>kMGTPE</scores_format><scores_modified_at>2025-02-26 14:18:34</scores_modified_at><script/><scripted>false</scripted><show_delta>true</show_delta><show_realtime_score>false</show_realtime_score><snapshot_periods>-1</snapshot_periods><sql_statement/><sys_class_name>pa_indicators</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 14:18:34</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c8003b80838cae108eb710c5eeaad3ac</sys_id><sys_mod_count>4</sys_mod_count><sys_name>test</sys_name><sys_overrides/><sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package><sys_policy/><sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope><sys_update_name>pa_indicators_c8003b80838cae108eb710c5eeaad3ac</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 14:18:35</sys_updated_on><type>1</type><unit display_value="#">17b365e2d7320100ba986f14ce6103ad</unit><users/><value_when_nil>0</value_when_nil><visible_to>2</visible_to></pa_indicators><sys_translated_text action="delete_multiple" query="documentkey=c8003b80838cae108eb710c5eeaad3ac"/></record_update>]]></payload>
+        <payload_hash>-1358843947</payload_hash>
+        <record_name>test</record_name>
+        <reverted_from/>
+        <source>974a294f8323da108eb710c5eeaad380</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 14:18:35</sys_created_on>
+        <sys_id>d000b340838cae108eb710c5eeaad30f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195429fad8a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 14:18:35</sys_updated_on>
+        <type>Indicator</type>
+        <update_guid>5800b340508cae102fbadf653356910e</update_guid>
+        <update_guid_history>5800b340508cae102fbadf653356910e:-1358843947,48003b80ff8cae10e614eb7fd86e3dd0:254382420,48003b80678cae1014a1750959a182c6:106469412,84003b80748cae105b13182ad323b4b4:-736871452,88003b809d8cae10c2bb509c501ad5b2:553360261,48003b80b48cae10b6641d5baeff77b0:-736871452</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="test">79e50602834c62108eb710c5eeaad3be</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-04 11:42:54</sys_created_on>
+        <sys_db_object display_value="" name="pa_indicators">pa_indicators</sys_db_object>
+        <sys_id>3cf12e120a114e41a0fc545d83247be9</sys_id>
+        <sys_metadata>c8003b80838cae108eb710c5eeaad3ac</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_scope_delete display_value="">08380f235033495e814b97f7f661b4d1</sys_scope_delete>
+        <sys_update_name>pa_indicators_c8003b80838cae108eb710c5eeaad3ac</sys_update_name>
+        <sys_update_version display_value="pa_indicators_c8003b80838cae108eb710c5eeaad3ac">d000b340838cae108eb710c5eeaad30f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-04 11:42:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
