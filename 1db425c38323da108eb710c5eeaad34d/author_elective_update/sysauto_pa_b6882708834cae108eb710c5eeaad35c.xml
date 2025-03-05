@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysauto_pa">
+    <sysauto_pa action="DELETE">
+        <active>false</active>
+        <benchmarking>false</benchmarking>
+        <business_calendar/>
+        <collect>scores_text</collect>
+        <condition/>
+        <conditional>false</conditional>
+        <description/>
+        <entered_time/>
+        <kill_job>false</kill_job>
+        <max_drift/>
+        <name>EV Colect Costs Historic</name>
+        <offset/>
+        <offset_type/>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2025-02-26 13:46:00</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>daily</run_type>
+        <score_fixed_end>00000000</score_fixed_end>
+        <score_fixed_start>00000000</score_fixed_start>
+        <score_operator>relative</score_operator>
+        <score_relative_end>1</score_relative_end>
+        <score_relative_end_interval>days</score_relative_end_interval>
+        <score_relative_start>3</score_relative_start>
+        <score_relative_start_interval>months</score_relative_start_interval>
+        <sys_class_name>sysauto_pa</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 13:47:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b6882708834cae108eb710c5eeaad35c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>EV Colect Costs Historic</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sysauto_pa_b6882708834cae108eb710c5eeaad35c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 09:51:13</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_pa>
+    <sys_translated_text action="DELETE" query="documentkey=b6882708834cae108eb710c5eeaad35c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</application>
+        <file_path/>
+        <instance_id>f7c0ba231bd1865819254089bd4bcb9b</instance_id>
+        <instance_name>dev258302</instance_name>
+        <name>sysauto_pa_b6882708834cae108eb710c5eeaad35c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysauto_pa"><sysauto_pa action="INSERT_OR_UPDATE"><active>false</active><benchmarking>false</benchmarking><business_calendar/><collect>scores_text</collect><condition/><conditional>false</conditional><description/><entered_time/><kill_job>false</kill_job><max_drift/><name>EV Colect Costs Historic</name><offset/><offset_type/><run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as><run_as_tz/><run_dayofmonth>1</run_dayofmonth><run_dayofweek>1</run_dayofweek><run_period/><run_start>2025-02-26 13:46:00</run_start><run_time>1970-01-01 08:00:00</run_time><run_type>daily</run_type><score_fixed_end>00000000</score_fixed_end><score_fixed_start>00000000</score_fixed_start><score_operator>relative</score_operator><score_relative_end>1</score_relative_end><score_relative_end_interval>days</score_relative_end_interval><score_relative_start>3</score_relative_start><score_relative_start_interval>months</score_relative_start_interval><sys_class_name>sysauto_pa</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 13:47:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b6882708834cae108eb710c5eeaad35c</sys_id><sys_mod_count>3</sys_mod_count><sys_name>EV Colect Costs Historic</sys_name><sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package><sys_policy/><sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope><sys_update_name>sysauto_pa_b6882708834cae108eb710c5eeaad35c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-05 09:51:13</sys_updated_on><time_zone/><upgrade_safe>false</upgrade_safe></sysauto_pa><sys_translated_text action="delete_multiple" query="documentkey=b6882708834cae108eb710c5eeaad35c"/></record_update>]]></payload>
+        <payload_hash>-1586581405</payload_hash>
+        <record_name>EV Colect Costs Historic</record_name>
+        <reverted_from/>
+        <source>974a294f8323da108eb710c5eeaad380</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 09:51:13</sys_created_on>
+        <sys_id>0cf5b6968344e2108eb710c5eeaad3ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19565b767fb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 09:51:13</sys_updated_on>
+        <type>Scheduled Data Collection</type>
+        <update_guid>80f5b6963544e2107ec4b757edf715ba</update_guid>
+        <update_guid_history>80f5b6963544e2107ec4b757edf715ba:-1586581405,fd95fa56c944e21050077a53c0bd6043:-1710220638,a809af08374cae101923815796cb8b55:1619480522,23c8a304f94cae1084e6e80f1c339c9f:1387571608</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 13:30:18</sys_created_on>
+        <sys_db_object display_value="" name="sysauto_pa">sysauto_pa</sys_db_object>
+        <sys_id>0e80bc5c5b1840e297fc3abd81c1e961</sys_id>
+        <sys_metadata>b6882708834cae108eb710c5eeaad35c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EV Colect Costs Historic</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_scope_delete display_value="">08380f235033495e814b97f7f661b4d1</sys_scope_delete>
+        <sys_update_name>sysauto_pa_b6882708834cae108eb710c5eeaad35c</sys_update_name>
+        <sys_update_version display_value="sysauto_pa_b6882708834cae108eb710c5eeaad35c">0cf5b6968344e2108eb710c5eeaad3ba</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 13:30:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

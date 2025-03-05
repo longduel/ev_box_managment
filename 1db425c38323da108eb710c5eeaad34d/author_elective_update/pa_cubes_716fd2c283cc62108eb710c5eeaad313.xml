@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_cubes">
+    <pa_cubes action="DELETE">
+        <benchmarking>false</benchmarking>
+        <calendar>standard</calendar>
+        <calendar_freq/>
+        <conditions table="u_ev_costs">u_ev_box.u_active=true<item endquery="false" field="u_ev_box.u_active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        </conditions>
+        <description/>
+        <facts_table>u_ev_costs</facts_table>
+        <facts_table_pk/>
+        <facts_table_pktable/>
+        <facts_table_pkview/>
+        <frequency>10</frequency>
+        <max_record_fetch_count>50000</max_record_fetch_count>
+        <name>Costs</name>
+        <override_record_collection>false</override_record_collection>
+        <report_source/>
+        <report_source_updated_at>2025-03-04 21:34:42</report_source_updated_at>
+        <sys_class_name>pa_cubes</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-04 13:35:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>716fd2c283cc62108eb710c5eeaad313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Costs</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>pa_cubes_716fd2c283cc62108eb710c5eeaad313</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-04 13:35:45</sys_updated_on>
+    </pa_cubes>
+    <sys_translated_text action="DELETE" query="documentkey=716fd2c283cc62108eb710c5eeaad313"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</application>
+        <file_path/>
+        <instance_id>f7c0ba231bd1865819254089bd4bcb9b</instance_id>
+        <instance_name>dev258302</instance_name>
+        <name>pa_cubes_716fd2c283cc62108eb710c5eeaad313</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_cubes"><pa_cubes action="INSERT_OR_UPDATE"><benchmarking>false</benchmarking><calendar>standard</calendar><calendar_freq/><conditions table="u_ev_costs">u_ev_box.u_active=true<item endquery="false" field="u_ev_box.u_active" goto="false" newquery="false" operator="=" or="false" value="true"/></conditions><description/><facts_table>u_ev_costs</facts_table><facts_table_pk/><facts_table_pktable/><facts_table_pkview/><frequency>10</frequency><max_record_fetch_count>50000</max_record_fetch_count><name>Costs</name><override_record_collection>false</override_record_collection><report_source/><report_source_updated_at>2025-03-04 21:34:42</report_source_updated_at><sys_class_name>pa_cubes</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-04 13:35:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>716fd2c283cc62108eb710c5eeaad313</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Costs</sys_name><sys_overrides/><sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package><sys_policy/><sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope><sys_update_name>pa_cubes_716fd2c283cc62108eb710c5eeaad313</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-04 13:35:45</sys_updated_on></pa_cubes><sys_translated_text action="delete_multiple" query="documentkey=716fd2c283cc62108eb710c5eeaad313"/></record_update>]]></payload>
+        <payload_hash>159477887</payload_hash>
+        <record_name>Costs</record_name>
+        <reverted_from/>
+        <source>974a294f8323da108eb710c5eeaad380</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-04 13:35:45</sys_created_on>
+        <sys_id>9bbf52c283cc62108eb710c5eeaad37f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195615e9e650000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-04 13:35:45</sys_updated_on>
+        <type>Indicator Source</type>
+        <update_guid>9fbf52c21acc6210e2abde7c7ed5df7e</update_guid>
+        <update_guid_history>9fbf52c21acc6210e2abde7c7ed5df7e:159477887</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Costs">8246a7d68348e2108eb710c5eeaad31c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 13:22:26</sys_created_on>
+        <sys_db_object display_value="" name="pa_cubes">pa_cubes</sys_db_object>
+        <sys_id>470a1c643e7044f098b07f53539b3c79</sys_id>
+        <sys_metadata>716fd2c283cc62108eb710c5eeaad313</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Costs</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_scope_delete display_value="">08380f235033495e814b97f7f661b4d1</sys_scope_delete>
+        <sys_update_name>pa_cubes_716fd2c283cc62108eb710c5eeaad313</sys_update_name>
+        <sys_update_version display_value="pa_cubes_716fd2c283cc62108eb710c5eeaad313">9bbf52c283cc62108eb710c5eeaad37f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 13:22:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

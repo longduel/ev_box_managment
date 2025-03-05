@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysauto_pa">
+    <sysauto_pa action="DELETE">
+        <active>true</active>
+        <benchmarking>false</benchmarking>
+        <business_calendar/>
+        <collect>scores_text</collect>
+        <condition/>
+        <conditional>false</conditional>
+        <description/>
+        <entered_time/>
+        <kill_job>false</kill_job>
+        <max_drift/>
+        <name>temporary job for collecting EV Box</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2025-02-26 13:31:27</run_start>
+        <run_time/>
+        <run_type>once</run_type>
+        <score_fixed_end>00000000</score_fixed_end>
+        <score_fixed_start>00000000</score_fixed_start>
+        <score_operator>relative</score_operator>
+        <score_relative_end>1</score_relative_end>
+        <score_relative_end_interval>days</score_relative_end_interval>
+        <score_relative_start>7</score_relative_start>
+        <score_relative_start_interval>days</score_relative_start_interval>
+        <sys_class_name>sysauto_pa</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 13:31:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>75352bc0834cae108eb710c5eeaad375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>temporary job for collecting EV Box</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sysauto_pa_75352bc0834cae108eb710c5eeaad375</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 13:31:27</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_pa>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</application>
+        <file_path/>
+        <instance_id>f7c0ba231bd1865819254089bd4bcb9b</instance_id>
+        <instance_name>dev258302</instance_name>
+        <name>sysauto_pa_75352bc0834cae108eb710c5eeaad375</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysauto_pa"><sysauto_pa action="INSERT_OR_UPDATE"><active>true</active><benchmarking>false</benchmarking><business_calendar/><collect>scores_text</collect><condition/><conditional>false</conditional><description/><entered_time/><kill_job>false</kill_job><max_drift/><name>temporary job for collecting EV Box</name><offset/><offset_type>0</offset_type><run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as><run_as_tz/><run_dayofmonth>1</run_dayofmonth><run_dayofweek/><run_period/><run_start>2025-02-26 13:31:27</run_start><run_time/><run_type>once</run_type><score_fixed_end>00000000</score_fixed_end><score_fixed_start>00000000</score_fixed_start><score_operator>relative</score_operator><score_relative_end>1</score_relative_end><score_relative_end_interval>days</score_relative_end_interval><score_relative_start>7</score_relative_start><score_relative_start_interval>days</score_relative_start_interval><sys_class_name>sysauto_pa</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 13:31:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>75352bc0834cae108eb710c5eeaad375</sys_id><sys_mod_count>0</sys_mod_count><sys_name>temporary job for collecting EV Box</sys_name><sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package><sys_policy/><sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope><sys_update_name>sysauto_pa_75352bc0834cae108eb710c5eeaad375</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 13:31:27</sys_updated_on><time_zone/><upgrade_safe>false</upgrade_safe></sysauto_pa></record_update>]]></payload>
+        <payload_hash>-1349489003</payload_hash>
+        <record_name>temporary job for collecting EV Box</record_name>
+        <reverted_from/>
+        <source>99e3b401832312108eb710c5eeaad34f</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2025-02-04 06:39:15</sys_created_on>
+        <sys_id>6b25b2568344e2108eb710c5eeaad351</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>194cfaf3a380000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Scheduled Data Collection</type>
+        <update_guid>2b25b2565d44e2106a76c247e7216651</update_guid>
+        <update_guid_history>2b25b2565d44e2106a76c247e7216651:-1349489003</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 09:47:55</sys_created_on>
+        <sys_db_object display_value="" name="sysauto_pa">sysauto_pa</sys_db_object>
+        <sys_id>576fa4bfa7c9492cb42776279447a310</sys_id>
+        <sys_metadata>75352bc0834cae108eb710c5eeaad375</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>temporary job for collecting EV Box</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_scope_delete display_value="">08380f235033495e814b97f7f661b4d1</sys_scope_delete>
+        <sys_update_name>sysauto_pa_75352bc0834cae108eb710c5eeaad375</sys_update_name>
+        <sys_update_version display_value="sysauto_pa_75352bc0834cae108eb710c5eeaad375">6b25b2568344e2108eb710c5eeaad351</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 09:47:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

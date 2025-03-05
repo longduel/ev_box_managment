@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_widgets">
+    <pa_widgets action="DELETE">
+        <aggregate/>
+        <alignment>left</alignment>
+        <breakdown display_value="EV Box">a935efc0834cae108eb710c5eeaad333</breakdown>
+        <breakdown_level2/>
+        <breakdown_page_size>5</breakdown_page_size>
+        <chart_color/>
+        <color_scheme/>
+        <coloring_method>score</coloring_method>
+        <column_bulletchart>false</column_bulletchart>
+        <column_change>false</column_change>
+        <column_change_perc>false</column_change_perc>
+        <column_current>true</column_current>
+        <column_gap>false</column_gap>
+        <column_gap_perc>false</column_gap_perc>
+        <column_multiple>false</column_multiple>
+        <column_steps>1</column_steps>
+        <column_stepsize>1</column_stepsize>
+        <column_target>false</column_target>
+        <column_trend>true</column_trend>
+        <compare_main_label/>
+        <compare_number_of_periods/>
+        <compare_period>year</compare_period>
+        <cube_facts_table>u_ev_costs</cube_facts_table>
+        <cutoff>1</cutoff>
+        <cutoff_condition>GTE</cutoff_condition>
+        <cutoff_type>VAL</cutoff_type>
+        <date_from>00000000</date_from>
+        <date_to>00000000</date_to>
+        <default_indicator/>
+        <description/>
+        <element>214cd727832b52108eb710c5eeaad3db</element>
+        <element_level2/>
+        <elements_filter/>
+        <field/>
+        <filter/>
+        <flip_axes>false</flip_axes>
+        <follow_element>false</follow_element>
+        <follow_managed_element>false</follow_managed_element>
+        <followed_breakdown/>
+        <followed_breakdown_relation/>
+        <gauge_autoscale>false</gauge_autoscale>
+        <gauge_from/>
+        <gauge_to/>
+        <include_comments>false</include_comments>
+        <include_confidence>false</include_confidence>
+        <include_forecast>false</include_forecast>
+        <include_prediction_interval>false</include_prediction_interval>
+        <include_target>false</include_target>
+        <include_thresholds>false</include_thresholds>
+        <include_trend>false</include_trend>
+        <indicator display_value="Costs for active devices">613f96c283cc62108eb710c5eeaad3a4</indicator>
+        <is_compare_chart>false</is_compare_chart>
+        <lastscore_compare>previous_score</lastscore_compare>
+        <lastscore_periods_back/>
+        <limit>50</limit>
+        <lookup_name/>
+        <manual_elements>false</manual_elements>
+        <max_color/>
+        <multiple_elements_view/>
+        <name>test</name>
+        <no_bulk_migration>false</no_bulk_migration>
+        <number_of_records>5</number_of_records>
+        <overlap_data_labels>false</overlap_data_labels>
+        <percentages>no_percentages</percentages>
+        <period>3m</period>
+        <pivot_breakdown/>
+        <pivot_elements_filter/>
+        <related_dashboards>0</related_dashboards>
+        <score_font_size>responsive</score_font_size>
+        <scorecard_options>all</scorecard_options>
+        <show_bar>false</show_bar>
+        <show_breakdown_selector>true</show_breakdown_selector>
+        <show_change>true</show_change>
+        <show_change_perc>true</show_change_perc>
+        <show_comparison_date>true</show_comparison_date>
+        <show_data_labels>false</show_data_labels>
+        <show_empty_elements>true</show_empty_elements>
+        <show_gap>false</show_gap>
+        <show_gap_perc>false</show_gap_perc>
+        <show_legend>true</show_legend>
+        <show_on_click_link_label>true</show_on_click_link_label>
+        <show_range_selector>false</show_range_selector>
+        <show_target>false</show_target>
+        <show_top_x/>
+        <show_total>false</show_total>
+        <show_trend>true</show_trend>
+        <show_visualization_selector>true</show_visualization_selector>
+        <sort_direction>asc</sort_direction>
+        <sort_on>default</sort_on>
+        <subtitle/>
+        <sys_class_name>pa_widgets</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-04 13:37:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>40002a0683cc62108eb710c5eeaad3bf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>pa_widgets_40002a0683cc62108eb710c5eeaad3bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-04 13:39:26</sys_updated_on>
+        <tag/>
+        <template>template1</template>
+        <treemap_max_color display_value="Green">65b302aea9fe3dba00a530d65ecc2106</treemap_max_color>
+        <treemap_min_color display_value="Red">65b30395a9fe3dba003277a7b660b5db</treemap_min_color>
+        <type>time</type>
+        <visualization>line</visualization>
+        <words_in_trendline>5</words_in_trendline>
+        <yaxis2_from/>
+        <yaxis2_title/>
+        <yaxis2_to/>
+        <yaxis_from/>
+        <yaxis_title/>
+        <yaxis_to/>
+    </pa_widgets>
+    <sys_translated_text action="DELETE" query="documentkey=40002a0683cc62108eb710c5eeaad3bf"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</application>
+        <file_path/>
+        <instance_id>f7c0ba231bd1865819254089bd4bcb9b</instance_id>
+        <instance_name>dev258302</instance_name>
+        <name>pa_widgets_40002a0683cc62108eb710c5eeaad3bf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_widgets"><pa_widgets action="INSERT_OR_UPDATE"><aggregate/><alignment>left</alignment><breakdown display_value="EV Box">a935efc0834cae108eb710c5eeaad333</breakdown><breakdown_level2/><breakdown_page_size>5</breakdown_page_size><chart_color/><color_scheme/><coloring_method>score</coloring_method><column_bulletchart>false</column_bulletchart><column_change>false</column_change><column_change_perc>false</column_change_perc><column_current>true</column_current><column_gap>false</column_gap><column_gap_perc>false</column_gap_perc><column_multiple>false</column_multiple><column_steps>1</column_steps><column_stepsize>1</column_stepsize><column_target>false</column_target><column_trend>true</column_trend><compare_main_label/><compare_number_of_periods/><compare_period>year</compare_period><cube_facts_table>u_ev_costs</cube_facts_table><cutoff>1</cutoff><cutoff_condition>GTE</cutoff_condition><cutoff_type>VAL</cutoff_type><date_from>00000000</date_from><date_to>00000000</date_to><default_indicator/><description/><element>214cd727832b52108eb710c5eeaad3db</element><element_level2/><elements_filter/><field/><filter/><flip_axes>false</flip_axes><follow_element>false</follow_element><follow_managed_element>false</follow_managed_element><followed_breakdown/><followed_breakdown_relation/><gauge_autoscale>false</gauge_autoscale><gauge_from/><gauge_to/><include_comments>false</include_comments><include_confidence>false</include_confidence><include_forecast>false</include_forecast><include_prediction_interval>false</include_prediction_interval><include_target>false</include_target><include_thresholds>false</include_thresholds><include_trend>false</include_trend><indicator display_value="Costs for active devices">613f96c283cc62108eb710c5eeaad3a4</indicator><is_compare_chart>false</is_compare_chart><lastscore_compare>previous_score</lastscore_compare><lastscore_periods_back/><limit>50</limit><lookup_name/><manual_elements>false</manual_elements><max_color/><multiple_elements_view/><name>test</name><no_bulk_migration>false</no_bulk_migration><number_of_records>5</number_of_records><overlap_data_labels>false</overlap_data_labels><percentages>no_percentages</percentages><period>3m</period><pivot_breakdown/><pivot_elements_filter/><related_dashboards>0</related_dashboards><score_font_size>responsive</score_font_size><scorecard_options>all</scorecard_options><show_bar>false</show_bar><show_breakdown_selector>true</show_breakdown_selector><show_change>true</show_change><show_change_perc>true</show_change_perc><show_comparison_date>true</show_comparison_date><show_data_labels>false</show_data_labels><show_empty_elements>true</show_empty_elements><show_gap>false</show_gap><show_gap_perc>false</show_gap_perc><show_legend>true</show_legend><show_on_click_link_label>true</show_on_click_link_label><show_range_selector>false</show_range_selector><show_target>false</show_target><show_top_x/><show_total>false</show_total><show_trend>true</show_trend><show_visualization_selector>true</show_visualization_selector><sort_direction>asc</sort_direction><sort_on>default</sort_on><subtitle/><sys_class_name>pa_widgets</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-04 13:37:17</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>40002a0683cc62108eb710c5eeaad3bf</sys_id><sys_mod_count>1</sys_mod_count><sys_name>test</sys_name><sys_overrides/><sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package><sys_policy/><sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope><sys_update_name>pa_widgets_40002a0683cc62108eb710c5eeaad3bf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-04 13:39:26</sys_updated_on><tag/><template>template1</template><treemap_max_color display_value="Green">65b302aea9fe3dba00a530d65ecc2106</treemap_max_color><treemap_min_color display_value="Red">65b30395a9fe3dba003277a7b660b5db</treemap_min_color><type>time</type><visualization>line</visualization><words_in_trendline>5</words_in_trendline><yaxis2_from/><yaxis2_title/><yaxis2_to/><yaxis_from/><yaxis_title/><yaxis_to/></pa_widgets><sys_translated_text action="delete_multiple" query="documentkey=40002a0683cc62108eb710c5eeaad3bf"/></record_update>]]></payload>
+        <payload_hash>822763877</payload_hash>
+        <record_name>test</record_name>
+        <reverted_from/>
+        <source>974a294f8323da108eb710c5eeaad380</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-04 13:39:26</sys_created_on>
+        <sys_id>0590e20683cc62108eb710c5eeaad3ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1956161fb410000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-04 13:39:26</sys_updated_on>
+        <type>Widgets</type>
+        <update_guid>8990e206bccc6210f05dc4ce5a909cac</update_guid>
+        <update_guid_history>8990e206bccc6210f05dc4ce5a909cac:822763877,b910ea06c0cc6210e8b10886f3d2f52a:-763612765</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="test">5326a3d68348e2108eb710c5eeaad3bc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 13:21:59</sys_created_on>
+        <sys_db_object display_value="" name="pa_widgets">pa_widgets</sys_db_object>
+        <sys_id>1684074301bb4e5cabe373517c90fc29</sys_id>
+        <sys_metadata>40002a0683cc62108eb710c5eeaad3bf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_scope_delete display_value="">08380f235033495e814b97f7f661b4d1</sys_scope_delete>
+        <sys_update_name>pa_widgets_40002a0683cc62108eb710c5eeaad3bf</sys_update_name>
+        <sys_update_version display_value="pa_widgets_40002a0683cc62108eb710c5eeaad3bf">0590e20683cc62108eb710c5eeaad3ad</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 13:21:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

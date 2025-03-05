@@ -2,7 +2,7 @@
     <sys_report action="INSERT_OR_UPDATE">
         <active>true</active>
         <additional_groupby/>
-        <aggregate>SUM</aggregate>
+        <aggregate>COUNT</aggregate>
         <aggregation_source>no_override</aggregation_source>
         <allow_data_label_overlap>false</allow_data_label_overlap>
         <apply_alias>false</apply_alias>
@@ -46,7 +46,7 @@
         <donut_width_percent>30</donut_width_percent>
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
-        <field/>
+        <field>u_ev_box</field>
         <field_list>u_number,sys_created_on,u_operation_date,u_operational_cost,u_operational_return,u_paid</field_list>
         <filter/>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
@@ -88,7 +88,7 @@
         <sc_stackby_variable_id/>
         <score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color>
         <series_name_text/>
-        <set_color>one_color</set_color>
+        <set_color>color_palette</set_color>
         <show_chart_border>false</show_chart_border>
         <show_chart_data_label>true</show_chart_data_label>
         <show_chart_title>report</show_chart_title>
@@ -103,30 +103,30 @@
         <source_type>table</source_type>
         <start_time/>
         <style_config/>
-        <sumfield>u_operational_cost</sumfield>
+        <sumfield/>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-03-04 13:16:34</sys_created_on>
-        <sys_id>9a5b1e4e838c62108eb710c5eeaad39b</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>Operational Weekly Costs</sys_name>
+        <sys_created_on>2025-03-05 13:18:55</sys_created_on>
+        <sys_id>66756b568348e2108eb710c5eeaad39f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Operations for each Box</sys_name>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
         <sys_policy/>
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
-        <sys_update_name>sys_report_9a5b1e4e838c62108eb710c5eeaad39b</sys_update_name>
+        <sys_update_name>sys_report_66756b568348e2108eb710c5eeaad39f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-05 13:10:37</sys_updated_on>
+        <sys_updated_on>2025-03-05 13:29:51</sys_updated_on>
         <table>u_ev_costs</table>
-        <title>Operational Weekly Costs</title>
+        <title>Operations for each Box</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
-        <trend_field>sys_created_on</trend_field>
-        <type>spline</type>
+        <trend_field>u_ev_box</trend_field>
+        <type>horizontal_bar</type>
         <upper_limit/>
         <use_color_heatmap>false</use_color_heatmap>
         <use_null_in_trend>false</use_null_in_trend>
-        <user>group</user>
+        <user>6816f79cc0a8016401c5a33be04be441</user>
         <x_axis_allow_decimals>true</x_axis_allow_decimals>
         <x_axis_display_grid>false</x_axis_display_grid>
         <x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color>

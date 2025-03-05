@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_job_indicators">
+    <pa_job_indicators action="DELETE">
+        <active>true</active>
+        <collect>1</collect>
+        <collect_indicator>true</collect_indicator>
+        <display>EV Colect Costs - Costs per month</display>
+        <indicator display_value="Costs per month">71932f40834cae108eb710c5eeaad378</indicator>
+        <job display_value="EV Colect Costs">b6882708834cae108eb710c5eeaad35c</job>
+        <sys_class_name>pa_job_indicators</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 13:47:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c5f82b08834cae108eb710c5eeaad3a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Costs per month.EV Colect Costs</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>pa_job_indicators_c5f82b08834cae108eb710c5eeaad3a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 13:47:46</sys_updated_on>
+    </pa_job_indicators>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</application>
+        <file_path/>
+        <instance_id>f7c0ba231bd1865819254089bd4bcb9b</instance_id>
+        <instance_name>dev258302</instance_name>
+        <name>pa_job_indicators_c5f82b08834cae108eb710c5eeaad3a9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_job_indicators"><pa_job_indicators action="INSERT_OR_UPDATE"><active>true</active><collect>1</collect><collect_indicator>true</collect_indicator><display>EV Colect Costs - Costs per month</display><indicator display_value="Costs per month">71932f40834cae108eb710c5eeaad378</indicator><job display_value="EV Colect Costs">b6882708834cae108eb710c5eeaad35c</job><sys_class_name>pa_job_indicators</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 13:47:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c5f82b08834cae108eb710c5eeaad3a9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Costs per month.EV Colect Costs</sys_name><sys_overrides/><sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package><sys_policy/><sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope><sys_update_name>pa_job_indicators_c5f82b08834cae108eb710c5eeaad3a9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 13:47:46</sys_updated_on></pa_job_indicators></record_update>]]></payload>
+        <payload_hash>-1230775897</payload_hash>
+        <record_name>EV Colect Costs - Costs per month</record_name>
+        <reverted_from/>
+        <source>974a294f8323da108eb710c5eeaad380</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 13:47:46</sys_created_on>
+        <sys_id>01f86f08834cae108eb710c5eeaad31c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195428377200000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 13:47:46</sys_updated_on>
+        <type>Job Indicator</type>
+        <update_guid>c5f82b08da4cae109896d6114c5ab9af</update_guid>
+        <update_guid_history>c5f82b08da4cae109896d6114c5ab9af:-1230775897</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="EV Colect Costs Historic - ">1c4667d68348e2108eb710c5eeaad3d8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 13:22:19</sys_created_on>
+        <sys_db_object display_value="" name="pa_job_indicators">pa_job_indicators</sys_db_object>
+        <sys_id>1c1df1860fce45ca865175d73ffe9644</sys_id>
+        <sys_metadata>c5f82b08834cae108eb710c5eeaad3a9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Costs per month.EV Colect Costs</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_parent display_value="">b6882708834cae108eb710c5eeaad35c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_scope_delete display_value="">08380f235033495e814b97f7f661b4d1</sys_scope_delete>
+        <sys_update_name>pa_job_indicators_c5f82b08834cae108eb710c5eeaad3a9</sys_update_name>
+        <sys_update_version display_value="pa_job_indicators_c5f82b08834cae108eb710c5eeaad3a9">01f86f08834cae108eb710c5eeaad31c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 13:22:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
