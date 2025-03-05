@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
     <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
-        <grid_canvas display_value="New Tab 1">cc8916ca838c62108eb710c5eeaad34a</grid_canvas>
+        <grid_canvas display_value="New Tab 1">806150a2834ce2108eb710c5eeaad3e5</grid_canvas>
         <height>10</height>
-        <portal_widget display_value="Created 2025-03-05 04:06:26">b4e493de83c4e2108eb710c5eeaad3d4</portal_widget>
+        <portal_widget display_value="Created 2025-03-05 08:45:58">63d498a6834ce2108eb710c5eeaad357</portal_widget>
         <posx>0</posx>
-        <posy>10</posy>
+        <posy>20</posy>
         <sys_class_name>sys_grid_canvas_pane</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-03-05 12:06:26</sys_created_on>
-        <sys_id>f4e493de83c4e2108eb710c5eeaad3d6</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>cc8916ca838c62108eb710c5eeaad34a</sys_name>
+        <sys_created_on>2025-03-05 16:45:59</sys_created_on>
+        <sys_id>2fd498a6834ce2108eb710c5eeaad358</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>806150a2834ce2108eb710c5eeaad3e5</sys_name>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
         <sys_policy/>
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
-        <sys_update_name>sys_grid_canvas_pane_f4e493de83c4e2108eb710c5eeaad3d6</sys_update_name>
+        <sys_update_name>sys_grid_canvas_pane_2fd498a6834ce2108eb710c5eeaad358</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-05 16:33:36</sys_updated_on>
-        <width>4</width>
+        <sys_updated_on>2025-03-05 17:01:06</sys_updated_on>
+        <width>6</width>
     </sys_grid_canvas_pane>
 </record_update>

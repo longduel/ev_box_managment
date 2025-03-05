@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_job_indicators">
+    <pa_job_indicators action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <collect>1</collect>
+        <collect_indicator>true</collect_indicator>
+        <display>[PA Incident] Historic Data Collection - EV Engineering Open Incidents</display>
+        <indicator display_value="EV Engineering Open Incidents">4c9954ae834ce2108eb710c5eeaad36f</indicator>
+        <job display_value="[PA Incident] Historic Data Collection">91d861c3d7131100b96d45a3ce610340</job>
+        <sys_class_name>pa_job_indicators</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 17:12:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cbfa9422838ce2108eb710c5eeaad3e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EV Engineering Open Incidents.[PA Incident] Historic Data Collection</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>pa_job_indicators_cbfa9422838ce2108eb710c5eeaad3e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 17:12:42</sys_updated_on>
+    </pa_job_indicators>
+</record_update>

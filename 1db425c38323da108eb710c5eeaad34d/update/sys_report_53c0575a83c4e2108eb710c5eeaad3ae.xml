@@ -2,7 +2,7 @@
     <sys_report action="INSERT_OR_UPDATE">
         <active>true</active>
         <additional_groupby/>
-        <aggregate>AVG</aggregate>
+        <aggregate>COUNT</aggregate>
         <aggregation_source>no_override</aggregation_source>
         <allow_data_label_overlap>false</allow_data_label_overlap>
         <apply_alias>false</apply_alias>
@@ -31,7 +31,7 @@
         <color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette>
         <colors/>
         <column/>
-        <compute_percent>count</compute_percent>
+        <compute_percent>aggregate</compute_percent>
         <content/>
         <created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user>
         <custom_chart_size>false</custom_chart_size>
@@ -46,11 +46,11 @@
         <donut_width_percent>30</donut_width_percent>
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
-        <field>sys_created_on</field>
-        <field_list>u_number,u_operation_date,u_operational_cost,u_operational_return,u_paid</field_list>
-        <filter table="u_ev_costs">u_operation_dateONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()<item endquery="false" field="u_operation_date" goto="false" newquery="false" operator="ON" or="false" value="Today@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()"/>
+        <field>u_ev_box</field>
+        <field_list>sys_created_on,u_log</field_list>
+        <filter table="u_ev_diagnostic">u_result=failure<item display_value="Failure" endquery="false" field="u_result" goto="false" newquery="false" operator="=" or="false" value="failure"/>
         </filter>
-        <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
+        <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{"u_operational_cost,AGGREGATION":{"decimalPrecision":2,"groupingUsed":true,"roundingMode":"HALF_UP","metricPrefixSymbolUsed":false,"showOriginalNumberInTooltip":true,"addValueInTooltip":true}}}</formatting_configuration>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
         <gauge_autoscale>true</gauge_autoscale>
@@ -91,39 +91,39 @@
         <series_name_text/>
         <set_color>color_palette</set_color>
         <show_chart_border>false</show_chart_border>
-        <show_chart_data_label>true</show_chart_data_label>
+        <show_chart_data_label>false</show_chart_data_label>
         <show_chart_title>report</show_chart_title>
         <show_chart_total>false</show_chart_total>
         <show_data_label_position_middle>false</show_data_label_position_middle>
         <show_empty>false</show_empty>
         <show_geographical_label>false</show_geographical_label>
-        <show_legend>false</show_legend>
+        <show_legend>true</show_legend>
         <show_legend_border>false</show_legend_border>
         <show_marker>true</show_marker>
-        <show_zero>true</show_zero>
+        <show_zero>false</show_zero>
         <source_type>table</source_type>
         <start_time/>
         <style_config/>
-        <sumfield>u_operational_cost</sumfield>
+        <sumfield/>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-05 11:48:35</sys_created_on>
         <sys_id>53c0575a83c4e2108eb710c5eeaad3ae</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Daily Operational Costs</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Diagnostic Failures</sys_name>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
         <sys_policy/>
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
         <sys_update_name>sys_report_53c0575a83c4e2108eb710c5eeaad3ae</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-05 12:02:42</sys_updated_on>
-        <table>u_ev_costs</table>
-        <title>Daily Operational Costs</title>
+        <sys_updated_on>2025-03-05 16:41:00</sys_updated_on>
+        <table>u_ev_diagnostic</table>
+        <title>Diagnostic Failures</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
-        <trend_field>u_operation_date</trend_field>
-        <type>single_score</type>
+        <trend_field/>
+        <type>pie</type>
         <upper_limit/>
         <use_color_heatmap>false</use_color_heatmap>
         <use_null_in_trend>false</use_null_in_trend>
