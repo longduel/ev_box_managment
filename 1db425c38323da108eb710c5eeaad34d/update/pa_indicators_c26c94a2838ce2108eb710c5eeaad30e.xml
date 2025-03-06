@@ -6,7 +6,7 @@
         <calendar>standard</calendar>
         <calendar_freq/>
         <collect_breakdown_matrix>false</collect_breakdown_matrix>
-        <collect_records>true</collect_records>
+        <collect_records>false</collect_records>
         <conditions table="incident">close_code=Workaround provided^EQ<item display_value="Workaround provided" endquery="false" field="close_code" goto="false" newquery="false" operator="=" or="false" value="Workaround provided"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
@@ -54,13 +54,13 @@ Resolution code = Workaround provided</description>
         <override_periods>false</override_periods>
         <precision>0</precision>
         <related_breakdowns>0</related_breakdowns>
-        <related_jobs>2</related_jobs>
+        <related_jobs>0</related_jobs>
         <render_continuous_lines>false</render_continuous_lines>
         <role_override>false</role_override>
         <roles/>
         <score_periods>-1</score_periods>
         <scores_format>kMGTPE</scores_format>
-        <scores_modified_at>2025-03-05 17:22:08</scores_modified_at>
+        <scores_modified_at>2025-03-06 05:00:26</scores_modified_at>
         <script/>
         <scripted>false</scripted>
         <show_delta>true</show_delta>
@@ -73,7 +73,7 @@ Resolution code = Workaround provided</description>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c26c94a2838ce2108eb710c5eeaad30e</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>EV Incident 'Workaround Provided'</sys_name>
         <sys_overrides/>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
@@ -81,7 +81,7 @@ Resolution code = Workaround provided</description>
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
         <sys_update_name>pa_indicators_c26c94a2838ce2108eb710c5eeaad30e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-05 17:21:08</sys_updated_on>
+        <sys_updated_on>2025-03-06 10:01:00</sys_updated_on>
         <type>1</type>
         <unit display_value="#">17b365e2d7320100ba986f14ce6103ad</unit>
         <users/>

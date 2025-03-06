@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_job_indicators">
+    <pa_job_indicators action="DELETE">
+        <active>true</active>
+        <collect>1</collect>
+        <collect_indicator>true</collect_indicator>
+        <display>[PA Incident] Daily Data Collection - EV Incident 'Workaround Provided'</display>
+        <indicator display_value="EV Incident 'Workaround Provided'">c26c94a2838ce2108eb710c5eeaad30e</indicator>
+        <job display_value="[PA Incident] Daily Data Collection">82ba2023d7101100b96d45a3ce6103cd</job>
+        <sys_class_name>pa_job_indicators</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 17:21:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>66ecd0e2838ce2108eb710c5eeaad3e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EV Incident 'Workaround Provided'.[PA Incident] Daily Data Collection</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>pa_job_indicators_66ecd0e2838ce2108eb710c5eeaad3e5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 17:21:08</sys_updated_on>
+    </pa_job_indicators>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</application>
+        <file_path/>
+        <instance_id>f7c0ba231bd1865819254089bd4bcb9b</instance_id>
+        <instance_name>dev258302</instance_name>
+        <name>pa_job_indicators_66ecd0e2838ce2108eb710c5eeaad3e5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_job_indicators"><pa_job_indicators action="INSERT_OR_UPDATE"><active>true</active><collect>1</collect><collect_indicator>true</collect_indicator><display>[PA Incident] Daily Data Collection - EV Incident 'Workaround Provided'</display><indicator display_value="EV Incident 'Workaround Provided'">c26c94a2838ce2108eb710c5eeaad30e</indicator><job display_value="[PA Incident] Daily Data Collection">82ba2023d7101100b96d45a3ce6103cd</job><sys_class_name>pa_job_indicators</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-05 17:21:08</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>66ecd0e2838ce2108eb710c5eeaad3e5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>EV Incident 'Workaround Provided'.[PA Incident] Daily Data Collection</sys_name><sys_overrides/><sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package><sys_policy/><sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope><sys_update_name>pa_job_indicators_66ecd0e2838ce2108eb710c5eeaad3e5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-05 17:21:08</sys_updated_on></pa_job_indicators></record_update>]]></payload>
+        <payload_hash>1693881089</payload_hash>
+        <record_name>[PA Incident] Daily Data Collection - EV Incident 'Workaround Provided'</record_name>
+        <reverted_from/>
+        <source>974a294f8323da108eb710c5eeaad380</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 17:21:08</sys_created_on>
+        <sys_id>22ecd0e2838ce2108eb710c5eeaad3ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1956753522f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 17:21:08</sys_updated_on>
+        <type>Job Indicator</type>
+        <update_guid>26ecd0e21f8ce210dfca0b481142a2ec</update_guid>
+        <update_guid_history>26ecd0e21f8ce210dfca0b481142a2ec:1693881089</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="[PA Incident] Daily Data Collection - EV Incident 'Workaround Provided'">3cc1ccb2830066108eb710c5eeaad3e9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-06 10:00:59</sys_created_on>
+        <sys_db_object display_value="" name="pa_job_indicators">pa_job_indicators</sys_db_object>
+        <sys_id>432ba2fee5b6417ca864c58b99f9af84</sys_id>
+        <sys_metadata>66ecd0e2838ce2108eb710c5eeaad3e5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EV Incident 'Workaround Provided'.[PA Incident] Daily Data Collection</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_parent display_value="[PA Incident] Daily Data Collection">82ba2023d7101100b96d45a3ce6103cd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_scope_delete display_value="">08380f235033495e814b97f7f661b4d1</sys_scope_delete>
+        <sys_update_name>pa_job_indicators_66ecd0e2838ce2108eb710c5eeaad3e5</sys_update_name>
+        <sys_update_version display_value="pa_job_indicators_66ecd0e2838ce2108eb710c5eeaad3e5">22ecd0e2838ce2108eb710c5eeaad3ed</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-06 10:00:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
