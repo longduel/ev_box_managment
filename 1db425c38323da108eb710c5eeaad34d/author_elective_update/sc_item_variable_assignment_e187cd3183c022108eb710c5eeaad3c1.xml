@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_item_variable_assignment">
+    <sc_item_variable_assignment action="DELETE">
+        <active>true</active>
+        <guide_variable display_value="Type of employee?">461e7435838022108eb710c5eeaad37e</guide_variable>
+        <item_variable display_value="Job Title">f5433475834022108eb710c5eeaad31f</item_variable>
+        <rule display_value="EV Create New Account">a65285b9838022108eb710c5eeaad301</rule>
+        <sys_class_name>sc_item_variable_assignment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 12:33:18</sys_created_on>
+        <sys_id>e187cd3183c022108eb710c5eeaad3c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>f5433475834022108eb710c5eeaad31f</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sc_item_variable_assignment_e187cd3183c022108eb710c5eeaad3c1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 12:33:18</sys_updated_on>
+        <type>order_guide_variable</type>
+        <value/>
+    </sc_item_variable_assignment>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</application>
+        <file_path/>
+        <instance_id>f7c0ba231bd1865819254089bd4bcb9b</instance_id>
+        <instance_name>dev258302</instance_name>
+        <name>sc_item_variable_assignment_e187cd3183c022108eb710c5eeaad3c1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_item_variable_assignment"><sc_item_variable_assignment action="INSERT_OR_UPDATE"><active>true</active><guide_variable display_value="Type of employee?">461e7435838022108eb710c5eeaad37e</guide_variable><item_variable display_value="Job Title">f5433475834022108eb710c5eeaad31f</item_variable><rule display_value="EV Create New Account">a65285b9838022108eb710c5eeaad301</rule><sys_class_name>sc_item_variable_assignment</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-03 12:33:18</sys_created_on><sys_id>e187cd3183c022108eb710c5eeaad3c1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>f5433475834022108eb710c5eeaad31f</sys_name><sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package><sys_policy/><sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope><sys_update_name>sc_item_variable_assignment_e187cd3183c022108eb710c5eeaad3c1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-03 12:33:18</sys_updated_on><type>order_guide_variable</type><value/></sc_item_variable_assignment></record_update>]]></payload>
+        <payload_hash>-1224489006</payload_hash>
+        <record_name>f5433475834022108eb710c5eeaad31f</record_name>
+        <reverted_from/>
+        <source>974a294f8323da108eb710c5eeaad380</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 12:33:18</sys_created_on>
+        <sys_id>3ad7cd7183c022108eb710c5eeaad371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1955bff14140000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 12:33:18</sys_updated_on>
+        <type>Item Variable Assignment</type>
+        <update_guid>3ed7cd71cac022106ffa7ea2eee10770</update_guid>
+        <update_guid_history>3ed7cd71cac022106ffa7ea2eee10770:-1224489006</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Job Title">ac226143830ca6108eb710c5eeaad37b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 11:40:31</sys_created_on>
+        <sys_db_object display_value="" name="sc_item_variable_assignment">sc_item_variable_assignment</sys_db_object>
+        <sys_id>08bb7e14cce145f481e1574bc75a59e4</sys_id>
+        <sys_metadata>e187cd3183c022108eb710c5eeaad3c1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>f5433475834022108eb710c5eeaad31f</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_scope_delete display_value="">08380f235033495e814b97f7f661b4d1</sys_scope_delete>
+        <sys_update_name>sc_item_variable_assignment_e187cd3183c022108eb710c5eeaad3c1</sys_update_name>
+        <sys_update_version display_value="sc_item_variable_assignment_e187cd3183c022108eb710c5eeaad3c1">3ad7cd7183c022108eb710c5eeaad371</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 11:40:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

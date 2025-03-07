@@ -7,21 +7,21 @@
         <display_name>Run Server Side Script</display_name>
         <inputs/>
         <mugshots_cache_json/>
-        <notes>Wait 2 minutes</notes>
+        <notes>Wait 1 minute</notes>
         <order>11</order>
         <step_config display_value="Run Server Side Script">41de4a935332120028bc29cac2dc349a</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-07 11:23:31</sys_created_on>
         <sys_id>b3cd99c783c8a6108eb710c5eeaad352</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Run Server Side Script</sys_name>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
         <sys_policy/>
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
         <sys_update_name>sys_atf_step_b3cd99c783c8a6108eb710c5eeaad352</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-07 11:25:11</sys_updated_on>
+        <sys_updated_on>2025-03-07 12:30:07</sys_updated_on>
         <table/>
         <test display_value="EV New Hire Test">b8f3bdb983c422108eb710c5eeaad33a</test>
         <timeout/>
@@ -50,9 +50,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-07 11:23:32</sys_created_on>
         <sys_id>ff3e198b83c8a6108eb710c5eeaad3dc</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-07 11:25:11</sys_updated_on>
+        <sys_updated_on>2025-03-07 12:30:07</sys_updated_on>
         <value>// You can use this step to execute a variety of server-side javascript tests including&#13;
 // jasmine tests and custom assertions&#13;
 //&#13;
@@ -137,9 +137,7 @@
 //      assertEqual(testAssertion); // throws Error, logs message to test step output&#13;
 //&#13;
 (function(outputs, steps, params, stepResult, assertEqual) {&#13;
-&#13;
-    gs.sleep('120000');&#13;
-&#13;
+    gs.sleep('60000');&#13;
 })(outputs, steps, params, stepResult, assertEqual);&#13;
 // uncomment the next line to execute this script as a jasmine test&#13;
 //jasmine.getEnv().execute();</value>

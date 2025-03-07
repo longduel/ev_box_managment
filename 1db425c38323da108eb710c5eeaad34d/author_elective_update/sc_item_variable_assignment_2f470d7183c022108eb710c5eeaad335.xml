@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_item_variable_assignment">
+    <sc_item_variable_assignment action="DELETE">
+        <active>true</active>
+        <guide_variable display_value="User ID">f11505bd838022108eb710c5eeaad3d0</guide_variable>
+        <item_variable display_value="User ID">0da33c75834022108eb710c5eeaad3d5</item_variable>
+        <rule display_value="EV Create New Account">a65285b9838022108eb710c5eeaad301</rule>
+        <sys_class_name>sc_item_variable_assignment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 12:30:54</sys_created_on>
+        <sys_id>2f470d7183c022108eb710c5eeaad335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>0da33c75834022108eb710c5eeaad3d5</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sc_item_variable_assignment_2f470d7183c022108eb710c5eeaad335</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 12:30:54</sys_updated_on>
+        <type>order_guide_variable</type>
+        <value/>
+    </sc_item_variable_assignment>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</application>
+        <file_path/>
+        <instance_id>f7c0ba231bd1865819254089bd4bcb9b</instance_id>
+        <instance_name>dev258302</instance_name>
+        <name>sc_item_variable_assignment_2f470d7183c022108eb710c5eeaad335</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_item_variable_assignment"><sc_item_variable_assignment action="INSERT_OR_UPDATE"><active>true</active><guide_variable display_value="User ID">f11505bd838022108eb710c5eeaad3d0</guide_variable><item_variable display_value="User ID">0da33c75834022108eb710c5eeaad3d5</item_variable><rule display_value="EV Create New Account">a65285b9838022108eb710c5eeaad301</rule><sys_class_name>sc_item_variable_assignment</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-03 12:30:54</sys_created_on><sys_id>2f470d7183c022108eb710c5eeaad335</sys_id><sys_mod_count>0</sys_mod_count><sys_name>0da33c75834022108eb710c5eeaad3d5</sys_name><sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package><sys_policy/><sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope><sys_update_name>sc_item_variable_assignment_2f470d7183c022108eb710c5eeaad335</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-03 12:30:54</sys_updated_on><type>order_guide_variable</type><value/></sc_item_variable_assignment></record_update>]]></payload>
+        <payload_hash>1495497006</payload_hash>
+        <record_name>0da33c75834022108eb710c5eeaad3d5</record_name>
+        <reverted_from/>
+        <source>974a294f8323da108eb710c5eeaad380</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 12:30:54</sys_created_on>
+        <sys_id>2b470d7183c022108eb710c5eeaad338</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1955bfce0b90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 12:30:54</sys_updated_on>
+        <type>Item Variable Assignment</type>
+        <update_guid>2f470d716bc02210a33a2f5d265be037</update_guid>
+        <update_guid_history>2f470d716bc02210a33a2f5d265be037:1495497006</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="User ID">a8226143830ca6108eb710c5eeaad36d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 11:40:31</sys_created_on>
+        <sys_db_object display_value="" name="sc_item_variable_assignment">sc_item_variable_assignment</sys_db_object>
+        <sys_id>37b67c228daa46a4a962ef8cc18d7364</sys_id>
+        <sys_metadata>2f470d7183c022108eb710c5eeaad335</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>0da33c75834022108eb710c5eeaad3d5</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_scope_delete display_value="">08380f235033495e814b97f7f661b4d1</sys_scope_delete>
+        <sys_update_name>sc_item_variable_assignment_2f470d7183c022108eb710c5eeaad335</sys_update_name>
+        <sys_update_version display_value="sc_item_variable_assignment_2f470d7183c022108eb710c5eeaad335">2b470d7183c022108eb710c5eeaad338</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 11:40:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
