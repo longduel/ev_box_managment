@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Answer the questions on the form as follows:
+Equipment ready in depo timeline? = 2025-03-14
+and Specialized equipment needed? = No Need
+and What type of equipment? = Basic Box maintenance</description>
+        <display_name>Set Variable Values (SP)</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>6</order>
+        <step_config display_value="Set Variable Values (SP)">2e4229b48703030070870cf888cb0b5c</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 10:12:09</sys_created_on>
+        <sys_id>35cdc5c38388a6108eb710c5eeaad372</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Variable Values (SP)</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sys_atf_step_35cdc5c38388a6108eb710c5eeaad372</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 10:12:09</sys_updated_on>
+        <table/>
+        <test display_value="My New Test">b8f3bdb983c422108eb710c5eeaad33a</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=35cdc5c38388a6108eb710c5eeaad372"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>35cdc5c38388a6108eb710c5eeaad372</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 10:12:09</sys_created_on>
+        <sys_id>02edc5c38388a6108eb710c5eeaad308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 10:12:09</sys_updated_on>
+        <value>e0a07431834022108eb710c5eeaad3d5</value>
+        <variable display_value="Item">d164adb48703030070870cf888cb0b30</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>35cdc5c38388a6108eb710c5eeaad372</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 10:12:09</sys_created_on>
+        <sys_id>4eedc5c38388a6108eb710c5eeaad307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 10:12:09</sys_updated_on>
+        <value>IO:ae58707d834022108eb710c5eeaad37a=2025-03-14^IO:69283c3d834022108eb710c5eeaad3c5=No Need^IO:d2a8f47d834022108eb710c5eeaad3b0=basic^EQ</value>
+        <variable display_value="Variable Values">3f3525f48703030070870cf888cb0b37</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>35cdc5c38388a6108eb710c5eeaad372</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 10:12:09</sys_created_on>
+        <sys_id>8aedc5c38388a6108eb710c5eeaad307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 10:12:09</sys_updated_on>
+        <value/>
+        <variable display_value="Multi-row Variable Set">2fba49d673142300688e0d573cf6a748</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_2e4229b48703030070870cf888cb0b5c^id=35cdc5c38388a6108eb710c5eeaad372"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</application>
+        <file_path/>
+        <instance_id>f7c0ba231bd1865819254089bd4bcb9b</instance_id>
+        <instance_name>dev258302</instance_name>
+        <name>sys_atf_step_35cdc5c38388a6108eb710c5eeaad372</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from/><description>Answer the questions on the form as follows:
+Equipment ready in depo timeline? = 2025-03-14
+and Specialized equipment needed? = No Need
+and What type of equipment? = Basic Box maintenance</description><display_name>Set Variable Values (SP)</display_name><inputs/><mugshots_cache_json/><notes/><order>6</order><step_config display_value="Set Variable Values (SP)">2e4229b48703030070870cf888cb0b5c</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-07 10:12:09</sys_created_on><sys_id>35cdc5c38388a6108eb710c5eeaad372</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Set Variable Values (SP)</sys_name><sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package><sys_policy/><sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope><sys_update_name>sys_atf_step_35cdc5c38388a6108eb710c5eeaad372</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-07 10:12:09</sys_updated_on><table/><test display_value="My New Test">b8f3bdb983c422108eb710c5eeaad33a</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=35cdc5c38388a6108eb710c5eeaad372"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>35cdc5c38388a6108eb710c5eeaad372</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-07 10:12:09</sys_created_on><sys_id>02edc5c38388a6108eb710c5eeaad308</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-07 10:12:09</sys_updated_on><value>e0a07431834022108eb710c5eeaad3d5</value><variable display_value="Item">d164adb48703030070870cf888cb0b30</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>35cdc5c38388a6108eb710c5eeaad372</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-07 10:12:09</sys_created_on><sys_id>4eedc5c38388a6108eb710c5eeaad307</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-07 10:12:09</sys_updated_on><value>IO:ae58707d834022108eb710c5eeaad37a=2025-03-14^IO:69283c3d834022108eb710c5eeaad3c5=No Need^IO:d2a8f47d834022108eb710c5eeaad3b0=basic^EQ</value><variable display_value="Variable Values">3f3525f48703030070870cf888cb0b37</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>35cdc5c38388a6108eb710c5eeaad372</document_key><order>150</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-07 10:12:09</sys_created_on><sys_id>8aedc5c38388a6108eb710c5eeaad307</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-07 10:12:09</sys_updated_on><value/><variable display_value="Multi-row Variable Set">2fba49d673142300688e0d573cf6a748</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_2e4229b48703030070870cf888cb0b5c^id=35cdc5c38388a6108eb710c5eeaad372"/></record_update>]]></payload>
+        <payload_hash>1814360384</payload_hash>
+        <record_name>Set Variable Values (SP)</record_name>
+        <reverted_from/>
+        <source>974a294f8323da108eb710c5eeaad380</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 10:12:09</sys_created_on>
+        <sys_id>5aedc5c38388a6108eb710c5eeaad30a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19570174b930000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 10:12:09</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>5eedc5c32288a6105709a3f7853c0d09</update_guid>
+        <update_guid_history>5eedc5c32288a6105709a3f7853c0d09:1814360384</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 10:13:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>38923091d3044678b5815a00208be710</sys_id>
+        <sys_metadata>35cdc5c38388a6108eb710c5eeaad372</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Variable Values (SP)</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_scope_delete display_value="">08380f235033495e814b97f7f661b4d1</sys_scope_delete>
+        <sys_update_name>sys_atf_step_35cdc5c38388a6108eb710c5eeaad372</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_35cdc5c38388a6108eb710c5eeaad372">5aedc5c38388a6108eb710c5eeaad30a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 10:13:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

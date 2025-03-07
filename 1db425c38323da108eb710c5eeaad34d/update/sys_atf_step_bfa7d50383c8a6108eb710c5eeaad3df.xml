@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Open 'EV Issue Equipment' catalog item &amp; include this item.</description>
+        <display_name>Review Item in Order Guide (SP)</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>6</order>
+        <step_config display_value="Review Item in Order Guide (SP)">2098710873631300688e0d573cf6a7d7</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 10:54:57</sys_created_on>
+        <sys_id>bfa7d50383c8a6108eb710c5eeaad3df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Review Item in Order Guide (SP)</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sys_atf_step_bfa7d50383c8a6108eb710c5eeaad3df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 10:54:57</sys_updated_on>
+        <table/>
+        <test display_value="EV New Hire Test">b8f3bdb983c422108eb710c5eeaad33a</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=bfa7d50383c8a6108eb710c5eeaad3df"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>bfa7d50383c8a6108eb710c5eeaad3df</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 10:54:57</sys_created_on>
+        <sys_id>09b7954383c8a6108eb710c5eeaad3d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 10:54:57</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Included">aa3a45a873e31300688e0d573cf6a784</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>bfa7d50383c8a6108eb710c5eeaad3df</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 10:54:57</sys_created_on>
+        <sys_id>45b7954383c8a6108eb710c5eeaad3d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 10:54:57</sys_updated_on>
+        <value>e0a07431834022108eb710c5eeaad3d5</value>
+        <variable display_value="Catalog Item">ff05052873e31300688e0d573cf6a7ed</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_2098710873631300688e0d573cf6a7d7^id=bfa7d50383c8a6108eb710c5eeaad3df"/>
+</record_update>

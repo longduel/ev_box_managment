@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Validate that following items are included in the Order Guide: EV Create New Account, EV Issue Equipment, EV iPhone</description>
+        <display_name>Validate Order Guide Items (SP)</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>4</order>
+        <step_config display_value="Validate Order Guide Items (SP)">d7c0d0ef5f9b1300688e1f9f2f7313b7</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 10:10:33</sys_created_on>
+        <sys_id>c65d8d838388a6108eb710c5eeaad3fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate Order Guide Items (SP)</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sys_atf_step_c65d8d838388a6108eb710c5eeaad3fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 10:10:33</sys_updated_on>
+        <table/>
+        <test display_value="My New Test">b8f3bdb983c422108eb710c5eeaad33a</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=c65d8d838388a6108eb710c5eeaad3fb"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>c65d8d838388a6108eb710c5eeaad3fb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 10:10:33</sys_created_on>
+        <sys_id>368d41c38388a6108eb710c5eeaad323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 10:10:33</sys_updated_on>
+        <value>be603071834022108eb710c5eeaad3e6,fb91b8b1834022108eb710c5eeaad3e4,e0a07431834022108eb710c5eeaad3d5</value>
+        <variable display_value="Catalog Items">7e6350235fdb1300688e1f9f2f7313e9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_d7c0d0ef5f9b1300688e1f9f2f7313b7^id=c65d8d838388a6108eb710c5eeaad3fb"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</application>
+        <file_path/>
+        <instance_id>f7c0ba231bd1865819254089bd4bcb9b</instance_id>
+        <instance_name>dev258302</instance_name>
+        <name>sys_atf_step_c65d8d838388a6108eb710c5eeaad3fb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from/><description>Validate that following items are included in the Order Guide: EV Create New Account, EV Issue Equipment, EV iPhone</description><display_name>Validate Order Guide Items (SP)</display_name><inputs/><mugshots_cache_json/><notes/><order>4</order><step_config display_value="Validate Order Guide Items (SP)">d7c0d0ef5f9b1300688e1f9f2f7313b7</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-07 10:10:33</sys_created_on><sys_id>c65d8d838388a6108eb710c5eeaad3fb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Validate Order Guide Items (SP)</sys_name><sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package><sys_policy/><sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope><sys_update_name>sys_atf_step_c65d8d838388a6108eb710c5eeaad3fb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-07 10:10:33</sys_updated_on><table/><test display_value="My New Test">b8f3bdb983c422108eb710c5eeaad33a</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=c65d8d838388a6108eb710c5eeaad3fb"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>c65d8d838388a6108eb710c5eeaad3fb</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-07 10:10:33</sys_created_on><sys_id>368d41c38388a6108eb710c5eeaad323</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-07 10:10:33</sys_updated_on><value>be603071834022108eb710c5eeaad3e6,fb91b8b1834022108eb710c5eeaad3e4,e0a07431834022108eb710c5eeaad3d5</value><variable display_value="Catalog Items">7e6350235fdb1300688e1f9f2f7313e9</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_d7c0d0ef5f9b1300688e1f9f2f7313b7^id=c65d8d838388a6108eb710c5eeaad3fb"/></record_update>]]></payload>
+        <payload_hash>1206885590</payload_hash>
+        <record_name>Validate Order Guide Items (SP)</record_name>
+        <reverted_from/>
+        <source>974a294f8323da108eb710c5eeaad380</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 10:10:33</sys_created_on>
+        <sys_id>be8d41c38388a6108eb710c5eeaad325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1957015d5260000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 10:10:33</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>b28d41c30288a61023fc8155d4219f25</update_guid>
+        <update_guid_history>b28d41c30288a61023fc8155d4219f25:1206885590</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 10:16:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>177200dd63c04b46bca61fcae7ca92e4</sys_id>
+        <sys_metadata>c65d8d838388a6108eb710c5eeaad3fb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate Order Guide Items (SP)</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_scope_delete display_value="">08380f235033495e814b97f7f661b4d1</sys_scope_delete>
+        <sys_update_name>sys_atf_step_c65d8d838388a6108eb710c5eeaad3fb</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_c65d8d838388a6108eb710c5eeaad3fb">be8d41c38388a6108eb710c5eeaad325</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 10:16:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

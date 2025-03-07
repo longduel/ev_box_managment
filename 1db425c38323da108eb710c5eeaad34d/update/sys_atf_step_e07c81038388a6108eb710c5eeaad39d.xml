@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Answer the questions on the form as follows:
+First Name = Peter
+and Last Name = Test
+and Email Address = Peter@test.com
+and User ID = PeterTest
+and Type of employee? = Engineer
+and Phone OS? = iOS
+and Request Engineer equipment? = true</description>
+        <display_name>Set Variable Values (SP)</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>2</order>
+        <step_config display_value="Set Variable Values (SP)">2e4229b48703030070870cf888cb0b5c</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 10:08:50</sys_created_on>
+        <sys_id>e07c81038388a6108eb710c5eeaad39d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Variable Values (SP)</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sys_atf_step_e07c81038388a6108eb710c5eeaad39d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 10:08:50</sys_updated_on>
+        <table/>
+        <test display_value="EV New Hire Test">b8f3bdb983c422108eb710c5eeaad33a</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=e07c81038388a6108eb710c5eeaad39d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e07c81038388a6108eb710c5eeaad39d</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 10:08:50</sys_created_on>
+        <sys_id>2d2d05038388a6108eb710c5eeaad3a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 10:08:50</sys_updated_on>
+        <value>IO:9575cdbd838022108eb710c5eeaad374=Peter^IO:6a8505bd838022108eb710c5eeaad327=Test^IO:fa950dbd838022108eb710c5eeaad36b=Peter@test.com^IO:f11505bd838022108eb710c5eeaad3d0=PeterTest^IO:461e7435838022108eb710c5eeaad37e=ev_engineer^IO:35518939838022108eb710c5eeaad3f1=os_ios^IO:df5d453983c022108eb710c5eeaad31e=true^EQ</value>
+        <variable display_value="Variable Values">3f3525f48703030070870cf888cb0b37</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e07c81038388a6108eb710c5eeaad39d</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 10:08:50</sys_created_on>
+        <sys_id>692d05038388a6108eb710c5eeaad3a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 10:08:50</sys_updated_on>
+        <value/>
+        <variable display_value="Multi-row Variable Set">2fba49d673142300688e0d573cf6a748</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e07c81038388a6108eb710c5eeaad39d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 10:08:50</sys_created_on>
+        <sys_id>ed2d05038388a6108eb710c5eeaad3a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 10:08:50</sys_updated_on>
+        <value>575de83d830022108eb710c5eeaad38c</value>
+        <variable display_value="Item">d164adb48703030070870cf888cb0b30</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_2e4229b48703030070870cf888cb0b5c^id=e07c81038388a6108eb710c5eeaad39d"/>
+</record_update>

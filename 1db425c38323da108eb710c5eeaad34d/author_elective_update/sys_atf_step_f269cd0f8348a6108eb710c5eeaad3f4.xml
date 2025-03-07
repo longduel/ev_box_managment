@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Open Order Guide page in the VoltCare portal with the following query params:
+Name = EV New Hire
+
+Warning: Using a table that extends Application File [sys_metadata] may cause unexpected behavior for other tests running in parallel&#13;
+See the documentation for Test Design Considerations</description>
+        <display_name>Open a Form (SP)</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <step_config display_value="Open a Form (SP)">ca58a941e7020300b2888f49c2f6a95e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 09:58:10</sys_created_on>
+        <sys_id>f269cd0f8348a6108eb710c5eeaad3f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open a Form (SP)</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sys_atf_step_f269cd0f8348a6108eb710c5eeaad3f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 09:58:10</sys_updated_on>
+        <table>sc_cat_item_guide</table>
+        <test display_value="My New Test">b8f3bdb983c422108eb710c5eeaad33a</test>
+        <timeout/>
+        <warning_message>Warning: Using a table that extends Application File [sys_metadata] may cause unexpected behavior for other tests running in parallel&#13;
+See the documentation for Test Design Considerations</warning_message>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=f269cd0f8348a6108eb710c5eeaad3f4"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>f269cd0f8348a6108eb710c5eeaad3f4</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 09:58:10</sys_created_on>
+        <sys_id>1dbacd8f8348a6108eb710c5eeaad325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 09:58:10</sys_updated_on>
+        <value>{"Name":"EV New Hire"}</value>
+        <variable display_value="Query parameters">a38ae181e7020300b2888f49c2f6a92e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>f269cd0f8348a6108eb710c5eeaad3f4</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 09:58:10</sys_created_on>
+        <sys_id>59bacd8f8348a6108eb710c5eeaad325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 09:58:10</sys_updated_on>
+        <value/>
+        <variable display_value="View">a266791b23101300ab65ff5e17bf654b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>f269cd0f8348a6108eb710c5eeaad3f4</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 09:58:10</sys_created_on>
+        <sys_id>5dbacd8f8348a6108eb710c5eeaad324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 09:58:10</sys_updated_on>
+        <value/>
+        <variable display_value="sys_id">38a5351b23101300ab65ff5e17bf65fa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>f269cd0f8348a6108eb710c5eeaad3f4</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 09:58:10</sys_created_on>
+        <sys_id>91bacd8f8348a6108eb710c5eeaad326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 09:58:10</sys_updated_on>
+        <value>sc_cat_item_guide</value>
+        <variable display_value="Table">ee6aa11723101300ab65ff5e17bf65db</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>f269cd0f8348a6108eb710c5eeaad3f4</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 09:58:10</sys_created_on>
+        <sys_id>95bacd8f8348a6108eb710c5eeaad325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 09:58:10</sys_updated_on>
+        <value>d380bca347230200ba13a5554ee49024</value>
+        <variable display_value="Page">757a6181e7020300b2888f49c2f6a9f7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>f269cd0f8348a6108eb710c5eeaad3f4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 09:58:10</sys_created_on>
+        <sys_id>ddbacd8f8348a6108eb710c5eeaad325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 09:58:10</sys_updated_on>
+        <value>3089ee6f83e352108eb710c5eeaad305</value>
+        <variable display_value="Portal">5d5a2181e7020300b2888f49c2f6a9dc</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_ca58a941e7020300b2888f49c2f6a95e^id=f269cd0f8348a6108eb710c5eeaad3f4"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</application>
+        <file_path/>
+        <instance_id>f7c0ba231bd1865819254089bd4bcb9b</instance_id>
+        <instance_name>dev258302</instance_name>
+        <name>sys_atf_step_f269cd0f8348a6108eb710c5eeaad3f4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from/><description>Open Order Guide page in the VoltCare portal with the following query params:
+Name = EV New Hire
+
+Warning: Using a table that extends Application File [sys_metadata] may cause unexpected behavior for other tests running in parallel&#13;
+See the documentation for Test Design Considerations</description><display_name>Open a Form (SP)</display_name><inputs/><mugshots_cache_json/><notes/><order>1</order><step_config display_value="Open a Form (SP)">ca58a941e7020300b2888f49c2f6a95e</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-07 09:58:10</sys_created_on><sys_id>f269cd0f8348a6108eb710c5eeaad3f4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Open a Form (SP)</sys_name><sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package><sys_policy/><sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope><sys_update_name>sys_atf_step_f269cd0f8348a6108eb710c5eeaad3f4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-07 09:58:10</sys_updated_on><table>sc_cat_item_guide</table><test display_value="My New Test">b8f3bdb983c422108eb710c5eeaad33a</test><timeout/><warning_message>Warning: Using a table that extends Application File [sys_metadata] may cause unexpected behavior for other tests running in parallel&#13;
+See the documentation for Test Design Considerations</warning_message></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=f269cd0f8348a6108eb710c5eeaad3f4"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>f269cd0f8348a6108eb710c5eeaad3f4</document_key><order>600</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-07 09:58:10</sys_created_on><sys_id>1dbacd8f8348a6108eb710c5eeaad325</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-07 09:58:10</sys_updated_on><value>{"Name":"EV New Hire"}</value><variable display_value="Query parameters">a38ae181e7020300b2888f49c2f6a92e</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>f269cd0f8348a6108eb710c5eeaad3f4</document_key><order>500</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-07 09:58:10</sys_created_on><sys_id>59bacd8f8348a6108eb710c5eeaad325</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-07 09:58:10</sys_updated_on><value/><variable display_value="View">a266791b23101300ab65ff5e17bf654b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>f269cd0f8348a6108eb710c5eeaad3f4</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-07 09:58:10</sys_created_on><sys_id>5dbacd8f8348a6108eb710c5eeaad324</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-07 09:58:10</sys_updated_on><value/><variable display_value="sys_id">38a5351b23101300ab65ff5e17bf65fa</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>f269cd0f8348a6108eb710c5eeaad3f4</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-07 09:58:10</sys_created_on><sys_id>91bacd8f8348a6108eb710c5eeaad326</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-07 09:58:10</sys_updated_on><value>sc_cat_item_guide</value><variable display_value="Table">ee6aa11723101300ab65ff5e17bf65db</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>f269cd0f8348a6108eb710c5eeaad3f4</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-07 09:58:10</sys_created_on><sys_id>95bacd8f8348a6108eb710c5eeaad325</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-07 09:58:10</sys_updated_on><value>d380bca347230200ba13a5554ee49024</value><variable display_value="Page">757a6181e7020300b2888f49c2f6a9f7</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>f269cd0f8348a6108eb710c5eeaad3f4</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-07 09:58:10</sys_created_on><sys_id>ddbacd8f8348a6108eb710c5eeaad325</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-07 09:58:10</sys_updated_on><value>3089ee6f83e352108eb710c5eeaad305</value><variable display_value="Portal">5d5a2181e7020300b2888f49c2f6a9dc</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_ca58a941e7020300b2888f49c2f6a95e^id=f269cd0f8348a6108eb710c5eeaad3f4"/></record_update>]]></payload>
+        <payload_hash>959326614</payload_hash>
+        <record_name>Open a Form (SP)</record_name>
+        <reverted_from/>
+        <source>974a294f8323da108eb710c5eeaad380</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 09:58:10</sys_created_on>
+        <sys_id>55bacd8f8348a6108eb710c5eeaad329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195700a7f0c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 09:58:10</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>59bacd8f3d48a6105c7de6b899b2ad28</update_guid>
+        <update_guid_history>59bacd8f3d48a6105c7de6b899b2ad28:959326614</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 10:00:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>008bd4c4748743488002d5053f648210</sys_id>
+        <sys_metadata>f269cd0f8348a6108eb710c5eeaad3f4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open a Form (SP)</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_scope_delete display_value="">08380f235033495e814b97f7f661b4d1</sys_scope_delete>
+        <sys_update_name>sys_atf_step_f269cd0f8348a6108eb710c5eeaad3f4</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_f269cd0f8348a6108eb710c5eeaad3f4">55bacd8f8348a6108eb710c5eeaad329</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 10:00:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

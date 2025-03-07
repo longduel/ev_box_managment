@@ -8,12 +8,12 @@
         <hint/>
         <homepage/>
         <image/>
-        <link_type>SEPARATOR</link_type>
+        <link_type>LIST</link_type>
         <map_page/>
         <mobile_title>EV Devices</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name/>
-        <order>5</order>
+        <name>u_ev_devices</name>
+        <order>3</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -21,19 +21,19 @@
         <roles/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-02-10 15:24:03</sys_created_on>
+        <sys_created_on>2025-03-07 10:34:19</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>db8525478323da108eb710c5eeaad3ba</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_id>acd2958b8388a6108eb710c5eeaad3a6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>EV Devices</sys_name>
         <sys_overrides/>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
         <sys_policy/>
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
-        <sys_update_name>sys_app_module_db8525478323da108eb710c5eeaad3ba</sys_update_name>
+        <sys_update_name>sys_app_module_acd2958b8388a6108eb710c5eeaad3a6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-26 09:48:19</sys_updated_on>
+        <sys_updated_on>2025-03-07 10:42:39</sys_updated_on>
         <timeline_page/>
         <title>EV Devices</title>
         <uncancelable>false</uncancelable>

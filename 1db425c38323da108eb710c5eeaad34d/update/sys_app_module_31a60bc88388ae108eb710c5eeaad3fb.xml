@@ -13,7 +13,7 @@
         <mobile_title>EV Costs</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>u_ev_costs</name>
-        <order/>
+        <order>1</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -25,7 +25,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>31a60bc88388ae108eb710c5eeaad3fb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>EV Costs</sys_name>
         <sys_overrides/>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
         <sys_update_name>sys_app_module_31a60bc88388ae108eb710c5eeaad3fb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-26 11:17:55</sys_updated_on>
+        <sys_updated_on>2025-03-07 10:35:25</sys_updated_on>
         <timeline_page/>
         <title>EV Costs</title>
         <uncancelable>false</uncancelable>

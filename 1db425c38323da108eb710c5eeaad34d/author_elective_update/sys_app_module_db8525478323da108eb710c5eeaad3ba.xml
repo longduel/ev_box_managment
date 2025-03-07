@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="EV Box Managment">5385e1c38323da108eb710c5eeaad367</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>EV Devices</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>u_ev_devices</name>
+        <order>5</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-10 15:24:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>db8525478323da108eb710c5eeaad3ba</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>EV Devices</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sys_app_module_db8525478323da108eb710c5eeaad3ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 10:32:45</sys_updated_on>
+        <timeline_page/>
+        <title>EV Devices</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</application>
+        <file_path/>
+        <instance_id>f7c0ba231bd1865819254089bd4bcb9b</instance_id>
+        <instance_name>dev258302</instance_name>
+        <name>sys_app_module_db8525478323da108eb710c5eeaad3ba</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="EV Box Managment">5385e1c38323da108eb710c5eeaad367</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>EV Devices</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_ev_devices</name><order>5</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-10 15:24:03</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>db8525478323da108eb710c5eeaad3ba</sys_id><sys_mod_count>2</sys_mod_count><sys_name>EV Devices</sys_name><sys_overrides/><sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package><sys_policy/><sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope><sys_update_name>sys_app_module_db8525478323da108eb710c5eeaad3ba</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-07 10:32:45</sys_updated_on><timeline_page/><title>EV Devices</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1531216132</payload_hash>
+        <record_name>EV Devices</record_name>
+        <reverted_from/>
+        <source>974a294f8323da108eb710c5eeaad380</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 10:32:45</sys_created_on>
+        <sys_id>bf92918b8388a6108eb710c5eeaad31d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195702a26490000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 10:32:45</sys_updated_on>
+        <type>Module</type>
+        <update_guid>3792918b2088a6106b03c937da14d31d</update_guid>
+        <update_guid_history>3792918b2088a6106b03c937da14d31d:1531216132,d522328cdf08ae10acadada1dcd815e1:-1785230583,138525478d23da10be1e8b303ea670bc:709910728</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="EV Devices">62c2118b8388a6108eb710c5eeaad3c3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 10:33:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>1422604a1a9c4810830c4b3583584510</sys_id>
+        <sys_metadata>db8525478323da108eb710c5eeaad3ba</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_ev_devices</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_scope_delete display_value="">08380f235033495e814b97f7f661b4d1</sys_scope_delete>
+        <sys_update_name>sys_app_module_db8525478323da108eb710c5eeaad3ba</sys_update_name>
+        <sys_update_version display_value="sys_app_module_db8525478323da108eb710c5eeaad3ba">bf92918b8388a6108eb710c5eeaad31d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 10:33:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

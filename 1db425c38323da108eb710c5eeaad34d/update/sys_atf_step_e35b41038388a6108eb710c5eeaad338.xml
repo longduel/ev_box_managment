@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Open "EV New Hire" in the "VoltCare" portal</description>
+        <display_name>Open an Order Guide (SP)</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <step_config display_value="Open an Order Guide (SP)">aced8452731b13008e6b0d573cf6a783</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 10:01:33</sys_created_on>
+        <sys_id>e35b41038388a6108eb710c5eeaad338</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open an Order Guide (SP)</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sys_atf_step_e35b41038388a6108eb710c5eeaad338</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 10:01:33</sys_updated_on>
+        <table/>
+        <test display_value="EV New Hire Test">b8f3bdb983c422108eb710c5eeaad33a</test>
+        <timeout>1970-01-01 00:00:30</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=e35b41038388a6108eb710c5eeaad338"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e35b41038388a6108eb710c5eeaad338</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 10:01:33</sys_created_on>
+        <sys_id>3e7b09cf8348a6108eb710c5eeaad37f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 10:01:33</sys_updated_on>
+        <value>d380bca347230200ba13a5554ee49024</value>
+        <variable display_value="Page">b7be4cd6731b13008e6b0d573cf6a746</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e35b41038388a6108eb710c5eeaad338</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 10:01:33</sys_created_on>
+        <sys_id>767b09cf8348a6108eb710c5eeaad380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 10:01:33</sys_updated_on>
+        <value>3089ee6f83e352108eb710c5eeaad305</value>
+        <variable display_value="Portal">1a6e4896731b13008e6b0d573cf6a78f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e35b41038388a6108eb710c5eeaad338</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 10:01:33</sys_created_on>
+        <sys_id>b27b09cf8348a6108eb710c5eeaad380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 10:01:33</sys_updated_on>
+        <value>575de83d830022108eb710c5eeaad38c</value>
+        <variable display_value="Order Guide">ab1de4ae73d313008e6b0d573cf6a76b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e35b41038388a6108eb710c5eeaad338</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 10:01:33</sys_created_on>
+        <sys_id>fe7b09cf8348a6108eb710c5eeaad37f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 10:01:33</sys_updated_on>
+        <value/>
+        <variable display_value="Query Parameters">a410505a731b13008e6b0d573cf6a71c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_aced8452731b13008e6b0d573cf6a783^id=e35b41038388a6108eb710c5eeaad338"/>
+</record_update>
