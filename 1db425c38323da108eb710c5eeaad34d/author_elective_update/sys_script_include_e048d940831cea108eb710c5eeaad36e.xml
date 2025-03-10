@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>global.EV Generate Costs</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>EV Generate Costs</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[// Using this INT variable select how long the month period would be for generation
+// In this case random date will be generated in between 3 months
+var selectMonth = gs.getProperty("month_period_selection");
+//var selectMonth = 3;
+
+// Variable for the generated date
+var randomDate;
+
+// Set a threshold on how many records would you like to generate per device
+var recordNumberMax = gs.getProperty("record_number_max");
+//var recordNumberMax = 35;
+var recordNumberMin = gs.getProperty("record_number_min");
+//var recordNumberMin = 15;
+
+// Variables for the costs generation
+var generatePaid;
+var generateOperationalCost;
+var operationalReturn;
+
+function generateRandomDate() {
+    // Get the current date
+    var currentDate = new Date();
+
+    // Calculate the date based on a selected period variable 'selectMonth'
+    var threeMonthsAgo = new Date();
+    threeMonthsAgo.setMonth(currentDate.getMonth() - selectMonth);
+
+    // Generate a random timestamp between now and three months ago
+    var randomTimestamp = new Date(
+        threeMonthsAgo.getTime() + Math.random() * (currentDate.getTime() - threeMonthsAgo.getTime())
+    );
+
+    // Format the date as "YYYY-MM-DD HH:mm:ss"
+    var year = randomTimestamp.getFullYear();
+    var month = ('0' + (randomTimestamp.getMonth() + 1)).slice(-2); // Month is zero-indexed
+    var day = ('0' + randomTimestamp.getDate()).slice(-2);
+    var hours = ('0' + randomTimestamp.getHours()).slice(-2);
+    var minutes = ('0' + randomTimestamp.getMinutes()).slice(-2);
+    var seconds = ('0' + randomTimestamp.getSeconds()).slice(-2);
+
+    // Combine to get the formatted date string
+    var formattedDate = year + '-' + month + '-' + day + ' ' + hours + ':' + minutes + ':' + seconds;
+
+    return formattedDate;
+}
+
+function createDeviceCosts(box_ref, op_return, op_cost, paid, date) {
+    var logs = new GlideRecord("u_ev_costs");
+    logs.initialize();
+    logs.u_ev_box = box_ref;
+    logs.u_operational_return = op_return;
+    logs.u_operational_cost = op_cost;
+    logs.u_paid = paid;
+	logs.u_operation_date = date;
+    logs.insert();
+}
+
+// Generate FLOAT random number for the cost fields
+function randomFloatCost(min, max) { // min and max included 
+    return (Math.random() * (max - min) + min).toFixed(2);
+}
+
+// Generate INT random number for the cost record per device
+function getRandomNumber(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function generateCosts() {
+    generatePaid = randomFloatCost(20.00, 120.00);
+    generateOperationalCost = randomFloatCost(4.00, 10.00);
+    operationalReturn = generatePaid - generateOperationalCost;
+}
+
+var evDevice = new GlideRecord('u_ev_devices');
+evDevice.addActiveQuery();
+evDevice.query();
+
+while (evDevice.next()) {
+	var recordNumber = getRandomNumber(recordNumberMin, recordNumberMax);
+    for (var i = 0; i < recordNumber; i++) {
+        generateCosts();
+		randomDate = generateRandomDate();
+        createDeviceCosts(evDevice.sys_id, operationalReturn, generateOperationalCost, generatePaid, randomDate);
+    }
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-10 13:31:37</sys_created_on>
+        <sys_id>e048d940831cea108eb710c5eeaad36e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EV Generate Costs</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sys_script_include_e048d940831cea108eb710c5eeaad36e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-10 13:31:37</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="DELETE">
+        <id>e048d940831cea108eb710c5eeaad36e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-10 13:31:37</sys_created_on>
+        <sys_id>05585d8c83d8ea108eb710c5eeaad357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-10 13:31:37</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</application>
+        <file_path/>
+        <instance_id>f7c0ba231bd1865819254089bd4bcb9b</instance_id>
+        <instance_name>dev258302</instance_name>
+        <name>sys_script_include_e048d940831cea108eb710c5eeaad36e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.EV Generate Costs&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;EV Generate Costs&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[// Using this INT variable select how long the month period would be for generation
+// In this case random date will be generated in between 3 months
+var selectMonth = gs.getProperty("month_period_selection");
+//var selectMonth = 3;
+
+// Variable for the generated date
+var randomDate;
+
+// Set a threshold on how many records would you like to generate per device
+var recordNumberMax = gs.getProperty("record_number_max");
+//var recordNumberMax = 35;
+var recordNumberMin = gs.getProperty("record_number_min");
+//var recordNumberMin = 15;
+
+// Variables for the costs generation
+var generatePaid;
+var generateOperationalCost;
+var operationalReturn;
+
+function generateRandomDate() {
+    // Get the current date
+    var currentDate = new Date();
+
+    // Calculate the date based on a selected period variable 'selectMonth'
+    var threeMonthsAgo = new Date();
+    threeMonthsAgo.setMonth(currentDate.getMonth() - selectMonth);
+
+    // Generate a random timestamp between now and three months ago
+    var randomTimestamp = new Date(
+        threeMonthsAgo.getTime() + Math.random() * (currentDate.getTime() - threeMonthsAgo.getTime())
+    );
+
+    // Format the date as "YYYY-MM-DD HH:mm:ss"
+    var year = randomTimestamp.getFullYear();
+    var month = ('0' + (randomTimestamp.getMonth() + 1)).slice(-2); // Month is zero-indexed
+    var day = ('0' + randomTimestamp.getDate()).slice(-2);
+    var hours = ('0' + randomTimestamp.getHours()).slice(-2);
+    var minutes = ('0' + randomTimestamp.getMinutes()).slice(-2);
+    var seconds = ('0' + randomTimestamp.getSeconds()).slice(-2);
+
+    // Combine to get the formatted date string
+    var formattedDate = year + '-' + month + '-' + day + ' ' + hours + ':' + minutes + ':' + seconds;
+
+    return formattedDate;
+}
+
+function createDeviceCosts(box_ref, op_return, op_cost, paid, date) {
+    var logs = new GlideRecord("u_ev_costs");
+    logs.initialize();
+    logs.u_ev_box = box_ref;
+    logs.u_operational_return = op_return;
+    logs.u_operational_cost = op_cost;
+    logs.u_paid = paid;
+	logs.u_operation_date = date;
+    logs.insert();
+}
+
+// Generate FLOAT random number for the cost fields
+function randomFloatCost(min, max) { // min and max included 
+    return (Math.random() * (max - min) + min).toFixed(2);
+}
+
+// Generate INT random number for the cost record per device
+function getRandomNumber(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function generateCosts() {
+    generatePaid = randomFloatCost(20.00, 120.00);
+    generateOperationalCost = randomFloatCost(4.00, 10.00);
+    operationalReturn = generatePaid - generateOperationalCost;
+}
+
+var evDevice = new GlideRecord('u_ev_devices');
+evDevice.addActiveQuery();
+evDevice.query();
+
+while (evDevice.next()) {
+	var recordNumber = getRandomNumber(recordNumberMin, recordNumberMax);
+    for (var i = 0; i &lt; recordNumber; i++) {
+        generateCosts();
+		randomDate = generateRandomDate();
+        createDeviceCosts(evDevice.sys_id, operationalReturn, generateOperationalCost, generatePaid, randomDate);
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-10 13:31:37&lt;/sys_created_on&gt;&lt;sys_id&gt;e048d940831cea108eb710c5eeaad36e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;EV Generate Costs&lt;/sys_name&gt;&lt;sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EV Box Managment"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_e048d940831cea108eb710c5eeaad36e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-10 13:31:37&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;e048d940831cea108eb710c5eeaad36e&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-10 13:31:37&lt;/sys_created_on&gt;&lt;sys_id&gt;05585d8c83d8ea108eb710c5eeaad357&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-10 13:31:37&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_include&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1359222979</payload_hash>
+        <record_name>EV Generate Costs</record_name>
+        <reverted_from/>
+        <source>974a294f8323da108eb710c5eeaad380</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-10 13:31:38</sys_created_on>
+        <sys_id>e5589500831cea108eb710c5eeaad32b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1958041002f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-10 13:31:38</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>e9589500dc1cea10fa6c99fc6f10442a</update_guid>
+        <update_guid_history>e9589500dc1cea10fa6c99fc6f10442a:-1359222979</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-10 13:32:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>37a9b5e87d1e48689a2906410686b440</sys_id>
+        <sys_metadata>e048d940831cea108eb710c5eeaad36e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EV Generate Costs</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_scope_delete display_value="">08380f235033495e814b97f7f661b4d1</sys_scope_delete>
+        <sys_update_name>sys_script_include_e048d940831cea108eb710c5eeaad36e</sys_update_name>
+        <sys_update_version display_value="sys_script_include_e048d940831cea108eb710c5eeaad36e">e5589500831cea108eb710c5eeaad32b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-10 13:32:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

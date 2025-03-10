@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="EV Box Managment Properties">5f3f0d478388a6108eb710c5eeaad3c4</category>
+        <order>100</order>
+        <property display_value="box_status_check" name="box_status_check">6082194883d8ea108eb710c5eeaad374</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-10 13:07:59</sys_created_on>
+        <sys_id>03e2558883d8ea108eb710c5eeaad346</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>box_status_check.EV Box Managment Properties</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_03e2558883d8ea108eb710c5eeaad346</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-10 13:07:59</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

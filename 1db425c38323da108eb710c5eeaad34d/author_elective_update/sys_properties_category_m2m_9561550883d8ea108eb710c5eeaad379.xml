@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="DELETE">
+        <category display_value="EV Box Managment Properties">5f3f0d478388a6108eb710c5eeaad3c4</category>
+        <order>1</order>
+        <property/>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-10 13:01:28</sys_created_on>
+        <sys_id>9561550883d8ea108eb710c5eeaad379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.EV Box Managment Properties</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_9561550883d8ea108eb710c5eeaad379</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-10 13:01:28</sys_updated_on>
+    </sys_properties_category_m2m>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</application>
+        <file_path/>
+        <instance_id>f7c0ba231bd1865819254089bd4bcb9b</instance_id>
+        <instance_name>dev258302</instance_name>
+        <name>sys_properties_category_m2m_9561550883d8ea108eb710c5eeaad379</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m"><sys_properties_category_m2m action="INSERT_OR_UPDATE"><category display_value="EV Box Managment Properties">5f3f0d478388a6108eb710c5eeaad3c4</category><order>1</order><property/><sys_class_name>sys_properties_category_m2m</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-10 13:01:28</sys_created_on><sys_id>9561550883d8ea108eb710c5eeaad379</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.EV Box Managment Properties</sys_name><sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package><sys_policy/><sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope><sys_update_name>sys_properties_category_m2m_9561550883d8ea108eb710c5eeaad379</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-10 13:01:28</sys_updated_on></sys_properties_category_m2m></record_update>]]></payload>
+        <payload_hash>1705057272</payload_hash>
+        <record_name>.EV Box Managment Properties</record_name>
+        <reverted_from/>
+        <source>974a294f8323da108eb710c5eeaad380</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-10 13:01:28</sys_created_on>
+        <sys_id>e361950883d8ea108eb710c5eeaad32d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1958025621a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-10 13:01:28</sys_updated_on>
+        <type>Category Property</type>
+        <update_guid>2b611d84e8d8ea10b4313384936874dc</update_guid>
+        <update_guid_history>2b611d84e8d8ea10b4313384936874dc:1705057272</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-10 13:05:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties_category_m2m">sys_properties_category_m2m</sys_db_object>
+        <sys_id>23e893ebf7064d30bfe9b8b3ab6fd889</sys_id>
+        <sys_metadata>9561550883d8ea108eb710c5eeaad379</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.EV Box Managment Properties</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_scope_delete display_value="">08380f235033495e814b97f7f661b4d1</sys_scope_delete>
+        <sys_update_name>sys_properties_category_m2m_9561550883d8ea108eb710c5eeaad379</sys_update_name>
+        <sys_update_version display_value="sys_properties_category_m2m_9561550883d8ea108eb710c5eeaad379">e361950883d8ea108eb710c5eeaad32d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-10 13:05:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

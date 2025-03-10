@@ -1,28 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
     <sys_properties action="INSERT_OR_UPDATE">
         <choices/>
-        <description>Using this INT variable select how long the month period would be for generation&#13;
-In this case random date will be generated in between 3 months</description>
+        <description>Set minimum threshold on how many records would you like to generate per device</description>
         <ignore_cache>true</ignore_cache>
         <is_private>false</is_private>
-        <name>month_period_selection</name>
+        <name>record_number_min</name>
         <read_roles/>
         <suffix/>
         <sys_class_name>sys_properties</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-03-07 10:23:24</sys_created_on>
-        <sys_id>bbbfc5878388a6108eb710c5eeaad398</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>month_period_selection</sys_name>
+        <sys_created_on>2025-03-10 13:03:57</sys_created_on>
+        <sys_id>86e1114883d8ea108eb710c5eeaad362</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>record_number_min</sys_name>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
         <sys_policy/>
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
-        <sys_update_name>sys_properties_bbbfc5878388a6108eb710c5eeaad398</sys_update_name>
+        <sys_update_name>sys_properties_86e1114883d8ea108eb710c5eeaad362</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-10 13:38:11</sys_updated_on>
+        <sys_updated_on>2025-03-10 13:38:10</sys_updated_on>
         <type>integer</type>
-        <value>1</value>
+        <value>2</value>
         <write_roles/>
     </sys_properties>
-    <sys_translated_text action="delete_multiple" query="documentkey=bbbfc5878388a6108eb710c5eeaad398"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=86e1114883d8ea108eb710c5eeaad362"/>
 </record_update>

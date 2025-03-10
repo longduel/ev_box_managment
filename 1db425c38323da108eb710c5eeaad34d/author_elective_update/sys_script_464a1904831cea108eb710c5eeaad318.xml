@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sys_properties</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="sys_properties">name=box_status_check^valueVALCHANGES^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="=" or="false" value="box_status_check"/>
+            <item endquery="false" field="value" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>EV Set Active Scheduled Sciprt Property</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    var propertyValue = gs.getProperty('box_status_check');
+    var boxScript = new GlideRecord('sysauto_script');
+    boxScript.get('cc5a22ef83e352108eb710c5eeaad3fa');
+    boxScript.query();
+
+	gs.log('Property values BS sysid ' + propertyValue);
+	gs.log('Show me the state of BS: ' + boxScript.name);
+
+    if (propertyValue == true) {
+        boxScript.active = true;
+		boxScript.update();
+    } else if (propertyValue == false) {
+        boxScript.active = false;
+		boxScript.update();
+    }
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-10 13:41:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>464a1904831cea108eb710c5eeaad318</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>EV Set Active Scheduled Sciprt Property</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sys_script_464a1904831cea108eb710c5eeaad318</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-10 14:07:20</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=464a1904831cea108eb710c5eeaad318"/>
+    <sys_es_latest_script action="DELETE">
+        <id>464a1904831cea108eb710c5eeaad318</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-10 13:41:32</sys_created_on>
+        <sys_id>ae9a1904831cea108eb710c5eeaad3c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-10 13:41:32</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</application>
+        <file_path/>
+        <instance_id>f7c0ba231bd1865819254089bd4bcb9b</instance_id>
+        <instance_name>dev258302</instance_name>
+        <name>sys_script_464a1904831cea108eb710c5eeaad318</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sys_properties&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="sys_properties"&gt;name=box_status_check^valueVALCHANGES^EQ&lt;item endquery="false" field="name" goto="false" newquery="false" operator="=" or="false" value="box_status_check"/&gt;&lt;item endquery="false" field="value" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;EV Set Active Scheduled Sciprt Property&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    var propertyValue = gs.getProperty('box_status_check');
+    var boxScript = new GlideRecord('sysauto_script');
+    boxScript.get('cc5a22ef83e352108eb710c5eeaad3fa');
+    boxScript.query();
+
+	gs.log('Property values BS sysid ' + propertyValue);
+	gs.log('Show me the state of BS: ' + boxScript.name);
+
+    if (propertyValue == true) {
+        boxScript.active = true;
+		boxScript.update();
+    } else if (propertyValue == false) {
+        boxScript.active = false;
+		boxScript.update();
+    }
+
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-10 13:41:32&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;464a1904831cea108eb710c5eeaad318&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;EV Set Active Scheduled Sciprt Property&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EV Box Managment"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_464a1904831cea108eb710c5eeaad318&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-10 14:07:20&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=464a1904831cea108eb710c5eeaad318"/&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;464a1904831cea108eb710c5eeaad318&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-10 13:41:32&lt;/sys_created_on&gt;&lt;sys_id&gt;ae9a1904831cea108eb710c5eeaad3c5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-10 13:41:32&lt;/sys_updated_on&gt;&lt;table&gt;sys_script&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1847904600</payload_hash>
+        <record_name>EV Set Active Scheduled Sciprt Property</record_name>
+        <reverted_from/>
+        <source>974a294f8323da108eb710c5eeaad380</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-10 14:07:21</sys_created_on>
+        <sys_id>e480a10c831cea108eb710c5eeaad3bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1958061b2420000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-10 14:07:21</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>a880a10cc61cea10274a176690414abb</update_guid>
+        <update_guid_history>a880a10cc61cea10274a176690414abb:-1847904600,0f30a5c82b1cea10f1122c6c3dab8559:999303618,07af15c8da1cea10de9c624efe293196:-928251970,f8dd9d08181cea101211259e222b8481:-1306352940,2a8d1508961cea10c898c5e1c8531537:1142944318,f63c99842d1cea107df060db0c0a4c7d:2030511025,c1cb9584c61cea10944f0976394a255a:-945144517,b3ca1104fd1cea103e2fc9dc38650c70:1343153353,e29a9dc0c21cea10322135b462c64dee:357450571</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-10 14:13:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>0c221a46a14845f49b4139cb1577d5f9</sys_id>
+        <sys_metadata>464a1904831cea108eb710c5eeaad318</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EV Set Active Scheduled Sciprt Property</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_parent display_value="Sys Properties">2aff34324010121087de8045c806ffad</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_scope_delete display_value="">08380f235033495e814b97f7f661b4d1</sys_scope_delete>
+        <sys_update_name>sys_script_464a1904831cea108eb710c5eeaad318</sys_update_name>
+        <sys_update_version display_value="sys_script_464a1904831cea108eb710c5eeaad318">e480a10c831cea108eb710c5eeaad3bc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-10 14:13:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -58,7 +58,6 @@
 		updateBox.u_active = false;
         updateBox.update();
 		var impersonated = gs.getSession().impersonate(origUser);
-		gs.print('User:' + impersonated);
 	}
 
     // Change payload XML output to JSON
@@ -100,7 +99,6 @@
                     if (check.operational_status !== 2) {
                         performUpdate(check.sys_id);
                     } else {
-                        gs.log('Entering the loop');
                         payloadLog = 'Device ' + foundDevice + ' operational state already at "Non-Operational"';
                         resultLog = 'Sucess';
                         createLogRecord(payloadLog, resultLog);
@@ -118,7 +116,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9120762b832752108eb710c5eeaad3b4</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>EV Box DB Check</sys_name>
         <sys_overrides/>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
@@ -126,7 +124,7 @@
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
         <sys_update_name>sys_script_9120762b832752108eb710c5eeaad3b4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-28 13:42:46</sys_updated_on>
+        <sys_updated_on>2025-03-10 14:48:53</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
