@@ -32,7 +32,7 @@
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
         <name>EV Box Create Incident</name>
-        <no_attachment_v2>false</no_attachment_v2>
+        <no_attachment_v2>true</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
         <no_delivery_time_v2>false</no_delivery_time_v2>
@@ -41,7 +41,7 @@
         <no_proceed_checkout>false</no_proceed_checkout>
         <no_quantity>false</no_quantity>
         <no_quantity_v2>false</no_quantity_v2>
-        <no_save_as_draft>false</no_save_as_draft>
+        <no_save_as_draft>true</no_save_as_draft>
         <no_search>false</no_search>
         <no_wishlist_v2>false</no_wishlist_v2>
         <omit_price>false</omit_price>
@@ -134,14 +134,14 @@ current.assignment_group = '597af11b83a71e108eb710c5eeaad3b0';]]></script>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-13 10:26:47</sys_created_on>
         <sys_id>d00ebf7783ef92108eb710c5eeaad3bd</sys_id>
-        <sys_mod_count>45</sys_mod_count>
+        <sys_mod_count>47</sys_mod_count>
         <sys_name>EV Box Create Incident</sys_name>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
         <sys_policy/>
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
         <sys_update_name>sc_cat_item_producer_d00ebf7783ef92108eb710c5eeaad3bd</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-02-28 13:10:54</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-10 15:06:22</sys_updated_on>
         <table_name>incident</table_name>
         <taxonomy_topic/>
         <template/>
@@ -149,7 +149,7 @@ current.assignment_group = '597af11b83a71e108eb710c5eeaad3b0';]]></script>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>45</version>
+        <version>47</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>

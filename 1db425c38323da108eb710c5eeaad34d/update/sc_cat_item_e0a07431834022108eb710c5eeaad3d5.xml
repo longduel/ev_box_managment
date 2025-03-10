@@ -14,7 +14,7 @@
         <description/>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow display_value="EV Equipment">3668e1b5838422108eb710c5eeaad392</flow_designer_flow>
+        <flow_designer_flow display_value="EV New Hire Catalog Items">3668e1b5838422108eb710c5eeaad392</flow_designer_flow>
         <fulfillment_automation_level>unspecified</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>
@@ -52,7 +52,7 @@
         <published_ref/>
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
-        <request_method/>
+        <request_method>submit</request_method>
         <roles/>
         <sc_catalogs>71f5c2a5837f52108eb710c5eeaad34c</sc_catalogs>
         <sc_ic_item_staging/>
@@ -66,21 +66,21 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-03 10:55:22</sys_created_on>
         <sys_id>e0a07431834022108eb710c5eeaad3d5</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>EV Issue Equipment</sys_name>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
         <sys_policy/>
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
         <sys_update_name>sc_cat_item_e0a07431834022108eb710c5eeaad3d5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-03 14:58:27</sys_updated_on>
+        <sys_updated_on>2025-03-10 15:04:47</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>3</version>
+        <version>4</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>

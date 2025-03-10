@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="EV Box Create Incident">d00ebf7783ef92108eb710c5eeaad3bd</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-10 15:06:22</sys_created_on>
+        <sys_id>1d0ea9cc835cea108eb710c5eeaad3af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EV Box Create Incident.EV Manager SP Access</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_1d0ea9cc835cea108eb710c5eeaad3af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-10 15:06:22</sys_updated_on>
+        <user_criteria display_value="EV Manager SP Access">918cedc8835cea108eb710c5eeaad308</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>
