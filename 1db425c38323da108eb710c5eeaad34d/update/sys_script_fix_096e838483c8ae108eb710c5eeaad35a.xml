@@ -28,12 +28,12 @@ function generateRandomDate() {
     var currentDate = new Date();
 
     // Calculate the date based on a selected period variable 'selectMonth'
-    var threeMonthsAgo = new Date();
-    threeMonthsAgo.setMonth(currentDate.getMonth() - selectMonth);
+    var monthPeriod = new Date();
+    monthPeriod.setMonth(currentDate.getMonth() - selectMonth);
 
     // Generate a random timestamp between now and three months ago
     var randomTimestamp = new Date(
-        threeMonthsAgo.getTime() + Math.random() * (currentDate.getTime() - threeMonthsAgo.getTime())
+        monthPeriod.getTime() + Math.random() * (currentDate.getTime() - monthPeriod.getTime())
     );
 
     // Format the date as "YYYY-MM-DD HH:mm:ss"
@@ -71,10 +71,12 @@ function getRandomNumber(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-function generateCosts() {
+function generateCosts(baseDeviceCost) {
+	// Currency field is an Object so we need to change it to the float number with .00 fixed
+	var baseCostFloat = parseFloat(baseDeviceCost.toString());
     generatePaid = randomFloatCost(20.00, 120.00);
-    generateOperationalCost = randomFloatCost(4.00, 10.00);
-    operationalReturn = generatePaid - generateOperationalCost;
+    generateOperationalCost = randomFloatCost(baseCostFloat, 10.00);
+    operationalReturn = (generatePaid - generateOperationalCost).toFixed(2);
 }
 
 var evDevice = new GlideRecord('u_ev_devices');
@@ -84,8 +86,16 @@ evDevice.query();
 while (evDevice.next()) {
 	var recordNumber = getRandomNumber(recordNumberMin, recordNumberMax);
     for (var i = 0; i < recordNumber; i++) {
-        generateCosts();
+        generateCosts(evDevice.u_single_use_cost);
 		randomDate = generateRandomDate();
+		/*
+		// For debugging only!
+		gs.log('Device sys id:' + evDevice.sys_id);
+		gs.log('Operational Return ' + operationalReturn);
+		gs.log('Operational Cost ' + generateOperationalCost);
+		gs.log('Paid ' + generatePaid);
+		gs.log("Date " + randomDate);
+		*/
         createDeviceCosts(evDevice.sys_id, operationalReturn, generateOperationalCost, generatePaid, randomDate);
     }
 }]]></script>
@@ -93,14 +103,14 @@ while (evDevice.next()) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-26 11:52:19</sys_created_on>
         <sys_id>096e838483c8ae108eb710c5eeaad35a</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>EV Cost Generation</sys_name>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
         <sys_policy/>
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
         <sys_update_name>sys_script_fix_096e838483c8ae108eb710c5eeaad35a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-10 13:04:13</sys_updated_on>
+        <sys_updated_on>2025-03-11 12:49:56</sys_updated_on>
         <unloadable>false</unloadable>
     </sys_script_fix>
     <sys_es_latest_script action="INSERT_OR_UPDATE">

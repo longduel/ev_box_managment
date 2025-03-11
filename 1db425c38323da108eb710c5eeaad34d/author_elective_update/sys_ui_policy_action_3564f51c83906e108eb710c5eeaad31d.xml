@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field>assignment_group</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-11 10:13:03</sys_created_on>
+        <sys_id>3564f51c83906e108eb710c5eeaad31d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>assignment_group</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_3564f51c83906e108eb710c5eeaad31d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-11 10:25:32</sys_updated_on>
+        <table>incident</table>
+        <ui_policy display_value="EV Incident 'In Progress'">5c34b11c83906e108eb710c5eeaad329</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=3564f51c83906e108eb710c5eeaad31d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</application>
+        <file_path/>
+        <instance_id>f7c0ba231bd1865819254089bd4bcb9b</instance_id>
+        <instance_name>dev258302</instance_name>
+        <name>sys_ui_policy_action_3564f51c83906e108eb710c5eeaad31d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>true</cleared><disabled>ignore</disabled><field>assignment_group</field><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-11 10:13:03</sys_created_on><sys_id>3564f51c83906e108eb710c5eeaad31d</sys_id><sys_mod_count>1</sys_mod_count><sys_name>assignment_group</sys_name><sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package><sys_policy/><sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope><sys_update_name>sys_ui_policy_action_3564f51c83906e108eb710c5eeaad31d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-11 10:25:32</sys_updated_on><table>incident</table><ui_policy display_value="EV Incident 'In Progress'">5c34b11c83906e108eb710c5eeaad329</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=3564f51c83906e108eb710c5eeaad31d"/></record_update>]]></payload>
+        <payload_hash>-1671942634</payload_hash>
+        <record_name>assignment_group</record_name>
+        <reverted_from/>
+        <source>4f04ed838323da108eb710c5eeaad3a2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-11 10:25:32</sys_created_on>
+        <sys_id>1957799c83906e108eb710c5eeaad307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19584bcfbf20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-11 10:25:32</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>9d57799c5c906e10ecd0d6991f31e406</update_guid>
+        <update_guid_history>9d57799c5c906e10ecd0d6991f31e406:-1671942634,5674b51ca6906e104dfa7b9add3d2fa2:1303462725</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-11 11:00:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>135e86699da94cfa838016fcfa4bf284</sys_id>
+        <sys_metadata>3564f51c83906e108eb710c5eeaad31d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>assignment_group</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_scope_delete display_value="">08380f235033495e814b97f7f661b4d1</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_3564f51c83906e108eb710c5eeaad31d</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_3564f51c83906e108eb710c5eeaad31d">1957799c83906e108eb710c5eeaad307</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-11 11:00:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>state</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>EV Check Assigment to Engineer</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+
+    // Check if the state is changing to "In Progress"
+    if (state == 2) { // Assuming '2' is the state ID for "In Progress"
+        // Set the Assignment Group to a specific group
+        g_form.setValue('assignment_group', '8d6a391b83a71e108eb710c5eeaad33b'); // Replace with the sys_id of the specific group
+    }
+
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-14 10:33:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>da49099c83bb16108eb710c5eeaad3d2</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>EV Check Assigment to Engineer</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sys_script_client_da49099c83bb16108eb710c5eeaad3d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-11 10:24:26</sys_updated_on>
+        <table>incident</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</application>
+        <file_path/>
+        <instance_id>f7c0ba231bd1865819254089bd4bcb9b</instance_id>
+        <instance_name>dev258302</instance_name>
+        <name>sys_script_client_da49099c83bb16108eb710c5eeaad3d2</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;state&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;EV Check Assigment to Engineer&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+
+    // Check if the state is changing to "In Progress"
+    if (state == 2) { // Assuming '2' is the state ID for "In Progress"
+        // Set the Assignment Group to a specific group
+        g_form.setValue('assignment_group', '8d6a391b83a71e108eb710c5eeaad33b'); // Replace with the sys_id of the specific group
+    }
+
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-14 10:33:34&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;da49099c83bb16108eb710c5eeaad3d2&lt;/sys_id&gt;&lt;sys_mod_count&gt;23&lt;/sys_mod_count&gt;&lt;sys_name&gt;EV Check Assigment to Engineer&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EV Box Managment"&gt;1db425c38323da108eb710c5eeaad34d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_da49099c83bb16108eb710c5eeaad3d2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-11 10:24:26&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1774491311</payload_hash>
+        <record_name>EV Check Assigment to Engineer</record_name>
+        <reverted_from/>
+        <source>4f04ed838323da108eb710c5eeaad3a2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-11 10:24:26</sys_created_on>
+        <sys_id>4917f51083d06e108eb710c5eeaad369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19584bbf8af0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-11 10:24:26</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>cd17f51094d06e10f75eba70cd7ae068</update_guid>
+        <update_guid_history>cd17f51094d06e10f75eba70cd7ae068:-1774491311,28263d5c46906e109e9f843576691bbb:-1867134793,e4f5b99cd1906e100b820f915e4d8fcc:711402827,7385759c56906e10c7bfc5b150dc1cc8:455974648,9c143d18d9906e10f7c9a35f6b9b7f2b:698594694,6c52fd186a906e104155c08f3844ae93:-1911383678,da02f1581e906e1007629887445d1812:-1828405974,71d1fdd4ef906e1041c0d3b90a045699:-913122869,dcd071d4fe906e10d243e48bfccf1c66:-885192785,dea9f9bcbe40a250b9deff897c366f8f:1956388092,14b22590167f1610ec8c59ef47864a92:-885192785,177bd9d43c3f16104ccd661b265ead53:-812966900,f87b9918b03f1610edf13f8e8cad7711:1786315610,4eba19d4cc3f1610bae87d4218957103:165029245,aa8a55d41a3f16105f9bd23f169d4392:699831710,e11ad554223f16108275e105df33df01:165029245,d9591554813f1610f50b42443f150ed2:-1138421523,33e819d0493f1610584821491e704c30:-868924070,71c859d0ed3f161038ce66ea65b9d8da:1283583452,5ad79190a13f1610427a4f901ab2bde7:-671846244,1fc71150503f16106360df4bba75c0af:1245267861,c60051180cfb1610ce0733a444be2214:2012600980,46de4d945afb1610e31933366bb9ad60:-1819523592,1369c15ceabb161061a1b25f4ab1fa54:417688485</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-11 10:25:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0b6c687db042436993b78c4ab1ba3b21</sys_id>
+        <sys_metadata>da49099c83bb16108eb710c5eeaad3d2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EV Check Assigment to Engineer</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_parent display_value="Incident">15d4c9ba4090121087de8045c806ff4c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_scope_delete display_value="">08380f235033495e814b97f7f661b4d1</sys_scope_delete>
+        <sys_update_name>sys_script_client_da49099c83bb16108eb710c5eeaad3d2</sys_update_name>
+        <sys_update_version display_value="sys_script_client_da49099c83bb16108eb710c5eeaad3d2">4917f51083d06e108eb710c5eeaad369</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-11 10:25:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

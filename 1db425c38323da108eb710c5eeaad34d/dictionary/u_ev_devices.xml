@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="653569078323da108eb710c5eeaad366" extends="cmdb_ci_power_eq" label="EV Devices" max_length="40" name="u_ev_devices" type="collection">
+        <element attributes="omit_sys_original=true" label="Last Month Profit" max_length="20" name="u_montly_profit" read_only="true" type="currency"/>
         <element attributes="edge_encryption_enabled=true" label="Plug Type" max_length="40" name="u_pt_box" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Transformer Type" max_length="40" name="u_transformer_type" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Operation System" max_length="40" name="u_os" type="string"/>
@@ -12,7 +13,7 @@
         <element attributes="edge_encryption_enabled=true" label="Charging Method" max_length="40" name="u_cm_box" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Cost" max_length="40" name="u_cost_box" type="string"/>
         <element attributes="encode_utf8=false" dependent="asset_tag" dependent_on_field="asset_tag" label="Investigation" max_length="32" name="u_investigation" reference="incident" type="reference" use_dependent_field="true"/>
-        <element attributes="omit_sys_original=true" label="Single Use" max_length="20" name="u_single_use_cost" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Single Use Cost" max_length="20" name="u_single_use_cost" type="currency"/>
         <element attributes="encode_utf8=false" label="LCD Display" max_length="32" name="u_lcd_dispaly" reference="cmdb_ci_display_hardware" type="reference"/>
         <element attributes="encode_utf8=false" label="Plug Type" max_length="32" name="u_plug_type" reference="u_ev_plugs" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Market Designation" max_length="40" name="u_md_box" type="string"/>

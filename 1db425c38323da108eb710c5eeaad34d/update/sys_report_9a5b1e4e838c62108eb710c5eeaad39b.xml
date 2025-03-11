@@ -48,7 +48,8 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field/>
         <field_list>u_number,sys_created_on,u_operation_date,u_operational_cost,u_operational_return,u_paid</field_list>
-        <filter/>
+        <filter table="u_ev_costs">sys_created_onONThis year@javascript:gs.beginningOfThisYear()@javascript:gs.endOfThisYear()<item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="ON" or="false" value="This year@javascript:gs.beginningOfThisYear()@javascript:gs.endOfThisYear()"/>
+        </filter>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -108,14 +109,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-04 13:16:34</sys_created_on>
         <sys_id>9a5b1e4e838c62108eb710c5eeaad39b</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Operational Weekly Costs</sys_name>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
         <sys_policy/>
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
         <sys_update_name>sys_report_9a5b1e4e838c62108eb710c5eeaad39b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-05 13:10:37</sys_updated_on>
+        <sys_updated_on>2025-03-11 13:01:59</sys_updated_on>
         <table>u_ev_costs</table>
         <title>Operational Weekly Costs</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

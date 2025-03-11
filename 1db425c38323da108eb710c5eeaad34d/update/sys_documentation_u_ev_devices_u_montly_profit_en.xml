@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="u_single_use_cost" label="Single Use Cost" language="en" table="u_ev_devices">
+    <sys_documentation element="u_montly_profit" label="Last Month Profit" language="en" table="u_ev_devices">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>u_single_use_cost</element>
+            <element>u_montly_profit</element>
             <help/>
             <hint/>
-            <label>Single Use Cost</label>
+            <label>Last Month Profit</label>
             <language>en</language>
             <name>u_ev_devices</name>
-            <plural>Single Use Costs</plural>
+            <plural>Last Month Profits</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-26 11:29:01</sys_created_on>
+            <sys_created_on>2025-03-11 11:37:30</sys_created_on>
             <sys_mod_count>1</sys_mod_count>
-            <sys_name>Single Use Cost</sys_name>
+            <sys_name>Last Month Profit</sys_name>
             <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
             <sys_policy/>
             <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
-            <sys_update_name>sys_documentation_u_ev_devices_u_single_use_cost_en</sys_update_name>
+            <sys_update_name>sys_documentation_u_ev_devices_u_montly_profit_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-11 11:35:58</sys_updated_on>
+            <sys_updated_on>2025-03-11 13:55:40</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
