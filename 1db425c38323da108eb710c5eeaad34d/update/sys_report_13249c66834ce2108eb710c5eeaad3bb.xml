@@ -50,7 +50,7 @@
         <field_list>sys_created_on,u_log</field_list>
         <filter table="u_ev_diagnostic">u_ev_box.assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe<item endquery="false" field="u_ev_box.assigned_to" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
         </filter>
-        <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{"u_operational_cost,AGGREGATION":{"decimalPrecision":2,"groupingUsed":true,"roundingMode":"HALF_UP","metricPrefixSymbolUsed":false,"showOriginalNumberInTooltip":true,"addValueInTooltip":true}}}</formatting_configuration>
+        <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
         <gauge_autoscale>true</gauge_autoscale>
@@ -109,14 +109,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-05 16:42:57</sys_created_on>
         <sys_id>13249c66834ce2108eb710c5eeaad3bb</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>My EV Box Diagnostic</sys_name>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
         <sys_policy/>
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
         <sys_update_name>sys_report_13249c66834ce2108eb710c5eeaad3bb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-05 16:49:56</sys_updated_on>
+        <sys_updated_on>2025-03-11 15:17:56</sys_updated_on>
         <table>u_ev_diagnostic</table>
         <title>My EV Box Diagnostic</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
@@ -127,7 +127,7 @@
         <upper_limit/>
         <use_color_heatmap>false</use_color_heatmap>
         <use_null_in_trend>false</use_null_in_trend>
-        <user>6816f79cc0a8016401c5a33be04be441</user>
+        <user>group</user>
         <x_axis_allow_decimals>true</x_axis_allow_decimals>
         <x_axis_display_grid>false</x_axis_display_grid>
         <x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color>
