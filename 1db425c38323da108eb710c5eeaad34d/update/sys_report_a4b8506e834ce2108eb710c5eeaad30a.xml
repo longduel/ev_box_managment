@@ -47,8 +47,8 @@
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
         <field/>
-        <field_list>number,cat_item,stage,request,requested_for,request.opened_by,due_date,quantity</field_list>
-        <filter table="sc_req_item">active=true^assignment_group=597af11b83a71e108eb710c5eeaad3b0<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        <field_list>number,sys_created_on,priority,state,short_description,assignment_group,assigned_to</field_list>
+        <filter table="sc_task">active=true^assignment_group=597af11b83a71e108eb710c5eeaad3b0<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
             <item display_table="sys_user_group" display_value="VoltCare IT Support" endquery="false" field="assignment_group" goto="false" newquery="false" operator="=" or="false" value="597af11b83a71e108eb710c5eeaad3b0"/>
         </filter>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
@@ -110,15 +110,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-05 17:02:42</sys_created_on>
         <sys_id>a4b8506e834ce2108eb710c5eeaad30a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Open Requests</sys_name>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
         <sys_policy/>
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
         <sys_update_name>sys_report_a4b8506e834ce2108eb710c5eeaad30a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-11 15:19:14</sys_updated_on>
-        <table>sc_req_item</table>
+        <sys_updated_on>2025-03-12 16:24:25</sys_updated_on>
+        <table>sc_task</table>
         <title>Open Requests</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>

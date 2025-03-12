@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_cannot_contribute_mtom">
+    <kb_uc_cannot_contribute_mtom action="DELETE">
+        <kb_knowledge_base display_value="EV Knowledge Base">7b274e29837f52108eb710c5eeaad313</kb_knowledge_base>
+        <sys_class_name>kb_uc_cannot_contribute_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-18 12:16:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4d674269837f52108eb710c5eeaad397</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EV Knowledge Base.Guest User</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>kb_uc_cannot_contribute_mtom_4d674269837f52108eb710c5eeaad397</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-18 12:16:43</sys_updated_on>
+        <user_criteria display_value="Guest User">76f09af6cb1200108ad442fcf7076dbf</user_criteria>
+    </kb_uc_cannot_contribute_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</application>
+        <file_path/>
+        <instance_id>f7c0ba231bd1865819254089bd4bcb9b</instance_id>
+        <instance_name>dev258302</instance_name>
+        <name>kb_uc_cannot_contribute_mtom_4d674269837f52108eb710c5eeaad397</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_cannot_contribute_mtom"><kb_uc_cannot_contribute_mtom action="INSERT_OR_UPDATE"><kb_knowledge_base display_value="EV Knowledge Base">7b274e29837f52108eb710c5eeaad313</kb_knowledge_base><sys_class_name>kb_uc_cannot_contribute_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-18 12:16:43</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4d674269837f52108eb710c5eeaad397</sys_id><sys_mod_count>0</sys_mod_count><sys_name>EV Knowledge Base.Guest User</sys_name><sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package><sys_policy/><sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope><sys_update_name>kb_uc_cannot_contribute_mtom_4d674269837f52108eb710c5eeaad397</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-18 12:16:43</sys_updated_on><user_criteria display_value="Guest User">76f09af6cb1200108ad442fcf7076dbf</user_criteria></kb_uc_cannot_contribute_mtom></record_update>]]></payload>
+        <payload_hash>-1175970605</payload_hash>
+        <record_name>EV Knowledge Base.Guest User</record_name>
+        <reverted_from/>
+        <source>974a294f8323da108eb710c5eeaad380</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-18 12:16:43</sys_created_on>
+        <sys_id>0d674269837f52108eb710c5eeaad39a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19518fd3a350000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-18 12:16:43</sys_updated_on>
+        <type>Who Cannot Contribute To Knowledge Base</type>
+        <update_guid>01674269497f5210b2a0b742834dc29a</update_guid>
+        <update_guid_history>01674269497f5210b2a0b742834dc29a:-1175970605</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="EV Knowledge Base.Guest User">74aacc3c8314ee108eb710c5eeaad3c9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-12 15:47:36</sys_created_on>
+        <sys_db_object display_value="" name="kb_uc_cannot_contribute_mtom">kb_uc_cannot_contribute_mtom</sys_db_object>
+        <sys_id>30337491070e4120abec19df5d4515f1</sys_id>
+        <sys_metadata>4d674269837f52108eb710c5eeaad397</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EV Knowledge Base.Guest User</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_scope_delete display_value="">08380f235033495e814b97f7f661b4d1</sys_scope_delete>
+        <sys_update_name>kb_uc_cannot_contribute_mtom_4d674269837f52108eb710c5eeaad397</sys_update_name>
+        <sys_update_version display_value="kb_uc_cannot_contribute_mtom_4d674269837f52108eb710c5eeaad397">0d674269837f52108eb710c5eeaad39a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-12 15:47:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

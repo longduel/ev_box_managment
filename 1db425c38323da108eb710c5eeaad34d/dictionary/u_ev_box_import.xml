@@ -5,6 +5,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Plug_Type" label="Plug_Type" max_length="40" name="u_plug_type" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Available_Slots" label="Available_Slots" max_length="40" name="u_available_slots" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Operational_status" label="Operational_status" max_length="40" name="u_operational_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Activation" label="Activation" max_length="40" name="u_activation" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Serial_number" label="Serial_number" max_length="40" name="u_serial_number" type="string"/>
         <element attributes="import_attribute_name=MaxOC" label="MaxOC" max_length="40" name="u_maxoc" type="integer"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Model_ID" label="Model_ID" max_length="40" name="u_model_id" type="string"/>

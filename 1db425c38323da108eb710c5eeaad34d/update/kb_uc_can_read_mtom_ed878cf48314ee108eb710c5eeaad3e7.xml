@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_can_read_mtom">
     <kb_uc_can_read_mtom action="INSERT_OR_UPDATE">
-        <kb_knowledge_base display_value="EV Knowledge Base">7b274e29837f52108eb710c5eeaad313</kb_knowledge_base>
+        <kb_knowledge_base display_value="EV Engineering Procedures">7b274e29837f52108eb710c5eeaad313</kb_knowledge_base>
         <sys_class_name>kb_uc_can_read_mtom</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-02-18 12:16:43</sys_created_on>
+        <sys_created_on>2025-03-12 15:34:01</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>c1674269837f52108eb710c5eeaad39b</sys_id>
+        <sys_id>ed878cf48314ee108eb710c5eeaad3e7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>EV Knowledge Base.Any User</sys_name>
+        <sys_name>EV Engineering Procedures.EV Engineer SP Access</sys_name>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
         <sys_policy/>
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
-        <sys_update_name>kb_uc_can_read_mtom_c1674269837f52108eb710c5eeaad39b</sys_update_name>
+        <sys_update_name>kb_uc_can_read_mtom_ed878cf48314ee108eb710c5eeaad3e7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-18 12:16:43</sys_updated_on>
-        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+        <sys_updated_on>2025-03-12 15:34:01</sys_updated_on>
+        <user_criteria display_value="EV Engineer SP Access">fdc216a983bf52108eb710c5eeaad37d</user_criteria>
     </kb_uc_can_read_mtom>
 </record_update>

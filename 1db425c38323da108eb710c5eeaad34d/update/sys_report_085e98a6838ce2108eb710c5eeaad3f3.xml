@@ -48,9 +48,11 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field/>
         <field_list>number,opened_at,cmdb_ci,short_description,caller_id,priority,state,sys_created_on</field_list>
-        <filter table="incident">category=ev_Box^active=true^state!=6<item display_value="EV Box" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="ev_Box"/>
+        <filter table="incident">category=ev_Box^active=true^state!=6^state!=7^state!=8<item display_value="EV Box" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="ev_Box"/>
             <item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
             <item display_value="Resolved" endquery="false" field="state" goto="false" newquery="false" operator="!=" or="false" value="6"/>
+            <item display_value="Closed" endquery="false" field="state" goto="false" newquery="false" operator="!=" or="false" value="7"/>
+            <item display_value="Canceled" endquery="false" field="state" goto="false" newquery="false" operator="!=" or="false" value="8"/>
         </filter>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
         <from/>
@@ -111,14 +113,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-05 17:27:15</sys_created_on>
         <sys_id>085e98a6838ce2108eb710c5eeaad3f3</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Open Incidents</sys_name>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
         <sys_policy/>
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
         <sys_update_name>sys_report_085e98a6838ce2108eb710c5eeaad3f3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-11 15:19:41</sys_updated_on>
+        <sys_updated_on>2025-03-12 14:18:41</sys_updated_on>
         <table>incident</table>
         <title>Open Incidents</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
