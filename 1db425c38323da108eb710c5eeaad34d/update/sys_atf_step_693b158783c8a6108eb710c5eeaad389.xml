@@ -18,14 +18,14 @@ See the documentation for Test Design Considerations</description>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-07 11:10:26</sys_created_on>
         <sys_id>693b158783c8a6108eb710c5eeaad389</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Open an Existing Record</sys_name>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
         <sys_policy/>
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
         <sys_update_name>sys_atf_step_693b158783c8a6108eb710c5eeaad389</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-07 11:23:31</sys_updated_on>
+        <sys_updated_on>2025-03-13 10:13:12</sys_updated_on>
         <table>sys_user</table>
         <test display_value="EV New Hire Test">b8f3bdb983c422108eb710c5eeaad33a</test>
         <timeout/>

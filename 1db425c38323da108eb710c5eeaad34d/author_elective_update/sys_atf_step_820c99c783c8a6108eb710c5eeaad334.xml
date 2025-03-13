@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>false</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Delete record '{{Step 12: Record Query.First record}}' and confirm record was deleted
+
+Warning: Using a system table may cause unexpected behavior for other tests running in parallel&#13;
+See the documentation for Test Design Considerations</description>
+        <display_name>Record Delete</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>15</order>
+        <step_config display_value="Record Delete">8df72288df60220062fe6c7a4df2636d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 11:14:03</sys_created_on>
+        <sys_id>820c99c783c8a6108eb710c5eeaad334</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Record Delete</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sys_atf_step_820c99c783c8a6108eb710c5eeaad334</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 12:34:49</sys_updated_on>
+        <table>sys_user</table>
+        <test display_value="EV New Hire Test">b8f3bdb983c422108eb710c5eeaad33a</test>
+        <timeout/>
+        <warning_message>Warning: Using a system table may cause unexpected behavior for other tests running in parallel&#13;
+See the documentation for Test Design Considerations</warning_message>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=820c99c783c8a6108eb710c5eeaad334"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>820c99c783c8a6108eb710c5eeaad334</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 11:14:03</sys_created_on>
+        <sys_id>381c95c783c8a6108eb710c5eeaad3cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 11:14:03</sys_updated_on>
+        <value>record_successfully_deleted</value>
+        <variable display_value="Assert type">c7e483f3671003007ba405225685effb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>820c99c783c8a6108eb710c5eeaad334</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 11:14:03</sys_created_on>
+        <sys_id>701c95c783c8a6108eb710c5eeaad3cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 11:14:03</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="Table">3d6d8b935320220002c6435723dc349c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>820c99c783c8a6108eb710c5eeaad334</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 11:14:03</sys_created_on>
+        <sys_id>bc1c95c783c8a6108eb710c5eeaad3cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 11:14:03</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enforce security">d13d0b935320220002c6435723dc34c8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>820c99c783c8a6108eb710c5eeaad334</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 11:14:03</sys_created_on>
+        <sys_id>f81c95c783c8a6108eb710c5eeaad3cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 11:14:03</sys_updated_on>
+        <value/>
+        <variable display_value="Record">8f7d0f935320220002c6435723dc3471</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=820c99c783c8a6108eb710c5eeaad334"/>
+    <sys_element_mapping action="DELETE">
+        <field>enforce_security</field>
+        <id>820c99c783c8a6108eb710c5eeaad334</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 11:14:03</sys_created_on>
+        <sys_id>b41c95c783c8a6108eb710c5eeaad3cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 11:14:03</sys_updated_on>
+        <table>var__m_atf_input_variable_8df72288df60220062fe6c7a4df2636d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>record_id</field>
+        <id>820c99c783c8a6108eb710c5eeaad334</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 11:14:03</sys_created_on>
+        <sys_id>f01c95c783c8a6108eb710c5eeaad3cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 11:14:03</sys_updated_on>
+        <table>var__m_atf_input_variable_8df72288df60220062fe6c7a4df2636d</table>
+        <value>{{step['f18a114783c8a6108eb710c5eeaad3f5'].first_record}}</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</application>
+        <file_path/>
+        <instance_id>f7c0ba231bd1865819254089bd4bcb9b</instance_id>
+        <instance_name>dev258302</instance_name>
+        <name>sys_atf_step_820c99c783c8a6108eb710c5eeaad334</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>false</active><callable_outputs/><copied_from/><description>Delete record '{{Step 12: Record Query.First record}}' and confirm record was deleted
+
+Warning: Using a system table may cause unexpected behavior for other tests running in parallel&#13;
+See the documentation for Test Design Considerations</description><display_name>Record Delete</display_name><inputs/><inputs/><mugshots_cache_json/><notes/><order>15</order><step_config display_value="Record Delete">8df72288df60220062fe6c7a4df2636d</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-07 11:14:03</sys_created_on><sys_id>820c99c783c8a6108eb710c5eeaad334</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Record Delete</sys_name><sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package><sys_policy/><sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope><sys_update_name>sys_atf_step_820c99c783c8a6108eb710c5eeaad334</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-07 12:34:49</sys_updated_on><table>sys_user</table><test display_value="EV New Hire Test">b8f3bdb983c422108eb710c5eeaad33a</test><timeout/><warning_message>Warning: Using a system table may cause unexpected behavior for other tests running in parallel&#13;
+See the documentation for Test Design Considerations</warning_message></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=820c99c783c8a6108eb710c5eeaad334"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>820c99c783c8a6108eb710c5eeaad334</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-07 11:14:03</sys_created_on><sys_id>381c95c783c8a6108eb710c5eeaad3cb</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-07 11:14:03</sys_updated_on><value>record_successfully_deleted</value><variable display_value="Assert type">c7e483f3671003007ba405225685effb</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>820c99c783c8a6108eb710c5eeaad334</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-07 11:14:03</sys_created_on><sys_id>701c95c783c8a6108eb710c5eeaad3cc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-07 11:14:03</sys_updated_on><value>sys_user</value><variable display_value="Table">3d6d8b935320220002c6435723dc349c</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>820c99c783c8a6108eb710c5eeaad334</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-07 11:14:03</sys_created_on><sys_id>bc1c95c783c8a6108eb710c5eeaad3cb</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-07 11:14:03</sys_updated_on><value>1</value><variable display_value="Enforce security">d13d0b935320220002c6435723dc34c8</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>820c99c783c8a6108eb710c5eeaad334</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-07 11:14:03</sys_created_on><sys_id>f81c95c783c8a6108eb710c5eeaad3cb</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-07 11:14:03</sys_updated_on><value/><variable display_value="Record">8f7d0f935320220002c6435723dc3471</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=820c99c783c8a6108eb710c5eeaad334"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>enforce_security</field><id>820c99c783c8a6108eb710c5eeaad334</id><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-07 11:14:03</sys_created_on><sys_id>b41c95c783c8a6108eb710c5eeaad3cb</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-07 11:14:03</sys_updated_on><table>var__m_atf_input_variable_8df72288df60220062fe6c7a4df2636d</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>record_id</field><id>820c99c783c8a6108eb710c5eeaad334</id><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-07 11:14:03</sys_created_on><sys_id>f01c95c783c8a6108eb710c5eeaad3cb</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-07 11:14:03</sys_updated_on><table>var__m_atf_input_variable_8df72288df60220062fe6c7a4df2636d</table><value>{{step['f18a114783c8a6108eb710c5eeaad3f5'].first_record}}</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>-994701222</payload_hash>
+        <record_name>Record Delete</record_name>
+        <reverted_from/>
+        <source>974a294f8323da108eb710c5eeaad380</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 12:34:49</sys_created_on>
+        <sys_id>889e6d83834ca6108eb710c5eeaad3b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1957099e9e70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 12:34:49</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>409e6d835f4ca610ad0eab754313d3b7</update_guid>
+        <update_guid_history>409e6d835f4ca610ad0eab754313d3b7:-994701222,773e198bf7c8a610d03e05278f626fdb:-1422645791,2f3e198bd1c8a6104e66a4803d1c94bd:1883502432,b41c95c7d0c8a610b048a412eba363ce:-1212067071</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-13 10:13:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>7a202360630c44d69674c2331d7922e4</sys_id>
+        <sys_metadata>820c99c783c8a6108eb710c5eeaad334</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Delete</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_scope_delete display_value="">08380f235033495e814b97f7f661b4d1</sys_scope_delete>
+        <sys_update_name>sys_atf_step_820c99c783c8a6108eb710c5eeaad334</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_820c99c783c8a6108eb710c5eeaad334">889e6d83834ca6108eb710c5eeaad3b7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-13 10:13:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

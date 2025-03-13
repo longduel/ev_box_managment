@@ -5,7 +5,7 @@
         <basic_apply_to>u_ev_devices</basic_apply_to>
         <basic_query_from>u_ev_diagnostic</basic_query_from>
         <insert_callback/>
-        <name>Releated List Diagnostic</name>
+        <name>Related List Diagnostic</name>
         <query_from/>
         <query_with><![CDATA[current.addQuery('u_ev_box', parent.asset_tag);]]></query_with>
         <reference_field/>
@@ -15,14 +15,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-11 14:38:57</sys_created_on>
         <sys_id>0fb4aa1383ab1e108eb710c5eeaad33c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Releated List Diagnostic</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Related List Diagnostic</sys_name>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
         <sys_policy/>
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
         <sys_update_name>sys_relationship_0fb4aa1383ab1e108eb710c5eeaad33c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-26 10:35:00</sys_updated_on>
+        <sys_updated_on>2025-03-13 08:52:44</sys_updated_on>
     </sys_relationship>
     <sys_translated_text action="delete_multiple" query="documentkey=0fb4aa1383ab1e108eb710c5eeaad33c"/>
     <sys_es_latest_script action="INSERT_OR_UPDATE">

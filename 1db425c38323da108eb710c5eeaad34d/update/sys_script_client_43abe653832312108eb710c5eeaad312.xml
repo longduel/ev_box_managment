@@ -39,7 +39,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>43abe653832312108eb710c5eeaad312</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>43</sys_mod_count>
         <sys_name>EV Input Plug Details</sys_name>
         <sys_overrides/>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
@@ -47,10 +47,10 @@
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
         <sys_update_name>sys_script_client_43abe653832312108eb710c5eeaad312</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-26 09:17:44</sys_updated_on>
+        <sys_updated_on>2025-03-13 12:47:01</sys_updated_on>
         <table>u_ev_devices</table>
         <type>onChange</type>
-        <ui_type>0</ui_type>
+        <ui_type>10</ui_type>
         <view/>
     </sys_script_client>
 </record_update>
