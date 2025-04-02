@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes>fdacb518b7320110aab961d9ce11a989</includes>
+        <macroponent display_value="CSM Landing Page">a27eb12f83dc6e508eb710c5eeaad3ae</macroponent>
+        <name>Dashboard Widget Clicked</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+	helpers.timing.setTimeout(function() {
+		function isPolaris() {
+			const polarisProperty = api.data.get_system_properties_values_1.output.properties['glide.ui.polaris.experience'];
+			const polarisUserPref = api.data.get_user_prefs__as_object__1.result['glide.ui.polaris.use'];
+			return (polarisProperty.toString().toLowerCase() == "true" && polarisUserPref === "true");
+		}
+		const isPolarisDisabled = !(isPolaris());
+		const {getPayload} = imports['sn_app_analytics_w.ParWidgetsDrilldowns']();	
+    	const payload = getPayload(event, isPolarisDisabled, this);	
+		api.emit('NAV_ITEM_SELECTED', payload);
+	});
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-21 13:17:01</sys_created_on>
+        <sys_id>3a7eb12f83dc6e508eb710c5eeaad3b7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Dashboard Widget Clicked</sys_name>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sys_ux_client_script_3a7eb12f83dc6e508eb710c5eeaad3b7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-21 13:17:01</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>
