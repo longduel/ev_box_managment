@@ -2,20 +2,20 @@
     <sc_item_variable_assignment action="INSERT_OR_UPDATE">
         <active>true</active>
         <guide_variable display_value="What type of training?">450b09b583c022108eb710c5eeaad3b1</guide_variable>
-        <item_variable display_value="What type of training?">0977f8f9834022108eb710c5eeaad3f7</item_variable>
+        <item_variable display_value="Type of training">0a53e03393a4a2109a2733ddfaba10c4</item_variable>
         <rule display_value="EV IT Training">f17389b9838022108eb710c5eeaad3d5</rule>
         <sys_class_name>sc_item_variable_assignment</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-03 12:56:28</sys_created_on>
         <sys_id>4e2d8d3983c022108eb710c5eeaad398</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>0977f8f9834022108eb710c5eeaad3f7</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>0a53e03393a4a2109a2733ddfaba10c4</sys_name>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
         <sys_policy/>
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
         <sys_update_name>sc_item_variable_assignment_4e2d8d3983c022108eb710c5eeaad398</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-03 12:56:28</sys_updated_on>
+        <sys_updated_on>2025-04-03 11:39:12</sys_updated_on>
         <type>order_guide_variable</type>
         <value/>
     </sc_item_variable_assignment>

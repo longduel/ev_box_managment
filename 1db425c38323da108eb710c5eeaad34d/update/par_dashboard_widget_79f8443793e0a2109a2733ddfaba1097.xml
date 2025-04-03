@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">232880f393e0a2109a2733ddfaba105c</canvas>
+        <component display_value="Filter">226449101138d0dff1abe0e1566c8b2a</component>
+        <component_props>{"filterId":"1intg697vj177hnlc92s","filterName":"Label","filterComponentType":"singleselect","datasource":{"type":"indicator","payload":{"targetTable":"u_ev_devices","isChoiceType":false,"field":"sys_id","factsTable":"u_ev_devices","breakdown":"a935efc0834cae108eb710c5eeaad333"}},"targets":[{"type":"table","payload":{"field":"u_ev_box","table":"u_ev_costs","primaryKey":"sys_id"}},{"type":"indicator","payload":{"targetTable":"u_ev_devices","isChoiceType":false,"field":"sys_id","factsTable":"u_ev_devices","breakdown":"a935efc0834cae108eb710c5eeaad333"}}],"allowedDateRanges":null,"defaultSelectedItems":[],"cascadingConfig":null,"defaultSelectedDateRange":{"range":""},"defaultDateStart":null,"defaultDateEnd":null,"allowTimeSelection":null,"dateFilterView":"calendar-reldates","defaultBoolean":null,"sort":"ASC","filterElementType":"pill","isShowSelectedValueInPill":true,"filterElementLayout":"vertical","booleanLabelTrue":null,"booleanLabelFalse":null,"enableResetToDefault":null,"enableClearFilter":true,"primaryActionLabel":"Apply","maxElements":500,"filterConfigurations":"@state.parFilters","filterProperties":null,"cascadeScope":"5f2880f393e0a2109a2733ddfaba1058","isDashboard":true,"isGroup":false,"id":"targets","value":[{"type":"table","payload":{"field":"u_ev_box","table":"u_ev_costs","primaryKey":"sys_id"}},{"type":"indicator","payload":{"targetTable":"u_ev_devices","isChoiceType":false,"field":"sys_id","factsTable":"u_ev_devices","breakdown":"a935efc0834cae108eb710c5eeaad333"}}],"noDebounce":true,"propLabel":"Data to filter"}</component_props>
+        <h>4</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-03 09:37:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>79f8443793e0a2109a2733ddfaba1097</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>par_dashboard_widget_79f8443793e0a2109a2733ddfaba1097</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-03 09:37:46</sys_updated_on>
+        <visualization/>
+        <w>7</w>
+        <widget_props/>
+        <x>15</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>

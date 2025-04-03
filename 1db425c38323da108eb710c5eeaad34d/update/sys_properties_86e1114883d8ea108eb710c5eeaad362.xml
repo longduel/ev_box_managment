@@ -11,16 +11,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-10 13:03:57</sys_created_on>
         <sys_id>86e1114883d8ea108eb710c5eeaad362</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>record_number_min</sys_name>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
         <sys_policy/>
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
         <sys_update_name>sys_properties_86e1114883d8ea108eb710c5eeaad362</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-11 12:05:00</sys_updated_on>
+        <sys_updated_on>2025-04-03 09:10:41</sys_updated_on>
         <type>integer</type>
-        <value>4</value>
+        <value>10</value>
         <write_roles/>
     </sys_properties>
     <sys_translated_text action="delete_multiple" query="documentkey=86e1114883d8ea108eb710c5eeaad362"/>

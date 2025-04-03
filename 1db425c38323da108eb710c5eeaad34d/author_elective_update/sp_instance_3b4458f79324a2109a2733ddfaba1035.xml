@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">b704d0f79324a2109a2733ddfaba10d4</sp_column>
+        <sp_widget display_value="Empty Task List Page">d53d364c87b3530067a0c679e7cb0bd6</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-03 10:27:19</sys_created_on>
+        <sys_id>3b4458f79324a2109a2733ddfaba1035</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_update_name>sp_instance_3b4458f79324a2109a2733ddfaba1035</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-03 10:27:35</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=3b4458f79324a2109a2733ddfaba1035"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</application>
+        <file_path/>
+        <instance_id>fc98621beb646210cbdefceacad0cd76</instance_id>
+        <instance_name>dev313084</instance_name>
+        <name>sp_instance_3b4458f79324a2109a2733ddfaba1035</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">b704d0f79324a2109a2733ddfaba10d4</sp_column><sp_widget display_value="Empty Task List Page">d53d364c87b3530067a0c679e7cb0bd6</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-03 10:27:19</sys_created_on><sys_id>3b4458f79324a2109a2733ddfaba1035</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package><sys_policy/><sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope><sys_update_name>sp_instance_3b4458f79324a2109a2733ddfaba1035</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-03 10:27:35</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=3b4458f79324a2109a2733ddfaba1035"/></record_update>]]></payload>
+        <payload_hash>-74590952</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>040ed79b932822109a2733ddfaba1074</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-03 10:27:35</sys_created_on>
+        <sys_id>27541cf79324a2109a2733ddfaba10aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195fb311ff50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-03 10:27:35</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>ab541cf77024a21024d36a95038376a9</update_guid>
+        <update_guid_history>ab541cf77024a21024d36a95038376a9:-74590952,3b4498f7b724a210be4adf583f1fb9ea:1643669594</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">836418f79324a2109a2733ddfaba1081</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-03 10:27:49</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>880d2ea69815487293fc41c09aa47e44</sys_id>
+        <sys_metadata>3b4458f79324a2109a2733ddfaba1035</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
+        <sys_scope_delete display_value="">08380f235033495e814b97f7f661b4d1</sys_scope_delete>
+        <sys_update_name>sp_instance_3b4458f79324a2109a2733ddfaba1035</sys_update_name>
+        <sys_update_version display_value="sp_instance_3b4458f79324a2109a2733ddfaba1035">27541cf79324a2109a2733ddfaba10aa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-03 10:27:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

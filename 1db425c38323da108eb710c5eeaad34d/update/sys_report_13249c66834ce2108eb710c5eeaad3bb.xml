@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report">
     <sys_report action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <additional_groupby/>
         <aggregate>COUNT</aggregate>
         <aggregation_source>no_override</aggregation_source>
@@ -73,7 +73,7 @@
         <lower_limit/>
         <map display_value="World">93b8a3a2d7101200bd4a4ebfae61033a</map>
         <map_source/>
-        <no_bulk_migration>false</no_bulk_migration>
+        <no_bulk_migration>true</no_bulk_migration>
         <orderby_list/>
         <other_threshold>-2</other_threshold>
         <others>true</others>
@@ -109,14 +109,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-05 16:42:57</sys_created_on>
         <sys_id>13249c66834ce2108eb710c5eeaad3bb</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>My EV Box Diagnostic</sys_name>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
         <sys_policy/>
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
         <sys_update_name>sys_report_13249c66834ce2108eb710c5eeaad3bb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-11 15:17:56</sys_updated_on>
+        <sys_updated_on>2025-04-03 09:51:22</sys_updated_on>
         <table>u_ev_diagnostic</table>
         <title>My EV Box Diagnostic</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
