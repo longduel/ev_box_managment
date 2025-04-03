@@ -26,7 +26,7 @@
         <import_set_table_label/>
         <import_set_table_name>u_ev_box_import</import_set_table_name>
         <instance_name/>
-        <jdbc_password>﷞﷟﷒f237dbca836512108eb710c5eeaad375﷬﷔1﷬﷭5aL9kJwlska2B8cI4mIjbQ==wSAXpD5qDbFqgPJiYs3Odu24IDarbXrgifi2Ig==﷮﷯</jdbc_password>
+        <jdbc_password>﷞﷟﷒241694a793ac22109a2733ddfaba10cf﷬﷔1﷬﷭-frmbGyznBaELkX3JB8P8w==ZUHtP0Uz5hkjgPd8eSQeWNpERFUe911JivvTYg==﷮﷯</jdbc_password>
         <jdbc_server>evcharging.mysql.database.azure.com</jdbc_server>
         <jdbc_user_name>admin_1</jdbc_user_name>
         <jdbcprobe_result_set_rows/>
@@ -38,7 +38,7 @@
         <ldapprobe_result_set_rows>200</ldapprobe_result_set_rows>
         <limit/>
         <maximum_rows/>
-        <mid_server display_value="EVDevicesServer">f4c9c83183e316108eb710c5eeaad369</mid_server>
+        <mid_server display_value="EV_Stations">a7c48867932c22109a2733ddfaba1055</mid_server>
         <name>EV DataBase</name>
         <offset>0</offset>
         <oracle_port>1521</oracle_port>
@@ -64,21 +64,21 @@
         <scp_user_name/>
         <sheet_name>1</sheet_name>
         <sheet_number>1</sheet_number>
-        <sql_statement>SELECT * FROM ev_devices;</sql_statement>
+        <sql_statement>SELECT * FROM ev_devices;;</sql_statement>
         <ssh_keyfile_path/>
         <support_pagination>false</support_pagination>
         <sys_class_name>sys_data_source</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-10 15:32:03</sys_created_on>
         <sys_id>8d2765478323da108eb710c5eeaad306</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>EV DataBase</sys_name>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
         <sys_policy/>
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
         <sys_update_name>sys_data_source_8d2765478323da108eb710c5eeaad306</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-11 13:57:54</sys_updated_on>
+        <sys_updated_on>2025-04-03 07:35:03</sys_updated_on>
         <table_name/>
         <type>JDBC</type>
         <use_batch_import>false</use_batch_import>

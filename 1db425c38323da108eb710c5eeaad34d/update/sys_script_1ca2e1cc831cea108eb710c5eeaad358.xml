@@ -33,7 +33,7 @@
 
 	var boxStatus = gs.getProperty("box_status_check");
     var scheduledScript = new GlideRecord('sysauto_script');
-    scheduledScript.addQuery('sys_id', 'cc5a22ef83e352108eb710c5eeaad3fa');
+    scheduledScript.addQuery('sys_id', 'b797b7eb9320a2109a2733ddfaba10ef');
     scheduledScript.query();
 
     if (scheduledScript.next()) {
@@ -53,7 +53,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1ca2e1cc831cea108eb710c5eeaad358</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>EV Property Scheduled Script</sys_name>
         <sys_overrides/>
         <sys_package display_value="EV Box Managment" source="1db425c38323da108eb710c5eeaad34d">1db425c38323da108eb710c5eeaad34d</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="EV Box Managment">1db425c38323da108eb710c5eeaad34d</sys_scope>
         <sys_update_name>sys_script_1ca2e1cc831cea108eb710c5eeaad358</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-10 14:38:21</sys_updated_on>
+        <sys_updated_on>2025-04-03 08:23:44</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
